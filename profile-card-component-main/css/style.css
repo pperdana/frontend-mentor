@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    /***************************************** Colors ******************************************/
+    /****************************** Primary **********************************/
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /****************************** Neutral **********************************/
+    --dark-gray: hsl(0, 0%, 59%);
+
+    /*************************************** Typography ****************************************/
+    /****************************** Body Copy **********************************/
+    --font-size-name-and-stats: 18px;
+
+    /******************************** Font *************************************/
+    --font-family-kumbh-sans: 'Kumbh Sans', sans-serif;
+    --weights-400: 400;
+    --weights-700: 700;
+
+    /***************************** Width & heigh *******************************/
+    --width-card: 335px;
+    --width-personal-card: 150px;
+    --height-bg-pattern-card: 134px;
+    --height-image-victor: 96px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family-kumbh-sans);
+    min-height: 100%;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: -300px -500px, 700px 300px;
+    background-repeat: no-repeat;
+    background-color: var(--dark-cyan);
+
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: solid rgb(238, 233, 233);
+    border-width: 2px 0 0 0;
+}
+
+
+/***************************************** Container ******************************************/
+.container {
+    width: var(--width-card);
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 15px;
+    /* display: grid; */
+
+}
+
+/******************************* bg Class *********************************/
+.bg {
+    position: relative;
+}
+
+.img {
+    height: var(--height-bg-pattern-card);
+}
+
+.img img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.bg .white-bg {
+    height: var(--height-bg-pattern-card);
+}
+
+.bg .personal-info {
+    text-align: center;
+    margin: auto;
+    width: var(--width-personal-card);
+    position: absolute;
+    top: calc(var(--height-bg-pattern-card) - var(--height-image-victor)*0.5);
+    left: calc(var(--width-card)*0.5 - var(--width-personal-card)*0.5);
+}
+
+.personal-info .personal-img img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px whitesmoke;
+}
+
+.personal-info .identity h1 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.personal-info .identity p {
+    font-size: 13px;
+}
+
+.personal-info .identity h1 span {
+    font-weight: 400;
+}
+
+/***************************** stats Class ********************************/
+
+.stats {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.followers,
+.likes,
+.photos {
+    margin: 20px 26px;
+}
+
+.num {
+    font-weight: var(--weights-700);
+}
+
+.desc {
+    font-weight: var(--weights-400);
+    font-size: 12px;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-position: -800px -500px, 140px 300px;
+
+    }
+}

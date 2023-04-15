@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    /********************************** Colors ************************************/
+    /*************************** Primary *****************************/
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    /*************************** Neutral *****************************/
+    --transparent-white-paragraphs: hsla(0, 0%, 100%, 0.602);
+    --very-light-gray-background-headings-buttons: hsla(0, 7%, 92%, 0.942);
+
+
+    /******************************** Typography **********************************/
+    /***************************** Body ******************************/
+    --font-size: 13px;
+    /***************************** Font ******************************/
+
+    --font-family-big-shoulders-display: 'Big Shoulders Display', cursive;
+    --weights-400: 400;
+    --font-family-lexend-decay: 'Lexend Deca', sans-serif;
+    --weights-700: 700;
+}
+
+body {
+    margin: 0;
+    /* background-color: rgb(155, 127, 255); */
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/********************************** Container ************************************/
+.container {
+    width: 800px;
+    background-color: rgb(255, 0, 170);
+    border-radius: 6px;
+    /* padding: 0px 0px 0 10px; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sedans,
+.suvs,
+.luxury {
+    padding: 13% 16%;
+    color: var(--transparent-white-paragraphs);
+    font-size: var(--font-size);
+}
+
+h1 {
+    font-family: var(--font-family-big-shoulders-display);
+    font-size: 35px;
+    color: var(--very-light-gray-background-headings-buttons);
+}
+
+P {
+    font-family: var(--font-family-lexend-decay);
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.btn {
+    background-color: var(--very-light-gray-background-headings-buttons);
+    width: 6rem;
+    margin-top: 40%;
+    padding: 0.7rem 1rem;
+    border-radius: 20px;
+    font-family: var(--font-family-lexend-decay);
+    font-size: .9rem;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgba(251, 251, 251, 0.01);
+    box-shadow: 0 0 0 2px wheat;
+}
+
+.sedans .btn:hover,
+.suvs .btn:hover,
+.luxury .btn:hover {
+    color: var(--very-light-gray-background-headings-buttons);
+}
+
+/************************* Sedans Section ***************************/
+.sedans {
+    background-color: var(--bright-orange);
+    border-radius: 6px 0 0 6px;
+}
+
+.sedans .btn {
+    color: var(--bright-orange);
+}
+
+/************************** Suvs Section ****************************/
+.suvs {
+    background-color: var(--dark-cyan);
+}
+
+.suvs .btn {
+    color: var(--dark-cyan);
+}
+
+/************************* Luxury Section ***************************/
+.luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 6px 6px 0;
+
+}
+
+.luxury .btn {
+    color: var(--very-dark-cyan);
+}
+
+@media (max-width: 830px) {
+    main {
+        height: auto;
+        margin: 100px auto;
+        /* padding: 100px auto 200px auto; */
+    }
+
+    .container {
+        width: 340px;
+        background-color: rgb(255, 0, 170);
+        border-radius: 6px;
+        /* padding: 0px 0px 0 10px; */
+        /* margin: auto; */
+        display: grid;
+        grid-template-columns: 340px;
+        grid-template-areas: "sedans""suvs""luxury";
+    }
+
+    .btn {
+        margin-top: 12%;
+    }
+
+    .sedans {
+        grid-area: sedans;
+        border-radius: 6px 6px 0 0;
+    }
+
+    .suvs {
+        grid-area: suvs;
+    }
+
+    .luxury {
+        grid-area: luxury;
+        border-radius: 0 0 6px 6px;
+    }
+}

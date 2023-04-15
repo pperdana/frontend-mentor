@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca:wght@300&display=swap');
+
+:root {
+    /************************************ Colors *************************************/
+    /********************* Primary ****************************/
+    --very-dark-blue-main-background: hsl(233, 47%, 7%);
+    --dark-desaturated-blue-card-background: hsl(244, 38%, 16%);
+    --soft-violet-accent: hsl(277, 64%, 61%);
+
+    /********************* Neutral ****************************/
+    --white-main-heading-stats: hsl(0, 0%, 100%);
+    --slightly-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+
+
+    /******************** Typography ***************************/
+    /*********** Body Copy ****************/
+    --font-size: 13px;
+
+    /*********** Font ****************/
+    --font-family-inter: 'Inter', sans-serif;
+    --font-family-lexend-deca: 'Lexend Deca', sans-serif;
+
+    --weight-700: 620;
+    --weight-400: 400;
+}
+
+body {
+    margin: 0;
+    background-color: var(--very-dark-blue-main-background);
+    justify-content: center;
+    align-items: center;
+    /* color: aliceblue; */
+}
+
+/****************************************** Main *******************************************/
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/****************************** Container Section **********************************/
+.container {
+    width: 962px;
+    background-color: var(--dark-desaturated-blue-card-background);
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: auto 472px;
+    border-radius: 7px;
+
+}
+
+/*********************** Img Figure  ***************************/
+div.img {
+    background-color: var(--soft-violet-accent);
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 0 8px 8px 0;
+    opacity: 50%;
+    filter: contrast(120%);
+}
+
+/******************* Description Section ***********************/
+.description {
+    /* background-color: rgb(116, 96, 71); */
+    margin: 12.9% 18% 0 12.5%;
+}
+
+.description h1 {
+    margin: 0 0 26px 0;
+    font-family: var(--font-family-inter);
+    font-weight: var(--weight-700);
+    font-size: 1.9rem;
+    color: var(--white-main-heading-stats);
+    letter-spacing: 0.9px;
+}
+
+.description h1 span {
+    color: var(--soft-violet-accent);
+}
+
+.description p {
+    font-family: var(--font-family-lexend-deca);
+    font-size: var(--font-size);
+    color: var(--slightly-transparent-white-stat-headings);
+    line-height: 1.65;
+}
+
+.description .item-info {
+    margin-top: 18%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.num {
+    font-family: var(--font-family-inter);
+    font-size: 21px;
+    color: var(--white-main-heading-stats);
+    font-weight: var(--weight-700);
+}
+
+.text {
+    font-family: var(--font-family-lexend-deca);
+    color: var(--slightly-transparent-white-stat-headings);
+    line-height: 28px;
+    font-size: 11px;
+}
+
+@media (max-width: 980px) {
+    .container {
+        width: 340px;
+        display: grid;
+        grid-template-columns: 340px;
+        grid-template-areas: "image""desc";
+        border-radius: 10px;
+    }
+
+    /*********************** Img Figure  ***************************/
+    div.img {
+        grid-area: image;
+        border-radius: 10px 10px 0 0;
+    }
+
+    /******************* Description Section ***********************/
+    .description {
+        grid-area: desc;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 1.5rem;
+    }
+
+    .description .item-info {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

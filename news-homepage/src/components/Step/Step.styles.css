@@ -1,0 +1,50 @@
+.section-step {
+  grid-column: 1/-1;
+}
+
+.step {
+  display: flex;
+  gap: 2rem;
+}
+
+.step-box {
+  display: flex;
+}
+
+.step-img {
+  width: 80%;
+}
+
+.step-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.step-number {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: hsl(233, 8%, 79%);
+}
+
+.step-heading-link:link,
+.step-heading-link:visited {
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 0.25s;
+}
+
+.step-heading-link:hover,
+.step-heading-link:active {
+  color: hsl(5, 85%, 63%);
+}
+
+.heading-tertiary {
+  color: hsl(240, 100%, 5%);
+  font-weight: 800;
+}
+
+.step-description {
+  font-size: 1.2rem;
+  line-height: 2;
+}
