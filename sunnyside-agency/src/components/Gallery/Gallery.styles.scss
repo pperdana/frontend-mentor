@@ -1,0 +1,17 @@
+.section-gallery {
+  padding: 0rem 0;
+
+  .gallery-container {
+    max-width: 144rem;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.gallery-item {
+  .gallery-img {
+    width: 100%;
+  }
+}

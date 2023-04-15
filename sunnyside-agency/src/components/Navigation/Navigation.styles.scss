@@ -1,0 +1,71 @@
+@use "../../styles/settings/_settings" as *;
+
+.main-nav {
+  &-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+  }
+
+  &-list li:last-child {
+    display: inline-block;
+    background-color: white;
+
+    // color: black;
+    padding: 1.8rem 3rem;
+    position: relative;
+    border-radius: 30px;
+    transition: all 0.3s;
+    a {
+      color: black;
+      font-family: $font-family--fraunces;
+      font-weight: $font-weights--fraunces-700;
+      text-transform: uppercase;
+      z-index: 2;
+    }
+  }
+  &-list li:last-child:hover,
+  &-list li:last-child:active {
+    background-color: #74dcfc;
+    a {
+      color: #e0f8fa;
+    }
+  }
+
+  &-link:link,
+  &-link:visited {
+    color: #d6f4f7;
+
+    display: inline-block;
+    text-decoration: none;
+    font-weight: $font-weights--barlow-600;
+    font-size: $font-size--main;
+    transition: all 0.3s;
+  }
+
+  &-link:hover,
+  &-link:active {
+    // color: #3bc9db;
+    // box-shadow: 0 3px 0 0 rgba(59, 200, 219, 0.6);
+    // box-shadow: 0 2px 0 0 red;
+  }
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}

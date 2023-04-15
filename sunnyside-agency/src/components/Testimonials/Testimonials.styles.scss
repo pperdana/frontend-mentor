@@ -1,0 +1,82 @@
+@use "../../styles/settings/_settings" as *;
+
+.section-testimonials {
+  // padding: 6.4rem 0 4.8rem;
+
+  .testimonials {
+    background-color: #fffbf8;
+    max-width: $layout--desktop;
+    margin: 0 auto;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonials-heading-box {
+    margin-bottom: 8rem;
+    .heading-secondary {
+      font-family: $font-family--fraunces;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: $color-neutral--dark-grayish-blue;
+    }
+  }
+
+  .testimonials-grid {
+    background-color: #fffbf8;
+    max-width: $layout--desktop;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.4rem;
+
+    padding: 0 12.8rem;
+  }
+
+  .testimonial {
+    .testimonial-img-box {
+      text-align: center;
+      margin-bottom: 8rem;
+      .testimonial-img {
+        width: 20%;
+        border-radius: 50%;
+      }
+    }
+
+    .testimonial-desc {
+      text-align: center;
+      margin-bottom: 8rem;
+      .testimonial-text {
+        color: $color-neutral--very-dark-grayish-blue;
+        font-weight: $font-weights--fraunces-900;
+        font-size: 1.8rem;
+        line-height: 1.6;
+      }
+    }
+
+    .testimonial-person {
+      text-align: center;
+
+      .testimonial-name {
+        color: $color-neutral--very-dark-desaturated-blue;
+
+        font-family: $font-family--fraunces;
+        font-weight: $font-weights--fraunces-700;
+        font-size: 1.8rem;
+        margin-bottom: 1.2rem;
+      }
+
+      .testimonial-profession {
+        font-size: 1.6rem;
+        font-weight: $font-weights--barlow-600;
+        color: $color-neutral--grayish-blue;
+      }
+    }
+  }
+}
