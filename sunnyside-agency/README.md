@@ -4,8 +4,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ## Table of contents
 
-- [Frontend Mentor - Sunnyside agency landing page solution](#frontend-mentor---sunnyside-agency-landing-page-solution)
-  - [Table of contents](#table-of-contents)
+ 
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
