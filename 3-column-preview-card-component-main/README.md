@@ -4,8 +4,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Table of contents
 
-- [Frontend Mentor - 3-column preview card component solution](#frontend-mentor---3-column-preview-card-component-solution)
-  - [Table of contents](#table-of-contents)
+ 
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
