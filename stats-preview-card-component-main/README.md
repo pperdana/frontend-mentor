@@ -4,8 +4,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Table of contents
 
-- [Frontend Mentor - Stats preview card component solution](#frontend-mentor---stats-preview-card-component-solution)
-  - [Table of contents](#table-of-contents)
+ 
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
