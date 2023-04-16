@@ -4,8 +4,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ## Table of contents
 
-- [Frontend Mentor - News homepage solution](#frontend-mentor---news-homepage-solution)
-  - [Table of contents](#table-of-contents)
+ 
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
