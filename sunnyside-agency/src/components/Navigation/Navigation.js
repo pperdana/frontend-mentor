@@ -28,8 +28,14 @@ const Navigation = () => {
       </nav>
 
       <button className="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav menu" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav close" name="close-outline"></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav icon-menu"
+          name="menu-outline"
+        ></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav icon-close"
+          name="close-outline"
+        ></ion-icon>
       </button>
     </>
   );
