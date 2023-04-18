@@ -7,12 +7,12 @@ import photoImg from "../../images/desktop/image-photography.jpg";
 
 const Features = () => {
   return (
-    <section class="section-features" id="features">
-      <div class="container grid-features  grid--center-v">
+    <section className="section-features" id="features">
+      <div className="container grid-features  grid--center-v">
         {/* <!-- FEATURE 01 --> */}
-        <div class="feature-text-box left-text-box">
-          <h3 class="heading-tertiary">Transform your brand</h3>
-          <p class="feature-description">
+        <div className="feature-text-box left-text-box">
+          <h3 className="heading-tertiary">Transform your brand</h3>
+          <p className="feature-description">
             We are a full-service creative agency specializing in helping brands
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
@@ -29,17 +29,17 @@ const Features = () => {
           </div>
         </div>
 
-        <div class="feature-img-box">
-          <img src={transformImg} class="feature-img" alt="transform" />
+        <div className="feature-img-box">
+          <img src={transformImg} className="feature-img" alt="transform" />
         </div>
 
         {/* <!-- FEATURE 02 --> */}
-        <div class="feature-img-box ">
-          <img src={standOutImg} class="feature-img" alt="stand out" />
+        <div className="feature-img-box ">
+          <img src={standOutImg} className="feature-img" alt="stand out" />
         </div>
-        <div class="feature-text-box right-text-box">
-          <h3 class="heading-tertiary">Stand out to the right audience</h3>
-          <p class="feature-description">
+        <div className="feature-text-box right-text-box">
+          <h3 className="heading-tertiary">Stand out to the right audience</h3>
+          <p className="feature-description">
             Using a collaborative formula of designers, researchers,
             photographers, videographers, and copywriters, we’ll build and
             extend your brand in digital places.
@@ -56,10 +56,10 @@ const Features = () => {
         </div>
 
         {/* <!-- FEATURE 03 --> */}
-        <div class="feature-img-text-box img--graphic-design">
+        <div className="feature-img-text-box img--graphic-design">
           <div className="text-area">
-            <h3 class="heading-tertiary">Graphic Design</h3>
-            <p class="feature-description">
+            <h3 className="heading-tertiary">Graphic Design</h3>
+            <p className="feature-description">
               Great design makes you memorable. We deliver artwork that
               underscores your brand message and captures potential clients’
               attention.
@@ -68,10 +68,10 @@ const Features = () => {
         </div>
 
         {/* <!-- FEATURE 04 --> */}
-        <div class="feature-img-text-box img--photography">
+        <div className="feature-img-text-box img--photography">
           <div className="text-area">
-            <h3 class="heading-tertiary">Photography</h3>
-            <p class="feature-description">
+            <h3 className="heading-tertiary">Photography</h3>
+            <p className="feature-description">
               Increase your credibility by getting the most stunning,
               high-quality photos that improve your business image.
             </p>

@@ -1,5 +1,5 @@
 import "./Navigation.styles.scss";
-const Navigation = () => {
+const Navigation = ({ toogleNav }) => {
   return (
     <>
       <nav className="main-nav">
@@ -27,7 +27,7 @@ const Navigation = () => {
         </ul>
       </nav>
 
-      <button className="btn-mobile-nav">
+      <button className="btn-mobile-nav" onClick={toogleNav}>
         <ion-icon
           class="icon-mobile-nav icon-menu"
           name="menu-outline"

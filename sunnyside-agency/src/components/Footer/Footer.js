@@ -8,57 +8,57 @@ import pinterest from "../../images/icon-pinterest.svg";
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="container footer-container">
-        <div class="logo-col">
-          <a href="#" class="footer-logo">
-            {/* <img class="logo" alt="logo" src={logo} /> */}
+    <footer className="footer">
+      <div className="container footer-container">
+        <div className="logo-col">
+          <a href="#" className="footer-logo">
+            {/* <img className="logo" alt="logo" src={logo} /> */}
             sunnyside
           </a>
         </div>
 
-        <nav class="nav-col">
-          <ul class="footer-nav">
+        <nav className="nav-col">
+          <ul className="footer-nav">
             <li>
-              <a class="footer-link" href="#about">
+              <a className="footer-link" href="#about">
                 About
               </a>
             </li>
             <li>
-              <a class="footer-link" href="#services">
+              <a className="footer-link" href="#services">
                 Services
               </a>
             </li>
             <li>
-              <a class="footer-link" href="#projects">
+              <a className="footer-link" href="#projects">
                 Projects
               </a>
             </li>
           </ul>
         </nav>
 
-        <nav class="nav-col">
-          <ul class="social-links">
+        <nav className="nav-col">
+          <ul className="social-links">
             <li>
-              <a class="footer-link" target="blank" href="#">
+              <a className="footer-link" target="blank" href="#">
                 <img src={facebook} className="social-icon" alt="facebook" />
               </a>
             </li>
 
             <li>
-              <a class="footer-link" target="blank" href="#">
+              <a className="footer-link" target="blank" href="#">
                 <img src={instagram} className="social-icon" alt="instagram" />
               </a>
             </li>
 
             <li>
-              <a class="footer-link" target="blank" href="#">
+              <a className="footer-link" target="blank" href="#">
                 <img src={twitter} className="social-icon" alt="twitter" />
               </a>
             </li>
 
             <li>
-              <a class="footer-link" target="blank" href="#">
+              <a className="footer-link" target="blank" href="#">
                 <img src={pinterest} className="social-icon" alt="pinterest" />
               </a>
             </li>
