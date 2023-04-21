@@ -1,8 +1,6 @@
 @use "../../styles/settings/_settings" as *;
 
 .footer {
-  // padding: 9.6rem 0 3.2rem;
-  // border-top: 1px solid #eee;
   font-size: 1.6rem;
   margin-top: -2px;
 
@@ -10,7 +8,6 @@
     background-color: #90d4c5;
 
     max-width: 144rem;
-    // padding: 0 3.2rem;
     margin: 0 auto;
   }
 
@@ -38,7 +35,6 @@
 .logo-col {
   .footer-logo {
     display: block;
-    // margin-bottom: 3.2rem;
     text-decoration: none;
 
     font-size: 3.2rem;
@@ -61,7 +57,6 @@
     }
     .footer-link:hover,
     .footer-link:active {
-      // font-weight: $font-weights--barlow-600;
       color: $color-neutral--white;
     }
   }

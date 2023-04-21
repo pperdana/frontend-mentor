@@ -1,13 +1,10 @@
 @use "../../styles/settings/_settings" as *;
 
 .section-testimonials {
-  // padding: 6.4rem 0 4.8rem;
-
   .testimonials {
     background-color: #fffbf8;
     max-width: $layout--desktop;
     margin: 0 auto;
-
     height: 100vh;
 
     display: flex;
@@ -30,13 +27,13 @@
   .testimonials-grid {
     background-color: #fffbf8;
     max-width: $layout--desktop;
+
     margin: 0 auto;
+    padding: 0 12.8rem;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2.4rem;
-
-    padding: 0 12.8rem;
   }
 
   .testimonial {
@@ -62,7 +59,6 @@
 
     .testimonial-person {
       text-align: center;
-
       .testimonial-name {
         color: $color-neutral--very-dark-desaturated-blue;
 

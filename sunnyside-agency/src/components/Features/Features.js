@@ -2,8 +2,6 @@ import "./Features.styles.scss";
 
 import transformImg from "../../images/desktop/image-transform.jpg";
 import standOutImg from "../../images/desktop/image-stand-out.jpg";
-import graphDesignImg from "../../images/desktop/image-graphic-design.jpg";
-import photoImg from "../../images/desktop/image-photography.jpg";
 
 const Features = () => {
   return (

@@ -1,11 +1,8 @@
 @use "../../styles/settings/_settings" as *;
 
 .section-features {
-  // padding: 6.4rem 0 4.8rem;
-
   .container {
     max-width: $layout--desktop;
-    // padding: 0 8rem;
     margin: 0 auto;
   }
   .grid-features {
@@ -24,8 +21,6 @@
 }
 
 .feature-text-box {
-  // padding: 8rem;
-
   .heading-tertiary {
     font-family: $font-family--fraunces;
     font-weight: $font-weights--fraunces-900;
@@ -38,7 +33,6 @@
     font-size: 1.8rem;
     line-height: 1.6;
     font-weight: $font-weights--barlow-600;
-    // color: $color-neutral--grayish-blue;
     color: $color-neutral--dark-grayish-blue;
     margin-bottom: 4rem;
   }
@@ -46,7 +40,6 @@
   .feature-link-box {
     display: inline-block;
     position: relative;
-    // margin: 0 4px;
     .feature-link-area {
       display: inline-block;
       margin: 0 8px;
@@ -61,7 +54,6 @@
       color: $color-neutral--very-dark-desaturated-blue;
 
       font-size: 1.6rem;
-      // letter-spacing: -2px;
     }
 
     .feature-link--line {
@@ -76,7 +68,6 @@
 
       transform: translate(-50%, -50%);
       z-index: -2;
-      // margin-top: -4px;
       transition: all 0.3s;
     }
 
@@ -115,25 +106,17 @@
 
 .feature-img-text-box {
   background-size: cover;
-
   height: 100%;
-  // padding: 0 8rem 0 15rem;
   position: relative;
 
   .text-area {
     width: 55%;
-    // display: block;
     position: absolute;
-    // border-radius: 5px;
     top: 75%;
     left: 50%;
-
-    transform: translate(-50%, -50%);
-    // z-index: 2;
-    // margin-top: -4px;
-
     text-align: center;
 
+    transform: translate(-50%, -50%);
     .heading-tertiary {
       font-family: $font-family--fraunces;
       font-weight: $font-weights--fraunces-900;

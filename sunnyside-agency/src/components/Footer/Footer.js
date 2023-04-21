@@ -1,6 +1,5 @@
 import "./Footer.styles.scss";
 
-import logo from "../../images/logo.svg";
 import facebook from "../../images/icon-facebook.svg";
 import instagram from "../../images/icon-instagram.svg";
 import twitter from "../../images/icon-twitter.svg";
@@ -12,7 +11,6 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="logo-col">
           <a href="#" className="footer-logo">
-            {/* <img className="logo" alt="logo" src={logo} /> */}
             sunnyside
           </a>
         </div>
