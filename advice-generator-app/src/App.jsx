@@ -1,5 +1,8 @@
 import "./App.scss";
 import { useGlobalContext } from "./context";
+import diceIcon from "./images/icon-dice.svg";
+
+import divider from "./images/pattern-divider-desktop.svg";
 
 function App() {
   const { fetchDadJoke, advice, adviceId } = useGlobalContext();
@@ -9,11 +12,16 @@ function App() {
         <h1 className="advice-title">advice #{adviceId}</h1>
 
         <p className="advice-text">&quot;{advice}&quot;</p>
-        <div className="divider">-----------</div>
+        <div className="divider">
+          <img src={divider} alt="divider" />
+        </div>
         <div className="advice-btn">
-          <button className="btn" onClick={fetchDadJoke}>
-            TESTT
-          </button>
+          <img
+            src={diceIcon}
+            alt="dice icon"
+            className="dice-icon"
+            onClick={fetchDadJoke}
+          />
         </div>
       </section>
     </main>
