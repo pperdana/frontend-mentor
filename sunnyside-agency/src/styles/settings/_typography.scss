@@ -1,9 +1,11 @@
-// ## Typography
+/*************/
+/* Typography */
+/*************/
 
-// ### Body Copy
+// Body Copy
 $font-size--main: 1.8rem;
 
-// ### Font
+// Font
 $font-family--barlow: "Barlow", sans-serif;
 $font-weights--barlow-400: 400;
 $font-weights--barlow-600: 600;
@@ -13,14 +15,14 @@ $font-weights--fraunces-400: 400;
 $font-weights--fraunces-700: 700;
 $font-weights--fraunces-900: 900;
 
-// ### Line heights
+// Line heights
 $line-heights--default: 1;
 $line-heights--small: 1.05;
 $line-heights--medium: 1.2;
 $line-heights--paragraph-default: 1.6;
 $line-heights--Large: 1.8;
 
-// ### Letter spacing
+// Letter spacing
 $letter-spacing--default: -0.5px;
 $letter-spacing--small: 0.75px;
 
@@ -30,5 +32,4 @@ $letter-spacing--small: 0.75px;
 
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
 */
