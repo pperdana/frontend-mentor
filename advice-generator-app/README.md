@@ -4,8 +4,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ## Table of contents
 
-- [Frontend Mentor - Advice generator app solution](#frontend-mentor---advice-generator-app-solution)
-  - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
@@ -47,13 +45,13 @@ Users should be able to:
 - CSS custom properties
 - Mobile-first workflow
 - Flexbox
-- CSS Grid
+
 
 ### Useful resources
 
 - [React | JS library](https://reactjs.org/)
 - [Vite | JS library](https://vitejs.dev/guide/)
-- [SCSS| For styles](https://styled-components.com/)
+- [SCSS | For styles](https://styled-components.com/)
 - [A Complete Guide to Flexbox | CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
 
 ## Author
