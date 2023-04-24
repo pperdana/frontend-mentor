@@ -31,8 +31,17 @@ main {
     line-height: 1.3;
     margin-bottom: 2rem;
   }
+
   .divider {
     margin-bottom: 1.4rem;
+    text-align: center;
+    .divider-icon {
+      background-image: url(./images/pattern-divider-desktop.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      height: 2rem;
+    }
   }
 
   .advice-btn {

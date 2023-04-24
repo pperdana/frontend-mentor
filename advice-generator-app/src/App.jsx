@@ -2,10 +2,8 @@ import "./App.scss";
 import { useGlobalContext } from "./context";
 import diceIcon from "./images/icon-dice.svg";
 
-import divider from "./images/pattern-divider-desktop.svg";
-
 function App() {
-  const { fetchDadJoke, advice, adviceId } = useGlobalContext();
+  const { fetchAdvice, advice, adviceId } = useGlobalContext();
   return (
     <main>
       <section className="advice-container">
@@ -13,14 +11,14 @@ function App() {
 
         <p className="advice-text">&quot;{advice}&quot;</p>
         <div className="divider">
-          <img src={divider} alt="divider" />
+          <div className="divider-icon" />
         </div>
         <div className="advice-btn">
           <img
             src={diceIcon}
             alt="dice icon"
             className="dice-icon"
-            onClick={fetchDadJoke}
+            onClick={fetchAdvice}
           />
         </div>
       </section>

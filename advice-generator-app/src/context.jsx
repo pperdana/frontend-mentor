@@ -9,7 +9,7 @@ const AppProvider = ({ children }) => {
   const [advice, setAdvice] = useState("random dad joke");
   const [adviceId, setAdviceId] = useState();
 
-  const fetchDadJoke = async () => {
+  const fetchAdvice = async () => {
     try {
       const { data } = await axios(url);
 
@@ -23,13 +23,13 @@ const AppProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    fetchDadJoke();
+    fetchAdvice();
   }, []);
 
   return (
     <AppContext.Provider
       value={{
-        fetchDadJoke,
+        fetchAdvice,
         advice,
         adviceId,
       }}
