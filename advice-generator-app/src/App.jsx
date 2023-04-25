@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./styles/App.scss";
 import { useGlobalContext } from "./context";
 import diceIcon from "./images/icon-dice.svg";
 

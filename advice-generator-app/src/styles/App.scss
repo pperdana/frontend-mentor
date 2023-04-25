@@ -1,4 +1,4 @@
-@import "./styles/settings/_settings";
+@import "./settings/_settings";
 
 main {
   height: 100vh;
@@ -36,7 +36,7 @@ main {
     margin-bottom: 1.4rem;
     text-align: center;
     .divider-icon {
-      background-image: url(./images/pattern-divider-desktop.svg);
+      background-image: url(../images/pattern-divider-desktop.svg);
       background-size: contain;
       background-repeat: no-repeat;
 
