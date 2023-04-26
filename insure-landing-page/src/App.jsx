@@ -1,7 +1,13 @@
+import Header from "./components/Header/Header.component";
+import Main from "./components/Main/Main.component";
+import Footer from "./components/Footer/Footer.component";
+
 function App() {
   return (
     <>
-      <h1>Insure Landing Page</h1>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
