@@ -1,11 +1,11 @@
-// import "./Header.styles.scss";
+import "./Header.styles.scss";
 
 import Logo from "../Logo/Logo.component";
 import Navigation from "../Navigation/Navigation.component";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <Logo />
       <Navigation />
     </header>
