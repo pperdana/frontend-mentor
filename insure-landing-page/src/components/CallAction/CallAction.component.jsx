@@ -1,7 +1,19 @@
 import "./CallAction.styles.scss";
 
 const CallAction = () => {
-  return <h1>CTA</h1>;
+  return (
+    <section className="section-cta">
+      <div className="cta-container">
+        <div className="cta-text-box">
+          <h1 className="heading-primary">Find out more about how we work</h1>
+
+          <a href="#" className="btn">
+            How we work
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default CallAction;
