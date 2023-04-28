@@ -8,13 +8,15 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
-  // font-family: $font-family--manrope;
+  font-family: $font-family--karla-sans-serif;
   // background-color: $color-neutral--dark-blue;
   line-height: 1;
   font-weight: 400;
   // color: $color-primary--light-Cyan;
-  // font-size: $font-size--quote-main;
+  font-size: $font-size--main;
+  overflow-x: hidden;
 }

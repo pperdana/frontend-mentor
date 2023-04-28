@@ -7,13 +7,14 @@ const Hero = () => {
     <section className="section-hero">
       <div className="hero">
         <div className="hero-text-box">
+          <hr className="divider" />
           <h1 className="heading-primary">Humanizing your insurance.</h1>
           <p className="hero-description">
             Get your life insurance coverage easier and faster. We blend our
             expertise and technology to help you find the plan that’s right for
             you. Ensure you and your loved ones are protected.
           </p>
-          <a href="#" className="btn">
+          <a href="#" className="hero-btn">
             View plans
           </a>
         </div>
