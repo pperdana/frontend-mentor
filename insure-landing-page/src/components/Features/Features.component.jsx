@@ -7,11 +7,12 @@ import peopleFirstIcon from "../../assets/images/icon-people-first.svg";
 const Features = () => {
   return (
     <section className="section-features">
-      <div className="feature-container">
+      <div className="feature-container-heading">
+        <hr className="divider" />
         <h2 className="heading-secondary">We’re different </h2>
       </div>
 
-      <div className="feature-container">
+      <div className="feature-container-list">
         {/* feature 01 */}
         <div className="feature">
           <img

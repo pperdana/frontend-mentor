@@ -6,8 +6,8 @@ const Main = () => {
   return (
     <main>
       <Hero />
-      {/* <Features /> */}
-      {/* <CallAction /> */}
+      <Features />
+      <CallAction />
     </main>
   );
 };

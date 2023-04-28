@@ -40,6 +40,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <hr className="divider" />
         </div>
 
         <div className="nav-container">
