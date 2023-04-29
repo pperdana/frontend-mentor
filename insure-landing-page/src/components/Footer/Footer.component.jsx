@@ -20,22 +20,38 @@ const Footer = () => {
             <ul className="social-links">
               <li>
                 <a className="footer-link" href="#">
-                  <img src={facebookIcon} alt="facebook icon" />
+                  <img
+                    src={facebookIcon}
+                    alt="facebook icon"
+                    className="logo-icon"
+                  />
                 </a>
               </li>
               <li>
                 <a className="footer-link" href="#">
-                  <img src={twitterIcon} alt="facebook icon" />
+                  <img
+                    src={twitterIcon}
+                    alt="facebook icon"
+                    className="logo-icon"
+                  />
                 </a>
               </li>
               <li>
                 <a className="footer-link" href="#">
-                  <img src={pinterestIcon} alt="facebook icon" />
+                  <img
+                    src={pinterestIcon}
+                    alt="facebook icon"
+                    className="logo-icon"
+                  />
                 </a>
               </li>
               <li>
                 <a className="footer-link" href="#">
-                  <img src={instagramIcon} alt="facebook icon" />
+                  <img
+                    src={instagramIcon}
+                    alt="facebook icon"
+                    className="logo-icon"
+                  />
                 </a>
               </li>
             </ul>

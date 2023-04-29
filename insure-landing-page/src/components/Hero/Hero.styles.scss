@@ -35,10 +35,6 @@
   top: 26.5rem;
   right: -21rem;
 
-  // padding-bottom: 60%;
-  // background-color: #fdf2e9;
-  // z-index: -2;
-
   background-image: url("../../assets/images/bg-pattern-intro-right-desktop.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -50,10 +46,6 @@
 
   top: 63.5rem;
   left: 10rem;
-
-  // padding-bottom: 60%;
-  // background-color: #fdf2e9;
-  // z-index: -2;
 
   background-image: url("../../assets/images/bg-pattern-intro-left-desktop.svg");
 
@@ -88,10 +80,18 @@
     text-decoration: none;
     border: 0.25rem solid hsl(0, 10%, 85%);
 
-    padding: 0.5rem 2.4rem;
+    padding: 1rem 2.4rem;
     text-transform: uppercase;
     font-weight: 400;
     color: $color-neutral--very-light-gray;
+
+    transition: all 0.5s;
+  }
+
+  .hero-btn:hover,
+  .hero-btn:active {
+    background-color: hsl(0, 10%, 85%);
+    color: $color-primary--dark-violet;
   }
 }
 

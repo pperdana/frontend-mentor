@@ -7,7 +7,7 @@ const CallAction = () => {
         <div className="cta-text-box">
           <h1 className="heading-primary">Find out more about how we work</h1>
 
-          <a href="#" className="cta-btn">
+          <a href="#" className="call-btn">
             How we work
           </a>
         </div>

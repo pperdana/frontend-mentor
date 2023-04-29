@@ -14,6 +14,7 @@
     // width: 100%;
     // margin: 0 auto;
     position: relative;
+    z-index: 1;
 
     background-color: $color-primary--dark-violet;
     display: flex;
@@ -34,14 +35,25 @@
       font-size: 5.2rem;
     }
 
-    .cta-btn {
+    .call-btn {
       text-decoration: none;
       border: 0.25rem solid hsl(0, 10%, 85%);
 
       padding: 1.2rem 2.2rem;
       text-transform: uppercase;
+
       font-weight: 400;
       color: $color-neutral--very-light-gray;
+      cursor: pointer;
+      transition: all 0.5s;
+
+      z-index: 999;
+    }
+
+    .call-btn:hover,
+    .call-btn:active {
+      background-color: hsl(0, 10%, 85%);
+      color: $color-primary--dark-violet;
     }
   }
 
@@ -59,7 +71,7 @@
 
     // padding-bottom: 60%;
     // background-color: #fdf2e9;
-    // z-index: -2;
+    z-index: 1;
 
     background-image: url("../../assets/images/bg-pattern-how-we-work-desktop.svg");
     background-size: contain;
