@@ -3,7 +3,7 @@ import "./Navigation.styles.scss";
 import hamburgerIcon from "../../assets/images/icon-hamburger.svg";
 import closeIcon from "../../assets/images/icon-close.svg";
 
-const Navigation = () => {
+const Navigation = ({ toogleNav }) => {
   return (
     <>
       <nav className="main-nav">
@@ -31,7 +31,7 @@ const Navigation = () => {
         </ul>
       </nav>
 
-      <button className="btn-mobile-nav">
+      <button className="btn-mobile-nav" onClick={toogleNav}>
         <img
           src={hamburgerIcon}
           alt="Icon hamburger"
