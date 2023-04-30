@@ -1,5 +1,8 @@
 import "./Navigation.styles.scss";
 
+import hamburgerIcon from "../../assets/images/icon-hamburger.svg";
+import closeIcon from "../../assets/images/icon-close.svg";
+
 const Navigation = () => {
   return (
     <>
@@ -29,14 +32,25 @@ const Navigation = () => {
       </nav>
 
       <button className="btn-mobile-nav">
-        <ion-icon
+        <img
+          src={hamburgerIcon}
+          alt="Icon hamburger"
+          className="icon-mobile-nav icon-hamburger"
+        />
+        <img
+          src={closeIcon}
+          alt="Icon close"
+          className="icon-mobile-nav icon-close"
+        />
+
+        {/* <ion-icon
           class="icon-mobile-nav icon-menu"
           name="menu-outline"
         ></ion-icon>
         <ion-icon
           class="icon-mobile-nav icon-close"
           name="close-outline"
-        ></ion-icon>
+        ></ion-icon> */}
       </button>
     </>
   );

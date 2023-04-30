@@ -5,7 +5,7 @@ import heroImg from "../../assets/images/image-intro-desktop.jpg";
 const Hero = () => {
   return (
     <section className="section-hero">
-      <div className="hero">
+      <div className="hero container">
         <div className="hero-text-box">
           <hr className="divider" />
           <h1 className="heading-primary">Humanizing your insurance.</h1>

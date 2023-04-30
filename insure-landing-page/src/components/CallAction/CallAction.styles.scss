@@ -5,10 +5,10 @@
 }
 
 .cta-container {
-  max-width: $width-layout--desktop;
+  // max-width: $width-layout--desktop;
 
-  margin: 0 auto;
-  padding: 0 16rem;
+  // margin: 0 auto;
+  // padding: 0 16rem;
 
   .cta-text-box {
     // width: 100%;
@@ -36,6 +36,7 @@
     }
 
     .call-btn {
+      text-align: center;
       text-decoration: none;
       border: 0.25rem solid hsl(0, 10%, 85%);
 
@@ -64,10 +65,10 @@
 
     transform: translate(-50%, -50%);
 
-    width: 425px;
-    height: 320px;
-    top: 16rem;
-    right: -21.2rem;
+    width: 487px;
+    height: 245px;
+    top: 12.2rem;
+    right: -30.5rem;
 
     // padding-bottom: 60%;
     // background-color: #fdf2e9;

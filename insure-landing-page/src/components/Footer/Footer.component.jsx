@@ -10,7 +10,7 @@ import instagramIcon from "../../assets/images/icon-instagram.svg";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-container">
+      <div className="footer-container container">
         <div className="logo-container">
           <div className="logo-col">
             <a href="#" className="footer-logo">

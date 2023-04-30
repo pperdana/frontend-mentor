@@ -32,10 +32,10 @@
 }
 
 .footer-container {
-  max-width: $width-layout--desktop;
+  // max-width: $width-layout--desktop;
 
-  margin: 0 auto;
-  padding: 0 16rem;
+  // margin: 0 auto;
+  // padding: 0 16rem;
 
   position: relative;
   z-index: 999;
@@ -76,7 +76,7 @@
 
 .nav-container {
   display: flex;
-  align-items: center;
+  // align-items: center;
   justify-content: space-between;
   padding-right: 15rem;
 

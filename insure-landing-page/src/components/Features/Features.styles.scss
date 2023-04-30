@@ -5,8 +5,10 @@
 }
 
 .feature-container-heading {
-  margin: 0 auto;
-  padding: 0 16rem;
+  // max-width: $width-layout--desktop;
+
+  // margin: 0 auto;
+  // padding: 0 16rem;
 
   .divider {
     border-top: 2px solid #bbb;
@@ -25,15 +27,15 @@
 }
 
 .feature-container-list {
-  max-width: $width-layout--desktop;
+  // max-width: $width-layout--desktop;
 
   // margin: 0 auto;
-  padding: 0 16rem;
+  // padding: 0 16rem;
   // height: 100vh;
 
   display: flex;
   // flex-direction: column;
-  align-items: center;
+  // align-items: center;
   gap: 2rem;
 
   .feature {
