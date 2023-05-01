@@ -3,9 +3,7 @@
 /**************************/
 /* BELOW 1136px */
 /**************************/
-
 @media (max-width: 71em) {
-  // .header{}
   .header,
   .container {
     padding: 0 8rem !important;
@@ -19,10 +17,8 @@
 /**************************/
 /* BELOW 992px */
 /**************************/
-
 @media (max-width: 62em) {
   html {
-    /* 9px / 16px  */
     font-size: 56.25%;
   }
 
@@ -51,10 +47,8 @@
 /**************************/
 /* BELOW 898px */
 /**************************/
-
 @media (max-width: 56.1em) {
   html {
-    /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
 
@@ -103,7 +97,6 @@
 /**************************/
 /* BELOW 776px */
 /**************************/
-
 @media (max-width: 48.5em) {
   .cta-container {
     .cta-text-box {
@@ -125,7 +118,6 @@
 /**************************/
 /* BELOW 650px */
 /**************************/
-
 @media (max-width: 41em) {
   .header,
   .container {
@@ -154,38 +146,24 @@
 
   .main-nav {
     background-color: $color-neutral--very-dark-violet;
-    // -webkit-backdrop-filter: blur(5px);
-    // backdrop-filter: blur(10px);
     color: $color-neutral--very-light-gray;
-    // padding-top: 10rem;
     padding-top: 12vh;
 
     position: absolute;
     top: 77px;
     left: 0;
     width: 100%;
-    // height: 100vh;
     height: calc(100vh - 76px);
     transform: translateX(100%);
 
     z-index: 2;
 
     display: flex;
-    // align-items: center;
     justify-content: center;
     transition: all 0.5s ease-in;
 
-    /* Hide navigation */
-    /* Allows NO transitions at all */
-    /* display: none; */
-
-    /* 1) Hide it visually */
     opacity: 0;
-
-    /* 2) Make it unaccessible to mouse and keyboard */
     pointer-events: none;
-
-    /* 3) Hide it from screen readers */
     visibility: hidden;
   }
 
@@ -220,14 +198,9 @@
     position: absolute;
     transform: translate(-50%, -50%);
 
-    // width: 375px;
     width: 100vw;
-    // height: 218px;
-    // 375 / 218 = 1.72
-
     height: calc(218px * 1.72);
 
-    // top: 82vh;
     top: calc(100vh - 41px);
     right: -50%;
 
@@ -294,7 +267,6 @@
 /**************************/
 /* BELOW 400px */
 /**************************/
-
 @media (max-width: 25em) {
   .header,
   .container {
@@ -307,12 +279,10 @@
   }
 
   .hero-text-box {
-    // padding: ;
     margin-bottom: 0;
     padding: 10rem 3rem;
 
     position: relative;
-
     .heading-primary {
       font-size: 5.6rem;
     }
@@ -380,7 +350,6 @@
 
   .nav-container {
     flex-direction: column;
-    /* align-items: center; */
     text-align: center;
     gap: 3.6rem;
   }

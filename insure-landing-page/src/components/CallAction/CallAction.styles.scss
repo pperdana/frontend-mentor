@@ -5,20 +5,12 @@
 }
 
 .cta-container {
-  // max-width: $width-layout--desktop;
-
-  // margin: 0 auto;
-  // padding: 0 16rem;
-
   .cta-text-box {
-    // width: 100%;
-    // margin: 0 auto;
     position: relative;
     z-index: 1;
 
     background-color: $color-primary--dark-violet;
     display: flex;
-    // flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 6rem;
@@ -70,8 +62,6 @@
     top: 12.2rem;
     right: -30.5rem;
 
-    // padding-bottom: 60%;
-    // background-color: #fdf2e9;
     z-index: 1;
 
     background-image: url("../../assets/images/bg-pattern-how-we-work-desktop.svg");
