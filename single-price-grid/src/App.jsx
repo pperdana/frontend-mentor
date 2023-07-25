@@ -1,35 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./styles/App.scss";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <main>
+        <div className="card-container">
+          <div className="header-box">
+            <h1>Join our community</h1>
+            <span> 30-day, hassle-free money back guarantee</span>
+            <p>
+              Gain access to our full library of tutorials along with expert
+              code reviews. Perfect for any developers who are serious about
+              honing their skills.
+            </p>
+          </div>
+
+          <div className="desc-box">
+            <div className="subscription">
+              <h2>Monthly Subscription</h2>
+              <span>&dollar;29 per month</span>
+              <p>Full access for less than &dollar;1 a day</p>
+              <button>Sign Up</button>
+            </div>
+
+            <div className="about-us">
+              <h2>Why Us</h2>
+              <ul>
+                <li>Tutorials by industry experts</li>
+                <li>Peer &amp; expert code review</li>
+                <li>Coding exercises</li>
+                <li>Access to our GitHub repos</li>
+                <li>Community forum</li>
+                <li>Flashcard decks</li>
+                <li>New videos every week</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
