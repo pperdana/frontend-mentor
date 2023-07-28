@@ -8,28 +8,105 @@ main {
   align-items: center;
   justify-content: center;
 
-  // background-color: rgb(164, 225, 164);
+  background-color: #e6eff6;
 }
 
 .card-container {
-  width: 60rem;
-  background-color: aqua;
-  padding: 3.6rem;
+  width: 62rem;
+  border-radius: 8px;
+
+  box-shadow: rgba(50, 50, 93, 0.2) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
 }
 
 .header-box {
-  margin-bottom: 3.6rem;
+  padding: 3.6rem;
+  // margin-bottom: 3.6rem;
+  background-color: #fff;
+  border-radius: 8px 8px 0 0;
+
+  h1 {
+    font-size: 2.4rem;
+    color: $color-primary--cyan;
+    margin-bottom: 2.6rem;
+    font-weight: $font-weights--karla-sans-serif-700;
+  }
+  span {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: $font-weights--karla-sans-serif-700;
+    color: $color-primary--bright-yellow;
+    margin-bottom: 2.4rem;
+  }
+
+  p {
+    color: $color-neutral--grayish-blue;
+    line-height: 1.8;
+  }
 }
 
 .desc-box {
   display: flex;
-  gap: 6rem;
+  // gap: 6rem;
+
   .subscription {
-    // margin-right: 12rem;
+    width: 50%;
+    padding: 3.6rem;
+    background-color: hsl(179, 62%, 40%);
+    border-radius: 0 0 0 8px;
+
+    h2 {
+      font-size: 2rem;
+      color: $color-neutral--light-grey;
+      margin-bottom: 2rem;
+    }
+    .sub-price {
+      color: hsl(179, 70%, 45%);
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      &-num {
+        color: $color-neutral--light-grey;
+        font-size: 3rem;
+        font-weight: $font-weights--karla-sans-serif-700;
+      }
+    }
+    .sub-desc {
+      margin-bottom: 2.8rem;
+      color: $color-neutral--light-grey;
+    }
+    .btn {
+      // display: block;
+      width: 100%;
+      height: 4.6rem;
+      border: none;
+      background-color: $color-primary--bright-yellow;
+      font-weight: $font-weights--karla-sans-serif-700;
+      font-size: 1.6rem;
+      color: $color-neutral--light-grey;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   }
   .about-us {
+    width: 50%;
+    // padding: 2rem;
+    padding: 3.6rem;
+    background-color: hsl(179, 47%, 50%);
+    color: rgb(191, 238, 238);
+    border-radius: 0 0 8px 0;
+
+    h2 {
+      font-size: 2rem;
+      color: hsl(204, 43%, 93%);
+      margin-bottom: 2rem;
+    }
+
     ul {
       list-style-type: none;
+      font-size: 1.4rem;
+      line-height: 1.6;
     }
   }
 }

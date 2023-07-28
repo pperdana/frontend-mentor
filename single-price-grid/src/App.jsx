@@ -18,9 +18,12 @@ function App() {
           <div className="desc-box">
             <div className="subscription">
               <h2>Monthly Subscription</h2>
-              <span>&dollar;29 per month</span>
-              <p>Full access for less than &dollar;1 a day</p>
-              <button>Sign Up</button>
+              <p className="sub-price">
+                <span className="sub-price-num">$29</span>{" "}
+                <span>per month</span>
+              </p>
+              <p className="sub-desc">Full access for less than $1 a day</p>
+              <button className="btn">Sign Up</button>
             </div>
 
             <div className="about-us">
