@@ -7,7 +7,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   background-color: #e6eff6;
 }
 
@@ -16,14 +15,12 @@ main {
 
   width: 62rem;
   border-radius: 8px;
-
   box-shadow: rgba(50, 50, 93, 0.2) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
 }
 
 .header-box {
   padding: 3.6rem;
-  // margin-bottom: 3.6rem;
   background-color: #fff;
   border-radius: 8px 8px 0 0;
 
