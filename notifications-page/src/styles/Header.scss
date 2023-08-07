@@ -1,0 +1,37 @@
+@import "./settings/_settings";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  h1 {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: $font-weights--plus-jakarta-sans-800;
+    position: relative;
+    color: $color-neutral--very-dark-blue;
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 2.5rem;
+      height: 2rem;
+      position: absolute;
+      top: 50%;
+      left: 14.8rem;
+      transform: translate(-50%, -50%);
+
+      font-size: 1.3rem;
+      border-radius: 4px;
+      background-color: $color-primary--blue;
+      color: $color-neutral--white;
+    }
+  }
+
+  span {
+    color: $color-neutral--dark-grayish-blue;
+  }
+}

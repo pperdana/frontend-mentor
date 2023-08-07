@@ -1,6 +1,6 @@
 import Header from "./Header";
 import List from "./List";
-import "./App.scss";
+import "./styles/App.scss";
 
 function App() {
   return (
