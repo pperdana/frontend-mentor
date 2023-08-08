@@ -1,10 +1,12 @@
 import Person from "./Person";
-import data from "./data";
+import { people } from "./data.js";
+
+import "./styles/List.scss";
 
 const List = () => {
   return (
     <div className="people">
-      {data.map((person) => {
+      {people.map((person) => {
         return <Person key={person.id} {...person} />;
       })}
     </div>
