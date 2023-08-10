@@ -1,15 +1,22 @@
 @import "./settings/_settings";
 
+.people {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .card {
   display: flex;
-  align-items: center;
-  gap: 1.5rem;
-
-  // background-color: $color-neutral--light-grayish-blue-1;
-  margin-bottom: 2rem;
   font-size: 1.4rem;
   padding: 1.5rem;
   border-radius: 6px;
+  justify-content: space-between;
+
+  .card-about {
+    display: flex;
+    gap: 1.8rem;
+  }
 
   .image {
     width: 4rem;
@@ -17,9 +24,15 @@
   }
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
 .desc {
   // position: relative;
-  margin-bottom: 0.8rem;
+  // margin-bottom: 0.8rem;
   .name {
     font-size: 1.4rem;
     display: inline;
@@ -52,4 +65,18 @@
 
 .time {
   color: $color-neutral--grayish-blue;
+}
+
+.message {
+  border: 1px solid hsl(210, 14%, 91%);
+  padding: 1.2rem;
+  border-radius: 5px;
+  line-height: 1.3;
+  // background-color: rgb(204, 241, 204);
+}
+
+.picture-send {
+  width: 40px;
+  height: 40px;
+  border-radius: px;
 }

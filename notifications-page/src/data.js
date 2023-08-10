@@ -5,7 +5,7 @@ import image4 from "./assets/images/avatar-rizky-hasanuddin.webp";
 import image5 from "./assets/images/avatar-kimberly-smith.webp";
 import image6 from "./assets/images/avatar-nathan-peterson.webp";
 import image7 from "./assets/images/avatar-anna-kim.webp";
-// import image3 from "./assets/images/image-chess.webp";
+import chess from "./assets/images/image-chess.webp";
 
 export const people = [
   {
@@ -41,6 +41,8 @@ export const people = [
     id: 4,
     name: "Rizky Hasanuddin",
     status: "sent you a private message",
+    message:
+      "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
     sent: "5 days ago",
     src: image4,
     alt: "Image 4",
@@ -50,6 +52,7 @@ export const people = [
     id: 5,
     name: "Kimberly Smith",
     status: "commented on your picture",
+    picture: chess,
     sent: "1 week ago",
     src: image5,
     alt: "Image 5",
