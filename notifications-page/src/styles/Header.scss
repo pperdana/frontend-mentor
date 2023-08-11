@@ -33,5 +33,11 @@
 
   span {
     color: $color-neutral--dark-grayish-blue;
+    cursor: pointer;
+  }
+
+  span:active,
+  span:hover {
+    color: $color-primary--blue;
   }
 }
