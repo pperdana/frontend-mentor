@@ -20,8 +20,17 @@ const Person = ({
         <div className="info">
           <div className="desc">
             <h2 className="name">{name}</h2> <p className="stats">{status}</p>{" "}
-            <strong>{post || group}</strong>
-            <span className={read ? "dot display-dot" : "dot"}></span>
+            {post && (
+              <strong className="post" style={{ color: "hsl(219, 12%, 42%)" }}>
+                {post}
+              </strong>
+            )}
+            {group && (
+              <strong className="group" style={{ color: "hsl(219, 85%, 26%)" }}>
+                {group}
+              </strong>
+            )}
+            {read && <span className={read ? "dot display-dot" : "dot"} />}
           </div>
           <div className="time">{sent}</div>
           {message && <p className="message">{message}</p>}
