@@ -1,9 +1,8 @@
 import Person from "./Person";
-import { people } from "./data.js";
 
 import "./styles/List.scss";
 
-const List = () => {
+const List = ({ people }) => {
   return (
     <div className="people">
       {people.map((person) => {

@@ -11,10 +11,8 @@ const Person = ({
   message,
   picture,
 }) => {
-  const background = read && "hsl(210, 60%, 98%)";
-
   return (
-    <div className="card" style={{ background: `${background}` }}>
+    <div className={read ? "card unread-card" : "card"}>
       <div className="card-about">
         <img className="image" src={src} alt={alt} />
         <div className="info">

@@ -1,12 +1,13 @@
 import "./styles/Header.scss";
+import { upData } from "./data.js";
 
-const Header = () => {
+const Header = ({ setPeople }) => {
   return (
     <div className="header">
       <h1>
         Notifications <span>3</span>
       </h1>
-      <span>Mark all as read</span>
+      <span onClick={() => setPeople(upData)}>Mark all as read</span>
     </div>
   );
 };
