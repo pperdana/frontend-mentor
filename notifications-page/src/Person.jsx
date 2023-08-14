@@ -24,9 +24,8 @@ const Person = ({
           </div>
           <div className="time">{sent}</div>
           {message && <p className="message">{message}</p>}
-        </div>{" "}
+        </div>
       </div>
-
       {picture && <img className="picture-send" src={picture} alt="chess" />}
     </div>
   );

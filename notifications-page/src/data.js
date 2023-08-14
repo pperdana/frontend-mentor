@@ -79,6 +79,7 @@ export const data = [
     read: false,
   },
 ];
+
 export const upData = [
   {
     id: 1,
