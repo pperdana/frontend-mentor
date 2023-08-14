@@ -1,0 +1,26 @@
+@use "./settings/_settings" as *;
+
+/**************************/
+/* BELOW 600px   */
+/**************************/
+@media (max-width: 37.5em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+  .container {
+    width: 48rem;
+  }
+}
+
+/**************************/
+/* BELOW 500px   */
+/**************************/
+@media (max-width: 31.25em) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    width: 40rem;
+  }
+}
