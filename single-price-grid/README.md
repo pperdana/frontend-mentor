@@ -4,16 +4,14 @@ This is a solution to the [Single price grid component](https://www.frontendment
 
 ## Table of contents
 
-- [Frontend Mentor - Single price grid component](#frontend-mentor---Single price grid component)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
 ## Overview
 
