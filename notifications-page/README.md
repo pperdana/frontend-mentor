@@ -3,24 +3,22 @@
 This is a solution to the [Notifications page](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
-
-- [Frontend Mentor - Notifications page](#frontend-mentor---notifications-page)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
 ## Overview
 
 ### The challenge
 
 Users should be able to:
-
+- Distinguish between "unread" and "read" notifications
+- Select "Mark all as read" to toggle the visual state of the unread notifications and set the number of unread messages to zero
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
@@ -37,7 +35,10 @@ Users should be able to:
 
 ### Built with
 
+- React
+- React Hook
 - Semantic HTML5 markup
+- Sass
 - CSS custom properties
 - Flexbox
 - CSS Grid
