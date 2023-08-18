@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Single price grid component | Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)
-- Live Site URL: []()
+- Live Site URL: [https://single-price-pperdana.netlify.app](https://single-price-pperdana.netlify.app)
 
 ## My process
 
