@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Notifications page | Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC)
-- Live Site URL: []()
+- Live Site URL: [https://notifications-page-pperdana.netlify.app](https://notifications-page-pperdana.netlify.app)
 
 ## My process
 
