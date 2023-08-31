@@ -1,7 +1,8 @@
-import Hero from "./Hero";
 import "./styles/App.scss";
 import Header from "./Header";
+import Hero from "./Hero";
 import Info from "./Info";
+import Feature from "./Feature";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       {/* <Header /> */}
       <main>
         {/* <Hero /> */}
-        <Info />
+        {/* <Info /> */}
+        <Feature />
       </main>
       {/*<footer>Footer</footer> */}
     </>
