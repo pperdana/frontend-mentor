@@ -1,12 +1,14 @@
 import MobileButton from "./MobileButton";
 import Navigation from "./Navigation";
 import Logo from "./Logo";
+import "./Header.styles.scss";
+
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <Logo />
       <Navigation />
-      <MobileButton />
+      {/* <MobileButton /> */}
     </header>
   );
 };
