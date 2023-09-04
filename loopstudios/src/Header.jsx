@@ -1,13 +1,8 @@
+import Logo from "./Logo";
 const Header = () => {
   return (
     <header>
-      <a href="#">
-        <img
-          className="logo"
-          alt="Loopstuios logo"
-          src="/src/assets/images/logo.svg"
-        />
-      </a>
+      <Logo />
       <nav className="main-nav">
         <ul className="main-nav-list">
           <li>

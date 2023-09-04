@@ -8,13 +8,13 @@ import Footer from "./Footer";
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main>
         {/* <Hero /> */}
         {/* <Info /> */}
         {/* <Feature /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
