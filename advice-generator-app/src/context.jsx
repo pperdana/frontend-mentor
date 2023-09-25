@@ -13,8 +13,6 @@ const AppProvider = ({ children }) => {
     try {
       const { data } = await axios(url);
 
-      console.log(data.slip.advice, data.slip.id);
-
       setAdvice(data.slip.advice);
       setAdviceId(data.slip.id);
     } catch (error) {
