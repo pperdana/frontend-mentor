@@ -1,12 +1,12 @@
 const Feature = () => {
   return (
     <section className="section-feature" id="feature">
-      <div className="text-container">
+      <div className="text-box container">
         <h2 className="heading-secondary">Our creations</h2>
-        <button>See all</button>
+        <button className="btn-feature">See all</button>
       </div>
 
-      <div className="gallery">
+      <div className="gallery container">
         <figure className="gallery-item">
           <img
             src="/src/assets/images/desktop/image-deep-earth.jpg"

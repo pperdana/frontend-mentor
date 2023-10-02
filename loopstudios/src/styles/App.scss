@@ -1,1 +1,33 @@
 @import "./settings/_settings";
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.section-feature {
+  padding: 9.6rem 0;
+
+  .text-box {
+    display: flex;
+    justify-content: space-between;
+
+    .heading-secondary {
+      margin-bottom: 5.4rem;
+      font-size: 4rem;
+    }
+
+    .btn-feature {
+      display: inline-block;
+      width: 9rem;
+      height: 4rem;
+      cursor: pointer;
+    }
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
