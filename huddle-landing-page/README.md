@@ -41,7 +41,7 @@ Users should be able to:
 
 - [React | JS library](https://reactjs.org/)
 - [Vite | JS library](https://vitejs.dev/guide/)
-- [SCSS | For styles](https://styled-components.com/)
+- [Tailwind | For styles](https://tailwindcss.com/docs)
 - [A Complete Guide to Flexbox | CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
 
 ## Author
