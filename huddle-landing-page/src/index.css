@@ -147,3 +147,65 @@ body {
 
   cursor: pointer;
 }
+
+/********  Media Query *********/
+
+@media (max-width: 71em) {
+  .header {
+    padding: 0 5.2rem;
+  }
+  .hero {
+    padding: 0 5.2rem;
+  }
+  .hero__heading {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 57.5em) {
+  .hero__heading {
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 47.5em) {
+  main {
+    padding-bottom: 2rem;
+  }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .hero-text-box {
+    /* display: flex; */
+    width: auto;
+  }
+  .hero__heading {
+    margin-top: 3rem;
+    font-size: 2.35rem;
+  }
+  .btn {
+    padding: 0.85rem 4.5rem;
+  }
+
+  .icons-wrapper {
+    margin-top: 4.5rem;
+    justify-content: center;
+  }
+}
+@media (max-width: 31.25em) {
+  .header {
+    padding: 0 3.5rem;
+  }
+
+  .hero {
+    padding: 0 3.5rem;
+  }
+
+  .hero__heading {
+    font-size: 1.65rem;
+    margin-top: 1.5rem;
+  }
+}
