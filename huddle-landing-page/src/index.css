@@ -195,7 +195,13 @@ body {
     justify-content: center;
   }
 }
+
 @media (max-width: 31.25em) {
+  body {
+    background-image: url("./images/bg-mobile.svg");
+    background-position: 50% 0;
+    background-size: 100%;
+  }
   .header {
     padding: 0 3.5rem;
   }
