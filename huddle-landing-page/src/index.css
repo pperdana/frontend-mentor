@@ -61,11 +61,11 @@ body {
 /* Header */
 /**********/
 .header {
-  height: 7.6rem;
-  padding: 0 7rem;
+  /* height: 7.6rem; */
+  /* padding: 0 7rem; */
 
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 .logo {
