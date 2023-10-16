@@ -72,6 +72,12 @@ body {
   background: var(--clr-magenta);
 }
 
+.icons-wrapper svg path:focus,
+.icons-wrapper svg path:hover {
+  stroke: var(--clr-magenta);
+  fill: var(--clr-magenta);
+}
+
 /**********/
 /* Header */
 /**********/
@@ -143,24 +149,24 @@ body {
 /****************/
 
 .section-contact {
-  margin-top: 0.8rem;
+  /* margin-top: 0.8rem; */
 }
 
 .icons-wrapper {
-  max-width: 120rem;
-  padding: 0 6.2rem;
+  /* max-width: 120rem; */
+  /* padding: 0 6.2rem; */
 
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* gap: 1rem; */
 }
 
 .icons-wrapper svg path:focus,
 .icons-wrapper svg path:hover {
-  stroke: var(--clr-magenta);
-  fill: var(--clr-magenta);
+  /* stroke: var(--clr-magenta); */
+  /* fill: var(--clr-magenta); */
 
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 /********  Media Query *********/
