@@ -78,6 +78,14 @@ body {
   fill: var(--clr-magenta);
 }
 
+@media (max-width: 31.25em) {
+  body {
+    background-image: url("./images/bg-mobile.svg");
+    background-position: 50% 0;
+    background-size: 100%;
+  }
+}
+
 /**********/
 /* Header */
 /**********/
@@ -219,20 +227,20 @@ body {
 
 @media (max-width: 31.25em) {
   body {
-    background-image: url("./images/bg-mobile.svg");
-    background-position: 50% 0;
-    background-size: 100%;
+    /* background-image: url("./images/bg-mobile.svg"); */
+    /* background-position: 50% 0; */
+    /* background-size: 100%; */
   }
   .header {
-    padding: 0 3.5rem;
+    /* padding: 0 3.5rem; */
   }
 
   .hero {
-    padding: 0 3.5rem;
+    /* padding: 0 3.5rem; */
   }
 
   .hero__heading {
-    font-size: 1.65rem;
-    margin-top: 1.5rem;
+    /* font-size: 1.65rem; */
+    /* margin-top: 1.5rem; */
   }
 }

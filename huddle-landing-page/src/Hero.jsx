@@ -3,7 +3,7 @@ import mockups from "./images/illustration-mockups.svg";
 const Hero = () => {
   return (
     <section className="section-hero mt-[1.2rem]">
-      <div className="hero my-0 mx-auto py-0 px-[7.3rem] flex gap-[2rem] max-w-[120rem]	xl:py-0 xl:px-[5.2rem] md:flex-col md:text-center	md:items-center">
+      <div className="hero my-0 mx-auto py-0 px-[7.3rem] flex gap-[2rem] max-w-[120rem]	xl:py-0 xl:px-[5.2rem] md:flex-col md:text-center	md:items-center sm:py-0 sm:px-[3.5rem]">
         <div className="hero-img-box">
           <img
             src={mockups}
@@ -12,7 +12,7 @@ const Hero = () => {
           />
         </div>
         <div className="hero-text-box w-[30rem] md:w-auto">
-          <h1 className="hero__heading text-[2.35rem] mt-[3rem] xl:mt-4 lg:mt-0 lg:text-lg md:mt-[3rem] md:text-[2.35rem] md:leading-10">
+          <h1 className="hero__heading text-[2.35rem] mt-[3rem] xl:mt-4 lg:mt-0 lg:text-lg md:mt-[3rem] md:text-[2.35rem] md:leading-10 sm:text-[1.65rem] sm:mt-[1.5rem]">
             Build The Community Your Fans Will Love
           </h1>
           <p className="hero__content mt-[1rem] mb-[2rem]">
