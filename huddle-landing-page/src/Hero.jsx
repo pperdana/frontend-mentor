@@ -12,7 +12,7 @@ const Hero = () => {
           />
         </div>
         <div className="hero-text-box w-[30rem]">
-          <h1 className="hero__heading text-[2.35rem] mt-[3rem] xl:mt-4">
+          <h1 className="hero__heading text-[2.35rem] mt-[3rem] xl:mt-4 lg:mt-0 lg:text-lg">
             Build The Community Your Fans Will Love
           </h1>
           <p className="hero__content mt-[1rem] mb-[2rem]">

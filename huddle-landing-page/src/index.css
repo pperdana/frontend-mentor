@@ -185,14 +185,14 @@ body {
 
 @media (max-width: 57.5em) {
   .hero__heading {
-    margin-top: 0;
-    font-size: 1.25rem;
+    /* margin-top: 0; */
+    /* font-size: 1.25rem; */
   }
 }
 
 @media (max-width: 47.5em) {
   main {
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
   }
   .hero {
     flex-direction: column;
