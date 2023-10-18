@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className="md:pb-[2rem]">
         <Hero />
         <Contact />
       </main>
