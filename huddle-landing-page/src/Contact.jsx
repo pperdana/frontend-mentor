@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <section className="section-contact mt-[0.8rem]">
-      <div className="icons-wrapper max-w-[120rem] py-0 px-[6.2rem] flex justify-end	gap-[1rem] md:mt-[4.5rem] md:justify-center">
+    <section className="mt-[0.8rem]">
+      <div className="max-w-[120rem] py-0 px-[6.2rem] flex justify-end	gap-[1rem] md:mt-[4.5rem] md:justify-center">
         <a href="#">
           <svg
             width="40"

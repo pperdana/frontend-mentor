@@ -36,8 +36,8 @@ body {
   height: 100vh;
 }
 
-.icons-wrapper svg path:focus,
-.icons-wrapper svg path:hover {
+svg path:focus,
+svg path:hover {
   stroke: hsl(300, 69%, 71%);
   fill: hsl(300, 69%, 71%);
 }
