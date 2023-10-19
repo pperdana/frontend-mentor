@@ -2,80 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ---------- CSS RESET ----------- */
-
-/* box-sizing */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* remove default margin */
-body,
-h1,
-p {
-  margin: 0;
-}
-
-/* set core body defaults */
-body {
-  /* min-height: 100vh; */
-  line-height: 1.5;
-}
-
-/* set image and picture */
 img,
 picture {
   width: 100%;
   display: block;
 }
 
-/* ---------- CSS VARIABLE ---------- */
-
-:root {
-  /* color sistem */
-  --clr-violet: hsl(257, 40%, 49%);
-  --clr-magenta: hsl(300, 69%, 71%);
-
-  /* typography */
-  --ff-poppins: "Poppins", sans-serif;
-  --ff-openSans: "Open Sans", sans-serif;
-  --fw-400: 400;
-  --fw-600: 600;
+body,
+h1,
+p {
+  margin: 0;
 }
 
 body {
-  background-color: var(--clr-violet);
+  line-height: 1.5;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
   background-image: url("./images/bg-desktop.svg");
   background-repeat: no-repeat;
 
   color: #fff;
-  font-family: var(--ff-openSans);
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 
   height: 100vh;
 }
 
-.hero__heading {
-  font-family: var(--ff-poppins);
-  font-weight: var(--fw-600);
-}
-
-.btn {
-  font-family: var(--ff-poppins);
-  color: var(--clr-violet);
-}
-
-.btn:focus,
-.btn:hover {
-  background: var(--clr-magenta);
-}
-
 .icons-wrapper svg path:focus,
 .icons-wrapper svg path:hover {
-  stroke: var(--clr-magenta);
-  fill: var(--clr-magenta);
+  stroke: hsl(300, 69%, 71%);
+  fill: hsl(300, 69%, 71%);
 }
 
 @media (max-width: 31.25em) {
