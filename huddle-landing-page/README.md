@@ -4,13 +4,11 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## Table of contents
 
-- [Frontend Mentor - News homepage solution](#frontend-mentor---news-homepage-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
+ - [Overview](#overview)
+   - [The challenge](#the-challenge)
+   - [Screenshot](#screenshot)
+   - [Links](#links)
+ - [My process](#my-process)
     - [Built with](#built-with)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -30,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Huddle landing page | Frontend Mentor]()
+- Solution URL: [Huddle landing page | Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-using-react-and-tailwind--7f0EWnoci)
 - Live Site URL: [huddle-landing-page-pperdana.netlify.app](https://huddle-landing-page-pperdana.netlify.app)
 
 ## My process
