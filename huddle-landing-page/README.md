@@ -1,9 +1,11 @@
-# Frontend Mentor -
+# Frontend Mentor - News homepage solution
 
-This is a solution to the . Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
+- [Frontend Mentor - News homepage solution](#frontend-mentor---news-homepage-solution)
+  - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
@@ -19,30 +21,32 @@ This is a solution to the . Frontend Mentor challenges help you improve your cod
 
 Users should be able to:
 
-- 
+- View the optimal layout for the page depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 
-![](./src/images/design/desktop-preview.jpg)
+![](./src/images/desktop-preview.jpg)
 
 ### Links
 
-- Solution URL:
-- Live Site URL: 
+- Solution URL: [Huddle landing page | Frontend Mentor]()
+- Live Site URL: [huddle-landing-page-pperdana.netlify.app](https://huddle-landing-page-pperdana.netlify.app)
 
 ## My process
 
 ### Built with
 
-- Vite
-
+- React
+- Tailwind CSS
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
 ### Useful resources
 
 - [React | JS library](https://reactjs.org/)
-- [Vite | JS library](https://vitejs.dev/guide/)
-- [Tailwind | For styles](https://tailwindcss.com/docs)
-- [A Complete Guide to Flexbox | CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+- [Tailwind | For styles](https://tailwindcss.com/)
 
 ## Author
 
