@@ -1,11 +1,13 @@
+import logo from "./assets/images/logo.svg";
+
 const Hero = () => {
   return (
-    <div className="page _hero-section">
-      <div className="wrapper">
-        <div className="hero">
-          <header className="hero__header">
-            <img src="./images/logo.svg" alt="" className="logo" />
-            <nav>
+    <div className="flex justify-center bg-hero-pattern bg-no-repeat	bg-cover bg-center">
+      <div className="wrapper  w-full py-0 px-[30px] max-w-[1200px]">
+        <div className="hero flex flex-col	justify-between	items-start">
+          <header className="hero__header mt-[50px] flex justify-between w-full">
+            <img src={logo} alt="loopstudios" className="logo z-[2]" />
+            <nav className="h-[45px] flex justify-center	items-center gap-[30px]">
               <a href="#" className="nav__link">
                 About
               </a>
