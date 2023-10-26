@@ -30,7 +30,7 @@ const Hero = () => {
               </span>
             </button>
           </header>
-          <div className="hero__heading">
+          <div className="hero__heading text-[hsl(0,0%,100%)] font-['josefin_sans'] font-light	uppercase border-2	border-solid	border-[hsl(0,0%,100%)] text-[20px] w-[20rem] p-[30px] leading-[1.1] my-[10rem] mx-0">
             Immersive experiences that deliver
           </div>
         </div>
