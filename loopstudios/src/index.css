@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .bg_gallery {
+    @apply bg-no-repeat bg-cover;
+  }
+  .card__content {
+    @apply w-[calc((1vh+1vw)*11.38)] h-[calc((1vh+1vw)*20)] flex flex-col-reverse	p-[calc((1vh+1vw)*1.76)] relative bg-transparent transition-[400ms];
+  }
+
+  .card__name {
+    @apply text-[calc((1vh+1vw)*1.45)] font-["Josefin_Sans"] leading-[1.1] font-normal uppercase text-[hsl(0,0%,100%)];
+  }
+
+  .portfolio__button {
+    @apply bg-[hsl(0,0%,100%)] text-[hsl(0,0%,0%)] border-[1px]
+    border-solid border-[hsl(0,0%,0%)] uppercase py-[10px] px-[30px] text-[calc((1vh+1vw)*0.67)] leading-[1] font-['Alata'] font-normal tracking-[2px] duration-[400ms];
+  }
+}
+
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
