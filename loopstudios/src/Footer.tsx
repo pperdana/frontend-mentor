@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="social__img _Pinterest bg-pinterest"></div>
               <div className="social__img _instagram bg-instagram"></div>
             </div>
-            <p className="copyright">
+            <p className="copyright text-[hsl(0,0%,75%)] font-['Alata'] font-[calc((1vh+1vw)*0.67)]">
               © 2021 Loopstudios. All rights reserved.
             </p>
           </div>
