@@ -1,6 +1,8 @@
 import logo from "./assets/images/logo.svg";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <div className="page _footer bg-[hsl(0,0%,0%)]">
       <div className="wrapper">
@@ -37,7 +39,7 @@ const Footer = () => {
               <div className="social__img _instagram bg-instagram"></div>
             </div>
             <p className="copyright text-[hsl(0,0%,75%)] font-['Alata'] font-[calc((1vh+1vw)*0.67)]">
-              © 2021 Loopstudios. All rights reserved.
+              {`© ${year} Loopstudios. All rights reserved.`}
             </p>
           </div>
         </footer>
