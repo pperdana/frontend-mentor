@@ -3,9 +3,18 @@
 @tailwind utilities;
 
 @layer components {
+  .page {
+    @apply flex justify-center;
+  }
+
+  .wrapper {
+    @apply max-w-[calc((1vh+1vw)*52.2)] w-full py-0 px-[30px];
+  }
+
   .bg_gallery {
     @apply bg-no-repeat bg-cover;
   }
+
   .card__content {
     @apply w-[calc((1vh+1vw)*11.38)] h-[calc((1vh+1vw)*20)] flex flex-col-reverse	p-[calc((1vh+1vw)*1.76)] relative bg-transparent transition-[400ms];
   }
@@ -17,6 +26,14 @@
   .portfolio__button {
     @apply bg-[hsl(0,0%,100%)] text-[hsl(0,0%,0%)] border-[1px]
     border-solid border-[hsl(0,0%,0%)] uppercase py-[10px] px-[30px] text-[calc((1vh+1vw)*0.67)] leading-[1] font-['Alata'] font-normal tracking-[2px] duration-[400ms];
+  }
+
+  .nav__link {
+    @apply font-['Alata'] decoration-0 text-[calc((1vh+1vw)*0.68)] text-[hsl(0,0%,100%)] relative after:content-[''] after:absolute after:left-0 after:bottom-[-10px] after:w-full after:h-[3px] after:bg-[hsl(0,0%,100%)] after:rounded-[5px] after:scale-x-0	after:transition-transform after:duration-[500ms];
+  }
+
+  .social__img {
+    @apply bg-no-repeat bg-cover w-[calc((1vh+1vw)*1.1)] h-[calc((1vh+1vw)*1.1)] ml-[calc((1vh+1vw)*0.8)] relative after:content-[''] after:absolute after:left-0 after:bottom-[-10px] after:w-full after:h-[3px] after:bg-[hsl(0,0%,100%)] after:rounded-[5px] after:scale-x-0	transition-transform duration-[500ms];
   }
 }
 
