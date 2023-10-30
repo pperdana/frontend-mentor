@@ -6,10 +6,10 @@ import Footer from "./Footer";
 function App() {
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       {/* <Info /> */}
       {/* <Feature /> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
