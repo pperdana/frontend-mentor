@@ -20,7 +20,7 @@
   }
 
   .card__name {
-    @apply text-[calc((1vh+1vw)*1.45)] font-["Josefin_Sans"] leading-[1.1] font-normal uppercase text-[hsl(0,0%,100%)];
+    @apply text-[calc((1vh+1vw)*1.45)] font-josefin leading-[1.1] font-[300] uppercase text-[hsl(0,0%,100%)];
   }
 
   .portfolio__button {
