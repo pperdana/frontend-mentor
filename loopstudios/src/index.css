@@ -29,7 +29,7 @@
   }
 
   .nav__link {
-    @apply font-['Alata'] decoration-0 text-[calc((1vh+1vw)*0.68)] text-[hsl(0,0%,100%)] relative after:content-[''] after:absolute after:left-0 after:bottom-[-10px] after:w-full after:h-[3px] after:bg-[hsl(0,0%,100%)] after:rounded-[5px] after:scale-x-0	after:transition-transform after:duration-[500ms];
+    @apply font-alata decoration-0 text-[calc((1vh+1vw)*0.68)] text-[hsl(0,0%,100%)] relative after:content-[''] after:absolute after:left-0 after:bottom-[-10px] after:w-full after:h-[3px] after:bg-[hsl(0,0%,100%)] after:rounded-[5px] after:scale-x-0	after:transition-transform after:duration-[500ms];
   }
 
   .social__img {

@@ -5,10 +5,14 @@ const Hero = () => {
     <div className="page bg-hero-pattern bg-no-repeat	bg-cover bg-center">
       <div className="wrapper">
         <div className="hero flex flex-col	justify-between	items-start">
-          <header className="hero__header mt-[calc((1vh+1vw)*2.76)] flex justify-between w-full">
-            <img src={logo} alt="loopstudios" className="logo z-[2] h-[40px]" />
+          <header className="hero__header mt-[calc((1vh+1vw)*2.76)] flex justify-between  items-center w-full">
+            <img
+              src={logo}
+              alt="loopstudios"
+              className="logo z-[2] w-[calc((1vh+1vw)*9.5)] h-[calc((1vh+1vw)*1.5)]"
+            />
             <nav className="h-[45px] flex justify-center	items-center gap-[30px]">
-              <a href="#" className="nav__link">
+              <a href="#" className="nav__link font-alata">
                 About
               </a>
               <a href="#" className="nav__link">
@@ -33,7 +37,7 @@ const Hero = () => {
               </span>
             </button>
           </header>
-          <div className="hero__heading text-[hsl(0,0%,100%)] font-['josefin_sans'] font-light	uppercase border-[2px]	border-solid	border-[hsl(0,0%,100%)] text-[calc((1vh+1vw)*3.2)] w-[calc((1vh+1vw)*31)] p-[30px] leading-[1.1] mt-[calc((1vh+1vw)*5.4)] mb-[calc((1vh+1vw)*6.5)] mx-0">
+          <div className="hero__heading text-[hsl(0,0%,100%)] font-josefin font-light	uppercase border-[2px]	border-solid	border-[hsl(0,0%,100%)] text-[calc((1vh+1vw)*3.2)] w-[calc((1vh+1vw)*31)] p-[30px] leading-[1.1] mt-[calc((1vh+1vw)*5.4)] mb-[calc((1vh+1vw)*6.5)] mx-0">
             Immersive experiences that deliver
           </div>
         </div>
