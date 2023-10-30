@@ -13,7 +13,7 @@ const Footer = () => {
               alt="loopstuios"
               className="logo w-[calc((1vh+1vw)*6.4)] z-[2] max-w-full block"
             />
-            <nav className="h-[45px] flex justify-center items-center	gap-[30px]">
+            <nav className="h-[40px] flex justify-center items-center	gap-[25px]">
               <a href="#" className="nav__link">
                 About
               </a>
@@ -38,7 +38,7 @@ const Footer = () => {
               <div className="social__img _Pinterest bg-pinterest"></div>
               <div className="social__img _instagram bg-instagram"></div>
             </div>
-            <p className="copyright text-[hsl(0,0%,75%)] font-['Alata'] font-[calc((1vh+1vw)*0.67)]">
+            <p className="copyright text-[hsl(0,0%,75%)] font-alata text-[calc((1vh+1vw)*0.67)]">
               {`© ${year} Loopstudios. All rights reserved.`}
             </p>
           </div>
