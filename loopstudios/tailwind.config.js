@@ -18,6 +18,10 @@ export default {
         pinterest: "url('assets/images/icon-pinterest.svg')",
         instagram: "url('assets/images/icon-instagram.svg')",
       },
+      fontFamily: {
+        alata: ["Alata", "sans_serif"],
+        josefin: ["Josefin Sans", "sans_serif"],
+      },
     },
   },
   plugins: [],
