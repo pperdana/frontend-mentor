@@ -23,11 +23,12 @@ export default {
         josefin: ["Josefin Sans", "sans_serif"],
       },
     },
+    screens: {
+      xl: { max: "75em" },
+      lg: { max: "51.25em" },
+      md: { max: "37.5em" },
+    },
   },
-  screens: {
-    xl: { max: "75em" },
-    lg: { max: "51.25em" },
-    md: { max: "37.5em" },
-  },
+
   plugins: [],
 };
