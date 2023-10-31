@@ -16,7 +16,7 @@
   }
 
   .card__content {
-    @apply w-[calc((1vh+1vw)*11.38)] h-[calc((1vh+1vw)*20)] flex flex-col-reverse	p-[calc((1vh+1vw)*1.76)] relative bg-transparent transition-[400ms];
+    @apply w-[calc((1vh+1vw)*11.38)] h-[calc((1vh+1vw)*20)] flex flex-col-reverse	p-[calc((1vh+1vw)*1.76)] relative bg-transparent transition-[400ms] xl:w-[calc((1vh+1vw)*11)] xl:h-[calc((1vh+1vw)*20)];
   }
 
   .card__name {
