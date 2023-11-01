@@ -27,7 +27,7 @@ export default {
     screens: {
       xl: { max: "75em" },
       lg: { max: "51.25em" },
-      md: { max: "37.5em" },
+      md: { max: "37em" },
     },
   },
 
