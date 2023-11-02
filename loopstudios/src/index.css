@@ -16,11 +16,11 @@
   }
 
   .card__content {
-    @apply w-[calc((1vh+1vw)*11.38)] h-[calc((1vh+1vw)*20)] flex flex-col-reverse	p-[calc((1vh+1vw)*1.76)] relative bg-transparent transition-[400ms] xl:w-[calc((1vh+1vw)*11)] xl:h-[calc((1vh+1vw)*20)];
+    @apply w-[calc((1vh+1vw)*11.38)] h-[calc((1vh+1vw)*20)] flex flex-col-reverse	p-[calc((1vh+1vw)*1.76)] relative bg-transparent transition-[400ms] xl:w-[calc((1vh+1vw)*11)] xl:h-[calc((1vh+1vw)*20)] md:w-[calc((1vh+1vw)*30)] md:h-[calc((1vh+1vw)*11.38)] md:flex md:flex-col-reverse;
   }
 
   .card__name {
-    @apply text-[calc((1vh+1vw)*1.45)] font-josefin leading-[1.1] font-[300] uppercase text-[hsl(0,0%,100%)];
+    @apply text-[calc((1vh+1vw)*1.45)] font-josefin leading-[1.1] font-[300] uppercase text-[hsl(0,0%,100%)] md:text-[calc((1vh+1vw)*2)] md:w-[calc((1vh+1vw)*12)];
   }
 
   .portfolio__button {

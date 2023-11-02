@@ -15,7 +15,7 @@ const Feature = () => {
           </header>
           <div className="gallery flex flex-wrap	justify-between	gap-[calc((1vh+1vw)*1.2)] mb-[calc((1vh+1vw)*8)] md:flex-nowrap	md:flex-col	md:gap-[calc((1vh+1vw)*2)] md:items-center">
             <div className="bg_gallery bg-earth">
-              <div className="card__content">
+              <div className="card__content ">
                 <h3 className="card__name">Deep earth</h3>
               </div>
             </div>
@@ -54,7 +54,7 @@ const Feature = () => {
                 <h3 className="card__name">Make it fisheye</h3>
               </div>
             </div>
-            <button className="portfolio__button _mobile hidden ">
+            <button className="portfolio__button _mobile hidden md:block md:py-[calc((1vh+1vw)*1.5)] md:px-[calc((1vh+1vw)*3)] md:text-[calc((1vh+1vw)*1.5)] md:font-light">
               See all
             </button>
           </div>
