@@ -1,5 +1,3 @@
-import deepEarth from "./assets/images/desktop/image-deep-earth.jpg";
-
 const Feature = () => {
   return (
     <div className="page flex justify-center">
@@ -14,42 +12,42 @@ const Feature = () => {
             </button>
           </header>
           <div className="gallery flex flex-wrap	justify-between	gap-[calc((1vh+1vw)*1.2)] mb-[calc((1vh+1vw)*8)] md:flex-nowrap	md:flex-col	md:gap-[calc((1vh+1vw)*2)] md:items-center">
-            <div className="bg_gallery bg-earth">
+            <div className="bg_gallery bg-earth md:bg-earth-mobile">
               <div className="card__content ">
                 <h3 className="card__name">Deep earth</h3>
               </div>
             </div>
-            <div className="bg_gallery bg-arcade">
+            <div className="bg_gallery bg-arcade md:bg-arcade-mobile">
               <div className="card__content">
                 <h3 className="card__name">Night arcade</h3>
               </div>
             </div>
-            <div className="bg_gallery bg-soccer">
+            <div className="bg_gallery bg-soccer md:bg-soccer-mobile">
               <div className="card__content">
                 <h3 className="card__name">Soccer team VR</h3>
               </div>
             </div>
-            <div className="bg_gallery bg-grid">
+            <div className="bg_gallery bg-grid md:bg-grid-mobile">
               <div className="card__content">
                 <h3 className="card__name">The grid</h3>
               </div>
             </div>
-            <div className="bg_gallery bg-above">
+            <div className="bg_gallery bg-above md:bg-above-mobile">
               <div className="card__content">
                 <h3 className="card__name">From up above VR</h3>
               </div>
             </div>
-            <div className="bg_gallery bg-borealis">
+            <div className="bg_gallery bg-borealis md:bg-borealis-mobile">
               <div className="card__content">
                 <h3 className="card__name">Pocket borealis</h3>
               </div>
             </div>
-            <div className="bg_gallery bg-curiosity">
+            <div className="bg_gallery bg-curiosity md:bg-curiosity-mobile">
               <div className="card__content">
                 <h3 className="card__name">The curiosity</h3>
               </div>
             </div>
-            <div className="bg_gallery bg-fisheye">
+            <div className="bg_gallery bg-fisheye md:bg-fisheye-mobile">
               <div className="card__content">
                 <h3 className="card__name">Make it fisheye</h3>
               </div>
