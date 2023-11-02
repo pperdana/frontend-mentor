@@ -8,7 +8,7 @@ function App() {
     <>
       <Hero />
       <Info />
-      {/* <Feature /> */}
+      <Feature />
       {/* <Footer /> */}
     </>
   );

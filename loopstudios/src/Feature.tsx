@@ -5,15 +5,15 @@ const Feature = () => {
     <div className="page flex justify-center">
       <div className="wrapper max-w-[calc((1vh+1vw)*52.2)] w-full py-0 px-[30px]">
         <div className="portfolio">
-          <header className="portfolio__header flex justify-between	items-center	mb-[calc((1vh+1vw)*4)]">
-            <h3 className="portfolio__heading text-[calc((1vh+1vw)*2.13)] leading-[1.1] font-josefin font-[300]	uppercase">
+          <header className="portfolio__header flex justify-between	items-center	mb-[calc((1vh+1vw)*4)] md:justify-center">
+            <h3 className="portfolio__heading text-[calc((1vh+1vw)*2.13)] leading-[1.1] font-josefin font-[300]	uppercase md:text-[calc((1vh+1vw)*3)]">
               Our creations
             </h3>
-            <button className="portfolio__button bg-[hsl(0,0%,100%)] text-[hsl(0,0%,0%)] border-[1px] border-solid	border-[hsl(0,0%,0%)] uppercase py-[10px] px-[30px] font-[calc((1vh+1vw)*0.67)] leading-[1] font-alata font-normal tracking-[2px] duration-[400ms]">
+            <button className="portfolio__button bg-[hsl(0,0%,100%)] text-[hsl(0,0%,0%)] border-[1px] border-solid	border-[hsl(0,0%,0%)] uppercase py-[10px] px-[30px] font-[calc((1vh+1vw)*0.67)] leading-[1] font-alata font-normal tracking-[2px] duration-[400ms] md:hidden">
               See all
             </button>
           </header>
-          <div className="gallery flex flex-wrap	justify-between	gap-[calc((1vh+1vw)*1.2)] mb-[calc((1vh+1vw)*8)]">
+          <div className="gallery flex flex-wrap	justify-between	gap-[calc((1vh+1vw)*1.2)] mb-[calc((1vh+1vw)*8)] md:flex-nowrap	md:flex-col	md:gap-[calc((1vh+1vw)*2)] md:items-center">
             <div className="bg_gallery bg-earth">
               <div className="card__content">
                 <h3 className="card__name">Deep earth</h3>
