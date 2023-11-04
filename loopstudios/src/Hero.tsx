@@ -9,7 +9,7 @@ const Hero = () => {
             <img
               src={logo}
               alt="loopstudios"
-              className="logo z-[2] w-[calc((1vh+1vw)*9.5)] h-[calc((1vh+1vw)*1.5)]"
+              className="logo z-[2] w-[calc((1vh+1vw)*14.2)] h-[calc((1vh+1vw)*2.4)] md:w-[calc((1vh+1vw)*16.8)] md:h-[calc((1vh+1vw)*3)]"
             />
             <nav className="h-[45px] flex justify-center	items-center gap-[30px] md:hidden">
               <a href="#" className="nav__link font-alata">
