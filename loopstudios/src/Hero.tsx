@@ -29,11 +29,11 @@ const Hero = () => {
               </a>
             </nav>
             <button
-              className="hamburger hamburger--emphatic overflow-hidden	py-[15px] px-[15px] hidden cursor-pointer	z-[3] transition-opacity	transition-[filter] duration-[150ms] ease-linear	text-inherit	normal-case	bg-transparent	border-0 m-0 overflow-visible md:inline-block"
+              className="hamburger hamburger--emphatic overflow-hidden	py-[15px] px-[15px] hidden cursor-pointer	z-[3] transition-opacity	transition-[filter] duration-[150ms] ease-linear	text-inherit	normal-case	bg-transparent	border-0 m-0 overflow-visible md:inline-block hover:opacity-[0.7]"
               type="button"
             >
-              <span className="hamburger-box">
-                <span className="hamburger-inner"></span>
+              <span className="hamburger-box w-[40px] h-[24px] inline-block	relative">
+                <span className="hamburger-inner w-[40px] h-[4px] bg-whiter rounded-[4px] absolute block top-[50%] mt-[-2px] transition-[background-color] duration-[125ms] delay-[175ms] ease-in"></span>
               </span>
             </button>
           </header>
