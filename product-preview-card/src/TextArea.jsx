@@ -1,7 +1,12 @@
 const TextArea = () => {
   return (
-    <div className="textArea">
-      <p id="p1">PERFUME</p>
+    <div className="textArea flex flex-col	gap-[20px] p-[25px]">
+      <p
+        id="p1"
+        className="tracking-[5px] text-[13px] text-[hsl(228,12%,48%)] leading-[20px]	"
+      >
+        PERFUME
+      </p>
       <h1>Gabrielle Essence Eau De Parfum</h1>
       <p>
         A floral, solar and voluptuous interpretation comprosed by Oliver Polge,
