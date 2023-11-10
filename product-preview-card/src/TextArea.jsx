@@ -3,14 +3,14 @@ const TextArea = () => {
     <div className="textArea flex flex-col	gap-[20px] p-[25px]">
       <p
         id="p1"
-        className="tracking-[5px] text-[13px] text-[hsl(228,12%,48%)] leading-[20px]	"
+        className="tracking-[5px] text-[13px] text-[hsl(228,12%,48%)] leading-[20px]	font-montserrat font-medium"
       >
         PERFUME
       </p>
       <h1 className="text-[hsl(212,21%,14%)] leading-[32px] ">
         Gabrielle Essence Eau De Parfum
       </h1>
-      <p className="text-[13px] text-[hsl(228,12%,48%)] leading-[20px]">
+      <p className="text-[13px] text-[hsl(228,12%,48%)] leading-[20px] font-montserrat font-medium">
         A floral, solar and voluptuous interpretation comprosed by Oliver Polge,
         Perfumer-Creator for the House of CHANEL.
       </p>
@@ -18,14 +18,14 @@ const TextArea = () => {
         <h2 className="text-[hsl(158,36%,37%)] leading-[32px]">$149.99</h2>
         <p
           id="price"
-          className="text-[12px] line-through text-[hsl(228,12%,48%)] leading-[20px]"
+          className="text-[12px] line-through text-[hsl(228,12%,48%)] leading-[20px] font-montserrat font-medium"
         >
           $169.99
         </p>
       </div>
       <button
         id="btn"
-        className="flex justify-center	items-center gap-[10px] w-full h-[40px] rounded-[8px] bg-[hsl(158,36%,37%)] text-white"
+        className="flex justify-center	items-center gap-[10px] w-full h-[40px] rounded-[8px] bg-[hsl(158,36%,37%)] text-white font-montserrat font-bold"
       >
         <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
           <path
