@@ -1,12 +1,5 @@
 const Image = () => {
-  return (
-    <img
-      src="/public/images/image-product-desktop.jpg"
-      alt="perfume chanel image"
-      width="268"
-      height="auto"
-    />
-  );
+  return <div className="bg-parfume bg-no-repeat	bg-cover	 w-[940px] h-auto" />;
 };
 
 export default Image;
