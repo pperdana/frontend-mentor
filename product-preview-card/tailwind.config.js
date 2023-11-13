@@ -7,6 +7,10 @@ export default {
         montserrat: ["Montserrat", "sans_serif"],
         fraunces: ["Fraunces", "sans_serif"],
       },
+      backgroundImage: {
+        parfume: "url('/public/images/image-product-desktop.jpg')",
+        "parfume-mobile": "url('/public/images/image-product-mobile.jpg')",
+      },
     },
     screens: {
       lg: { max: "37.5em" },
