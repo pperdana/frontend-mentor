@@ -27,7 +27,7 @@ const TextArea = () => {
       </div>
       <button
         id="btn"
-        className="flex justify-center	items-center gap-[10px] w-full h-[40px] rounded-[8px] bg-[hsl(158,36%,37%)] text-white font-montserrat font-bold text-[14px]"
+        className="flex justify-center	items-center gap-[10px] w-full h-[40px] rounded-[8px] bg-[hsl(158,36%,37%)] text-white font-montserrat font-bold text-[14px] hover:bg-[hsl(159,41%,26%)] active:bg-[hsl(159,41%,26%)]"
       >
         <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
           <path
