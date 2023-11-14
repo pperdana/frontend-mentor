@@ -2,11 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  body {
+    @apply h-screen lg:h-[auto];
+  }
+  #root {
+    @apply lg:h-screen lg:flex lg:items-center sm:items-start;
+  }
+}
+
 body {
   background-color: hsl(30, 38%, 92%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
