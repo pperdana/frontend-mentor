@@ -7,7 +7,7 @@ const TextArea = () => {
       >
         PERFUME
       </p>
-      <h1 className="text-[hsl(212,21%,14%)] leading-[32px] font-fraunces font-bold text-[32px]">
+      <h1 className="text-[hsl(212,21%,14%)] leading-[32px] font-fraunces font-bold text-[32px] sm:text-[28px]">
         Gabrielle Essence Eau De Parfum
       </h1>
       <p className="text-[13px] text-[hsl(228,12%,48%)] leading-[20px] font-montserrat font-medium">
@@ -15,7 +15,7 @@ const TextArea = () => {
         Perfumer-Creator for the House of CHANEL.
       </p>
       <div className="prices flex items-center gap-[15px]">
-        <h2 className="text-[hsl(158,36%,37%)] leading-[32px] font-fraunces font-bold text-[32px]">
+        <h2 className="text-[hsl(158,36%,37%)] leading-[32px] font-fraunces font-bold text-[32px] sm:text-[28px]">
           $149.99
         </h2>
         <p
