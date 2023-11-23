@@ -4,8 +4,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Table of contents
 
-- [Frontend Mentor - Product Preview](#frontend-mentor---product-preview)
-  - [Table of contents](#table-of-contents)
+
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
