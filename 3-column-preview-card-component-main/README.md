@@ -1,4 +1,4 @@
-# Frontend Mentor - 3-column preview card component solution
+# Frontend Mentor - 3 Column Preview Card
 
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [3 column preview card | Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-main-using-css-grid-Uwe53VM3c7)
-- Live Site URL: [https://3-column-preview-card-component-main-frontend.netlify.app](https://3-column-preview-card-component-main-frontend.netlify.app/)
+- Live Site URL: [https://three-column-preview-pperdana.netlify.app](https://three-column-preview-pperdana.netlify.app/)
 
 ## My process
 
