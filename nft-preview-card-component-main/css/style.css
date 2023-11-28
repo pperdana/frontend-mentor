@@ -1,129 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
 :root {
-    /* Colors */
-    /* Primary */
-    --soft-blue: hsl(215, 51%, 70%);
-    --cyan: hsl(178, 100%, 50%);
-    /* Neutral  */
-    --very-dark-blue-main: hsl(217, 54%, 11%);
-    --very-dark-blue-card: hsl(216, 50%, 16%);
-    --very-dark-blue-line: hsl(215, 32%, 27%);
-    --white: hsl(0, 0%, 100%);
+  /* Colors */
+  /* Primary */
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  /* Neutral  */
+  --very-dark-blue-main: hsl(217, 54%, 11%);
+  --very-dark-blue-card: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
 }
 
 body {
-    margin: 0;
-    font-family: 'Outfit', sans-serif;
-    font-size: 18px;
-    background-color: var(--very-dark-blue-main);
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: var(--very-dark-blue-main);
 }
 
 main {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-conttainer {
-    background-color: var(--very-dark-blue-card);
-    width: 300px;
-    padding: 18px;
-    border-radius: 12px;
-    box-shadow: 1px 20px 10px 15px hsl(215, 54%, 9%);
+  background-color: var(--very-dark-blue-card);
+  width: 300px;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 1px 20px 10px 15px hsl(215, 54%, 9%);
 }
 
 .img-container img {
-    width: 100%;
-    border-radius: 9px;
-    /* z-index: 9999; */
+  width: 100%;
+  border-radius: 9px;
+  /* z-index: 9999; */
 }
 
 .img-container {
-    position: relative;
+  position: relative;
 }
 
 .eye-container {
-    position: absolute;
-    top: 0px;
-    width: 300px;
-    height: 300px;
-    border-radius: 9px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: 0px;
+  width: 300px;
+  height: 300px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .eye-container:hover {
-    position: absolute;
-    background-image: url(../images/icon-view.svg);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-color: hsla(215, 74%, 79%, 0.302);
-    top: 0px;
-    width: 300px;
-    height: 300px;
-    border-radius: 9px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  background-image: url(../images/icon-view.svg);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-color: hsla(215, 74%, 79%, 0.302);
+  top: 0px;
+  width: 300px;
+  height: 300px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 /******** text container ********/
 #title {
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--white);
 }
 
 #title:hover {
-    color: var(--cyan);
+  color: var(--cyan);
+  cursor: pointer;
 }
 
 #description {
-    font-weight: 400;
-    color: var(--soft-blue);
+  font-weight: 400;
+  color: var(--soft-blue);
 }
 
 #eth-num {
-    font-weight: 300;
-    color: var(--cyan);
+  font-weight: 300;
+  color: var(--cyan);
 }
 
 .time-left {
-    float: right;
-    color: var(--soft-blue);
+  float: right;
+  color: var(--soft-blue);
 }
 
 hr {
-    border-top: 0.5px solid var(--very-dark-blue-line);
-    border-bottom: 0;
+  border-top: 0.5px solid var(--very-dark-blue-line);
+  border-bottom: 0;
 }
 
 /******** Creator ********/
 .creator {
-    display: flex;
-    justify-content: left;
-    align-items: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 .creator img {
-    border: solid white 2px;
-    width: 35px;
-    border-radius: 50%;
-
+  border: solid white 2px;
+  width: 35px;
+  border-radius: 50%;
 }
 
 .creator p {
-    margin-left: 15px;
-    color: var(--soft-blue);
+  margin-left: 15px;
+  color: var(--soft-blue);
 }
 
 .creator p span {
-    color: var(--white);
+  color: var(--white);
 }
 
 .creator p span:hover {
-    color: var(--cyan);
+  color: var(--cyan);
+  cursor: pointer;
 }
