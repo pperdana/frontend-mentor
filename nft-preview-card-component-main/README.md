@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [NFT preview card | Frontend Mentor](https://www.frontendmentor.io/solutions/news-homepage-j3rKhOT9FU)
-- Live Site URL: [https://nft-preview-card-component.netlify.app](https://nft-preview-card-component-frontend.netlify.app)
+- Live Site URL: [https://nft-preview-card-pperdana.netlify.app](https://nft-preview-card-pperdana.netlify.app)
 
 ## My process
 
