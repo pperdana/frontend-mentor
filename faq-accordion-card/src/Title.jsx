@@ -4,7 +4,9 @@ const Title = () => {
   return (
     <>
       <img src={star} alt="star" />
-      <h1>FAQs</h1>
+      <h1>
+        <span>faq</span>s
+      </h1>
     </>
   );
 };
