@@ -1,11 +1,11 @@
-import Card from "./Card";
-import Image from "./Image";
+import Questions from "./Questions";
+import Title from "./Title";
 
 function App() {
   return (
     <main>
-      <Image />
-      <Card />
+      <Title />
+      {/* <Questions /> */}
     </main>
   );
 }
