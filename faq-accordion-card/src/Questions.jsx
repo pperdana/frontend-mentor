@@ -9,7 +9,7 @@ const Questions = () => {
           <div className="faq-dropdown">
             <h2>What is Frontend Mentor, and how will it help me?</h2>
             <img className="icon-plus" src={iconPlus} />
-            <img className="icon-minus" src="assets/images/icon-minus.svg" />
+            <img className="icon-minus" src={iconMinus} />
           </div>
           <div className="hidden">
             <p>
@@ -25,7 +25,7 @@ const Questions = () => {
           <div className="faq-dropdown">
             <h2>Is Frontend Mentor free?</h2>
             <img className="icon-plus" src={iconPlus} />
-            <img className="icon-minus" src="assets/images/icon-minus.svg" />
+            <img className="icon-minus" src={iconMinus} />
           </div>
           <div className="hidden">
             <p>
@@ -40,7 +40,7 @@ const Questions = () => {
           <div className="faq-dropdown">
             <h2>Can I use Frontend Mentor projects in my portfolio?</h2>
             <img className="icon-plus" src={iconPlus} />
-            <img className="icon-minus" src="assets/images/icon-minus.svg" />
+            <img className="icon-minus" src={iconMinus} />
           </div>
           <div className="hidden">
             <p>
@@ -55,7 +55,7 @@ const Questions = () => {
           <div className="faq-dropdown">
             <h2>How can I get help if I'm stuck on a challenge?</h2>
             <img className="icon-plus" src={iconPlus} />
-            <img className="icon-minus" src="assets/images/icon-minus.svg" />
+            <img className="icon-minus" src={iconMinus} />
           </div>
           <div className="hidden">
             <p>
