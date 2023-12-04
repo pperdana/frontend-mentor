@@ -1,3 +1,6 @@
+import iconPlus from "./assets/icon-plus.svg";
+import iconMinus from "./assets/icon-minus.svg";
+
 const Questions = () => {
   return (
     <div>
@@ -5,7 +8,7 @@ const Questions = () => {
         <div className="questions">
           <div className="faq-dropdown">
             <h2>What is Frontend Mentor, and how will it help me?</h2>
-            <img className="icon-plus" src="assets/images/icon-plus.svg" />
+            <img className="icon-plus" src={iconPlus} />
             <img className="icon-minus" src="assets/images/icon-minus.svg" />
           </div>
           <div className="hidden">
@@ -21,7 +24,7 @@ const Questions = () => {
         <div className="questions">
           <div className="faq-dropdown">
             <h2>Is Frontend Mentor free?</h2>
-            <img className="icon-plus" src="assets/images/icon-plus.svg" />
+            <img className="icon-plus" src={iconPlus} />
             <img className="icon-minus" src="assets/images/icon-minus.svg" />
           </div>
           <div className="hidden">
@@ -36,7 +39,7 @@ const Questions = () => {
         <div className="questions">
           <div className="faq-dropdown">
             <h2>Can I use Frontend Mentor projects in my portfolio?</h2>
-            <img className="icon-plus" src="assets/images/icon-plus.svg" />
+            <img className="icon-plus" src={iconPlus} />
             <img className="icon-minus" src="assets/images/icon-minus.svg" />
           </div>
           <div className="hidden">
@@ -51,7 +54,7 @@ const Questions = () => {
         <div className="questions">
           <div className="faq-dropdown">
             <h2>How can I get help if I'm stuck on a challenge?</h2>
-            <img className="icon-plus" src="assets/images/icon-plus.svg" />
+            <img className="icon-plus" src={iconPlus} />
             <img className="icon-minus" src="assets/images/icon-minus.svg" />
           </div>
           <div className="hidden">
