@@ -1,4 +1,4 @@
-import Questions from "./Questions";
+import Questions from "./Question";
 import Title from "./Title";
 
 function App() {
