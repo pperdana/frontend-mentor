@@ -16,7 +16,14 @@ const Question = ({ question }) => {
           onClick={() => setShowAnswer(!showAnswer)}
         />
       </div>
+
       {showAnswer && <p className="answer p-[1rem] max-w-[60ch]">{info}</p>}
+
+      {id !== 4 ? (
+        <div className="divider border-b-[1px] border-solid	border-[hsla(292,16%,49%,.2)]" />
+      ) : (
+        <div className="hidden" />
+      )}
     </div>
   );
 };
