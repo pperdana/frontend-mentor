@@ -16,7 +16,7 @@ const Question = ({ question }) => {
           onClick={() => setShowAnswer(!showAnswer)}
         />
       </div>
-      {showAnswer && <p className="answer">{info}</p>}
+      {showAnswer && <p className="answer p-[1rem] max-w-[60ch]">{info}</p>}
     </div>
   );
 };
