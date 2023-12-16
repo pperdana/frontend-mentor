@@ -4,6 +4,6 @@
 
 @layer components {
   body {
-    @apply bg-[hsl(275,100%,97%)] bg-desktop-pattern bg-no-repeat bg-top bg-contain font-work-sans;
+    @apply bg-[hsl(275,100%,97%)] bg-desktop-pattern bg-no-repeat bg-top bg-contain font-work-sans text-[hsl(292,42%,14%)];
   }
 }

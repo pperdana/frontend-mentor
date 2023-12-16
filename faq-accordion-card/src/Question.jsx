@@ -9,7 +9,7 @@ const Question = ({ question }) => {
 
   return (
     <div className="text-box">
-      <div className="question p-[1rem] flex items-center justify-between gap-[2rem]">
+      <div className="question p-[1rem] flex items-center justify-between gap-[2rem] text-[1.25rem] font-bold">
         <span className="text">{title}</span>
         <FaCirclePlus
           className="btn"
