@@ -8,6 +8,9 @@ export default {
         "mobile-pattern": "url('/src/assets/background-pattern-mobile.svg')",
       },
     },
+    fontFamily: {
+      "work-sans": ["Work Sans", "ui-sans-serif"],
+    },
   },
   plugins: [],
 };
