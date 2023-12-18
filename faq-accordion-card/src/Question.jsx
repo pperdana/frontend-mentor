@@ -13,12 +13,12 @@ const Question = ({ question }) => {
         <span className="text">{title}</span>
         {showAnswer ? (
           <FaCircleMinus
-            className="btn"
+            className="btn text-[25px] cursor-pointer"
             onClick={() => setShowAnswer(!showAnswer)}
           />
         ) : (
           <FaCirclePlus
-            className="btn"
+            className="btn text-[25px] text-[hsl(281,83%,54%)] cursor-pointer"
             onClick={() => setShowAnswer(!showAnswer)}
           />
         )}
