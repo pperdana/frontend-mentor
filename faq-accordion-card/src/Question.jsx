@@ -11,10 +11,17 @@ const Question = ({ question }) => {
     <div className="text-box">
       <div className="question p-[1rem] flex items-center justify-between gap-[2rem] text-[1.25rem] font-bold">
         <span className="text">{title}</span>
-        <FaCirclePlus
-          className="btn"
-          onClick={() => setShowAnswer(!showAnswer)}
-        />
+        {showAnswer ? (
+          <FaCircleMinus
+            className="btn"
+            onClick={() => setShowAnswer(!showAnswer)}
+          />
+        ) : (
+          <FaCirclePlus
+            className="btn"
+            onClick={() => setShowAnswer(!showAnswer)}
+          />
+        )}
       </div>
 
       {showAnswer && <p className="answer p-[1rem] max-w-[60ch]">{info}</p>}
