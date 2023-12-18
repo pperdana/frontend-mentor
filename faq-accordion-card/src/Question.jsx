@@ -10,7 +10,9 @@ const Question = ({ question }) => {
   return (
     <div className="text-box">
       <div className="question p-[1rem] flex items-center justify-between gap-[2rem] text-[1.25rem] font-bold">
-        <span className="text">{title}</span>
+        <span className="text hover:text-[hsl(281,83%,54%)] duration-300 cursor-pointer">
+          {title}
+        </span>
         {showAnswer ? (
           <FaCircleMinus
             className="btn text-[25px] cursor-pointer"
