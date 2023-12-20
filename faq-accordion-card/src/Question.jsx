@@ -10,18 +10,15 @@ const Question = ({ question }) => {
   return (
     <>
       <div className="text-box p-[1rem]">
-        <div className="question p-[1rem] flex items-center justify-between gap-[2rem] text-[1.25rem] font-bold">
+        <div
+          className="question p-[1rem] flex items-center justify-between gap-[2rem] text-[1.25rem] font-bold cursor-pointer hover:text-[hsl(281,83%,54%)]"
+          onClick={() => setShowAnswer(!showAnswer)}
+        >
           <span className="text duration-300">{title}</span>
           {showAnswer ? (
-            <FaCircleMinus
-              className="btn text-[25px] cursor-pointer"
-              onClick={() => setShowAnswer(!showAnswer)}
-            />
+            <FaCircleMinus className="btn text-[25px] cursor-pointer" />
           ) : (
-            <FaCirclePlus
-              className="btn text-[25px] text-[hsl(281,83%,54%)] cursor-pointer"
-              onClick={() => setShowAnswer(!showAnswer)}
-            />
+            <FaCirclePlus className="btn text-[25px] text-[hsl(281,83%,54%)] cursor-pointer" />
           )}
         </div>
 
