@@ -11,6 +11,10 @@ export default {
     fontFamily: {
       "work-sans": ["Work Sans", "ui-sans-serif"],
     },
+    screens: {
+      lg: { max: "50em" },
+      md: { max: "37.5em" },
+    },
   },
   plugins: [],
 };
