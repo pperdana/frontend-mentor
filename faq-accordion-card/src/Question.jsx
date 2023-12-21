@@ -16,9 +16,9 @@ const Question = ({ question }) => {
         >
           <span className="text duration-300">{title}</span>
           {showAnswer ? (
-            <FaCircleMinus className="btn text-[25px] cursor-pointer" />
+            <FaCircleMinus className="btn  cursor-pointer" />
           ) : (
-            <FaCirclePlus className="btn text-[25px] text-[hsl(281,83%,54%)] cursor-pointer" />
+            <FaCirclePlus className="btn  text-[hsl(281,83%,54%)] cursor-pointer" />
           )}
         </div>
 
