@@ -14,7 +14,7 @@ const Question = ({ question }) => {
           className="question p-[1rem] flex items-center justify-between gap-[2rem] text-[1.25rem] font-bold cursor-pointer hover:text-[hsl(281,83%,54%)]"
           onClick={() => setShowAnswer(!showAnswer)}
         >
-          <span className="text duration-300">{title}</span>
+          <span className="text duration-300 lg:max-w-[300px]">{title}</span>
           {showAnswer ? (
             <FaCircleMinus className="btn  cursor-pointer" />
           ) : (
