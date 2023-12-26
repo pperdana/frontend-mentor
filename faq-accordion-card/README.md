@@ -46,6 +46,9 @@ Users should be able to:
 ### Useful resources
 
 - [A Complete Guide to Flexbox | CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+- [Get started with Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [React Reference Overview](https://react.dev/reference/react)
+- [React Icons](https://react-icons.github.io/react-icons)
 
 ## Author
 
