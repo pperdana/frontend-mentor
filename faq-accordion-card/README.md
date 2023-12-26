@@ -3,17 +3,14 @@
 This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
-
-- [Frontend Mentor - FAQ Accordion Solution](#frontend-mentor---faq-accordion-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
 ## Overview
 
@@ -32,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FAQ Accordion | Frontend Mentor]()
-- Live Site URL: []()
+- Solution URL: [FAQ Accordion | Frontend Mentor](https://www.frontendmentor.io/solutions/faq-accordion-with-react-QUbXQQcYbr)
+- Live Site URL: [https://faq-accordion-pperdana.netlify.app](https://faq-accordion-pperdana.netlify.app/)
 
 ## My process
 
