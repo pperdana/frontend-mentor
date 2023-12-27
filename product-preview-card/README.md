@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://product-preview-pperdana.netlify.app](https://product-preview-pperdana.netlify.app)
+- Solution URL: [Product Preview | Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-with-react-and-tailwind-96AMMD0m8A)
 - Live Site URL: [https://product-preview-pperdana.netlify.app](https://product-preview-pperdana.netlify.app)
 
 ## My process
