@@ -47,6 +47,8 @@ Users should be able to:
 
 - [A Complete Guide to CSS Grid | CSS Tricks ](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [A Complete Guide to Flexbox | CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+- [Vite Guide Getting Started](https://vitejs.dev/guide)
+- [Get started with Tailwind CSS](https://tailwindcss.com/docs/installation)
 
 ## Author
 
