@@ -1,3 +1,5 @@
+import illustration from "./assets/illustration-dashboard.png";
+
 const Hero = () => {
   return (
     <main>
@@ -18,7 +20,10 @@ const Hero = () => {
           </button>
         </form>
       </section>
-      <section className="illustration"></section>
+
+      <section className="illustration">
+        <img src={illustration} alt="Illustration dashboard" />
+      </section>
     </main>
   );
 };
