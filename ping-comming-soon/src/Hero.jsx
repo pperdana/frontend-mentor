@@ -20,7 +20,7 @@ const Hero = () => {
             type="email"
             name="email"
             id="email"
-            className="rounded-[2rem]"
+            className="rounded-[2rem] max-w-[65%]	m-0 text-[1.125rem] w-[100%] outline-none	border-[1px] border-solid border-[hsl(223,100%,88%)]"
             placeholder="Your email address..."
           />
           <button type="submit" id="button">
