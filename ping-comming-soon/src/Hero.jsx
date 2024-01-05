@@ -12,7 +12,7 @@ const Hero = () => {
         </p>
         <form
           id="form"
-          className="w-[60%] my-0  mb-auto flex flex-wrap	justify-center items-center gap-[0.5rem]"
+          className="my-0  mb-auto flex flex-wrap	justify-center items-center gap-[0.5rem]"
           action="/"
           method="post"
         >
@@ -20,13 +20,13 @@ const Hero = () => {
             type="email"
             name="email"
             id="email"
-            className="rounded-[2rem] max-w-[65%]	m-0 text-[1.125rem] w-[100%] outline-none	border-[1px] border-solid border-[hsl(223,100%,88%)]"
+            className="h-[55px] rounded-[2rem] max-w-[300px] m-0 text-[1.125rem]  w-[100%] outline-none	border-[1px] border-solid border-[hsl(223,100%,88%)] py-[16px] px-[32px]"
             placeholder="Your email address..."
           />
           <button
             type="submit"
             id="button"
-            className="bg-[hsl(223,87%,63%)] text-white	cursor-pointer shadow-[2px_3px_10px_rgba(79,125,242,.5)] transition-all	duration-300 ease-linear"
+            className="h-[55px] w-[143px] bg-[hsl(223,87%,63%)]  text-white	cursor-pointer shadow-[2px_3px_10px_rgba(79,125,242,.5)] transition-all	duration-300 ease-linear rounded-[2rem] text-[18px]"
           >
             Notify Me
           </button>
@@ -34,7 +34,7 @@ const Hero = () => {
       </section>
 
       <section className="illustration">
-        <img src={illustration} alt="Illustration dashboard" />
+        {/* <img src={illustration} alt="Illustration dashboard" /> */}
       </section>
     </main>
   );
