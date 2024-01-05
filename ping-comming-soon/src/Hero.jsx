@@ -23,7 +23,11 @@ const Hero = () => {
             className="rounded-[2rem] max-w-[65%]	m-0 text-[1.125rem] w-[100%] outline-none	border-[1px] border-solid border-[hsl(223,100%,88%)]"
             placeholder="Your email address..."
           />
-          <button type="submit" id="button">
+          <button
+            type="submit"
+            id="button"
+            className="bg-[hsl(223,87%,63%)] text-white	cursor-pointer shadow-[2px_3px_10px_rgba(79,125,242,.5)] transition-all	duration-300 ease-linear"
+          >
             Notify Me
           </button>
         </form>
