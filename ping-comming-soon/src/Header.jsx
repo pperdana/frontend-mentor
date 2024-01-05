@@ -2,7 +2,7 @@ import logo from "./assets/logo.svg";
 
 const Header = () => {
   return (
-    <header className="flex justify-center my-[5.6rem]">
+    <header className="flex justify-center mt-[5.6rem] mb-[2.6rem]">
       <img src={logo} alt="logo" />
     </header>
   );
