@@ -33,8 +33,12 @@ const Hero = () => {
         </form>
       </section>
 
-      <section className="illustration">
-        {/* <img src={illustration} alt="Illustration dashboard" /> */}
+      <section className="illustration flex justify-center">
+        <img
+          src={illustration}
+          alt="Illustration dashboard"
+          className="w-[50%]"
+        />
       </section>
     </main>
   );
