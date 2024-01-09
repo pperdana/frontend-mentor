@@ -15,8 +15,10 @@ const Footer = () => {
             <FaInstagram className="icon" />
           </div>
         </div>
-        <div className="copyright">
-          <p>© Copyright Ping. All rights reserved.</p>
+        <div className="copyright my-[27px]">
+          <p className="text-[12px] text-[hsl(0,0%,59%)]">
+            © Copyright Ping. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
