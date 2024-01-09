@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply p-[5px] border-[1px] border-[rgba(194,211,255,.5)] cursor-pointer rounded-full;
+  }
+}
