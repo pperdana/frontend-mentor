@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <main>
       <section className="form text-center">
-        <h1 className="text-[3rem] mb-[1.15rem]">
-          We are launching <strong>soon!</strong>
+        <h1 className="text-[3rem] mb-[1.15rem] text-[hsl(0,0%,59%)]">
+          We are launching <strong className="text-black">soon!</strong>
         </h1>
         <p className="subscribe text-[1.25rem] mb-[2.28rem]">
           Subscribe and get notified
