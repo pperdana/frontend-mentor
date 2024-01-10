@@ -26,7 +26,7 @@ const Hero = () => {
           <button
             type="submit"
             id="button"
-            className="h-[55px] w-[170px] bg-[hsl(223,87%,63%)]  text-white	cursor-pointer shadow-[2px_3px_10px_rgba(79,125,242,.5)] transition-all	duration-300 ease-linear rounded-[2rem] text-[18px]"
+            className="h-[55px] w-[170px] bg-[hsl(223,87%,63%)]  text-white	cursor-pointer shadow-[2px_3px_10px_rgba(79,125,242,.5)] transition-all	duration-300 ease-linear rounded-[2rem] text-[18px] hover:bg-[rgba(79,125,242,.8)] hover:shadow-[2px_3px_10px_rgba(79,125,242,.3)]"
           >
             Notify Me
           </button>
