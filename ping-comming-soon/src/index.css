@@ -4,9 +4,10 @@
 
 @layer components {
   .icon-container {
-    @apply p-[7px] border-[1px] border-[rgba(194,211,255,.5)] cursor-pointer rounded-full;
+    @apply p-[7px] text-[hsl(223,87%,63%)] border-[1px] border-[rgba(194,211,255,.5)] cursor-pointer rounded-full duration-300 transition-all	ease-linear	hover:bg-[hsl(223,87%,63%)] hover:text-white;
   }
+
   .icon {
-    @apply text-[20px] text-[hsl(223,87%,63%)];
+    @apply text-[20px];
   }
 }
