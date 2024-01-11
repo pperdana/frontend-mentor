@@ -5,6 +5,7 @@ export default {
     extend: {},
     screens: {
       md: { max: "39em" },
+      sm: { max: "28em" },
     },
   },
   plugins: [],
