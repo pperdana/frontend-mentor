@@ -37,7 +37,7 @@ const Hero = () => {
         <img
           src={illustration}
           alt="Illustration dashboard"
-          className="w-[50%]"
+          className="w-[50%] md:w-[80%]"
         />
       </section>
     </main>
