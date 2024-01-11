@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <main>
       <section className="form text-center">
-        <h1 className="text-[3rem] mb-[1.15rem] text-[hsl(0,0%,59%)]">
+        <h1 className="text-[3rem] mb-[1.15rem] text-[hsl(0,0%,59%)] md:text-[2.4rem]">
           We are launching <strong className="text-black">soon!</strong>
         </h1>
         <p className="subscribe text-[1.25rem] mb-[2.28rem]">
@@ -20,7 +20,7 @@ const Hero = () => {
             type="email"
             name="email"
             id="email"
-            className="h-[55px] rounded-[2rem] max-w-[350px] m-0 text-[1.125rem]  w-[100%] outline-none	border-[1px] border-solid border-[hsl(223,100%,88%)] py-[16px] px-[32px]"
+            className="h-[55px] rounded-[2rem] max-w-[350px] m-0 text-[1.125rem]  w-[100%] outline-none	border-[1px] border-solid border-[hsl(223,100%,88%)] py-[16px] px-[32px] md:max-w-[330px]"
             placeholder="Your email address..."
           />
           <button
