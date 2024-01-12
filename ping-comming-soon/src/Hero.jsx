@@ -6,6 +6,7 @@ const Hero = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setEmail("");
   };
 
   return (
