@@ -1,6 +1,9 @@
+import { useState } from "react";
 import illustration from "./assets/illustration-dashboard.png";
 
 const Hero = () => {
+  const [email, setEmail] = useState("");
+
   const handleSubmit = (e) => {
     e.preventDefault();
   };
@@ -25,6 +28,8 @@ const Hero = () => {
             id="email"
             className="h-[55px] rounded-[2rem] max-w-[350px] m-0 text-[1.125rem]  w-[100%] outline-none	border-[1px] border-solid border-[hsl(223,100%,88%)] py-[16px] px-[32px] md:max-w-[330px] sm:max-w-[80%] sm:h-[48px] sm:text-[1rem]"
             placeholder="Your email address..."
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
           <button
             type="submit"
