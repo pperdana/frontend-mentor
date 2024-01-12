@@ -1,6 +1,10 @@
 import illustration from "./assets/illustration-dashboard.png";
 
 const Hero = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <main>
       <section className="form text-center">
@@ -13,8 +17,7 @@ const Hero = () => {
         <form
           id="form"
           className="my-0  mb-auto flex flex-wrap	justify-center items-center gap-[0.5rem]"
-          action="/"
-          method="post"
+          onSubmit={handleSubmit}
         >
           <input
             type="email"
