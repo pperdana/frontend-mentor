@@ -38,7 +38,9 @@ const Hero = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-
+          <p className="absolute text-[12px] top-[135%]	left-[37%] translate-x-[-50%] translate-y-[-50%]">
+            please provide valid email address
+          </p>
           <button
             type="submit"
             id="button"
