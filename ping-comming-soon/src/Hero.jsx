@@ -3,15 +3,16 @@ import illustration from "./assets/illustration-dashboard.png";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
-  const [error, setError] = useState(false);
+  const [valid, setValid] = useState(true);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email.includes(".com")) {
       setEmail("");
+      setValid(true);
     } else {
       console.log("please provide valid email address");
-      setError(true);
+      setValid(false);
     }
   };
 
@@ -25,10 +26,10 @@ const Hero = () => {
           Subscribe and get notified
         </p>
 
-        <div className="form-box flex items-center">
+        <div className="form-box flex justify-center">
           <form
             id="form"
-            className="my-0  mb-auto relative flex items-center items-center"
+            className="max-w-[500px] my-0  mb-auto relative flex items-center justify-center gap-[16px]"
             onSubmit={handleSubmit}
           >
             <input
@@ -40,9 +41,13 @@ const Hero = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <p className="text-[12px] absolute top-[50%]	left-[50%] translate-x-[-50%] translate-y-[-50%]">
-              please provide valid email address
-            </p>
+
+            {valid || (
+              <p className="text-[12px] text-red-600 italic absolute top-[128%]	left-[27.6%] translate-x-[-50%] translate-y-[-50%]">
+                please provide valid email address
+              </p>
+            )}
+
             <button
               type="submit"
               id="button"
