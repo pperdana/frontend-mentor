@@ -3,10 +3,16 @@ import illustration from "./assets/illustration-dashboard.png";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
+  const [error, setError] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setEmail("");
+    if (email.includes(".com")) {
+      setEmail("");
+    } else {
+      console.log("please provide valid email address");
+      setError(true);
+    }
   };
 
   return (
@@ -20,7 +26,7 @@ const Hero = () => {
         </p>
         <form
           id="form"
-          className="my-0  mb-auto flex flex-wrap	justify-center items-center gap-[0.5rem]"
+          className="my-0  mb-auto relative flex flex-wrap	justify-center items-center gap-[0.5rem]"
           onSubmit={handleSubmit}
         >
           <input
@@ -32,6 +38,7 @@ const Hero = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
+
           <button
             type="submit"
             id="button"
