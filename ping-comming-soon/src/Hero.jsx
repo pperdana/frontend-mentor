@@ -4,14 +4,21 @@ import illustration from "./assets/illustration-dashboard.png";
 const Hero = () => {
   const [email, setEmail] = useState("");
   const [valid, setValid] = useState(true);
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!email) {
+      console.log("empty email!!!!!!!!!!!");
+      setMessage("Whoops! It looks like you forgot to add your email");
+      return;
+    }
+
     if (email.includes(".com")) {
       setEmail("");
       setValid(true);
     } else {
-      console.log("please provide valid email address");
+      setMessage("please provide valid email address");
       setValid(false);
     }
   };
@@ -46,7 +53,7 @@ const Hero = () => {
 
             {valid || (
               <p className="text-[12px] text-red-600 italic absolute top-[128%]	left-[27.6%] translate-x-[-50%] translate-y-[-50%] sm:text-[11px] sm:inline-block sm:w-[185px] sm:top-[46%] sm:left-[50%]">
-                please provide valid email address
+                {message}
               </p>
             )}
 
