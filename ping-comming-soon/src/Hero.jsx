@@ -29,21 +29,21 @@ const Hero = () => {
         <div className="form-box flex justify-center">
           <form
             id="form"
-            className="max-w-[500px] my-0  mb-auto relative flex items-center justify-center gap-[16px] md:mx-[16px]"
+            className="max-w-[500px] my-0  mb-auto relative flex items-center justify-center gap-[16px] md:mx-[16px] sm:flex-col sm:mx-0 sm:gap-[40px]"
             onSubmit={handleSubmit}
           >
             <input
               type="email"
               name="email"
               id="email"
-              className="h-[55px] rounded-[2rem] max-w-[350px] m-0 text-[1.125rem]  w-[100%] outline-none	border-[1px] border-solid border-[hsl(223,100%,88%)] py-[16px] px-[32px] md:max-w-[330px] sm:max-w-[80%] sm:h-[48px] sm:text-[1rem]"
+              className="h-[55px] rounded-[2rem] max-w-[350px] m-0 text-[1.125rem]  w-[100%] outline-none	border-[1px] border-solid border-[hsl(223,100%,88%)] py-[16px] px-[32px] md:max-w-[330px]  sm:h-[48px] sm:text-[1rem] sm:w-[120%]"
               placeholder="Your email address..."
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
 
             {valid || (
-              <p className="text-[12px] text-red-600 italic absolute top-[128%]	left-[27.6%] translate-x-[-50%] translate-y-[-50%]">
+              <p className="text-[12px] text-red-600 italic absolute top-[128%]	left-[27.6%] translate-x-[-50%] translate-y-[-50%] sm:text-[11px] sm:inline-block sm:w-[185px] sm:top-[46%] sm:left-[50%]">
                 please provide valid email address
               </p>
             )}
@@ -51,7 +51,7 @@ const Hero = () => {
             <button
               type="submit"
               id="button"
-              className="h-[55px] w-[170px] bg-[hsl(223,87%,63%)]  text-white	cursor-pointer shadow-[2px_3px_10px_rgba(79,125,242,.5)] transition-all	duration-300 ease-linear rounded-[2rem] text-[18px] hover:bg-[rgba(79,125,242,.8)] hover:shadow-[2px_3px_10px_rgba(79,125,242,.3)] sm:w-[80%] sm:h-[48px]"
+              className="h-[55px] w-[170px] bg-[hsl(223,87%,63%)]  text-white	cursor-pointer shadow-[2px_3px_10px_rgba(79,125,242,.5)] transition-all	duration-300 ease-linear rounded-[2rem] text-[18px] hover:bg-[rgba(79,125,242,.8)] hover:shadow-[2px_3px_10px_rgba(79,125,242,.3)] sm:w-[120%] sm:h-[48px]"
             >
               Notify Me
             </button>
