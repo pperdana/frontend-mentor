@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="form-box flex justify-center">
           <form
             id="form"
-            className="max-w-[500px] my-0  mb-auto relative flex items-center justify-center gap-[16px]"
+            className="max-w-[500px] my-0  mb-auto relative flex items-center justify-center gap-[16px] md:mx-[16px]"
             onSubmit={handleSubmit}
           >
             <input
