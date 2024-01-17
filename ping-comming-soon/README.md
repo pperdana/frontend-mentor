@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [ping-coming-soon-pperdana.netlify.app](https://ping-coming-soon-pperdana.netlify.app)
 
 ## My process
 
