@@ -18,7 +18,7 @@ const Hero = () => {
       setEmail("");
       setValid(true);
     } else {
-      setMessage("please provide valid email address");
+      setMessage("Please provide valid email address");
       setValid(false);
     }
   };
@@ -52,7 +52,9 @@ const Hero = () => {
             />
 
             {valid || (
-              <p className="text-[12px] text-red-600 italic absolute top-[128%]	left-[27.6%] translate-x-[-50%] translate-y-[-50%] sm:text-[11px] sm:inline-block sm:w-[185px] sm:top-[46%] sm:left-[50%]">
+              <p
+                className={`w-[300px] text-left	 text-[12px] text-red-600 italic absolute top-[128%]	left-[38.5%] translate-x-[-50%] translate-y-[-50%] sm:text-[11px] sm:inline-block sm:w-[185px] sm:top-[46%] sm:left-[50%]`}
+              >
                 {message}
               </p>
             )}
