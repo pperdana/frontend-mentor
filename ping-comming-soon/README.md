@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Ping coming soon page | Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-ping-coming-soon-page-3nTJj4Dqev)
 - Live Site URL: [ping-coming-soon-pperdana.netlify.app](https://ping-coming-soon-pperdana.netlify.app)
 
 ## My process
