@@ -9,7 +9,6 @@ const Hero = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!email) {
-      console.log("empty email!!!!!!!!!!!");
       setMessage("Whoops! It looks like you forgot to add your email");
       return;
     }
@@ -52,9 +51,7 @@ const Hero = () => {
             />
 
             {valid || (
-              <p
-                className={`w-[300px] text-left	 text-[12px] text-red-600 italic absolute top-[128%]	left-[38.5%] translate-x-[-50%] translate-y-[-50%] sm:text-[11px] sm:inline-block sm:w-[185px] sm:top-[46%] sm:left-[50%]`}
-              >
+              <p className="w-[300px] text-left	 text-[12px] text-red-600 italic absolute top-[128%]	left-[38.5%] translate-x-[-50%] translate-y-[-50%] sm:text-[11px] sm:inline-block sm:w-[280px] sm:top-[46%] sm:left-[55%]">
                 {message}
               </p>
             )}
