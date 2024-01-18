@@ -1,9 +1,11 @@
+import illustration from "./assets/illustration-article.svg";
+
 const App = () => {
   return (
     <>
       <div className="card">
         <div className="card-img">
-          <img src="/assets/images/illustration-article.svg" alt="card image" />
+          <img src={illustration} alt="card image" />
         </div>
 
         <div className="card-info">
