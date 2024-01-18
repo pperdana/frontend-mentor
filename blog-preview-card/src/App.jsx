@@ -1,4 +1,5 @@
 import illustration from "./assets/illustration-article.svg";
+import avatar from "./assets/image-avatar.webp";
 
 const App = () => {
   return (
@@ -21,11 +22,7 @@ const App = () => {
 
           <div className="card-profile">
             <div className="avatar">
-              <img
-                src="/assets/images/image-avatar.webp"
-                alt="avatar"
-                className="avatar-img"
-              />
+              <img src={avatar} alt="avatar" className="avatar-img" />
             </div>
             <p className="avatar-name">Greg Hooper</p>
           </div>
