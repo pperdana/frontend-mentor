@@ -23,12 +23,12 @@ const App = () => {
 
           <h1 className="card-title">HTML &amp; CSS foundations</h1>
 
-          <p className="card-desc">
+          <p className="card-desc leading-[1.5] text-[16px] text-[hsl(0,0%,50%)] font-normal	mt-[18px] mb-[16px] mx-0">
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
 
-          <div className="card-profile">
+          <div className="card-profile flex items-center	gap-[22px]">
             <div className="avatar">
               <img src={avatar} alt="avatar" className="avatar-img" />
             </div>
