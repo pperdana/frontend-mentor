@@ -14,7 +14,9 @@ const App = () => {
         </div>
 
         <div className="card-info">
-          <p className="card-type">Learning</p>
+          <p className="card-type inline-block	py-[6px] px-[12px] rounded-[6px] bg-[hsl(47,88%,63%)] font-extrabold	mb-[14px] text-[14px]">
+            Learning
+          </p>
           <p className="card-date">Published 21 Dec 2023</p>
 
           <h1 className="card-title">HTML &amp; CSS foundations</h1>
