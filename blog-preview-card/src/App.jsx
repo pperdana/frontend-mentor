@@ -3,7 +3,7 @@ import avatar from "./assets/image-avatar.webp";
 
 const App = () => {
   return (
-    <>
+    <main className="container max-w-[1440px] my-0 mx-auto h-[100vh] flex items-center	justify-center">
       <div className="card">
         <div className="card-img">
           <img src={illustration} alt="card image" />
@@ -28,7 +28,7 @@ const App = () => {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 };
 
