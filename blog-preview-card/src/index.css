@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  body {
+    @apply bg-[hsl(47,88%,63%)];
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
