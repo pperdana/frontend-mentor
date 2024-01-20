@@ -28,9 +28,9 @@ const App = () => {
             structure, content, and presentation.
           </p>
 
-          <div className="card-profile flex items-center	gap-[22px]">
+          <div className="card-profile flex items-center	gap-[16px]">
             <div className="avatar">
-              <img src={avatar} alt="avatar" className="avatar-img" />
+              <img src={avatar} alt="avatar" className="avatar-img w-[32px]" />
             </div>
             <p className="avatar-name">Greg Hooper</p>
           </div>
