@@ -7,17 +7,17 @@ const App = () => {
       <div className="card max-w-[385px] h-[520px] bg-white p-[25px] flex flex-col	rounded-[18px] border-[1px]	border-solid	border-[hsl(0,0%,7%)]	shadow-[10px_10px_hsl(0,0%,7%)]">
         <div className="card-img">
           <img
-            className="w-[100%] rounded-[10px] mb-[18px]"
+            className="w-[100%] rounded-[10px] mb-[22px]"
             src={illustration}
             alt="card image"
           />
         </div>
 
         <div className="card-info">
-          <p className="card-type inline-block	py-[4px] px-[12px] rounded-[6px] bg-[hsl(47,88%,63%)] font-extrabold	mb-[14px] text-[14px] font-extrabold">
+          <p className="card-type inline-block	py-[4px] px-[12px] rounded-[6px] bg-[hsl(47,88%,63%)] font-bold mb-[14px] text-[14px]">
             Learning
           </p>
-          <p className="card-date text-[16px] mb-[16px] font-semibold">
+          <p className="card-date text-[16px] mb-[8px] font-semibold">
             Published 21 Dec 2023
           </p>
 
@@ -25,7 +25,7 @@ const App = () => {
             HTML &amp; CSS foundations
           </h1>
 
-          <p className="card-desc leading-[1.5] text-[16px] text-[hsl(0,0%,50%)] font-normal	mt-[18px] mb-[16px] mx-0">
+          <p className="card-desc leading-[1.5] text-[16px] text-[hsl(0,0%,50%)] font-normal	mt-[14px] mb-[16px] mx-0">
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
