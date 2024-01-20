@@ -4,7 +4,7 @@
 
 @layer components {
   body {
-    @apply bg-[hsl(47,88%,63%)];
+    @apply bg-[hsl(47,88%,63%)] font-['Figtree'];
   }
 }
 
