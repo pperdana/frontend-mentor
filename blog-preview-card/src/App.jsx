@@ -34,7 +34,9 @@ const App = () => {
             <div className="avatar">
               <img src={avatar} alt="avatar" className="avatar-img w-[32px]" />
             </div>
-            <p className="avatar-name font-bold text-[14px]">Greg Hooper</p>
+            <p className="avatar-name font-extrabold	 text-[14px]">
+              Greg Hooper
+            </p>
           </div>
         </div>
       </div>
