@@ -14,14 +14,16 @@ const App = () => {
         </div>
 
         <div className="card-info">
-          <p className="card-type inline-block	py-[6px] px-[12px] rounded-[6px] bg-[hsl(47,88%,63%)] font-extrabold	mb-[14px] text-[14px]">
+          <p className="card-type inline-block	py-[4px] px-[12px] rounded-[6px] bg-[hsl(47,88%,63%)] font-extrabold	mb-[14px] text-[14px] font-extrabold">
             Learning
           </p>
           <p className="card-date text-[16px] mb-[16px] font-semibold">
             Published 21 Dec 2023
           </p>
 
-          <h1 className="card-title">HTML &amp; CSS foundations</h1>
+          <h1 className="card-title text-[24px] font-extrabold">
+            HTML &amp; CSS foundations
+          </h1>
 
           <p className="card-desc leading-[1.5] text-[16px] text-[hsl(0,0%,50%)] font-normal	mt-[18px] mb-[16px] mx-0">
             These languages are the backbone of every website, defining
@@ -32,7 +34,7 @@ const App = () => {
             <div className="avatar">
               <img src={avatar} alt="avatar" className="avatar-img w-[32px]" />
             </div>
-            <p className="avatar-name">Greg Hooper</p>
+            <p className="avatar-name font-bold text-[14px]">Greg Hooper</p>
           </div>
         </div>
       </div>
