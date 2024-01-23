@@ -4,7 +4,7 @@ import avatar from "./assets/image-avatar.webp";
 const App = () => {
   return (
     <main className="container max-w-[1440px] my-0 mx-auto h-[100vh] flex items-center	justify-center">
-      <div className="card max-w-[385px] h-[520px] bg-white p-[25px] flex flex-col	rounded-[18px] border-[1px]	border-solid	border-[hsl(0,0%,7%)]	shadow-[10px_10px_hsl(0,0%,7%)] transition-all duration-300 hover:shadow-[15px_15px_hsl(0,0%,7%)]">
+      <div className="card  max-w-[385px] h-[520px] bg-white p-[25px] flex flex-col	rounded-[18px] border-[1px]	border-solid	border-[hsl(0,0%,7%)]	shadow-[10px_10px_hsl(0,0%,7%)] transition-all duration-300 hover:shadow-[15px_15px_hsl(0,0%,7%)] md:w-[340px] md:h-[495px]">
         <div className="card-img">
           <img
             className="w-[100%] rounded-[10px] mb-[22px]"
