@@ -4,7 +4,7 @@ import avatar from "./assets/image-avatar.webp";
 const App = () => {
   return (
     <main className="container max-w-[1440px] my-0 mx-auto h-[100vh] flex items-center	justify-center">
-      <div className="card  max-w-[385px] h-[520px] bg-white p-[25px] flex flex-col	rounded-[18px] border-[1px]	border-solid	border-[hsl(0,0%,7%)]	shadow-[10px_10px_hsl(0,0%,7%)] transition-all duration-300 hover:shadow-[15px_15px_hsl(0,0%,7%)] md:w-[340px] md:h-[495px]">
+      <div className="card  max-w-[385px] h-[520px] bg-white p-[25px] flex flex-col	rounded-[18px] border-[1px]	border-solid	border-[hsl(0,0%,7%)]	shadow-[10px_10px_hsl(0,0%,7%)] transition-all duration-300 hover:shadow-[15px_15px_hsl(0,0%,7%)] md:w-[340px] md:h-[495px] sm:w-[280px] sm:h-[468px]">
         <div className="card-img">
           <img
             className="w-[100%] rounded-[10px] mb-[22px]"
@@ -14,14 +14,14 @@ const App = () => {
         </div>
 
         <div className="card-info">
-          <p className="card-type inline-block	py-[4px] px-[12px] rounded-[6px] bg-[hsl(47,88%,63%)] font-bold mb-[14px] text-[14px]">
+          <p className="card-type inline-block	py-[4px] px-[12px] rounded-[6px] bg-[hsl(47,88%,63%)] font-bold mb-[14px] text-[14px] sm:text-[12px]">
             Learning
           </p>
-          <p className="card-date text-[16px] mb-[8px] font-semibold">
+          <p className="card-date text-[16px] mb-[8px] font-semibold sm:text-[15px]">
             Published 21 Dec 2023
           </p>
 
-          <h1 className="card-title text-[24px] font-extrabold hover:text-[hsl(47,88%,63%)] cursor-pointer transition-all	duration-300">
+          <h1 className="card-title text-[24px] font-extrabold hover:text-[hsl(47,88%,63%)] cursor-pointer transition-all	duration-300 sm:text-[19px]">
             HTML &amp; CSS foundations
           </h1>
 
