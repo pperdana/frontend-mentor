@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: [Blog Preview Card | Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-TytS5Ak9Zy)
+- Live Site URL: [blog-preview-card-pperdana.netlify.app](https://blog-preview-card-pperdana.netlify.app)
 
 ## My process
 
