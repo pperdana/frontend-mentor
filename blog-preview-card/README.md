@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: 
-- Live Site URL: 
+- Live Site URL: [blog-preview-card-pperdana.netlify.app](https://blog-preview-card-pperdana.netlify.app)
 
 ## My process
 
