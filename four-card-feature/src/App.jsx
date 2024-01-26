@@ -2,6 +2,18 @@ const App = () => {
   return (
     <>
       <main>
+        <header>
+          <p className="header__text header__text--weight-400 header__text--medium-font">
+            Reliable, efficient delivery
+          </p>
+          <h1 className="header__text header__text--weight-600 header__text--medium-font">
+            Powered by Technology
+          </h1>
+          <p className="header__text header__text--weight-200">
+            Our Artificial intelligence powered tools use millions of project
+            data points to ensure that your project is successful
+          </p>
+        </header>
         <section className="card card--border-Cyan">
           <h2 className="card__title">Supervisor</h2>
           <p className="card__text">
