@@ -4,10 +4,8 @@ import Card from "./Card";
 const App = () => {
   return (
     <>
-      <main>
-        <Header />
-        <Card />
-      </main>
+      {/* <Header /> */}
+      <Card />
     </>
   );
 };
