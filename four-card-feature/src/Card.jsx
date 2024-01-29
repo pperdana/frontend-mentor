@@ -1,7 +1,7 @@
 const Card = () => {
   return (
     <main className="grid gap-[25px] grid-cols-3">
-      <section className="card card--border-Cyan row-start-[span_2] row-end-auto self-center">
+      <section className="card row-start-[span_2] row-end-auto self-center border-t-[4.5px] border-[hsl(180,62%,55%)]">
         <h2 className="card__title">Supervisor</h2>
         <p className="card__text">
           Monitors activity to identify project roadblocks
@@ -64,7 +64,7 @@ const Card = () => {
           </g>
         </svg>
       </section>
-      <section className="card card--border-Red">
+      <section className="card border-t-[4.5px] border-[hsl(0,78%,62%)]">
         <h2 className="card__title">Team Builder</h2>
         <p className="card__text">
           Scans our talent network to create the optimal team for our project
@@ -109,7 +109,7 @@ const Card = () => {
           </g>
         </svg>
       </section>
-      <section className="card card--border-Orange row-start-[span_2] row-end-auto self-center">
+      <section className="card row-start-[span_2] row-end-auto self-center border-t-[4.5px] border-[hsl(34,97%,64%)]">
         <h2 className="card__title">Karma</h2>
         <p className="card__text">
           Regularly evaluates our talent to ensure quality
@@ -175,7 +175,7 @@ const Card = () => {
           </g>
         </svg>
       </section>
-      <section className="card card--border-Blue col-[2_/_3]">
+      <section className="card col-[2_/_3] border-t-[4.5px] border-[hsl(212,86%,64%)]">
         <h2 className="card__title">Calculator</h2>
         <p className="card__text">
           Uses data from past projects to provide better delivery estimates
