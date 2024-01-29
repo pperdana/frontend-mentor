@@ -12,4 +12,8 @@
   .card__text {
     @apply mb-[32px] font-extralight;
   }
+
+  .card__icon {
+    @apply self-end;
+  }
 }
