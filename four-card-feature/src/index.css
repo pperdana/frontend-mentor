@@ -9,4 +9,7 @@
   .card__title {
     @apply text-[24px] font-semibold;
   }
+  .card__text {
+    @apply mb-[32px] font-extralight;
+  }
 }
