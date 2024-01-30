@@ -175,7 +175,7 @@ const Card = () => {
           </g>
         </svg>
       </section>
-      <section className="card col-[2_/_3] border-t-[4.5px] border-[hsl(212,86%,64%)]">
+      <section className="card col-[2_/_3] border-t-[4.5px] border-[hsl(212,86%,64%)] mb-0">
         <h2 className="card__title">Calculator</h2>
         <p className="card__text">
           Uses data from past projects to provide better delivery estimates
