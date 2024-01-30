@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <main className="grid gap-[25px] grid-cols-3 px-[5rem]">
+    <main className="grid gap-[25px] grid-cols-3">
       <section className="card row-start-[span_2] row-end-auto self-center border-t-[4.5px] border-[hsl(180,62%,55%)]">
         <h2 className="card__title">Supervisor</h2>
         <p className="card__text">
