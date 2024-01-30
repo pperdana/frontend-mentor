@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+  body {
+    @apply font-poppins;
+  }
   .card {
     @apply p-[35px] bg-[hsl(0,0%,98%)] rounded-[10px] flex flex-col shadow-[-4px_0px_50px_-19px_hsl(234,12%,34%)];
   }
