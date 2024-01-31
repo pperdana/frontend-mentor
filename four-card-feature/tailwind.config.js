@@ -7,7 +7,9 @@ export default {
     },
     extend: {},
     screens: {
-      md: { max: "75em" },
+      lg: { max: "75em" },
+      md: { max: "42em" },
+      sm: { max: "28em" },
     },
   },
   plugins: [],
