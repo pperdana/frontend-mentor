@@ -1,10 +1,10 @@
 const Header = () => {
   return (
     <header>
-      <p className="about text-center text-[45px] mb-[1rem]">
+      <p className="about text-center text-[45px] mb-[1rem] md:text-[28px]">
         Reliable, efficient delivery
       </p>
-      <h1 className="title text-center text-[45px] font-semibold mb-[1rem]">
+      <h1 className="title text-center text-[45px] font-semibold mb-[1rem] md:text-[28px]">
         Powered by Technology
       </h1>
       <p className="desc text-center text-[15px] font-extralight mb-[3.6rem]">

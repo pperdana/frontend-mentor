@@ -8,7 +8,7 @@
   }
 
   #root {
-    @apply p-[clamp(2.5rem,6vw,9.5rem)];
+    @apply p-[clamp(2.5rem,6vw,9.5rem)] md:p-[clamp(3rem,6vw,9.5rem)];
   }
 
   .card {
