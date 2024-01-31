@@ -8,17 +8,17 @@
   }
 
   #root {
-    @apply p-[clamp(2.5rem,6vw,9.5rem)] md:p-[clamp(3rem,6vw,9.5rem)];
+    @apply p-[clamp(2.5rem,6vw,9.5rem)] md:p-[clamp(3rem,6vw,9.5rem)] sm:md:p-[clamp(2rem,6vw,9.5rem)];
   }
 
   .card {
     @apply p-[35px] bg-[hsl(0,0%,98%)] rounded-[10px] flex flex-col shadow-[-4px_0px_50px_-19px_hsl(234,12%,34%)] mb-[30px] lg:shadow-[0px_0px_33px_-19px_hsl(234,12%,34%)];
   }
   .card__title {
-    @apply text-[24px] font-semibold my-[1.2rem];
+    @apply text-[24px] font-semibold my-[1.2rem] sm:my-[.4rem];
   }
   .card__text {
-    @apply mb-[32px] font-extralight text-[15px];
+    @apply mb-[32px] font-extralight text-[15px] sm:mb-[4px];
   }
 
   .card__icon {
