@@ -6,6 +6,9 @@ export default {
       poppins: ["Poppins", "sans-serif"],
     },
     extend: {},
+    screens: {
+      md: { max: "75em" },
+    },
   },
   plugins: [],
 };
