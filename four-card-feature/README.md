@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Four Card Feature | Frontend Mentor]()
+- Solution URL: [Four Card Feature | Frontend Mentor](https://www.frontendmentor.io/solutions/four-card-feature-czNVVPnMeu)
 - Live Site URL: [https://four-card-feature-pperdana.netlify.app](https://four-card-feature-pperdana.netlify.app)
 
 ## My process
