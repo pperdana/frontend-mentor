@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  main {
+    @apply my-[50px] mx-auto grid justify-center items-center grid-cols-[1fr_1fr] max-w-[1067] text-center py-[20px] px-[30px] gap-[30px];
+  }
+}

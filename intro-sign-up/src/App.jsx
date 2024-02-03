@@ -3,10 +3,10 @@ import Form from "./Form";
 
 const App = () => {
   return (
-    <div className="container">
+    <main className="card ">
       <Title />
       <Form />
-    </div>
+    </main>
   );
 };
 
