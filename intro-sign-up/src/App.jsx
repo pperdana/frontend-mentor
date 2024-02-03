@@ -1,3 +1,74 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+const App = () => {
+  return (
+    <>
+      <div class="wrapper">
+        <div class="container">
+          <div class="context">
+            <h1>Learn to code by watching others</h1>
+            <p>
+              See how experienced developers solve problems in real-time.
+              Watching scripted tutorials is great, but understanding how
+              developers think is invaluable.
+            </p>
+          </div>
+
+          <div class="tryout">
+            <div class="header">
+              Try it free 7 days
+              <span>then $20/mo. thereafter</span>
+            </div>
+            <form id="fill">
+              <div class="fill-item">
+                <input
+                  type="text"
+                  name="firstName"
+                  id="firstname"
+                  placeholder="First Name"
+                  autocomplete="given-name"
+                />
+                <div class="error-text"></div>
+              </div>
+              <div class="fill-item">
+                <input
+                  type="text"
+                  name="lastName"
+                  id="lastname"
+                  placeholder="Last Name"
+                  autocomplete="given-name"
+                />
+                <div class="error-text"></div>
+              </div>
+              <div class="fill-item">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email Address"
+                  autocomplete="off"
+                />
+                <div class="error-text"></div>
+              </div>
+              <div class="fill-item">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                  autocomplete="off"
+                />
+                <div class="error-text"></div>
+              </div>
+              <input id="submit" type="button" value="CLAIM YOUR FREE TRIAL" />
+              <p>
+                By clicking the button, you are agreeing to our{" "}
+                <span>Terms and Services</span>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default App;
