@@ -1,6 +1,6 @@
 const Form = () => {
   return (
-    <div className="form-container">
+    <div className="form-container flex flex-col gap-[20px]">
       <div className="header">
         Try it free 7 days
         <span>then $20/mo. thereafter</span>
