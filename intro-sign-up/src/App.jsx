@@ -1,9 +1,9 @@
 const App = () => {
   return (
     <>
-      <div class="wrapper">
-        <div class="container">
-          <div class="context">
+      <div className="wrapper">
+        <div className="container">
+          <div className="context">
             <h1>Learn to code by watching others</h1>
             <p>
               See how experienced developers solve problems in real-time.
@@ -12,13 +12,13 @@ const App = () => {
             </p>
           </div>
 
-          <div class="tryout">
-            <div class="header">
+          <div className="tryout">
+            <div className="header">
               Try it free 7 days
               <span>then $20/mo. thereafter</span>
             </div>
             <form id="fill">
-              <div class="fill-item">
+              <div className="fill-item">
                 <input
                   type="text"
                   name="firstName"
@@ -26,9 +26,9 @@ const App = () => {
                   placeholder="First Name"
                   autocomplete="given-name"
                 />
-                <div class="error-text"></div>
+                <div className="error-text"></div>
               </div>
-              <div class="fill-item">
+              <div className="fill-item">
                 <input
                   type="text"
                   name="lastName"
@@ -36,9 +36,9 @@ const App = () => {
                   placeholder="Last Name"
                   autocomplete="given-name"
                 />
-                <div class="error-text"></div>
+                <div className="error-text"></div>
               </div>
-              <div class="fill-item">
+              <div className="fill-item">
                 <input
                   type="email"
                   name="email"
@@ -46,9 +46,9 @@ const App = () => {
                   placeholder="Email Address"
                   autocomplete="off"
                 />
-                <div class="error-text"></div>
+                <div className="error-text"></div>
               </div>
-              <div class="fill-item">
+              <div className="fill-item">
                 <input
                   type="password"
                   name="password"
@@ -56,7 +56,7 @@ const App = () => {
                   placeholder="Password"
                   autocomplete="off"
                 />
-                <div class="error-text"></div>
+                <div className="error-text"></div>
               </div>
               <input id="submit" type="button" value="CLAIM YOUR FREE TRIAL" />
               <p>
