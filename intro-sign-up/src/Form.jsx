@@ -1,10 +1,11 @@
 const Form = () => {
   return (
     <div className="form-container flex flex-col gap-[20px]">
-      <div className="header">
+      <div className="header bg-[hsl(248,32%,49%)] py-[15px] px-[30px] text-[0.9rem] font-bold	rounded-[10px] shadow-[4px_5px_8px_4px_rgba(62,60,73,0.342)] transition-all	duration-500">
         Try it free 7 days
         <span>then $20/mo. thereafter</span>
       </div>
+
       <form id="fill">
         <div className="fill-item">
           <input
