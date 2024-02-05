@@ -6,7 +6,10 @@ const Form = () => {
         <span>then $20/mo. thereafter</span>
       </div>
 
-      <form id="fill">
+      <form
+        id="fill"
+        className="bg-white p-[20px] rounded-[10px] flex flex-col justify-center	gap-[20px]"
+      >
         <div className="fill-item">
           <input
             type="text"
