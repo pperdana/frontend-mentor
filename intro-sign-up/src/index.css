@@ -6,4 +6,16 @@
   main {
     @apply my-[50px] mx-auto grid justify-center items-center grid-cols-[1fr_1fr] max-w-[1067] text-center py-[20px] px-[30px] gap-[30px];
   }
+
+  .fill-item {
+    @apply flex flex-col;
+  }
+
+  .form-input {
+    @apply py-[5px] px-[12px] h-[48px] border-[1px] border-[hsl(246,25%,77%)] rounded-[5px] w-full font-semibold;
+  }
+
+  .error-text {
+    @apply self-end	text-[0.7rem] text-[hsl(0,100%,74%)];
+  }
 }
