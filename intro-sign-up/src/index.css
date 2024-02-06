@@ -4,11 +4,11 @@
 
 @layer components {
   body {
-    @apply bg-[url('src/assets/bg-intro-desktop.png')] bg-[hsl(0,100%,74%)] text-white;
+    @apply bg-[url('src/assets/bg-intro-desktop.png')] bg-[hsl(0,100%,74%)] text-white font-poppins;
   }
 
   main {
-    @apply my-[50px] mx-auto grid justify-center items-center grid-cols-[1fr_1fr] max-w-[1067] text-center py-[20px] px-[30px] gap-[30px];
+    @apply my-[50px] mx-auto grid justify-center items-center grid-cols-[1fr_1fr] max-w-[1067px] text-center py-[20px] px-[30px] gap-[30px];
   }
 
   .fill-item {
