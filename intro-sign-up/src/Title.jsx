@@ -1,10 +1,10 @@
 const Title = () => {
   return (
     <div className="title-container">
-      <h1 className="text-[2.5rem] text-start">
+      <h1 className="text-[2.5rem] text-start font-bold">
         Learn to code by watching others
       </h1>
-      <p className="text-[1rem] leading-[25px] text-start">
+      <p className="text-[14px] leading-[23px] text-start text-gray-100">
         See how experienced developers solve problems in real-time. Watching
         scripted tutorials is great, but understanding how developers think is
         invaluable.
