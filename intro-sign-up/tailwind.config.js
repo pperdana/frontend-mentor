@@ -7,6 +7,9 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
     },
+    screens: {
+      lg: { max: "78em" },
+    },
   },
   plugins: [],
 };
