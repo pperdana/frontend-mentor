@@ -9,6 +9,8 @@ export default {
     },
     screens: {
       lg: { max: "78em" },
+      md: { max: "61em" },
+      // sm: { max: "28em" },
     },
   },
   plugins: [],
