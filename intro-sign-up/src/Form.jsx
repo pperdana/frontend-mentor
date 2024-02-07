@@ -55,7 +55,7 @@ const Form = () => {
         </div>
         <input
           id="submit"
-          className="border-none	bg-[hsl(154,59%,51%)] rounded-[5px] shadow-[4px_5px_8px_4px_rgba(62,60,73,0.342)] text-white text-[1rem] py-[15px] px-[20px]	cursor-pointer	transition-all	duration-500"
+          className="border-none	bg-[hsl(154,59%,51%)] rounded-[5px] shadow-[4px_5px_8px_4px_rgba(62,60,73,0.342)] text-white text-[1rem] py-[15px] px-[20px]	cursor-pointer	transition-all	duration-[450ms] hover:bg-[hsl(154,59%,65%)] hover:shadow-[3px_4px_8px_4px_rgba(62,60,73,0.5)]"
           type="button"
           value="CLAIM YOUR FREE TRIAL"
         />
