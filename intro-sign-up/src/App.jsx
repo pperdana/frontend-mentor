@@ -3,7 +3,7 @@ import Form from "./Form";
 
 const App = () => {
   return (
-    <main className="card ">
+    <main className="card md:my-[2rem]">
       <Title />
       <Form />
     </main>
