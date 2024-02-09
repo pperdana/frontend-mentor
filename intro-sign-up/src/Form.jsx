@@ -1,7 +1,7 @@
 const Form = () => {
   return (
     <div className="form-container flex flex-col gap-[20px]">
-      <div className="header bg-[hsl(248,32%,49%)] py-[15px] px-[30px] text-[0.9rem] font-bold	rounded-[10px] shadow-[4px_5px_8px_4px_rgba(62,60,73,0.342)] transition-all	duration-500">
+      <div className="header bg-[hsl(248,32%,49%)] py-[15px] px-[30px] text-[0.9rem] font-bold	rounded-[10px] shadow-[4px_5px_8px_4px_rgba(62,60,73,0.342)] transition-all	duration-500 sm:mx-[1.2rem]">
         Try it free 7 days
         <span className="font-normal text-gray-200">
           {" "}
@@ -11,7 +11,7 @@ const Form = () => {
 
       <form
         id="fill"
-        className="bg-white p-[20px] rounded-[10px] flex flex-col justify-center	gap-[20px]"
+        className="bg-white p-[20px] rounded-[10px] flex flex-col justify-center gap-[20px] sm:mx-[1.2rem]"
       >
         <div className="fill-item">
           <input
