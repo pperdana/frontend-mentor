@@ -8,7 +8,7 @@
   }
 
   #root {
-    @apply h-screen flex md:justify-center;
+    @apply h-screen flex md:justify-center sm:h-auto;
   }
 
   main {
