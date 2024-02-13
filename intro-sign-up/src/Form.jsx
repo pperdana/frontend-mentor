@@ -1,3 +1,5 @@
+import errSign from "./assets/icon-error.svg";
+
 const Form = () => {
   return (
     <div className="form-container flex flex-col gap-[20px]">
@@ -13,7 +15,7 @@ const Form = () => {
         id="fill"
         className="bg-white p-[20px] rounded-[10px] flex flex-col justify-center gap-[20px] sm:mx-[1.2rem]"
       >
-        <div className="fill-item">
+        <div className="fill-item relative">
           <input
             className="form-input"
             type="text"
@@ -21,7 +23,8 @@ const Form = () => {
             id="firstname"
             placeholder="First Name"
           />
-          <div className="error-text"></div>
+          {/* <div className="error-text"></div> */}
+          <img src={errSign} className="error-sign" alt="" />
         </div>
         <div className="fill-item">
           <input
