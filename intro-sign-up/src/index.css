@@ -23,7 +23,15 @@
     @apply py-[5px] px-[20px] h-[48px] border-[1px] border-[hsl(246,25%,77%)] rounded-[5px] w-full font-semibold text-[12px];
   }
 
+  .error-text {
+    @apply text-[10px] italic text-black text-right mt-[8px] text-[hsl(0,100%,74%)] font-normal;
+  }
+
+  .error-text span {
+    @apply capitalize;
+  }
+
   .error-sign {
-    @apply text-[0.7rem] text-[hsl(0,100%,74%)] absolute top-[50%] left-[92.5%] translate-x-[-50%] translate-y-[-50%];
+    @apply text-[0.7rem] text-[hsl(0,100%,74%)] absolute top-[33%] left-[92.5%] translate-x-[-50%] translate-y-[-50%];
   }
 }
