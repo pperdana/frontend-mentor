@@ -24,7 +24,7 @@ const Form = () => {
             placeholder="First Name"
           />
           <p className="error-text">
-            <span>first name</span> cannot be empty
+            <span>First name</span> cannot be empty
           </p>
           <img src={errSign} className="error-sign" alt="" />
         </div>
@@ -38,7 +38,7 @@ const Form = () => {
             placeholder="Last Name"
           />
           <p className="error-text">
-            <span>last name</span> cannot be empty
+            <span>Last name</span> cannot be empty
           </p>
           <img src={errSign} className="error-sign" alt="" />
         </div>
@@ -51,7 +51,7 @@ const Form = () => {
             id="email"
             placeholder="Email Address"
           />
-          <p className="error-text">looks like this is not an email</p>
+          <p className="error-text">Looks like this is not an email</p>
           <img src={errSign} className="error-sign" alt="" />
         </div>
 
