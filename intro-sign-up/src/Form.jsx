@@ -23,9 +23,12 @@ const Form = () => {
             id="firstname"
             placeholder="First Name"
           />
-
+          <p className="error-text">
+            <span>first name</span> cannot be empty
+          </p>
           <img src={errSign} className="error-sign" alt="" />
         </div>
+
         <div className="fill-item">
           <input
             className="form-input"
@@ -34,8 +37,12 @@ const Form = () => {
             id="lastname"
             placeholder="Last Name"
           />
+          <p className="error-text">
+            <span>last name</span> cannot be empty
+          </p>
           <img src={errSign} className="error-sign" alt="" />
         </div>
+
         <div className="fill-item">
           <input
             className="form-input"
@@ -44,8 +51,10 @@ const Form = () => {
             id="email"
             placeholder="Email Address"
           />
+          <p className="error-text">looks like this is not an email</p>
           <img src={errSign} className="error-sign" alt="" />
         </div>
+
         <div className="fill-item">
           <input
             className="form-input"
@@ -54,6 +63,7 @@ const Form = () => {
             id="password"
             placeholder="Password"
           />
+          <p className="error-text">Password cannot be empty</p>
           <img src={errSign} className="error-sign" alt="" />
         </div>
         <input
