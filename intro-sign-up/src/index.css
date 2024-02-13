@@ -16,14 +16,14 @@
   }
 
   .fill-item {
-    @apply flex flex-col;
+    @apply flex flex-col relative;
   }
 
   .form-input {
     @apply py-[5px] px-[20px] h-[48px] border-[1px] border-[hsl(246,25%,77%)] rounded-[5px] w-full font-semibold text-[12px];
   }
 
-  .error-text {
-    @apply self-end	text-[0.7rem] text-[hsl(0,100%,74%)];
+  .error-sign {
+    @apply text-[0.7rem] text-[hsl(0,100%,74%)] absolute top-[50%] left-[92.5%] translate-x-[-50%] translate-y-[-50%];
   }
 }
