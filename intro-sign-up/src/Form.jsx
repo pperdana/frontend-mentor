@@ -15,7 +15,7 @@ const Form = () => {
         id="fill"
         className="bg-white p-[20px] rounded-[10px] flex flex-col justify-center gap-[20px] sm:mx-[1.2rem]"
       >
-        <div className="fill-item relative">
+        <div className="fill-item">
           <input
             className="form-input"
             type="text"
@@ -23,7 +23,7 @@ const Form = () => {
             id="firstname"
             placeholder="First Name"
           />
-          {/* <div className="error-text"></div> */}
+
           <img src={errSign} className="error-sign" alt="" />
         </div>
         <div className="fill-item">
@@ -34,7 +34,7 @@ const Form = () => {
             id="lastname"
             placeholder="Last Name"
           />
-          <div className="error-text"></div>
+          <img src={errSign} className="error-sign" alt="" />
         </div>
         <div className="fill-item">
           <input
@@ -44,7 +44,7 @@ const Form = () => {
             id="email"
             placeholder="Email Address"
           />
-          <div className="error-text"></div>
+          <img src={errSign} className="error-sign" alt="" />
         </div>
         <div className="fill-item">
           <input
@@ -54,7 +54,7 @@ const Form = () => {
             id="password"
             placeholder="Password"
           />
-          <div className="error-text"></div>
+          <img src={errSign} className="error-sign" alt="" />
         </div>
         <input
           id="submit"
