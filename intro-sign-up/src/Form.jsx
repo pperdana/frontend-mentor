@@ -1,6 +1,12 @@
+import { useState } from "react";
 import errSign from "./assets/icon-error.svg";
 
 const Form = () => {
+  const [fName, setFName] = useState("");
+  const [lName, setLName] = useState("");
+  const [email, setEmail] = useState("");
+  const [pass, setPass] = useState("");
+
   return (
     <div className="form-container flex flex-col gap-[20px]">
       <div className="header bg-[hsl(248,32%,49%)] py-[15px] px-[30px] text-[0.9rem] font-bold	rounded-[10px] shadow-[4px_5px_8px_4px_rgba(62,60,73,0.342)] transition-all	duration-500 sm:mx-[1.2rem]">
