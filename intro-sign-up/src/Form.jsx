@@ -12,8 +12,7 @@ const Form = () => {
   const [emailErr, setEmailErr] = useState(false);
   const [passwordErr, setPasswordErr] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const clickBtn = (e) => {
     if (!fName) {
       setFNameErr(true);
     }
@@ -26,6 +25,11 @@ const Form = () => {
     if (!password) {
       setPasswordErr(true);
     }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
     return;
   };
 
@@ -40,6 +44,7 @@ const Form = () => {
       </div>
 
       <form
+        onSubmit={handleSubmit}
         id="fill"
         className="bg-white p-[20px] rounded-[10px] flex flex-col justify-center gap-[20px] sm:mx-[1.2rem]"
       >
@@ -120,13 +125,15 @@ const Form = () => {
           )}
         </div>
 
-        <input
+        <button
           id="submit"
           className="border-none	bg-[hsl(154,59%,51%)] rounded-[5px] shadow-[4px_5px_8px_4px_rgba(62,60,73,0.342)] text-white text-[1rem] py-[15px] px-[20px]	cursor-pointer	transition-all	duration-[450ms] hover:bg-[hsl(154,59%,65%)] hover:shadow-[3px_4px_8px_4px_rgba(62,60,73,0.5)]"
-          type="button"
-          value="CLAIM YOUR FREE TRIAL"
-          onClick={handleSubmit}
-        />
+          // type="submit"
+          onClick={clickBtn}
+          // value="CLAIM YOUR FREE TRIAL"
+        >
+          CLAIM YOUR FREE TRIAL
+        </button>
         <p className="text-[hsl(246,25%,77%)] text-[10px]">
           By clicking the button, you are agreeing to our
           <span className="text-[hsl(0,100%,74%)] font-semibold">
