@@ -5,7 +5,11 @@ const Form = () => {
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");
   const [email, setEmail] = useState("");
-  const [pass, setPass] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
 
   return (
     <div className="form-container flex flex-col gap-[20px]">
@@ -18,6 +22,7 @@ const Form = () => {
       </div>
 
       <form
+        onSubmit={handleSubmit}
         id="fill"
         className="bg-white p-[20px] rounded-[10px] flex flex-col justify-center gap-[20px] sm:mx-[1.2rem]"
       >
@@ -28,6 +33,8 @@ const Form = () => {
             name="firstName"
             id="firstname"
             placeholder="First Name"
+            value={fName}
+            onChange={(e) => setFName(e.target.value)}
           />
           <p className="error-text">
             <span>First name</span> cannot be empty
@@ -42,6 +49,8 @@ const Form = () => {
             name="lastName"
             id="lastname"
             placeholder="Last Name"
+            value={lName}
+            onChange={(e) => setLName(e.target.value)}
           />
           <p className="error-text">
             <span>Last name</span> cannot be empty
@@ -56,6 +65,8 @@ const Form = () => {
             name="email"
             id="email"
             placeholder="Email Address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
           <p className="error-text">Looks like this is not an email</p>
           <img src={errSign} className="error-sign" alt="" />
@@ -68,6 +79,8 @@ const Form = () => {
             name="password"
             id="password"
             placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
           />
           <p className="error-text">Password cannot be empty</p>
           <img src={errSign} className="error-sign" alt="" />
