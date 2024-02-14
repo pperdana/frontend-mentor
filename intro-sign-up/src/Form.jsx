@@ -53,10 +53,14 @@ const Form = () => {
             value={fName}
             onChange={(e) => setFName(e.target.value)}
           />
-          <p className="error-text">
-            <span>First name</span> cannot be empty
-          </p>
-          <img src={errSign} className="error-sign" alt="" />
+          {fNameErr && (
+            <>
+              <p className="error-text">
+                <span>First name</span> cannot be empty
+              </p>
+              <img src={errSign} className="error-sign" alt="" />
+            </>
+          )}
         </div>
 
         <div className="fill-item">
@@ -69,10 +73,15 @@ const Form = () => {
             value={lName}
             onChange={(e) => setLName(e.target.value)}
           />
-          <p className="error-text">
-            <span>Last name</span> cannot be empty
-          </p>
-          <img src={errSign} className="error-sign" alt="" />
+
+          {lNameErr && (
+            <>
+              <p className="error-text">
+                <span>Last name</span> cannot be empty
+              </p>
+              <img src={errSign} className="error-sign" alt="" />
+            </>
+          )}
         </div>
 
         <div className="fill-item">
@@ -85,8 +94,12 @@ const Form = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <p className="error-text">Looks like this is not an email</p>
-          <img src={errSign} className="error-sign" alt="" />
+          {emailErr && (
+            <>
+              <p className="error-text">Looks like this is not an email</p>
+              <img src={errSign} className="error-sign" alt="" />
+            </>
+          )}
         </div>
 
         <div className="fill-item">
@@ -99,8 +112,12 @@ const Form = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <p className="error-text">Password cannot be empty</p>
-          <img src={errSign} className="error-sign" alt="" />
+          {passwordErr && (
+            <>
+              <p className="error-text">Password cannot be empty</p>
+              <img src={errSign} className="error-sign" alt="" />{" "}
+            </>
+          )}
         </div>
 
         <input
