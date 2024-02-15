@@ -15,15 +15,26 @@ const Form = () => {
   const clickBtn = (e) => {
     if (!fName) {
       setFNameErr(true);
+    } else {
+      setFNameErr(false);
     }
+
     if (!lName) {
       setLNameErr(true);
+    } else {
+      setLNameErr(false);
     }
+
     if (!email) {
       setEmailErr(true);
+    } else {
+      setEmailErr(false);
     }
+
     if (!password) {
       setPasswordErr(true);
+    } else {
+      setPasswordErr(false);
     }
   };
 
