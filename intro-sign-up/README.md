@@ -41,13 +41,22 @@ Users should be able to:
 
 ### Built with
 
+- React
+- Tailwind
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+
+### Useful resources
+
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [A Complete Guide to CSS Grid | CSS Tricks ](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [A Complete Guide to Flexbox | CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
 
+## Author
 
+- Frontend Mentor - [@Panji200](https://www.frontendmentor.io/profile/Panji200)
+- Website - [pperdana.netlify.app](https://pperdana.netlify.app)
