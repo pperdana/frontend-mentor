@@ -20,7 +20,7 @@
   }
 
   .form-input {
-    @apply py-[5px] px-[20px] h-[48px] border-[1px] border-[hsl(246,25%,77%)] rounded-[5px] w-full font-semibold text-[12px];
+    @apply py-[5px] px-[20px] h-[48px] border-[1px] border-[hsl(246,25%,77%)] rounded-[5px] w-full font-semibold text-[12px] text-black;
   }
 
   .error-text {
