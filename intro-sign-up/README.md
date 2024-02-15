@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Intro component with sign up | Frontend Mentor](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-x4MvR7DVqR)
 - Live Site URL: [https://intro-with-sign-up-form-pperdana.netlify.app](https://intro-with-sign-up-form-pperdana.netlify.app)
 
 ## My process
