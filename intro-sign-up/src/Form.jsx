@@ -12,6 +12,11 @@ const Form = () => {
   const [emailErr, setEmailErr] = useState(false);
   const [passwordErr, setPasswordErr] = useState(false);
 
+  const validateEmail = (mail) => {
+    const re = /\S+@\S+\.\S+/;
+    return re.test(mail);
+  };
+
   const clickBtn = (e) => {
     if (!fName) {
       setFNameErr(true);
@@ -25,7 +30,7 @@ const Form = () => {
       setLNameErr(false);
     }
 
-    if (!email) {
+    if (!validateEmail(email)) {
       setEmailErr(true);
     } else {
       setEmailErr(false);
