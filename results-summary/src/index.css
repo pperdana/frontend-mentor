@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-[linear-gradient(to_bottom,hsl(252,100%,67%),hsl(241,81%,54%))] flex flex-col justify-center items-center	text-center w-[375px] rounded-[20px] p-[2.5rem];
+  }
+
+  .circle {
+    @apply rounded-full w-[10rem] h-[10rem] flex justify-center items-center flex-col mb-[2rem] bg-[linear-gradient(to_bottom,hsla(256,72%,46%,1),hsla(241,72%,46%,0))];
+  }
+}
