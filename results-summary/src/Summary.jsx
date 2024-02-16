@@ -1,3 +1,8 @@
+import iconMemory from "./assets/icon-memory.svg";
+import iconReaction from "./assets/icon-reaction.svg";
+import iconVerbal from "./assets/icon-verbal.svg";
+import iconVisual from "./assets/icon-visual.svg";
+
 const Summary = () => {
   return (
     <div className="summary">
@@ -5,7 +10,7 @@ const Summary = () => {
 
       <div className="score">
         <section className="icon">
-          <img src="assets/images/icon-reaction.svg" alt="icon-reaction" />
+          <img src={iconReaction} alt="icon-reaction" />
           <p className="reaction">Reaction</p>
         </section>
         <section className="result">
@@ -16,7 +21,7 @@ const Summary = () => {
 
       <div className="score">
         <section className="icon">
-          <img src="assets/images/icon-memory.svg" alt="icon-memory" />
+          <img src={iconMemory} alt="icon-memory" />
           <p className="memory">Memory</p>
         </section>
         <section className="result">
@@ -27,7 +32,7 @@ const Summary = () => {
 
       <div className="score">
         <section className="icon">
-          <img src="assets/images/icon-verbal.svg" alt="icon-verbal" />
+          <img src={iconVerbal} alt="icon-verbal" />
           <p className="verbal">Verbal</p>
         </section>
         <section className="result">
@@ -38,7 +43,7 @@ const Summary = () => {
 
       <div className="score">
         <section className="icon">
-          <img src="assets/images/icon-visual.svg" alt="icon-visual" />
+          <img src={iconVisual} alt="icon-visual" />
           <p className="visual">Visual</p>
         </section>
         <section className="result">
