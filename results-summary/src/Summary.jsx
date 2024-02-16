@@ -6,12 +6,14 @@ import iconVisual from "./assets/icon-visual.svg";
 const Summary = () => {
   return (
     <div className="summary">
-      <h1>Summary</h1>
+      <h1 className="text-[hsl(224,30%,27%)] text-[1.5rem] mb-[2rem]">
+        Summary
+      </h1>
 
       <div className="score">
         <section className="icon">
           <img src={iconReaction} alt="icon-reaction" />
-          <p className="reaction">Reaction</p>
+          <p className="reaction text-[hsl(0,100%,67%)]">Reaction</p>
         </section>
         <section className="result">
           <strong>80</strong>
@@ -22,7 +24,7 @@ const Summary = () => {
       <div className="score">
         <section className="icon">
           <img src={iconMemory} alt="icon-memory" />
-          <p className="memory">Memory</p>
+          <p className="memory text-[hsl(39,100%,56%)]">Memory</p>
         </section>
         <section className="result">
           <strong>80</strong>
@@ -33,7 +35,7 @@ const Summary = () => {
       <div className="score">
         <section className="icon">
           <img src={iconVerbal} alt="icon-verbal" />
-          <p className="verbal">Verbal</p>
+          <p className="verbal text-[hsl(166,100%,37%)]">Verbal</p>
         </section>
         <section className="result">
           <strong>80</strong>
@@ -44,7 +46,7 @@ const Summary = () => {
       <div className="score">
         <section className="icon">
           <img src={iconVisual} alt="icon-visual" />
-          <p className="visual">Visual</p>
+          <p className="visual text-[hsl(234,85%,45%)]">Visual</p>
         </section>
         <section className="result">
           <strong>80</strong>
@@ -52,7 +54,7 @@ const Summary = () => {
         </section>
       </div>
 
-      <a href="#">Continue</a>
+      <button className="btn">Continue</button>
     </div>
   );
 };

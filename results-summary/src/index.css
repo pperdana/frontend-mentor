@@ -7,11 +7,46 @@
     @apply flex flex-col items-center h-screen	justify-center;
   }
 
+  /* CARD COMPONENT */
+
   .card {
     @apply bg-[linear-gradient(to_bottom,hsl(252,100%,67%),hsl(241,81%,54%))] flex flex-col justify-center items-center	text-center w-[375px] rounded-[20px] p-[2.5rem];
   }
 
   .circle {
     @apply rounded-full w-[10rem] h-[10rem] flex justify-center items-center flex-col mb-[2rem] bg-[linear-gradient(to_bottom,hsla(256,72%,46%,1),hsla(241,72%,46%,0))];
+  }
+
+  /* SUMMARY COMPONENT */
+  .summary {
+    @apply bg-[hsl(0,0%,100%)] w-[375px] p-[2rem] text-[1.1rem];
+  }
+
+  .score {
+    @apply mb-[2.2rem] flex justify-between	font-bold	ml-[15px];
+  }
+
+  .icon {
+    @apply flex;
+  }
+
+  .icon img {
+    @apply mr-[0.5rem];
+  }
+
+  .result {
+    @apply flex;
+  }
+
+  .result > p {
+    @apply text-[hsl(241,100%,89%)];
+  }
+
+  strong {
+    @apply mr-[0.5rem];
+  }
+
+  .btn {
+    @apply bg-[hsl(224,30%,27%)] block p-[10px] h-[3rem] w-full text-center	text-[hsl(221,100%,96%)] rounded-[20px];
   }
 }
