@@ -3,12 +3,10 @@ import Card from "./Card";
 
 const App = () => {
   return (
-    <main>
-      <div className="section">
-        <Card />
-        <Summary />
-      </div>
-    </main>
+    <div className="section flex">
+      <Card />
+      <Summary />
+    </div>
   );
 };
 
