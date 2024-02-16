@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  #root {
+    @apply flex flex-col items-center h-screen	justify-center;
+  }
+
   .card {
     @apply bg-[linear-gradient(to_bottom,hsl(252,100%,67%),hsl(241,81%,54%))] flex flex-col justify-center items-center	text-center w-[375px] rounded-[20px] p-[2.5rem];
   }
