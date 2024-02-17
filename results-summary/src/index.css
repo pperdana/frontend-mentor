@@ -8,22 +8,22 @@
   }
 
   #root {
-    @apply flex flex-col items-center h-screen	justify-center;
+    @apply flex flex-col items-center h-screen	justify-center sm:h-auto;
   }
 
   /* CARD COMPONENT */
 
   .card {
-    @apply bg-[linear-gradient(to_bottom,hsl(252,100%,67%),hsl(241,81%,54%))] flex flex-col justify-center items-center	text-center w-[375px] rounded-[20px] p-[2.5rem];
+    @apply bg-[linear-gradient(to_bottom,hsl(252,100%,67%),hsl(241,81%,54%))] flex flex-col justify-center items-center	text-center w-[375px] rounded-[20px] p-[2.5rem] sm:h-[370px] sm:rounded-b-[30px] sm:rounded-t-[0px];
   }
 
   .circle {
-    @apply rounded-full w-[10rem] h-[10rem] flex justify-center items-center flex-col mb-[2rem] bg-[linear-gradient(to_bottom,hsla(256,72%,46%,1),hsla(241,72%,46%,0))];
+    @apply rounded-full w-[10rem] h-[10rem] flex justify-center items-center flex-col mb-[2rem] bg-[linear-gradient(to_bottom,hsla(256,72%,46%,1),hsla(241,72%,46%,0))] sm:mb-[1.2rem];
   }
 
   /* SUMMARY COMPONENT */
   .summary {
-    @apply bg-[hsl(0,0%,100%)] w-[375px] p-[2rem] text-[1.1rem];
+    @apply bg-[hsl(0,0%,100%)] w-[375px] p-[2rem] text-[1.1rem] sm:p-[1rem];
   }
 
   .score {

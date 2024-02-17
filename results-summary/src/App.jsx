@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const App = () => {
   return (
-    <div className="section flex">
+    <div className="section flex sm:flex-col">
       <Card />
       <Summary />
     </div>

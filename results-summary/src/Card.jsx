@@ -2,7 +2,7 @@ const Card = () => {
   return (
     <div className="card">
       <div className="result-number text-center	">
-        <h1 className="mb-[2rem] text-[hsl(241,100%,89%)] text-[22px] font-bold">
+        <h1 className="mb-[2rem] text-[hsl(241,100%,89%)] text-[22px] font-bold sm:mb-[1.2rem]">
           Your Result
         </h1>
         <div className="circle">
@@ -13,10 +13,10 @@ const Card = () => {
         </div>
       </div>
       <div className="result-text">
-        <h2 className="mb-[1rem] text-[hsl(0,0%,100%)] text-[2rem] font-bold">
+        <h2 className="mb-[1rem] text-[hsl(0,0%,100%)] text-[2rem] font-bold sm:text-[1.6rem] sm:mb-[0.4rem]">
           Great
         </h2>
-        <p className="text-[hsl(221,100%,96%)]">
+        <p className="text-[hsl(241,100%,89%)] leading-[22px]">
           You scored higher than 65% of the people who have taken these tests.
         </p>
       </div>
