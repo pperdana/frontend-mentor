@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  body {
+    @apply font-hanken;
+  }
+
   #root {
     @apply flex flex-col items-center h-screen	justify-center;
   }
