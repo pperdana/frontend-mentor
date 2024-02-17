@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Results summary component | Frontend Mentor](https://www.frontendmentor.io/solutions/results-summary-component-gDvBJW-xht)
+- Solution URL: [Results summary component | Frontend Mentor](https://www.frontendmentor.io/solutions/results-summary-component-3kPKk_oD_h)
 - Live Site URL: [https://results-summary-pperdana.netlify.app](https://results-summary-pperdana.netlify.app/)
 
 ## My process
