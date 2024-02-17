@@ -1,8 +1,6 @@
 const Score = ({ scores }) => {
   const { category, score, icon, alt, iconColor } = scores;
 
-  console.log(scores);
-
   return (
     <div className="score">
       <section className="icon">
