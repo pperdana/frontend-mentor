@@ -7,6 +7,9 @@ export default {
         hanken: ["Hanken Grotesk", "sans-serif"],
       },
     },
+    screens: {
+      sm: { max: "52em" },
+    },
   },
   plugins: [],
 };
