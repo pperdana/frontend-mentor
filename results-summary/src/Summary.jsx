@@ -6,7 +6,7 @@ import iconVisual from "./assets/icon-visual.svg";
 const Summary = () => {
   return (
     <div className="summary">
-      <h1 className="text-[hsl(224,30%,27%)] text-[1.5rem] mb-[2rem]">
+      <h1 className="text-[hsl(224,30%,27%)] text-[1.5rem] mb-[2rem] font-bold">
         Summary
       </h1>
 
