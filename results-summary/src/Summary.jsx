@@ -4,7 +4,7 @@ import data from "./data";
 const Summary = () => {
   console.log(data);
   return (
-    <div className="summary">
+    <section className="summary">
       <h1 className="text-[hsl(224,30%,27%)] text-[1.5rem] mb-[2rem] font-bold">
         Summary
       </h1>
@@ -14,7 +14,7 @@ const Summary = () => {
       })}
 
       <button className="btn">Continue</button>
-    </div>
+    </section>
   );
 };
 

@@ -1,8 +1,8 @@
 const Card = () => {
   return (
-    <div className="card">
+    <section className="card">
       <div className="result-number text-center	">
-        <h1 className="mb-[2rem] text-[hsl(241,100%,89%)] text-[22px] font-bold sm:mb-[1.2rem]">
+        <h1 className="title mb-[2rem] text-[hsl(241,100%,89%)] text-[22px] font-bold sm:mb-[1.2rem]">
           Your Result
         </h1>
         <div className="circle">
@@ -20,7 +20,7 @@ const Card = () => {
           You scored higher than 65% of the people who have taken these tests.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
