@@ -1,8 +1,14 @@
+import avatar from "./assets/avatar-jessica.jpeg";
+
 function App() {
   return (
     <main className="container">
       <div className="first">
-        <img src="assets/images/avatar-jessica.jpeg" />
+        <img
+          className="rounded-full w-[80px]"
+          src={avatar}
+          alt="avatar jessica"
+        />
         <div className="semiFirst">
           <div className="bolded">Jessica Randall</div>
           <div className="yellow">London, United Kingdom</div>
@@ -10,13 +16,15 @@ function App() {
       </div>
 
       <div className="second">
-        <p>Front-end developer and avid reader.</p>
+        <p className="text-center text-white">
+          Front-end developer and avid reader.
+        </p>
       </div>
-      <button>Github</button>
-      <button>Frontend Mentor</button>
-      <button>LinkedIn</button>
-      <button>Twitter</button>
-      <button>Instagram</button>
+      <button className="btn">Github</button>
+      <button className="btn">Frontend Mentor</button>
+      <button className="btn">LinkedIn</button>
+      <button className="btn">Twitter</button>
+      <button className="btn">Instagram</button>
     </main>
   );
 }

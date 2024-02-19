@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  body {
+    @apply text-[14px] bg-[#141414] font-inter;
+  }
+
+  .container {
+    @apply absolute flex top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] items-center justify-center flex-col p-[25px] w-[300px] gap-[10px] bg-[#1f1f1f] rounded-[15px];
+  }
+
+  .first {
+    @apply flex flex-col items-center	justify-center;
+  }
+
+  .semiFirst {
+    @apply flex flex-col gap-[5px] justify-center items-center;
+  }
+
+  .bolded {
+    @apply text-[x-large] font-bold	text-white;
+  }
+
+  .yellow {
+    @apply text-[#bfe447] font-bold;
+  }
+
+  .btn {
+    @apply w-[300px] pt-[10px] bg-[#333333] text-white rounded-[10px] border-none font-bold;
+  }
+}
