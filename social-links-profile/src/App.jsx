@@ -2,10 +2,10 @@ import avatar from "./assets/avatar-jessica.jpeg";
 
 function App() {
   return (
-    <main className="container">
+    <main className="main">
       <div className="first">
         <img
-          className="rounded-full w-[80px]"
+          className="rounded-full w-[80px] mb-[2rem]"
           src={avatar}
           alt="avatar jessica"
         />
@@ -16,7 +16,7 @@ function App() {
       </div>
 
       <div className="second">
-        <p className="text-center text-white">
+        <p className="text-center text-white my-[.8rem]">
           Front-end developer and avid reader.
         </p>
       </div>
