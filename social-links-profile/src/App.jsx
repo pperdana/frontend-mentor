@@ -17,7 +17,7 @@ function App() {
 
       <div className="second">
         <p className="text-center text-white my-[.8rem]">
-          Front-end developer and avid reader.
+          &quot;Front-end developer and avid reader.&quot;
         </p>
       </div>
       <button className="btn">Github</button>
