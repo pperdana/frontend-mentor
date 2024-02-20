@@ -7,9 +7,6 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
     },
-    screens: {
-      // sm: { max: "52em" },
-    },
   },
   plugins: [],
 };
