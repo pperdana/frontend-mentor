@@ -28,6 +28,6 @@
   }
 
   .btn {
-    @apply w-[300px] pt-[10px] bg-[#333333] text-white rounded-[10px] border-none font-bold;
+    @apply w-[300px] py-[10px] bg-[#333333] text-white rounded-[10px] border-none font-bold;
   }
 }
