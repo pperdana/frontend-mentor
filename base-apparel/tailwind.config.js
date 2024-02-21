@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // hanken: ["Hanken Grotesk", "sans-serif"],
+      },
+    },
+    screens: {
+      // sm: { max: "52em" },
+    },
   },
   plugins: [],
 };

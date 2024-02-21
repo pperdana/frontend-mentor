@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-white;
+  }
+
+  .left-wrapper {
+    @apply flex  justify-center;
+  }
+
+  .left-content-wrapper {
+    @apply flex flex-col px-[6rem];
+  }
+
+  .text-wrapper {
+    @apply flex flex-1 flex-col justify-center gap-[2rem];
+  }
+
+  .input {
+    @apply border-[1px] border-solid border-[#ce9797] p-[1rem] rounded-[99px] w-full;
+  }
+
+  .btn {
+    @apply flex items-center	justify-center absolute right-0 top-0 w-[7rem] h-[3.65rem] rounded-[99px] bg-[linear-gradient(90deg,#f8bfbf_0,#ee8c8c_51%,#f8bfbf)];
+  }
+}
