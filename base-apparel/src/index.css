@@ -27,7 +27,7 @@
   }
 
   .text-wrapper {
-    @apply flex flex-1 flex-col justify-center gap-[2rem] lg:mt-[340px];
+    @apply flex flex-1 flex-col justify-center gap-[2rem] lg:mt-[330px] lg:text-center lg:h-[200px];
   }
 
   .input {
