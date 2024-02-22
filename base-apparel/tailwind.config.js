@@ -8,7 +8,8 @@ export default {
       },
     },
     screens: {
-      // lg: { max: "75em" },
+      tall: { raw: "(min-height: 900px)" },
+      lg: { max: "75em" },
     },
   },
   plugins: [],
