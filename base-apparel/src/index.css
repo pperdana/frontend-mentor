@@ -4,27 +4,30 @@
 
 @layer components {
   html {
-    @apply text-[62.5%];
+    @apply text-[62.5%] lg:text-[50%];
   }
 
   body {
     @apply bg-white font-josefin;
   }
-
-  body {
-    @apply bg-white;
+  #root {
+    @apply lg:flex lg:justify-center;
   }
 
   .left-wrapper {
-    @apply flex  justify-center;
+    @apply flex  justify-center bg-[url('./assets/bg-pattern-desktop.svg')] lg:relative;
   }
 
   .left-content-wrapper {
-    @apply flex flex-col px-[10rem];
+    @apply flex flex-col px-[10rem] lg:px-[4rem];
+  }
+
+  .mobile-image {
+    @apply hidden top-[220px] left-[50%] translate-x-[-50%] translate-y-[-50%]  lg:inline lg:absolute lg:w-full;
   }
 
   .text-wrapper {
-    @apply flex flex-1 flex-col justify-center gap-[2rem];
+    @apply flex flex-1 flex-col justify-center gap-[2rem] lg:mt-[340px];
   }
 
   .input {
@@ -36,6 +39,6 @@
   }
 
   .right-wrapper {
-    @apply h-screen  bg-[url('./assets/hero-desktop.jpg')] bg-no-repeat bg-right	bg-contain;
+    @apply h-screen  bg-[url('./assets/hero-desktop.jpg')] bg-no-repeat bg-right	bg-contain tall:h-[900px] lg:hidden;
   }
 }

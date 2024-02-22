@@ -1,14 +1,18 @@
 import logo from "./assets/logo.svg";
 import arrowIcon from "./assets/icon-arrow.svg";
 
+import heroMobile from "./assets/hero-mobile.jpg";
+
 const LeftWrapper = () => {
   return (
-    <section className="left-wrapper max-w-[50%] bg-[url('./assets/bg-pattern-desktop.svg')]">
+    <section className="left-wrapper max-w-[50%] lg:max-w-[100%]">
       <div className="left-content-wrapper">
         <img className="w-[158px] h-[33px] mt-[3rem]" src={logo} alt="logo" />
+
         <section>
-          <img className="mobile-image" src="./hero-mobile.jpg" alt="" />
+          <img className="mobile-image" src={heroMobile} alt="hero mobile" />
         </section>
+
         <section className="text-wrapper">
           <div>
             <h1 className="text-[#ce9797] text-[6rem] font-extralight">
