@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // hanken: ["Hanken Grotesk", "sans-serif"],
+        josefin: ["Josefin Sans", "sans-serif"],
       },
     },
     screens: {
-      // sm: { max: "52em" },
+      // lg: { max: "75em" },
     },
   },
   plugins: [],
