@@ -1,4 +1,5 @@
 import logo from "./assets/logo.svg";
+import arrowIcon from "./assets/icon-arrow.svg";
 
 const LeftWrapper = () => {
   return (
@@ -28,7 +29,9 @@ const LeftWrapper = () => {
               placeholder="Email Address"
               value=""
             />
-            <button className="btn" aria-label="Submit button"></button>
+            <button className="btn" aria-label="Submit button">
+              <img src={arrowIcon} alt="arrow icon" />
+            </button>
           </form>
         </section>
       </div>
