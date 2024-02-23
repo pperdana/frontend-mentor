@@ -10,6 +10,7 @@ export default {
     screens: {
       tall: { raw: "(min-height: 900px)" },
       lg: { max: "75em" },
+      sm: { max: "22em" },
     },
   },
   plugins: [],
