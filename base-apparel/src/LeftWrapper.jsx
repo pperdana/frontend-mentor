@@ -20,8 +20,8 @@ const LeftWrapper = () => {
       setEmailErr(true);
     } else {
       setEmailErr(false);
+      setEmail("");
     }
-
     return;
   };
 
@@ -56,7 +56,7 @@ const LeftWrapper = () => {
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
           </p>
-          <form className="relative" onSubmit={handleSubmit} action="">
+          <form className="relative" onSubmit={handleSubmit}>
             <input
               className="input"
               type="email"
@@ -66,9 +66,11 @@ const LeftWrapper = () => {
               onChange={(e) => setEmail(e.target.value)}
             />
 
-            <p className="error-message ">
-              Please enter a valid email address.
-            </p>
+            {emailErr && (
+              <p className="error-message ">
+                Please enter a valid email address.
+              </p>
+            )}
 
             <button className="btn" aria-label="Submit button">
               <img src={arrowIcon} alt="arrow icon" />
