@@ -2,8 +2,29 @@ import logo from "./assets/logo.svg";
 import arrowIcon from "./assets/icon-arrow.svg";
 
 import heroMobile from "./assets/hero-mobile.jpg";
+import { useState } from "react";
 
 const LeftWrapper = () => {
+  const [email, setEmail] = useState("");
+  const [emailErr, setEmailErr] = useState(false);
+
+  const validateEmail = (mail) => {
+    const re = /\S+@\S+\.\S+/;
+    return re.test(mail);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email)) {
+      setEmailErr(true);
+    } else {
+      setEmailErr(false);
+    }
+
+    return;
+  };
+
   return (
     <section className="left-box max-w-[50%] lg:max-w-[100%] lg:py-[5rem]">
       <div className="left-content-wrapper">
@@ -35,13 +56,20 @@ const LeftWrapper = () => {
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
           </p>
-          <form className="relative" action="">
+          <form className="relative" onSubmit={handleSubmit} action="">
             <input
               className="input"
               type="email"
+              name="email"
               placeholder="Email Address"
-              value=""
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
+
+            <p className="error-message ">
+              Please enter a valid email address.
+            </p>
+
             <button className="btn" aria-label="Submit button">
               <img src={arrowIcon} alt="arrow icon" />
             </button>
