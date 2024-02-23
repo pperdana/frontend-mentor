@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const LeftWrapper = () => {
   const [email, setEmail] = useState("");
-  const [emailErr, setEmailErr] = useState(true);
+  const [emailErr, setEmailErr] = useState(false);
 
   const validateEmail = (mail) => {
     const re = /\S+@\S+\.\S+/;
