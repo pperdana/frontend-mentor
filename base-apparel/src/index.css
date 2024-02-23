@@ -34,6 +34,10 @@
     @apply border-[2px] border-solid border-[#e5d0d0]  px-[2.8rem] py-[1.2rem] rounded-[99px] w-full text-[1.4rem];
   }
 
+  .error-message {
+    @apply text-[1.3rem] inline-block text-left	w-[300px] text-[#db6d6d] absolute top-[134%] left-[180px] translate-x-[-50%] translate-y-[-50%];
+  }
+
   .btn {
     @apply flex items-center	justify-center absolute right-0 top-0 w-[9rem] h-[4.8rem] rounded-[99px] bg-[linear-gradient(90deg,#f8bfbf_0,#ee8c8c_51%,#f8bfbf)];
   }
