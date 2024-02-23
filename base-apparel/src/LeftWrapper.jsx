@@ -1,12 +1,13 @@
 import logo from "./assets/logo.svg";
 import arrowIcon from "./assets/icon-arrow.svg";
+import errorIcon from "./assets/icon-error.svg";
 
 import heroMobile from "./assets/hero-mobile.jpg";
 import { useState } from "react";
 
 const LeftWrapper = () => {
   const [email, setEmail] = useState("");
-  const [emailErr, setEmailErr] = useState(false);
+  const [emailErr, setEmailErr] = useState(true);
 
   const validateEmail = (mail) => {
     const re = /\S+@\S+\.\S+/;
@@ -67,9 +68,12 @@ const LeftWrapper = () => {
             />
 
             {emailErr && (
-              <p className="error-message ">
-                Please enter a valid email address.
-              </p>
+              <>
+                <img src={errorIcon} className="error-icon" alt="" />
+                <p className="error-message ">
+                  Please enter a valid email address.
+                </p>
+              </>
             )}
 
             <button className="btn" aria-label="Submit button">
