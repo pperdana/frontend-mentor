@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Social links profile | Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-Z3XzGdK6RY)
 - Live Site URL: [https://social-links-profile-pperdana.netlify.app](https://social-links-profile-pperdana.netlify.app)
 
 ## My process
