@@ -5,7 +5,7 @@ import heroMobile from "./assets/hero-mobile.jpg";
 
 const LeftWrapper = () => {
   return (
-    <section className="left-wrapper max-w-[50%] lg:max-w-[100%] lg:py-[5rem]">
+    <section className="left-box max-w-[50%] lg:max-w-[100%] lg:py-[5rem]">
       <div className="left-content-wrapper">
         <img
           className="w-[15.8rem] h-[3.3rem] mt-[3rem] lg:mt-0"
@@ -17,7 +17,7 @@ const LeftWrapper = () => {
           <img className="mobile-image" src={heroMobile} alt="hero mobile" />
         </section>
 
-        <section className="text-wrapper">
+        <section className="text-box">
           <div>
             <h1 className="text-[#ce9797] text-[6rem] font-extralight lg:text-[5.5rem]">
               W E ' R E

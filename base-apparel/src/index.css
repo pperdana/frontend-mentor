@@ -14,7 +14,7 @@
     @apply lg:flex lg:justify-center;
   }
 
-  .left-wrapper {
+  .left-box {
     @apply flex  justify-center bg-[url('./assets/bg-pattern-desktop.svg')] lg:relative;
   }
 
@@ -26,7 +26,7 @@
     @apply hidden top-[220px] left-[50%] translate-x-[-50%] translate-y-[-50%]  lg:inline lg:absolute lg:w-full;
   }
 
-  .text-wrapper {
+  .text-box {
     @apply flex flex-1 flex-col justify-center gap-[2rem] lg:mt-[330px] lg:text-center lg:h-[200px];
   }
 
