@@ -4,7 +4,7 @@
 
 @layer components {
   html {
-    @apply text-[62.5%] lg:text-[50%];
+    @apply text-[62.5%] lg:text-[50%] sm:text-[43.75%];
   }
 
   body {
@@ -27,7 +27,7 @@
   }
 
   .text-box {
-    @apply flex flex-1 flex-col justify-center gap-[2rem] lg:mt-[330px] lg:text-center lg:h-[200px];
+    @apply flex flex-1 flex-col justify-center gap-[2rem] lg:mt-[300px] lg:text-center lg:h-[200px];
   }
 
   .input {
