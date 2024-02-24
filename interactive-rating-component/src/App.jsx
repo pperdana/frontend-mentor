@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <main>
-      <section className="active-state">
+      <section className="card-section">
         <div className="star-icon">
           <img src="./images/icon-star.svg" alt="Icon Star" />
         </div>
@@ -20,7 +20,7 @@ const App = () => {
         <button className="btn">SUBMIT</button>
       </section>
 
-      <section className="thank-you-state">
+      <section className="submitted-section">
         <div className="thank-you-img">
           <img
             src="./images/illustration-thank-you.svg"
