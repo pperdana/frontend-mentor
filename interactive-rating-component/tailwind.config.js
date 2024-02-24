@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // josefin: ["Josefin Sans", "sans-serif"],
+        overpass: ["Overpass", "sans-serif"],
       },
     },
     screens: {
