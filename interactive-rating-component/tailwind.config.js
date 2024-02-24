@@ -2,7 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // josefin: ["Josefin Sans", "sans-serif"],
+      },
+    },
+    screens: {
+      // tall: { raw: "(min-height: 900px)" },
+      // lg: { max: "75em" },
+      // sm: { max: "22em" },
+    },
   },
   plugins: [],
 };
