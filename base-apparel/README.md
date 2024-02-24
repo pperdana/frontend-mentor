@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Base Apparel coming soon page | Frontend Mentor](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-3UyIGoPRDn)
 - Live Site URL: [https://base-apparel-coming-soon-ppedana.netlify.app](https://base-apparel-coming-soon-ppedana.netlify.app)
 
 ## My process
