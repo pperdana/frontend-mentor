@@ -11,6 +11,10 @@
     @apply font-overpass text-[1.5rem];
   }
 
+  #root {
+    @apply bg-[hsl(216,12%,8%)] h-screen;
+  }
+
   .main {
     @apply bg-[hsl(213,19%,18%)] w-[30%] rounded-[30px];
   }
@@ -18,7 +22,7 @@
   main .active-state .rate .rate-num,
   main .active-state .star-icon,
   main,
-  body {
+  #root {
     @apply flex justify-center items-center;
   }
 
