@@ -33,7 +33,7 @@
   }
 
   .star-icon {
-    @apply w-[2rem] h-[2rem] p-[1.5rem] bg-[hsla(216,12%,54%,0.2)] rounded-[50%] mb-[2rem];
+    @apply w-[4.8rem] h-[4.8rem] p-[1.5rem] bg-[hsla(216,12%,54%,0.2)] rounded-[50%] mb-[2rem];
   }
 
   .card-title {
