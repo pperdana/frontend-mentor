@@ -12,7 +12,14 @@
   }
 
   .main {
-    @apply bg-[hsl(213,19%,18%)] w-[30%] rounded-[30px] flex justify-center items-center;
+    @apply bg-[hsl(213,19%,18%)] w-[30%] rounded-[30px];
+  }
+
+  main .active-state .rate .rate-num,
+  main .active-state .star-icon,
+  main,
+  body {
+    @apply flex justify-center items-center;
   }
 
   /********** Card Section ************/
@@ -21,7 +28,31 @@
     @apply p-[2rem];
   }
 
-  /********** Card Section ************/
+  .star-icon {
+    @apply w-[2rem] h-[2rem] p-[1.5rem] bg-[hsla(216,12%,54%,0.2)] rounded-[50%] mb-[2rem];
+  }
+
+  .title {
+    @apply mb-[1rem] text-[hsl(0,0%,100%)] font-bold	text-[1.8rem];
+  }
+
+  .text {
+    @apply mb-[1rem] text-[hsl(217,12%,63%)] leading-[1.5];
+  }
+
+  .rate {
+    @apply text-[hsl(217,12%,63%)] flex justify-around;
+  }
+
+  .rate-num {
+    @apply w-[2rem] h-[2rem]  p-[1.5rem] text-[1.1rem] font-bold	bg-[hsla(216,12%,54%,0.2)] rounded-[50%] cursor-pointer mb-[2rem] transition-all duration-[0.2s];
+  }
+
+  .btn {
+    @apply text-[1rem] font-bold	h-[3rem] w-[315px] border-none bg-[hsl(25,97%,53%)] text-[hsl(0,0%,100%)] rounded-[2rem] tracking-[1.5px] cursor-pointer transition-all	duration-[0.2s];
+  }
+
+  /********** Submitted Section ************/
 
   .submitted-section {
     @apply p-[2rem] hidden text-center p-[2rem];
