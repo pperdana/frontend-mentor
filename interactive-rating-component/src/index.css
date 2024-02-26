@@ -19,8 +19,8 @@
     @apply bg-[hsl(213,19%,18%)] w-[30%] rounded-[30px];
   }
 
-  main .active-state .rate .rate-num,
-  main .active-state .star-icon,
+  .rate-num,
+  .star-icon,
   main,
   #root {
     @apply flex justify-center items-center;
@@ -37,11 +37,11 @@
   }
 
   .card-title {
-    @apply mb-[1rem] text-[hsl(0,0%,100%)] font-bold	text-[1.8rem];
+    @apply mb-[1rem] text-[hsl(0,0%,100%)] font-bold	text-[2.9rem];
   }
 
   .card-text {
-    @apply mb-[1rem] text-[hsl(217,12%,63%)] leading-[1.5];
+    @apply mb-[1rem] text-[1.6rem] text-[hsl(217,12%,63%)] leading-[1.5];
   }
 
   .rate {
@@ -49,11 +49,11 @@
   }
 
   .rate-num {
-    @apply w-[2rem] h-[2rem]  p-[1.5rem] text-[1.1rem] font-bold	bg-[hsla(216,12%,54%,0.2)] rounded-[50%] cursor-pointer mb-[2rem] transition-all duration-[0.2s];
+    @apply w-[2rem] h-[2rem]  p-[1.5rem] text-[1.75rem] font-bold	bg-[hsla(216,12%,54%,0.2)] rounded-[50%] cursor-pointer mb-[2rem] transition-all duration-[0.2s];
   }
 
   .btn {
-    @apply text-[1rem] font-bold	h-[3rem] w-[315px] border-none bg-[hsl(25,97%,53%)] text-[hsl(0,0%,100%)] rounded-[2rem] tracking-[1.5px] cursor-pointer transition-all	duration-[0.2s];
+    @apply text-[1.6rem] font-bold	h-[3rem] w-[315px] border-none bg-[hsl(25,97%,53%)] text-[hsl(0,0%,100%)] rounded-[2rem] tracking-[1.5px] cursor-pointer transition-all	duration-[0.2s];
   }
 
   /********** Submitted Section ************/
