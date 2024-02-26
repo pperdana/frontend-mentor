@@ -6,7 +6,24 @@
   html {
     @apply text-[62.5%];
   }
+
   body {
     @apply font-overpass text-[1.5rem];
+  }
+
+  .main {
+    @apply bg-[hsl(213,19%,18%)] w-[30%] rounded-[30px] flex justify-center items-center;
+  }
+
+  /********** Card Section ************/
+
+  .card-section {
+    @apply p-[2rem];
+  }
+
+  /********** Card Section ************/
+
+  .submitted-section {
+    @apply p-[2rem] hidden text-center p-[2rem];
   }
 }
