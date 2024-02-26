@@ -7,8 +7,8 @@ const Submitted = () => {
       <div className="rate-selected">
         <p className="rate-text"></p>
       </div>
-      <h1 className="title">Thank you!</h1>
-      <p className="text">
+      <h1 className="submitted-title">Thank you!</h1>
+      <p className="submitted-text">
         We appreciate you taking the time to give a rating. If you ever need
         more support, don&rsquo;t hesitate to get in touch!
       </p>
