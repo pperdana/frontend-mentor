@@ -1,8 +1,14 @@
+import starIcon from "./assets/icon-star.svg";
+
 const Card = () => {
   return (
     <section className="card-section">
       <div className="star-icon">
-        <img src="./images/icon-star.svg" alt="Icon Star" />
+        <img
+          className="w-[17px] h-[17px] max-w-none"
+          src={starIcon}
+          alt="Icon Star"
+        />
       </div>
       <h1 className="card-title">How did we do?</h1>
       <p className="card-text">
