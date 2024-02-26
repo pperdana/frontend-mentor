@@ -4,8 +4,8 @@ const Card = () => {
       <div className="star-icon">
         <img src="./images/icon-star.svg" alt="Icon Star" />
       </div>
-      <h1 className="title">How did we do?</h1>
-      <p className="text">
+      <h1 className="card-title">How did we do?</h1>
+      <p className="card-text">
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
