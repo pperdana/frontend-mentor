@@ -7,9 +7,9 @@ const Submitted = () => {
         <img src={thankIllustration} alt="Thank You Image" />
       </div>
       <div className="rate-selected">
-        <p className="text"></p>
+        <p className="rate-text h-[1.5rem]">You selected 3 out of 5</p>
       </div>
-      <h1 className="title">Thank you!</h1>
+      <h1 className="title mt-[2.4rem] mb-[1.6rem]">Thank you!</h1>
       <p className="text">
         We appreciate you taking the time to give a rating. If you ever need
         more support, don&rsquo;t hesitate to get in touch!
