@@ -21,6 +21,7 @@
 
   .rate-num,
   .star-icon,
+  .thank-you-img,
   main,
   #root {
     @apply flex justify-center items-center;
@@ -36,7 +37,7 @@
     @apply w-[4.8rem] h-[4.8rem] p-[1.5rem] bg-[hsla(216,12%,54%,0.2)] rounded-[50%] mb-[2rem];
   }
 
-  .card-title {
+  .title {
     @apply mb-[1rem] text-[hsl(0,0%,100%)] font-bold	text-[2.9rem];
   }
 
@@ -59,11 +60,11 @@
   /********** Submitted Section ************/
 
   .submitted-section {
-    @apply p-[2rem] hidden text-center p-[2rem];
+    @apply p-[2rem] text-center p-[2rem];
   }
 
   .thank-you-img {
-    @apply mb-[2rem];
+    @apply mb-[2rem] text-center;
   }
 
   .rate-selected {
