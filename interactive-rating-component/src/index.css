@@ -4,7 +4,7 @@
 
 @layer components {
   html {
-    @apply text-[62.5%];
+    @apply text-[62.5%] sm:text-[56.25%];
   }
 
   body {
@@ -16,7 +16,7 @@
   }
 
   .main {
-    @apply bg-[hsl(213,19%,18%)] w-[410px] rounded-[30px];
+    @apply bg-[hsl(213,19%,18%)] w-[410px] rounded-[30px] sm:w-[350px] sm:mx-[2rem];
   }
 
   .rate-num,
@@ -68,6 +68,6 @@
   }
 
   .rate-selected {
-    @apply my-0 mx-[5.2rem] p-[0.8rem] text-[hsl(25,97%,53%)] bg-[hsla(216,12%,54%,0.2)] rounded-[3.2rem];
+    @apply my-0 mx-[5.2rem] p-[0.8rem] text-[hsl(25,97%,53%)] bg-[hsla(216,12%,54%,0.2)] rounded-[3.2rem] sm:px-0 sm:mx-0 sm:w-[170px] sm:inline-block;
   }
 }
