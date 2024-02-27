@@ -16,7 +16,7 @@
   }
 
   .main {
-    @apply bg-[hsl(213,19%,18%)] w-[370px] rounded-[30px];
+    @apply bg-[hsl(213,19%,18%)] w-[410px] rounded-[30px];
   }
 
   .rate-num,
@@ -32,13 +32,13 @@
   }
 
   p.text {
-    @apply mb-[1rem] text-[1.6rem] text-[hsl(217,12%,63%)] leading-[1.5];
+    @apply text-[1.6rem] text-[hsl(217,12%,63%)] leading-[1.5];
   }
 
   /********** Card Section ************/
 
   .card-section {
-    @apply p-[2rem];
+    @apply p-[3.2rem];
   }
 
   .star-icon {
@@ -50,7 +50,7 @@
   }
 
   .rate-num {
-    @apply w-[2rem] h-[2rem]  p-[2.4rem] text-[1.75rem] font-bold	bg-[hsla(216,12%,54%,0.2)] rounded-[50%] cursor-pointer mb-[2rem] transition-all duration-[0.2s];
+    @apply w-[2rem] h-[2rem]  p-[2.4rem] text-[1.75rem] font-bold	bg-[hsla(216,12%,54%,0.2)] rounded-[50%] cursor-pointer mb-[3.2rem] transition-all duration-[0.2s];
   }
 
   .btn {
@@ -60,7 +60,7 @@
   /********** Submitted Section ************/
 
   .submitted-section {
-    @apply p-[2rem] text-center p-[2rem];
+    @apply p-[3.2rem] text-center;
   }
 
   .thank-you-img {
