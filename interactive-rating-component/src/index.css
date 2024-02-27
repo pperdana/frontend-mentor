@@ -27,6 +27,14 @@
     @apply flex justify-center items-center;
   }
 
+  h1.title {
+    @apply mb-[1rem] text-[hsl(0,0%,100%)] font-bold	text-[2.9rem];
+  }
+
+  p.text {
+    @apply mb-[1rem] text-[1.6rem] text-[hsl(217,12%,63%)] leading-[1.5];
+  }
+
   /********** Card Section ************/
 
   .card-section {
@@ -35,14 +43,6 @@
 
   .star-icon {
     @apply w-[4.8rem] h-[4.8rem] p-[1.5rem] bg-[hsla(216,12%,54%,0.2)] rounded-[50%] mb-[2rem];
-  }
-
-  .title {
-    @apply mb-[1rem] text-[hsl(0,0%,100%)] font-bold	text-[2.9rem];
-  }
-
-  .card-text {
-    @apply mb-[1rem] text-[1.6rem] text-[hsl(217,12%,63%)] leading-[1.5];
   }
 
   .rate {
@@ -69,13 +69,5 @@
 
   .rate-selected {
     @apply my-0 mx-[3.5rem] p-[0.5rem] text-[hsl(25,97%,53%)] bg-[hsla(216,12%,54%,0.2)] rounded-[2rem];
-  }
-
-  .submitted-title {
-    @apply my-[1.5rem] mx-0 text-[hsl(0,0%,100%)] font-bold	text-[1.8rem];
-  }
-
-  .submitted-text {
-    @apply text-[hsl(217,12%,63%)] font-normal	leading-[1.5];
   }
 }
