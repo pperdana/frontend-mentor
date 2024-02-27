@@ -64,7 +64,7 @@
   }
 
   .thank-you-img {
-    @apply mb-[2rem] text-center;
+    @apply mb-[2.6rem] text-center;
   }
 
   .rate-selected {
