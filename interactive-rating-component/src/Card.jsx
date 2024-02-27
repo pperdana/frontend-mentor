@@ -2,7 +2,7 @@ import starIcon from "./assets/icon-star.svg";
 
 const Card = () => {
   return (
-    <section className="card-section hidden">
+    <section className="card-section">
       <div className="star-icon">
         <img
           className="w-[17px] h-[17px] max-w-none"
