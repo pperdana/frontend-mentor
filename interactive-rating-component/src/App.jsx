@@ -8,14 +8,14 @@ import { ToastContainer, toast } from "react-toastify";
 const App = () => {
   const [listNum, setListNum] = useState(data);
   const [activeNum, setActiveNum] = useState(null);
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const submitRate = () => {
     if (activeNum === null) {
       toast.error("Please Choose Rating!");
     }
+    setIsSubmitted(true);
   };
-
-  console.log(activeNum);
 
   return (
     <main className="main">
@@ -24,8 +24,9 @@ const App = () => {
         activeNum={activeNum}
         setActiveNum={setActiveNum}
         submitRate={submitRate}
+        isSubmitted={isSubmitted}
       />
-      <Submitted activeNum={activeNum} />
+      <Submitted activeNum={activeNum} isSubmitted={isSubmitted} />
       <ToastContainer position="top-right" />
     </main>
   );
