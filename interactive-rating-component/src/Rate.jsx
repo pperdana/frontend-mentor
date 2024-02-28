@@ -1,5 +1,14 @@
-const Rate = ({ id, num }) => {
-  return <div className="rate-num">{num}</div>;
+const Rate = ({ id, num, activeNum, setActiveNum }) => {
+  const isActive = id === activeNum;
+
+  return (
+    <div
+      className={`rate-num ${isActive ? "active" : ""}`}
+      onClick={() => setActiveNum(num)}
+    >
+      {num}
+    </div>
+  );
 };
 
 export default Rate;
