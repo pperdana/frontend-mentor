@@ -1,7 +1,7 @@
 import Rate from "./Rate";
 import starIcon from "./assets/icon-star.svg";
 
-const Card = ({ listNum, activeNum, setActiveNum }) => {
+const Card = ({ listNum, activeNum, setActiveNum, submitRate }) => {
   return (
     <section className="card-section">
       <div className="star-icon">
@@ -30,7 +30,9 @@ const Card = ({ listNum, activeNum, setActiveNum }) => {
         })}
       </div>
 
-      <button className="btn">SUBMIT</button>
+      <button className="btn" onClick={submitRate}>
+        SUBMIT
+      </button>
     </section>
   );
 };

@@ -1,13 +1,15 @@
 import thankIllustration from "./assets/illustration-thank-you.svg";
 
-const Submitted = () => {
+const Submitted = ({ activeNum }) => {
   return (
     <section className="submitted-section hidden">
       <div className="thank-you-img">
         <img src={thankIllustration} alt="Thank You Image" />
       </div>
       <div className="rate-selected">
-        <p className="rate-text h-[1.5rem]">You selected 3 out of 5</p>
+        <p className="rate-text h-[1.5rem]">
+          You selected {activeNum} out of 5
+        </p>
       </div>
       <h1 className="title mt-[2.4rem] mb-[1.6rem]">Thank you!</h1>
       <p className="text">
