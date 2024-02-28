@@ -35,6 +35,10 @@
     @apply text-[1.6rem] text-[hsl(217,12%,63%)] leading-[1.5];
   }
 
+  .active {
+    @apply !bg-[hsl(25,97%,53%)] !text-[hsl(0,0%,100%)];
+  }
+
   /********** Card Section ************/
 
   .card-section {
