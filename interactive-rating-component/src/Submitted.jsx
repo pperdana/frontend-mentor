@@ -1,8 +1,8 @@
 import thankIllustration from "./assets/illustration-thank-you.svg";
 
-const Submitted = ({ activeNum }) => {
+const Submitted = ({ activeNum, isSubmitted }) => {
   return (
-    <section className="submitted-section hidden">
+    <section className={`submitted-section${isSubmitted ? "" : " hidden"}`}>
       <div className="thank-you-img">
         <img src={thankIllustration} alt="Thank You Image" />
       </div>
