@@ -58,7 +58,7 @@
   }
 
   .btn {
-    @apply text-[1.6rem] font-bold	h-[4rem] w-full border-none bg-[hsl(25,97%,53%)] text-[hsl(0,0%,100%)] rounded-[2rem] tracking-[1.5px] cursor-pointer transition-all	duration-[0.2s];
+    @apply text-[1.6rem] font-bold	h-[4rem] w-full border-none bg-[hsl(25,97%,53%)] text-[hsl(0,0%,100%)] rounded-[2rem] tracking-[1.5px] cursor-pointer transition-all	duration-[0.2s] hover:text-[hsl(25,97%,53%)] hover:bg-[hsl(0,0%,100%)];
   }
 
   /********** Submitted Section ************/
