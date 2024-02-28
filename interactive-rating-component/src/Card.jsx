@@ -1,9 +1,15 @@
 import Rate from "./Rate";
 import starIcon from "./assets/icon-star.svg";
 
-const Card = ({ listNum, activeNum, setActiveNum, submitRate }) => {
+const Card = ({
+  listNum,
+  activeNum,
+  setActiveNum,
+  submitRate,
+  isSubmitted,
+}) => {
   return (
-    <section className="card-section">
+    <section className={`card-section${isSubmitted ? " hidden" : ""}`}>
       <div className="star-icon">
         <img
           className="w-[17px] h-[17px] max-w-none"
