@@ -1,4 +1,4 @@
-const rateNum = [
+const listNum = [
   { id: 1, num: 1 },
   { id: 2, num: 2 },
   { id: 3, num: 3 },
@@ -6,4 +6,4 @@ const rateNum = [
   { id: 5, num: 5 },
 ];
 
-export default rateNum;
+export default listNum;
