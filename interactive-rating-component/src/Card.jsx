@@ -1,7 +1,7 @@
 import Rate from "./Rate";
 import starIcon from "./assets/icon-star.svg";
 
-const Card = ({ listNum }) => {
+const Card = ({ listNum, activeNum, setActiveNum }) => {
   return (
     <section className="card-section">
       <div className="star-icon">
@@ -19,7 +19,14 @@ const Card = ({ listNum }) => {
 
       <div className="rate">
         {listNum.map((item) => {
-          return <Rate key={item.id} {...item} />;
+          return (
+            <Rate
+              key={item.id}
+              {...item}
+              activeNum={activeNum}
+              setActiveNum={setActiveNum}
+            />
+          );
         })}
       </div>
 
