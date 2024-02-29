@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Interactive rating component | Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-l5q41yXj18)
 - Live Site URL: [interactive-rating-component-pperdana.netlify.app](https://interactive-rating-component-pperdana.netlify.app)
 
 ## My process
