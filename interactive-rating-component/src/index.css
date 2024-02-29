@@ -39,6 +39,10 @@
     @apply !bg-[hsl(25,97%,53%)] !text-[hsl(0,0%,100%)];
   }
 
+  .hide {
+    @apply hidden opacity-0	pointer-events-none invisible;
+  }
+
   /********** Card Section ************/
 
   .card-section {
