@@ -9,7 +9,7 @@ const Card = ({
   isSubmitted,
 }) => {
   return (
-    <section className={`card-section${isSubmitted ? " hidden" : ""}`}>
+    <section className={`card-section${isSubmitted ? " hide" : ""}`}>
       <div className="star-icon">
         <img
           className="w-[17px] h-[17px] max-w-none"
