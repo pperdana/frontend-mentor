@@ -7,7 +7,7 @@ import Nutrition from "./Nutrition";
 
 const App = () => {
   return (
-    <main className="">
+    <main className="wp">
       <Header />
       <div className="box-contents">
         <Title />
