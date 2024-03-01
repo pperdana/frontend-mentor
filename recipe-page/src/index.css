@@ -31,7 +31,7 @@
 
   ul,
   ol {
-    @apply marker:text-[hsl(14,45%,36%)] list-disc ml-[3.4rem] marker:font-bold;
+    @apply my-[1.6rem] marker:text-[hsl(14,45%,36%)] list-disc ml-[3.4rem] marker:font-bold;
   }
 
   li {

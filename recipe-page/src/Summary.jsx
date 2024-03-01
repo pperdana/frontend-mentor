@@ -4,7 +4,7 @@ const Summary = () => {
       <p className="text-[hsl(332,51%,32%)] font-semibold text-[2rem] my-[1rem]">
         Preparation time
       </p>
-      <ul className="summary-list text-[1.5rem]">
+      <ul className="summary-list text-[1.5rem] my-[1.2rem]">
         <li>
           <p>
             <span>Total:</span> Approximately 10 minutes
