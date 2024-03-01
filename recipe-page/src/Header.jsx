@@ -1,9 +1,11 @@
+import omeletteImg from "./assets/image-omelette.jpeg";
+
 const Header = () => {
   return (
     <header>
       <img
         className="block w-full"
-        src="./assets/images/image-omelette.jpeg"
+        src={omeletteImg}
         alt="presentation of an omelette"
       />
     </header>
