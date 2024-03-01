@@ -7,6 +7,10 @@
     @apply text-[62.5%];
   }
 
+  body {
+    @apply bg-[hsl(30,54%,90%)];
+  }
+
   .wp {
     @apply mx-auto max-w-[720px] p-[40px] my-[60px] bg-[hsl(0,0%,100%)] rounded-[22px];
   }
@@ -18,7 +22,7 @@
   h1,
   h2,
   h3 {
-    @apply font-normal;
+    @apply font-youngSerif font-normal;
   }
 
   h2 {
@@ -27,6 +31,10 @@
 
   .heading {
     @apply text-[hsl(14,45%,36%)] mt-[20px] mb-[8px] mx-0;
+  }
+
+  ul {
+    @apply marker:text-[hsl(14,45%,36%)] list-disc;
   }
 
   li {
