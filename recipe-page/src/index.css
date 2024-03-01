@@ -20,4 +20,24 @@
   h3 {
     @apply font-normal;
   }
+
+  /*********** Header *************/
+  /*********** Title *************/
+  /*********** Summary *************/
+
+  .summary-list li {
+    @apply relative left-[-10px];
+  }
+
+  .summary-list li p {
+    @apply relative left-[20px] my-[6px];
+  }
+
+  .summary-list li span {
+    @apply font-bold;
+  }
+
+  /*********** Ingredients *************/
+  /*********** Instructions *************/
+  /*********** Nutrition *************/
 }
