@@ -11,7 +11,7 @@
     @apply bg-[hsl(30,54%,90%)] font-outfit text-[1.6rem] text-[hsl(30,10%,34%)] leading-[1.6] font-normal;
   }
 
-  .wp {
+  #root {
     @apply mx-auto max-w-[720px] p-[4rem] my-[6rem] bg-[hsl(0,0%,100%)] rounded-[2.2rem] lg:max-w-[500px] md:max-w-[340px] sm:max-w-[720px] sm:m-0 sm:p-0 sm:rounded-none;
   }
 
