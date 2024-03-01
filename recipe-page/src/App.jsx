@@ -13,7 +13,9 @@ const App = () => {
         <Title />
         <Summary />
         <Ingredients />
+        <hr />
         <Instructions />
+        <hr />
         <Nutrition />
       </div>
     </main>

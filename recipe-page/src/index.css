@@ -8,15 +8,11 @@
   }
 
   body {
-    @apply bg-[hsl(30,54%,90%)];
+    @apply bg-[hsl(30,54%,90%)] font-outfit text-[1.6rem] text-[hsl(30,10%,34%)] leading-[1.6] font-normal;
   }
 
   .wp {
     @apply mx-auto max-w-[720px] p-[40px] my-[60px] bg-[hsl(0,0%,100%)] rounded-[22px];
-  }
-
-  h1 {
-    @apply mt-[30px];
   }
 
   h1,
@@ -26,7 +22,7 @@
   }
 
   h2 {
-    @apply text-[1.85rem];
+    @apply text-[2.95rem];
   }
 
   .heading {
@@ -48,7 +44,9 @@
   span {
     @apply font-bold;
   }
-
+  hr {
+    @apply border-[1px];
+  }
   /*********** Header *************/
   /*********** Title *************/
   /*********** Summary *************/
