@@ -9,8 +9,8 @@ export default {
       },
     },
     screens: {
-      // tall: { raw: "(min-height: 900px)" },
-      // lg: { max: "75em" },
+      lg: { max: "50em" },
+      md: { max: "34.4em" },
       sm: { max: "23.5em" },
     },
   },
