@@ -1,6 +1,6 @@
 const Summary = () => {
   return (
-    <summary className="summary">
+    <summary className="summary bg-[hsl(330,100%,98%)] rounded-[22px] px-0 py-[1.6rem] pl-[32px]">
       <p>Preparation time</p>
       <ul className="summary-list">
         <li>
