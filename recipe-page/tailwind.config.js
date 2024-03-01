@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // overpass: ["Overpass", "sans-serif"],
+        youngSerif: ["Young Serif", "serif"],
+        outfit: ["Outfit", "sans-serif"],
       },
     },
     screens: {
