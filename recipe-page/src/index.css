@@ -6,4 +6,8 @@
   html {
     @apply text-[62.5%];
   }
+
+  .wp {
+    @apply mx-auto max-w-[720px] p-[40px] my-[60px] bg-[hsl(0,0%,100%)] rounded-[22px];
+  }
 }
