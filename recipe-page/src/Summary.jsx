@@ -1,7 +1,7 @@
 const Summary = () => {
   return (
-    <summary className="summary bg-[hsl(330,100%,98%)] rounded-[22px] px-0 py-[1.6rem] pl-[32px]">
-      <p className="text-[hsl(332,51%,32%)] font-semibold text-[2rem] my-[10px]">
+    <summary className="summary bg-[hsl(330,100%,98%)] rounded-[2.2rem] px-0 py-[1.6rem] pl-[3.2rem] list-none">
+      <p className="text-[hsl(332,51%,32%)] font-semibold text-[2rem] my-[1rem]">
         Preparation time
       </p>
       <ul className="summary-list text-[1.5rem]">
