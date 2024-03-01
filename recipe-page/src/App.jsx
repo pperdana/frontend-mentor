@@ -9,7 +9,7 @@ const App = () => {
   return (
     <main className="wp">
       <Header />
-      <div className="box-contents">
+      <div className="box-contents sm:px-[20px] sm:pb-[30px]">
         <Title />
         <Summary />
         <Ingredients />

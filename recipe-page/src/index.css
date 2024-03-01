@@ -4,7 +4,7 @@
 
 @layer components {
   html {
-    @apply text-[62.5%];
+    @apply text-[62.5%] sm:text-[56.25%];
   }
 
   body {
@@ -12,7 +12,7 @@
   }
 
   .wp {
-    @apply mx-auto max-w-[720px] p-[4rem] my-[6rem] bg-[hsl(0,0%,100%)] rounded-[2.2rem];
+    @apply mx-auto max-w-[720px] p-[4rem] my-[6rem] bg-[hsl(0,0%,100%)] rounded-[2.2rem] sm:m-0 sm:p-0 sm:rounded-none;
   }
 
   h1,
