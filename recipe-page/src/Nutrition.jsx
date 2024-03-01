@@ -6,7 +6,7 @@ const Nutrition = () => {
         The table below shows nutritional values per serving without the
         additional fillings.
       </p>
-      <div className="table">
+      <div className="table-list">
         <div className="row">
           <p className="item">Calories</p>
           <p className="item">
