@@ -49,4 +49,22 @@
 
   /*********** Instructions *************/
   /*********** Nutrition *************/
+  .row {
+    @apply m-0 flex items-center h-[50px];
+  }
+  .row p {
+    @apply m-0;
+  }
+
+  .row p:first-child {
+    @apply m-[5%] flex-1;
+  }
+
+  .row p:nth-child(2) {
+    @apply text-[hsl(14,45%,36%)];
+  }
+
+  .item {
+    @apply flex-1;
+  }
 }

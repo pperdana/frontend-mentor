@@ -2,7 +2,7 @@ const Nutrition = () => {
   return (
     <section>
       <h2 className="heading">Nutrition</h2>
-      <p className="margin-block:8px ;">
+      <p className="my-[8px]">
         The table below shows nutritional values per serving without the
         additional fillings.
       </p>
