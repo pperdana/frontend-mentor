@@ -2,7 +2,7 @@ const Instructions = () => {
   return (
     <section className="instructions">
       <h2 className="heading">Instructions</h2>
-      <ol>
+      <ol className="list-decimal">
         <li>
           <p>
             <span>Beat the eggs:</span> In a bowl, beat the eggs with a pinch of

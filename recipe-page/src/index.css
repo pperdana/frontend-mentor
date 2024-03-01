@@ -29,30 +29,23 @@
     @apply text-[hsl(14,45%,36%)] mt-[20px] mb-[8px] mx-0;
   }
 
+  li {
+    @apply relative left-[-10px];
+  }
+
+  li p {
+    @apply relative left-[20px] my-[6px];
+  }
+
+  span {
+    @apply font-bold;
+  }
+
   /*********** Header *************/
   /*********** Title *************/
   /*********** Summary *************/
 
-  .summary-list li {
-    @apply relative left-[-10px];
-  }
-
-  .summary-list li p {
-    @apply relative left-[20px] my-[6px];
-  }
-
-  .summary-list li span {
-    @apply font-bold;
-  }
-
   /*********** Ingredients *************/
-  .ingredients-list li {
-    @apply relative left-[-10px];
-  }
-
-  .ingredients-list p {
-    @apply relative left-[20px] my-[6px];
-  }
 
   /*********** Instructions *************/
   /*********** Nutrition *************/
