@@ -2,7 +2,7 @@ const Ingredients = () => {
   return (
     <section>
       <h2 className="heading">Ingredients</h2>
-      <ul>
+      <ul className="ingredients-list marker:text-[hsl(14,45%,36%)] list-disc">
         <li>
           <p>2-3 large eggs</p>
         </li>

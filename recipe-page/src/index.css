@@ -21,6 +21,14 @@
     @apply font-normal;
   }
 
+  h2 {
+    @apply text-[1.85rem];
+  }
+
+  .heading {
+    @apply text-[hsl(14,45%,36%)] mt-[20px] mb-[8px] mx-0;
+  }
+
   /*********** Header *************/
   /*********** Title *************/
   /*********** Summary *************/
@@ -38,6 +46,14 @@
   }
 
   /*********** Ingredients *************/
+  .ingredients-list li {
+    @apply relative left-[-10px];
+  }
+
+  .ingredients-list p {
+    @apply relative left-[20px] my-[6px];
+  }
+
   /*********** Instructions *************/
   /*********** Nutrition *************/
 }
