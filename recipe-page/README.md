@@ -19,8 +19,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ![](./src/assets/desktop-preview.jpg)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+ 
+- Solution URL: [Recipe Page | Frontend Mentor](https://www.frontendmentor.io/solutions/recipe-page-Vm_65ZxsVj)
 - Live Site URL: [recipe-page-pperdana.netlify.app](https://recipe-page-pperdana.netlify.app/)
 
 ## My process
