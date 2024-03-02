@@ -7,6 +7,10 @@
     @apply text-[62.5%];
   }
 
+  body {
+    @apply font-manrope;
+  }
+
   main {
     @apply min-h-screen flex justify-center items-center bg-[hsl(210,46%,95%)] p-[20px];
   }

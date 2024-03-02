@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // youngSerif: ["Young Serif", "serif"],
+        manrope: ["Manrope", "sans-serif"],
       },
     },
     screens: {
