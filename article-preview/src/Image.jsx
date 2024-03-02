@@ -1,7 +1,9 @@
+import drawers from "./assets/drawers.jpg";
+
 const Image = () => {
   return (
     <div className="img-box">
-      <img src="./images/drawers.jpg" alt="" className="article-banner" />
+      <img src={drawers} alt="" className="article-banner" />
     </div>
   );
 };

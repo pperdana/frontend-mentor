@@ -1,11 +1,14 @@
+import michelleAvatar from "./assets/avatar-michelle.jpg";
+import shareIcon from "./assets/icon-share.svg";
+
 const Text = () => {
   return (
     <div className="article-content">
       <a href="#">
-        <h3 className="article-title">
+        <h1 className="article-title">
           Shift the overall look and feel by adding these wonderful touches to
           furniture in your home
-        </h3>
+        </h1>
       </a>
 
       <p className="article-text">
@@ -17,14 +20,14 @@ const Text = () => {
       <div className="acticle-content-footer">
         <div className="author">
           <img
-            src="./images/avatar-michelle.jpg"
-            alt=""
+            src={michelleAvatar}
+            alt="avatar michelle"
             className="author-avater"
           />
 
           <div className="author-info">
             <a href="#">
-              <h4 className="author-name">Michelle Appleton</h4>
+              <h2 className="author-name">Michelle Appleton</h2>
             </a>
             <div className="publish-date">28 Jun 2020</div>
           </div>
@@ -32,12 +35,7 @@ const Text = () => {
 
         <div className="share">
           <button className="share-button">
-            <ion-icon
-              name="arrow-redo"
-              role="img"
-              className="md hydrated"
-              aria-label="arrow redo"
-            ></ion-icon>
+            <img src={shareIcon} alt="icon share" />
           </button>
 
           <div className="share-option">
