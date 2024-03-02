@@ -3,7 +3,7 @@ import Text from "./Text";
 
 const App = () => {
   return (
-    <main>
+    <main className="">
       <article className="article-card">
         <Image />
         <Text />

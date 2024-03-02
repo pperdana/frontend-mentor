@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  html {
+    @apply text-[62.5%];
+  }
+
+  main {
+    @apply min-h-screen flex justify-center items-center bg-[hsl(210,46%,95%)] p-[20px];
+  }
+
+  .article-card {
+    @apply grid grid-cols-[285px_minmax(300px,_445px)];
+  }
+
+  .img-box {
+    @apply rounded-tl-[10px] rounded-bl-[10px] overflow-hidden;
+  }
+
+  .article-banner {
+    @apply w-full h-full object-cover	object-left	transition-all duration-[500ms] ease-linear;
+  }
+
+  .article-content {
+    @apply bg-[hsl(0,0%,100%)] py-[32px] px-[40px] rounded-tr-[10px] rounded-br-[10px];
+  }
+
+  .article-title {
+    @apply text-[20px] text-[hsl(217,19%,35%)] mb-[12px] leading-[1.4];
+  }
+
+  .article-text {
+    @apply text-[hsl(214,17%,51%)] text-[13px] leading-[1.5] mb-[18px];
+  }
+
+  .acticle-content-footer {
+    @apply flex justify-between items-center;
+  }
+
+  .author {
+    @apply flex items-center;
+  }
+
+  .author-avater {
+    @apply w-[40px] h-[40px] rounded-full mr-[15px];
+  }
+
+  .publish-date {
+    @apply text-[hsl(212,23%,69%)] text-[13px];
+  }
+
+  .author-name {
+    @apply text-[hsl(217,19%,35%)] text-[13px];
+  }
+
+  .share {
+    @apply relative;
+  }
+
+  .share-button {
+    @apply bg-[hsl(210,46%,95%)] p-[6px] rounded-[20px] text-[20px] text-[hsl(214,17%,51%)] transition-all duration-[250ms] ease-linear;
+  }
+
+  .share-option {
+    @apply scale-0 translate-x-[-50%] translate-y-0 bg-[hsl(217,19%,35%)] absolute bottom-[calc(100%+28px)] left-[50%] flex items-center gap-[12px] py-[17px] px-[40px] rounded-[10px] shadow-[0_5px_20px_-5px_#0003] origin-bottom	invisible transition-all duration-[250px] ease-linear;
+  }
+  .share-option span {
+    @apply text-[11px] uppercase tracking-[5px] text-[hsl(212,23%,69%)] mr-[5px];
+  }
+}
