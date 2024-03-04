@@ -37,7 +37,7 @@
   }
 
   .article-title {
-    @apply text-[2rem] text-[hsl(217,19%,35%)] mb-[1.2rem] leading-[1.4];
+    @apply text-[2rem] text-[hsl(217,19%,35%)] mb-[1.2rem] leading-[1.4] sm:text-[1.8rem];
   }
 
   .article-text {
