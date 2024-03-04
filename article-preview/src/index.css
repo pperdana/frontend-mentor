@@ -21,7 +21,7 @@
   }
 
   .article-card {
-    @apply grid grid-cols-[285px_minmax(300px,_445px)];
+    @apply grid grid-cols-[285px_minmax(300px,_445px)] rounded-[1rem] shadow-[rgba(0,0,0,0.19)_0px_10px_20px,rgba(0,0,0,0.23)_0px_6px_6px];
   }
 
   .img-box {
@@ -41,7 +41,7 @@
   }
 
   .article-text {
-    @apply text-[hsl(214,17%,51%)] text-[13px] leading-[1.5] mb-[18px];
+    @apply text-[hsl(214,17%,51%)] text-[13px] leading-[1.5] mb-[18px] font-medium;
   }
 
   .acticle-content-footer {
