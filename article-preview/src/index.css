@@ -4,7 +4,7 @@
 
 @layer components {
   html {
-    @apply text-[62.5%];
+    @apply text-[62.5%] sm:text-[50%];
   }
 
   body {
@@ -21,11 +21,11 @@
   }
 
   .article-card {
-    @apply grid grid-cols-[28.5rem_minmax(30rem,_44.5rem)] rounded-[1rem] shadow-[rgba(0,0,0,0.19)_0rem_1rem_2rem,rgba(0,0,0,0.23)_0rem_0.6rem_0.6rem];
+    @apply grid grid-cols-[28.5rem_minmax(30rem,_44.5rem)] rounded-[1rem] shadow-[rgba(0,0,0,0.19)_0rem_1rem_2rem,rgba(0,0,0,0.23)_0rem_0.6rem_0.6rem] sm:grid-cols-[1fr] sm:max-w-[295px] overflow-hidden;
   }
 
   .img-box {
-    @apply rounded-tl-[1rem] rounded-bl-[1rem] overflow-hidden;
+    @apply rounded-tl-[1rem] rounded-bl-[1rem] overflow-hidden sm:h-[180px] sm:rounded-none;
   }
 
   .article-banner {
@@ -33,7 +33,7 @@
   }
 
   .article-content {
-    @apply bg-[hsl(0,0%,100%)] py-[3.2rem] px-[4rem] rounded-tr-[1rem] rounded-br-[1rem];
+    @apply bg-[hsl(0,0%,100%)] py-[3.2rem] px-[4rem] rounded-tr-[1rem] rounded-br-[1rem] sm:rounded-none;
   }
 
   .article-title {
@@ -41,11 +41,11 @@
   }
 
   .article-text {
-    @apply text-[hsl(214,17%,51%)] text-[1.3rem] leading-[1.5] mb-[1.8rem] font-medium;
+    @apply text-[hsl(214,17%,51%)] text-[1.3rem] leading-[1.5] mb-[1.8rem] font-medium sm:mb-[30px];
   }
 
   .acticle-content-footer {
-    @apply flex justify-between items-center;
+    @apply flex justify-between items-center sm:relative;
   }
 
   .author {
@@ -65,7 +65,7 @@
   }
 
   .share {
-    @apply relative w-[3.2rem] h-[3.2rem];
+    @apply relative w-[3.2rem] h-[3.2rem] sm:static sm:z-10;
   }
 
   .share-button {
