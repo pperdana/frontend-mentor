@@ -36,7 +36,7 @@ const Text = () => {
         <div className="share">
           <button className="share-button">
             <img
-              className="block w-[18px] h-[18px]"
+              className="block w-[1.8rem] h-[1.8rem]"
               src={shareIcon}
               alt="icon share"
             />
