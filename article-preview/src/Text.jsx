@@ -4,12 +4,10 @@ import shareIcon from "./assets/icon-share.svg";
 const Text = () => {
   return (
     <div className="article-content">
-      <a href="#">
-        <h1 className="article-title">
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h1>
-      </a>
+      <h1 className="article-title">
+        Shift the overall look and feel by adding these wonderful touches to
+        furniture in your home
+      </h1>
 
       <p className="article-text">
         Ever been in a room and felt like something was missing? Perhaps it felt
@@ -42,7 +40,7 @@ const Text = () => {
             />
           </button>
 
-          <div className="share-option">
+          <div className="share-option active">
             <span>Share</span>
 
             <a href="#">
