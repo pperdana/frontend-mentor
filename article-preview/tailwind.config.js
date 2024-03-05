@@ -8,7 +8,7 @@ export default {
       },
     },
     screens: {
-      sm: { max: "48em" },
+      sm: { max: "59em" },
     },
   },
   plugins: [],
