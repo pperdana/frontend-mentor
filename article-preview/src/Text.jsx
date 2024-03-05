@@ -1,5 +1,8 @@
 import michelleAvatar from "./assets/avatar-michelle.jpg";
 import shareIcon from "./assets/icon-share.svg";
+import facebookIcon from "./assets/icon-facebook.svg";
+import pinterestIcon from "./assets/icon-pinterest.svg";
+import twitterIcon from "./assets/icon-twitter.svg";
 
 const Text = () => {
   return (
@@ -44,28 +47,23 @@ const Text = () => {
             <span>Share</span>
 
             <a href="#">
-              <ion-icon
-                name="logo-facebook"
-                role="img"
-                className="md hydrated"
-                aria-label="logo facebook"
-              ></ion-icon>
+              <img
+                className="hydrated"
+                src={facebookIcon}
+                alt="logo-facebook"
+              />
             </a>
+
             <a href="#">
-              <ion-icon
-                name="logo-twitter"
-                role="img"
-                className="md hydrated"
-                aria-label="logo twitter"
-              ></ion-icon>
+              <img className="hydrated" src={twitterIcon} alt="logo-twitter" />
             </a>
+
             <a href="#">
-              <ion-icon
-                name="logo-pinterest"
-                role="img"
-                className="md hydrated"
-                aria-label="logo pinterest"
-              ></ion-icon>
+              <img
+                className="hydrated"
+                src={pinterestIcon}
+                alt="logo-pinterest"
+              />
             </a>
           </div>
         </div>
