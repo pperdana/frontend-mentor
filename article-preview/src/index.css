@@ -21,7 +21,7 @@
   }
 
   .article-card {
-    @apply grid grid-cols-[28.5rem_minmax(30rem,_44.5rem)] rounded-[1rem] shadow-[rgba(0,0,0,0.19)_0rem_1rem_2rem,rgba(0,0,0,0.23)_0rem_0.6rem_0.6rem] sm:grid-cols-[1fr] sm:max-w-[295px] overflow-hidden;
+    @apply grid grid-cols-[28.5rem_minmax(30rem,_44.5rem)] rounded-[1rem] shadow-[rgba(0,0,0,0.19)_0rem_1rem_2rem,rgba(0,0,0,0.23)_0rem_0.6rem_0.6rem] sm:grid-cols-[1fr] sm:max-w-[295px];
   }
 
   .img-box {
@@ -82,5 +82,9 @@
 
   .share-option span {
     @apply text-[1.1rem] uppercase tracking-[0.5rem] text-[hsl(212,23%,69%)] mr-[0.5rem];
+  }
+
+  .hydrated {
+    @apply max-w-none;
   }
 }
