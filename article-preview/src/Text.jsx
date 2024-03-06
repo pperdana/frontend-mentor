@@ -1,8 +1,9 @@
 import michelleAvatar from "./assets/avatar-michelle.jpg";
-import shareIcon from "./assets/icon-share.svg";
 import facebookIcon from "./assets/icon-facebook.svg";
 import pinterestIcon from "./assets/icon-pinterest.svg";
 import twitterIcon from "./assets/icon-twitter.svg";
+
+import { RiShareForwardFill } from "react-icons/ri";
 
 const Text = ({ setIsHide, isHide }) => {
   return (
@@ -36,11 +37,7 @@ const Text = ({ setIsHide, isHide }) => {
 
         <div className="share">
           <button className="share-button" onClick={() => setIsHide(!isHide)}>
-            <img
-              className="block w-[1.8rem] h-[1.8rem]"
-              src={shareIcon}
-              alt="icon share"
-            />
+            <RiShareForwardFill className="text-[2rem]" />
           </button>
 
           <div className={`share-option${isHide ? "" : " active"}`}>
