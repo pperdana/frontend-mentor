@@ -1,5 +1,5 @@
-import Header from "./Header";
-import Card from "./Card";
+import Header from "./Header.tsx";
+import Card from "./Card.tsx";
 
 const App = () => {
   return (
