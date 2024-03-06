@@ -36,7 +36,12 @@ const Text = ({ setIsHide, isHide }) => {
         </div>
 
         <div className="share">
-          <button className="share-button" onClick={() => setIsHide(!isHide)}>
+          <button
+            id="buttonShare"
+            aria-label="Share Button"
+            className="share-button"
+            onClick={() => setIsHide(!isHide)}
+          >
             <RiShareForwardFill className="text-[2rem]" />
           </button>
 
