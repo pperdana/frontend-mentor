@@ -69,11 +69,11 @@
   }
 
   .share-button {
-    @apply w-[3.2rem] h-[3.2rem] bg-[hsl(210,46%,95%)] p-[0.6rem] rounded-[2rem] text-[2rem] text-[hsl(214,17%,51%)] transition-all duration-[250ms] ease-linear;
+    @apply w-[3.2rem] h-[3.2rem] bg-[hsl(210,46%,95%)] p-[0.6rem] rounded-[2rem] text-[2rem] text-[hsl(214,17%,51%)] transition-all duration-[250ms] ease-in-out active:bg-[hsl(214,17%,51%)] hover:bg-[hsl(214,17%,51%)] active:text-[hsl(210,46%,95%)] hover:text-[hsl(210,46%,95%)];
   }
 
   .share-option {
-    @apply scale-0 translate-x-[-50%] translate-y-0 bg-[hsl(217,19%,35%)] absolute bottom-[calc(100%+2.8rem)] left-[50%] flex items-center gap-[1.2rem] py-[1.7rem] px-[4rem] rounded-[1rem] shadow-[0_0.5rem_2rem_-0.5rem_#0003] origin-bottom	invisible transition-all duration-[25rem] ease-linear sm:scale-[1]	sm:translate-x-0 sm:translate-y-full sm:inset-x-[-32px]	sm:inset-y-[-21px] sm:rounded-none sm:py-[17px] sm:px-[30px] sm:z-[-1] sm:rounded-b-[10px] after:content-[''] after:bg-[hsl(217,19%,35%)] after:w-[20px] after:h-[20px] after:absolute after:top-full after:left-[50%] after:translate-x-[-50%]	after:translate-y-[-60%] after:rotate-[45deg] sm:after:w-0;
+    @apply scale-0 translate-x-[-50%] translate-y-0 bg-[hsl(217,19%,35%)] absolute bottom-[calc(100%+2.8rem)] left-[50%] flex items-center gap-[1.2rem] py-[1.6rem] px-[3.4rem] rounded-[1rem] shadow-[0_0.5rem_2rem_-0.5rem_#0003] origin-bottom	invisible transition-all duration-[250ms] ease-linear sm:scale-[1]	sm:translate-x-0 sm:translate-y-full sm:inset-x-[-32px]	sm:inset-y-[-21px] sm:rounded-none sm:py-[17px] sm:px-[30px] sm:z-[-1] sm:rounded-b-[10px] after:content-[''] after:bg-[hsl(217,19%,35%)] after:w-[20px] after:h-[20px] after:absolute after:top-full after:left-[50%] after:translate-x-[-50%]	after:translate-y-[-60%] after:rotate-[45deg] sm:after:w-0;
   }
 
   .share-option.active {
