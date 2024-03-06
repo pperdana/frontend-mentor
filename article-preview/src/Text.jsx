@@ -4,7 +4,7 @@ import facebookIcon from "./assets/icon-facebook.svg";
 import pinterestIcon from "./assets/icon-pinterest.svg";
 import twitterIcon from "./assets/icon-twitter.svg";
 
-const Text = () => {
+const Text = ({ setIsHide, isHide }) => {
   return (
     <div className="article-content">
       <h1 className="article-title">
@@ -35,7 +35,7 @@ const Text = () => {
         </div>
 
         <div className="share">
-          <button className="share-button">
+          <button className="share-button" onClick={() => setIsHide(!isHide)}>
             <img
               className="block w-[1.8rem] h-[1.8rem]"
               src={shareIcon}
@@ -43,7 +43,7 @@ const Text = () => {
             />
           </button>
 
-          <div className="share-option active">
+          <div className={`share-option${isHide ? "" : " active"}`}>
             <span>Share</span>
 
             <a href="#">
