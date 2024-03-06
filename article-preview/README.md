@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Article preview component | Frontend Mentor](https://www.frontendmentor.io/solutions/article-preview-component-hXG4XUO_zu)
 - Live Site URL: [article-previewpp.netlify.app](https://article-previewpp.netlify.app)
 
 ## My process
