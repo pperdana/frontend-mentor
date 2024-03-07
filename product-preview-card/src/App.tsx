@@ -1,5 +1,5 @@
-import TextArea from "./TextArea";
-import Image from "./Image";
+import TextArea from "./TextArea.tsx";
+import Image from "./Image.tsx";
 
 function App() {
   return (
