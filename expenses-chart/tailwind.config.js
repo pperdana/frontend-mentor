@@ -12,7 +12,12 @@ export default {
     },
     extend: {},
     screens: {
-      sm: { max: "28em" },
+      // Screen for Tablet
+      // tall: { raw: "(min-height: 900px)" },
+      // Screen for various width
+      // lg: { max: "75em" },
+      // md: { max: "42em" },
+      // sm: { max: "28em" },
     },
   },
   plugins: [],
