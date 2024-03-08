@@ -1,5 +1,4 @@
-import React from "react";
-export function Balance({}) {
+const Balance = () => {
   return (
     <section className="balance">
       <h2 className="balance_caption">My balance</h2>
@@ -7,4 +6,6 @@ export function Balance({}) {
       <img src="images/logo.svg" alt="Logo" className="logo" />
     </section>
   );
-}
+};
+
+export default Balance;
