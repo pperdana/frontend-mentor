@@ -4,10 +4,14 @@
 
 @layer components {
   html {
-    @apply text-sm;
+    @apply text-xl;
+  }
+
+  body {
+    @apply font-dmSans text-[1.8rem] leading-normal bg-[hsl(27,66%,92%)];
   }
 
   main {
-    @apply my-0 mx-[1.6rem] text-[1.8rem] leading-normal bg-[hsl(27,66%,92%)] flex flex-col items-center;
+    @apply my-0 mx-[1.6rem]  flex flex-col items-center;
   }
 }
