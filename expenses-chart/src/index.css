@@ -6,4 +6,8 @@
   html {
     @apply text-sm;
   }
+
+  main {
+    @apply my-0 mx-[1.6rem] text-[1.8rem] leading-normal bg-[hsl(27,66%,92%)] flex flex-col items-center;
+  }
 }
