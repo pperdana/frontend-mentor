@@ -36,4 +36,8 @@
   .spending-graphic {
     @apply py-[3.5rem] px-[4rem] bg-[hsl(33,100%,98%)] rounded-[10px] w-full max-w-[54rem];
   }
+
+  .graph_title {
+    @apply text-[3.2rem] mb-[6.6rem] text-[hsl(25,47%,15%)] font-bold;
+  }
 }
