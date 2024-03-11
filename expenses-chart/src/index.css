@@ -20,6 +20,10 @@
     @apply py-[2.5rem] px-[3.5rem] mt-[6.7rem] mb-[1.6rem] w-full max-w-[54rem] bg-[hsl(10,79%,65%)] rounded-[10px] grid grid-cols-[50%,50%];
   }
 
+  .balance_caption {
+    @apply mb-[8px] font-normal text-white;
+  }
+
   /* Graphic Section */
   .spending-graphic {
     @apply py-[3.5rem] px-[4rem] bg-[hsl(33,100%,98%)] rounded-[10px] w-full max-w-[54rem];
