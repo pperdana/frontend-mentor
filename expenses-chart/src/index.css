@@ -24,6 +24,10 @@
     @apply mb-[8px] font-normal text-white;
   }
 
+  .balance_value {
+    @apply text-[3.2rem] font-bold text-white row-start-1 row-end-2;
+  }
+
   /* Graphic Section */
   .spending-graphic {
     @apply py-[3.5rem] px-[4rem] bg-[hsl(33,100%,98%)] rounded-[10px] w-full max-w-[54rem];
