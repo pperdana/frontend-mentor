@@ -64,4 +64,16 @@
   .graphic_info {
     @apply mt-[3.2rem] flex justify-between;
   }
+
+  .month_caption {
+    @apply mt-[.1rem] mb-[.4rem] text-[hsl(28,10%,53%)] font-normal;
+  }
+
+  .month_value {
+    @apply text-[4.2rem] text-[hsl(25,47%,15%)] font-bold;
+  }
+
+  .graphic_info-rigth {
+    @apply mt-auto;
+  }
 }
