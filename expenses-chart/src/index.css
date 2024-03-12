@@ -45,6 +45,10 @@
     @apply flex items-end justify-between gap-[1.2rem] pb-[3.2rem] border-b-[3px] border-solid border-[hsl(27,66%,92%)];
   }
 
+  .bar-container {
+    @apply w-[calc(100%/7)] relative;
+  }
+
   .graphic_info {
     @apply mt-[3.2rem] flex justify-between;
   }
