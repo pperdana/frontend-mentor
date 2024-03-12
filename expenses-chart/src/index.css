@@ -76,4 +76,8 @@
   .graphic_info-rigth {
     @apply mt-auto;
   }
+
+  .percentage_value {
+    @apply mb-[.1rem] block text-right text-[hsl(25,47%,15%)] font-bold;
+  }
 }
