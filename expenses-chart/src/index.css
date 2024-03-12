@@ -49,6 +49,10 @@
     @apply w-[calc(100%/7)] relative;
   }
 
+  .bar_value {
+    @apply hidden w-max	py-[.8rem] px-[.9rem] top-[-4.7rem] left-[-1.1rem] text-center text-[hsl(33,100%,98%)] font-bold bg-[hsl(25,47%,15%)] rounded-[.5rem] absolute z-10;
+  }
+
   .graphic_info {
     @apply mt-[3.2rem] flex justify-between;
   }
