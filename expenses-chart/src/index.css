@@ -57,6 +57,10 @@
     @apply h-[15rem] bg-[hsl(10,79%,65%)] rounded-[.3rem] cursor-pointer;
   }
 
+  .bar_subtitle {
+    @apply text-[1.5rem] block mt-[1.1rem] text-center lowercase text-[hsl(28,10%,53%)] font-normal;
+  }
+
   .graphic_info {
     @apply mt-[3.2rem] flex justify-between;
   }
