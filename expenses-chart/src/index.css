@@ -40,4 +40,8 @@
   .graph_title {
     @apply text-[3.2rem] mb-[6.6rem] text-[hsl(25,47%,15%)] font-bold;
   }
+
+  .graphic_container {
+    @apply flex items-end justify-between gap-[1.2rem] pb-[3.2rem] border-b-[3px] border-solid border-[hsl(27,66%,92%)];
+  }
 }
