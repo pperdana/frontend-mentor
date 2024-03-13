@@ -1,11 +1,15 @@
 import Graphic from "./Graphic";
 import Balance from "./Balance";
 
-export default function App() {
+import data from "./data";
+
+const App = () => {
   return (
     <main>
       <Balance />
-      <Graphic />
+      <Graphic data={data} />
     </main>
   );
-}
+};
+
+export default App;
