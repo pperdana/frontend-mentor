@@ -4,7 +4,7 @@
 
 @layer components {
   html {
-    @apply text-xl;
+    @apply text-base;
   }
 
   body {
@@ -21,19 +21,19 @@
 
   /* Balance Section */
   .balance {
-    @apply py-[2.5rem] px-[3.5rem] mb-[1.6rem] w-full max-w-[54rem] bg-[hsl(10,79%,65%)] rounded-[10px] grid grid-cols-[50%,50%];
+    @apply py-[1.5rem] px-[2.5rem] mb-[1.6rem] w-full max-w-[54rem] bg-[hsl(10,79%,65%)] rounded-[15px] grid grid-cols-[50%,50%];
   }
 
   .balance_caption {
-    @apply mb-[8px] font-normal text-white;
+    @apply mb-[5px] font-normal text-white text-[1.6rem];
   }
 
   .balance_value {
-    @apply text-[3.2rem] font-bold text-white col-start-1 col-end-2;
+    @apply text-[2.8rem] font-bold text-white col-start-1 col-end-2;
   }
 
   .logo {
-    @apply max-h-[4.8rem] row-start-1 row-end-3 col-start-2 col-end-3 self-center	justify-self-end;
+    @apply max-h-[4rem] row-start-1 row-end-3 col-start-2 col-end-3 self-center	justify-self-end;
   }
 
   /* Graphic Section */
