@@ -11,6 +11,10 @@
     @apply font-dmSans text-[1.8rem] leading-normal bg-[hsl(27,66%,92%)];
   }
 
+  #root {
+    @apply h-screen flex justify-center items-center;
+  }
+
   main {
     @apply my-0 mx-[1.6rem]  flex flex-col items-center;
   }
