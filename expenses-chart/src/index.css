@@ -74,7 +74,7 @@
   }
 
   .month_value {
-    @apply text-[4.2rem] text-[hsl(25,47%,15%)] font-bold;
+    @apply text-[3.8rem] text-[hsl(25,47%,15%)] font-bold;
   }
 
   .graphic_info-rigth {
