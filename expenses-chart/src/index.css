@@ -21,7 +21,7 @@
 
   /* Balance Section */
   .balance {
-    @apply py-[1.5rem] px-[2.5rem] mb-[1.6rem] w-full max-w-[54rem] bg-[hsl(10,79%,65%)] rounded-[15px] grid grid-cols-[50%,50%];
+    @apply py-[1.5rem] px-[2.5rem] mb-[1.6rem] w-full max-w-[384px] bg-[hsl(10,79%,65%)] rounded-[15px] grid grid-cols-[50%,50%];
   }
 
   .balance_caption {
@@ -38,11 +38,11 @@
 
   /* Graphic Section */
   .spending-graphic {
-    @apply py-[3.5rem] px-[4rem] bg-[hsl(33,100%,98%)] rounded-[10px] w-full max-w-[54rem];
+    @apply py-[3.5rem] px-[4rem] bg-[hsl(33,100%,98%)] rounded-[10px] w-[384px];
   }
 
   .graph_title {
-    @apply text-[3.2rem] mb-[6.6rem] text-[hsl(25,47%,15%)] font-bold;
+    @apply text-[2.4rem] mb-[5.4rem] text-[hsl(25,47%,15%)] font-bold;
   }
 
   .graphic_container {
