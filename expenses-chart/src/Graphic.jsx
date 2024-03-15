@@ -2,11 +2,15 @@ import GraphTitle from "./GraphTitle";
 import GraphInfo from "./GraphInfo";
 import GraphContainer from "./GraphContainer";
 
-const Graphic = ({ data }) => {
+const Graphic = ({ data, isActive, setIsActive }) => {
   return (
     <section className="spending-graphic">
       <GraphTitle />
-      <GraphContainer data={data} />
+      <GraphContainer
+        data={data}
+        isActive={isActive}
+        setIsActive={setIsActive}
+      />
       <GraphInfo />
     </section>
   );

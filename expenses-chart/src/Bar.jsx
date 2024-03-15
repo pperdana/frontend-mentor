@@ -1,4 +1,4 @@
-const Bar = ({ day, amount, height }) => {
+const Bar = ({ day, amount, height, isActive, setIsActive }) => {
   return (
     <div className="bar-container">
       <span className="bar_value">{amount}</span>
