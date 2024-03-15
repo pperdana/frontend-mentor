@@ -58,7 +58,7 @@
   }
 
   .bar {
-    @apply bg-[hsl(10,79%,65%)] rounded-[.3rem] cursor-pointer;
+    @apply bg-[hsl(10,79%,65%)] rounded-[.3rem] cursor-pointer hover:bg-[#ff9b86];
   }
 
   .bar_subtitle {
