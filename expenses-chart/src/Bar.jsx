@@ -8,7 +8,7 @@ const Bar = ({ day, amount, height }) => {
         {amount}
       </span>
       <div
-        className="bar"
+        className={`bar ${isActive ? "active" : ""}`}
         style={{ height: `${height * 0.7}px` }}
         onClick={() => setIsActive(!isActive)}
       ></div>
