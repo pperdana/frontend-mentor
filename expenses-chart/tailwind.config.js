@@ -17,7 +17,7 @@ export default {
       // Screen for various width
       // lg: { max: "75em" },
       // md: { max: "42em" },
-      // sm: { max: "28em" },
+      sm: { max: "28em" },
     },
   },
   plugins: [],
