@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Expenses chart | Frontend Mentor](https://www.frontendmentor.io/solutions/expenses-chart-component-zUWKM9e5FB)
 - Live Site URL: [expenses-chart-pperdana.netlify.app](https://expenses-chart-pperdana.netlify.app)
 
 ## My process
