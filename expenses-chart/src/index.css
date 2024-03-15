@@ -16,7 +16,7 @@
   }
 
   main {
-    @apply my-0 mx-[1.6rem]  flex flex-col items-center;
+    @apply my-0 w-full mx-[1.6rem]  flex flex-col items-center;
   }
 
   /* Balance Section */
@@ -38,7 +38,7 @@
 
   /* Graphic Section */
   .spending-graphic {
-    @apply py-[1.8rem] px-[4rem] bg-[hsl(33,100%,98%)] rounded-[15px] w-[384px];
+    @apply py-[1.8rem] px-[4rem] bg-[hsl(33,100%,98%)] rounded-[15px] w-full max-w-[384px];
   }
 
   .graph_title {
