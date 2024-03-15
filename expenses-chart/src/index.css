@@ -57,6 +57,10 @@
     @apply hidden w-max	py-[.8rem] px-[.9rem] top-[-4.7rem] left-[-1.1rem] text-center text-[hsl(33,100%,98%)] font-bold bg-[hsl(25,47%,15%)] rounded-[.5rem] absolute z-10;
   }
 
+  .bar_value.active-hover {
+    @apply block;
+  }
+
   .bar {
     @apply bg-[hsl(10,79%,65%)] rounded-[.3rem] cursor-pointer hover:bg-[#ff9b86];
   }
