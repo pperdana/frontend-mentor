@@ -1,17 +1,10 @@
 import Bar from "./Bar";
 
-const GraphContainer = ({ data, isActive, setIsActive }) => {
+const GraphContainer = ({ data }) => {
   return (
     <div className="graphic_container">
       {data.map((item) => {
-        return (
-          <Bar
-            key={item.day}
-            {...item}
-            isActive={isActive}
-            setIsActive={setIsActive}
-          />
-        );
+        return <Bar key={item.day} {...item} />;
       })}
     </div>
   );

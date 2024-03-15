@@ -1,4 +1,7 @@
-const Bar = ({ day, amount, height, isActive, setIsActive }) => {
+import { useState } from "react";
+
+const Bar = ({ day, amount, height }) => {
+  const [isActive, setIsActive] = useState(false);
   return (
     <div className="bar-container">
       <span className={`bar_value ${isActive ? "active-hover" : ""}`}>
