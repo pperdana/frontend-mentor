@@ -65,6 +65,10 @@
     @apply bg-[hsl(10,79%,65%)] rounded-[.3rem] cursor-pointer hover:bg-[#ff9b86];
   }
 
+  .bar.active {
+    @apply bg-[hsl(186,34%,60%)];
+  }
+
   .bar_subtitle {
     @apply text-[1.5rem] block mt-[1.1rem] text-center lowercase text-[hsl(28,10%,53%)] font-normal;
   }
