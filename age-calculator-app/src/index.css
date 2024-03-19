@@ -10,4 +10,8 @@
   body {
     @apply text-[3.2rem] text-[hsl(0,0%,8%)] font-poppins;
   }
+
+  #root {
+    @apply flex justify-center items-center min-h-[calc(100vh-2em)] bg-[hsl(0,0%,94%)];
+  }
 }
