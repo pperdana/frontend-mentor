@@ -28,4 +28,8 @@
   .fields .input-group label {
     @apply uppercase tracking-[.2rem] font-bold text-[hsl(0,1%,44%)] mb-[.2rem] text-[.8rem];
   }
+
+  .fields .input-group input {
+    @apply w-full border-[1px] border-solid  border-[hsl(0,0%,86%)] rounded-[0.3rem] p-[.5rem] text-[1.5rem] font-bold font-poppins;
+  }
 }
