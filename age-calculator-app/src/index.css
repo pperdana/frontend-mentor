@@ -32,4 +32,8 @@
   .fields .input-group input {
     @apply w-full border-[1px] border-solid  border-[hsl(0,0%,86%)] rounded-[0.3rem] p-[.5rem] text-[1.5rem] font-bold font-poppins;
   }
+
+  .fields .input-group .error-text {
+    @apply mt-[0.5rem] font-poppins italic text-[0.7rem] text-[hsl(0,100%,67%)];
+  }
 }
