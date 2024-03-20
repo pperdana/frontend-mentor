@@ -20,4 +20,8 @@
   .fields {
     @apply max-w-[75%] flex justify-between gap-[1rem];
   }
+
+  .submit-container {
+    @apply mb-[2rem] my-[4rem] w-full relative flex justify-center items-center;
+  }
 }
