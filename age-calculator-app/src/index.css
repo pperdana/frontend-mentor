@@ -40,4 +40,8 @@
   .submit-container {
     @apply mb-[2rem] my-[4rem] w-full relative flex justify-center items-center;
   }
+
+  .submit-container .line {
+    @apply w-full h-[.15rem] bg-[hsl(0,0%,94%)];
+  }
 }
