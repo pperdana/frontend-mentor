@@ -24,4 +24,8 @@
   .input-group {
     @apply flex flex-col flex-1;
   }
+
+  .fields .input-group label {
+    @apply uppercase tracking-[.2rem] font-bold text-[hsl(0,1%,44%)] mb-[.2rem] text-[.8rem];
+  }
 }
