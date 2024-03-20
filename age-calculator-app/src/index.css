@@ -15,13 +15,13 @@
     @apply flex justify-center items-center min-h-[calc(100vh-2em)] bg-[hsl(0,0%,94%)];
   }
 
-  /***** Form *****/
+  /***** Form Component *****/
 
   .fields {
     @apply max-w-[75%] flex justify-between gap-[1rem];
   }
 
-  .submit-container {
-    @apply mb-[2rem] my-[4rem] w-full relative flex justify-center items-center;
+  .input-group {
+    @apply flex flex-col flex-1;
   }
 }
