@@ -36,4 +36,8 @@
   .fields .input-group .error-text {
     @apply mt-[0.5rem] font-poppins italic text-[0.7rem] text-[hsl(0,100%,67%)];
   }
+
+  .submit-container {
+    @apply mb-[2rem] my-[4rem] w-full relative flex justify-center items-center;
+  }
 }
