@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply text-[3.2rem] text-[hsl(0,0%,8%)] font-poppins;
+    @apply text-[1.6rem] text-[hsl(0,0%,8%)] font-poppins;
   }
 
   #root {
