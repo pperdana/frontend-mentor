@@ -12,7 +12,7 @@
   }
 
   #root {
-    @apply flex justify-center items-center min-h-[calc(100vh-2em)] bg-[hsl(0,0%,94%)];
+    @apply flex justify-center items-center h-screen bg-[hsl(0,0%,94%)];
   }
 
   /***** Form Component *****/
