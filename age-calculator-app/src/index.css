@@ -42,7 +42,7 @@
   }
 
   .submit-container .line {
-    @apply w-full h-[.15rem] bg-[hsl(0,0%,94%)];
+    @apply w-full h-[.24rem] bg-[hsl(0,0%,94%)];
   }
 
   .submit-container button {
