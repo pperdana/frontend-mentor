@@ -52,7 +52,7 @@
   /***** Result Component *****/
 
   .result-container .category {
-    @apply text-[4.5rem]  leading-[1.2rem] font-extrabold;
+    @apply text-[7.2rem] leading-[8.6rem] font-extrabold italic;
   }
 
   .result-container .dash,
