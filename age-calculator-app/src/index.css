@@ -30,7 +30,7 @@
   }
 
   .fields .input-group input {
-    @apply w-full border-[1px] border-solid  border-[hsl(0,0%,86%)] rounded-[.8rem] p-[.8rem] text-[2.4rem] uppercase font-bold font-poppins;
+    @apply w-full border-[1px] border-solid  border-[hsl(0,0%,86%)] rounded-[.8rem] p-[.8rem] text-[2.4rem] uppercase font-bold font-poppins md:text-[2.2rem];
   }
 
   .fields .input-group .error-text {
@@ -52,7 +52,7 @@
   /***** Result Component *****/
 
   .result-container .category {
-    @apply text-[7.2rem] leading-[8.6rem] font-extrabold italic;
+    @apply text-[7.2rem] leading-[8.6rem] font-extrabold italic md:text-[6.2rem];
   }
 
   .result-container .dash,
