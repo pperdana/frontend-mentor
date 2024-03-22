@@ -16,8 +16,7 @@ export default {
       // tall: { raw: "(min-height: 900px)" },
       // Screen for various width
       // lg: { max: "75em" },
-      // md: { max: "42em" },
-      // sm: { max: "28em" },
+      md: { max: "45em" },
     },
   },
   plugins: [],
