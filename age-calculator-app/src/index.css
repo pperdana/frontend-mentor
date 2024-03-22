@@ -4,7 +4,7 @@
 
 @layer components {
   html {
-    @apply text-xl md:text-base;
+    @apply text-xl md:text-base sm:text-sm;
   }
 
   body {
