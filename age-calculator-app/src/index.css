@@ -4,7 +4,7 @@
 
 @layer components {
   html {
-    @apply text-xl;
+    @apply text-xl md:text-base;
   }
 
   body {
