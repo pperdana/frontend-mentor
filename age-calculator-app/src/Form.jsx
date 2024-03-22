@@ -26,7 +26,7 @@ const Form = () => {
         <button type="submit">
           <span className="sr-only">Calculate</span>
           <svg
-            className="w-[2.9rem]"
+            className="w-[2.9rem] sm:w-[3.5rem]"
             xmlns="http://www.w3.org/2000/svg"
             width="46"
             height="44"
