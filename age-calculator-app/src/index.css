@@ -38,7 +38,7 @@
   }
 
   .submit-container {
-    @apply mb-[2rem] my-[4rem] w-full relative flex justify-center items-center;
+    @apply mb-[2rem] my-[4rem] w-full relative flex justify-center items-center sm:mb-[6rem] sm:my-[8rem];
   }
 
   .submit-container .line {
