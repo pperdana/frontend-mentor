@@ -1,18 +1,23 @@
+import logo from "./assets/logo.svg";
+import documentIcon from "./assets/icon-document.svg";
+import folderIcon from "./assets/icon-folder.svg";
+import uploadIcon from "./assets/icon-upload.svg";
+
 const Icons = () => {
   return (
     <section className="icons">
       <div className="logo">
-        <img src="./images/logo.svg" alt="" />
+        <img src={logo} alt="logo" />
       </div>
       <div className="items">
         <div className="document">
-          <img src="./images/icon-document.svg" alt="" />
+          <img src={documentIcon} alt="icon document" />
         </div>
         <div className="folder">
-          <img src="./images/icon-folder.svg" alt="" />
+          <img src={folderIcon} alt="icon folder" />
         </div>
         <div className="upload">
-          <img src="./images/icon-upload.svg" alt="" />
+          <img src={uploadIcon} alt="icon upload" />
         </div>
       </div>
     </section>
