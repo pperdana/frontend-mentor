@@ -8,7 +8,7 @@ export default {
       sm: "50%",
     },
     fontFamily: {
-      // poppins: ["Poppins", "sans-serif"],
+      raleway: ["Raleway", "sans-serif"],
     },
     extend: {},
     screens: {
