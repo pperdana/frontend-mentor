@@ -3,7 +3,7 @@ import Icons from "./Icons";
 
 const App = () => {
   return (
-    <main className="container">
+    <main className="main">
       <Icons />
       <Text />
     </main>
