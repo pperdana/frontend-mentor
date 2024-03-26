@@ -18,4 +18,8 @@
   .main {
     @apply flex justify-center gap-[30px] max-w-[830px] w-[95%];
   }
+
+  .icons {
+    @apply bg-[hsl(228,56%,26%)] p-[2rem] flex flex-col gap-y-[1rem] max-w-[300px] w-full min-h-[175px] justify-center rounded-[8px] rounded-tr-[115px] transition-all duration-[350ms] ease-linear;
+  }
 }
