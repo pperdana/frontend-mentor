@@ -33,6 +33,12 @@
     @apply flex items-center gap-x-[10px];
   }
 
+  .document,
+  .folder,
+  .upload {
+    @apply h-[40px] w-[40px] rounded-[5px] bg-[hsl(229,57%,11%)] flex justify-center items-center transition-all duration-[350ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)];
+  }
+
   /***** Text *****/
   .text {
     @apply max-w-[500px] w-full flex flex-col justify-center py-[27px] px-[40px] self-end rounded-[5px] transition-all duration-[350ms] ease-linear;
