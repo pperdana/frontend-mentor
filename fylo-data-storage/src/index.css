@@ -8,6 +8,6 @@
   }
 
   body {
-    @apply text-[5rem];
+    @apply text-[1.6rem] bg-[hsl(229,57%,11%)] text-white  min-h-screen bg-no-repeat bg-bottom bg-cover;
   }
 }
