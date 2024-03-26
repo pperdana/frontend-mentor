@@ -25,10 +25,10 @@
   }
 
   .icons {
-    @apply p-[2rem] flex flex-col gap-y-[1rem] max-w-[300px] w-full min-h-[175px] justify-center rounded-[8px] rounded-tr-[115px] transition-all duration-[350ms] ease-linear;
+    @apply p-[2rem] flex flex-col gap-y-[1rem] max-w-[300px] w-full min-h-[175px] justify-center rounded-tr-[115px] rounded-[8px] transition-all duration-[350ms] ease-linear;
   }
 
-  .icons {
+  .text {
     @apply max-w-[500px] w-full flex flex-col justify-center py-[27px] px-[40px] self-end rounded-[5px] transition-all duration-[350ms] ease-linear;
   }
 }
