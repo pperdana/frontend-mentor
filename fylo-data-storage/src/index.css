@@ -51,4 +51,8 @@
   .storage {
     @apply text-[hsl(243,100%,93%)] mb-[10px] text-[0.9rem];
   }
+
+  .storage .white {
+    @apply text-[1rem] text-[rgba(255,255,255,0.893)] font-semibold;
+  }
 }
