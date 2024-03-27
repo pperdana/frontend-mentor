@@ -68,6 +68,10 @@
     @apply h-[13px] ml-[4px] w-3/4 bg-[linear-gradient(to_right,hsl(6,100%,80%),hsl(335,100%,65%))] rounded-[10px] flex items-center justify-end;
   }
 
+  .whitedot {
+    @apply h-[13px] w-[13px] rounded-full bg-white;
+  }
+
   .values {
     @apply flex items-center justify-between py-0 px-[5px];
   }
