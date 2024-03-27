@@ -47,4 +47,8 @@
   .text {
     @apply max-w-[500px] w-full flex flex-col justify-center py-[27px] px-[40px] self-end rounded-[5px] transition-all duration-[350ms] ease-linear;
   }
+
+  .storage {
+    @apply text-[hsl(243,100%,93%)] mb-[10px] text-[0.9rem];
+  }
 }
