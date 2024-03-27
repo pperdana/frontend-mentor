@@ -87,4 +87,8 @@
   .bubble2 {
     @apply text-[2rem] font-semibold;
   }
+
+  .gbleft {
+    @apply text-[0.7rem] text-[hsl(229,7%,55%)] font-semibold;
+  }
 }
