@@ -83,4 +83,8 @@
   .bubble {
     @apply absolute bottom-[70px] right-0 flex items-center justify-center gap-x-[5px] border border-white bg-white w-[125px] text-[hsl(229,57%,11%)] py-[12px] px-[15px] rounded-[7px];
   }
+
+  .bubble2 {
+    @apply text-[2rem] font-semibold;
+  }
 }
