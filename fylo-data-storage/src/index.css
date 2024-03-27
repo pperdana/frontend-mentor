@@ -59,4 +59,8 @@
   .meter {
     @apply relative;
   }
+
+  .barouter {
+    @apply h-[20px] w-full bg-[hsl(229,57%,11%)] rounded-[10px] flex items-center;
+  }
 }
