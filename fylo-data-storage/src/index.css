@@ -55,4 +55,8 @@
   .storage .white {
     @apply text-[1rem] text-[rgba(255,255,255,0.893)] font-semibold;
   }
+
+  .meter {
+    @apply relative;
+  }
 }
