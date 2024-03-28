@@ -29,6 +29,10 @@
     @apply p-[3rem] flex flex-col gap-y-[1.6rem] max-w-[300px] w-full min-h-[175px] justify-center rounded-tr-[11.5rem] rounded-[.8rem] transition-all duration-[350ms] ease-linear;
   }
 
+  .logo img {
+    @apply w-[12.5rem];
+  }
+
   .items {
     @apply flex items-center gap-x-[1rem];
   }
