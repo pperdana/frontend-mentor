@@ -26,7 +26,7 @@
 
   /***** Icons *****/
   .icons {
-    @apply p-[3rem] flex flex-col gap-y-[1.6rem] max-w-[300px] w-full min-h-[175px] justify-center rounded-tr-[11.5rem] rounded-[.8rem] transition-all duration-[350ms] ease-linear;
+    @apply p-[3rem] flex flex-col gap-y-[1.6rem] max-w-[300px] w-full min-h-[175px] justify-center rounded-tr-[11.5rem] rounded-[.8rem] transition-all duration-[350ms] ease-linear sm:py-[45px] sm:px-[50px] sm:min-w-full;
   }
 
   .logo img {
