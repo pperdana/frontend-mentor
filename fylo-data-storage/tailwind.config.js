@@ -10,7 +10,11 @@ export default {
     fontFamily: {
       raleway: ["Raleway", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        desktop: "url('/src/assets/bg-desktop.png')",
+      },
+    },
     screens: {
       // Screen for Tablet
       // tall: { raw: "(min-height: 900px)" },
