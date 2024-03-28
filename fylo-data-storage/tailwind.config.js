@@ -13,6 +13,7 @@ export default {
     extend: {
       backgroundImage: {
         desktop: "url('/src/assets/bg-desktop.png')",
+        mobile: "url('/src/assets/bg-mobile.png')",
       },
     },
     screens: {
