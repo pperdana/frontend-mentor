@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply text-[1.6rem] bg-[hsl(229,57%,11%)] text-white  min-h-screen bg-no-repeat bg-bottom bg-cover;
+    @apply text-[1.6rem] bg-[hsl(229,57%,11%)] text-white  min-h-screen  bg-desktop bg-no-repeat bg-bottom bg-[length:105vw_50vh];
   }
 
   #root {
