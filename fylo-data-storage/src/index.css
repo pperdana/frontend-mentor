@@ -65,7 +65,7 @@
   }
 
   .barouter {
-    @apply h-[2rem] w-full bg-[hsl(229,57%,11%)] rounded-[1rem] flex items-center;
+    @apply w-full bg-[hsl(229,57%,11%)] rounded-[1rem] flex items-center;
   }
 
   .barinner {
@@ -85,15 +85,15 @@
   }
 
   .bubble {
-    @apply absolute bottom-[7rem] right-0 flex items-center justify-center gap-x-[0.5rem] border border-white bg-white w-[12.5rem] text-[hsl(229,57%,11%)] py-[1.2rem] px-[1.5rem] rounded-[.7rem];
+    @apply absolute bottom-[7rem] right-0 flex items-center justify-center gap-x-[0.5rem] border border-white bg-white w-[12.5rem] text-[hsl(229,57%,11%)] py-[1rem] px-[1.4rem] rounded-[.7rem];
   }
 
   .bubble2 {
-    @apply text-[2rem] font-semibold;
+    @apply text-[2.8rem] font-semibold;
   }
 
   .gbleft {
-    @apply text-[0.7rem] text-[hsl(229,7%,55%)] font-semibold;
+    @apply text-[1rem] text-[hsl(229,7%,55%)] font-semibold;
   }
 
   .triangle {
