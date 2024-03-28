@@ -16,7 +16,7 @@
   }
 
   .main {
-    @apply flex justify-center gap-[3rem] max-w-[830px] w-[95%];
+    @apply flex justify-center gap-[3rem] max-w-[830px] w-[95%] sm:flex-col sm:gap-y-[20px] sm:items-center;
   }
 
   .icons,
