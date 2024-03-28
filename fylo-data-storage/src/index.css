@@ -49,7 +49,7 @@
 
   /***** Text *****/
   .text {
-    @apply max-w-[500px] w-full flex flex-col justify-center py-[2.7rem] px-[4rem] self-end rounded-[.5rem] transition-all duration-[350ms] ease-linear;
+    @apply max-w-[500px] w-full flex flex-col justify-center py-[2.7rem] px-[4rem] self-end rounded-[.5rem] transition-all duration-[350ms] ease-linear sm:self-center sm:min-w-full sm:py-0 sm:px-[40px];
   }
 
   .storage {
