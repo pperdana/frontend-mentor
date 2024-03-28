@@ -81,7 +81,7 @@
   }
 
   .values p {
-    @apply mt-[.5rem] text-[hsl(243,100%,93%)] text-[0.9rem];
+    @apply mt-[.5rem] text-[hsl(243,100%,93%)] text-[1.2rem];
   }
 
   .bubble {
