@@ -65,7 +65,7 @@
   }
 
   .barouter {
-    @apply w-full bg-[hsl(229,57%,11%)] rounded-[1rem] flex items-center;
+    @apply py-[.4rem] w-full bg-[hsl(229,57%,11%)] rounded-[1rem] flex items-center;
   }
 
   .barinner {
