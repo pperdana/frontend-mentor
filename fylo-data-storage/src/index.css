@@ -53,11 +53,11 @@
   }
 
   .storage {
-    @apply text-[hsl(243,100%,93%)] mb-[1rem] text-[0.9rem];
+    @apply text-[hsl(245,60%,80%)] mb-[1rem] text-[1.2rem];
   }
 
   .storage .white {
-    @apply text-[1rem] text-[rgba(255,255,255,0.893)] font-semibold;
+    @apply text-[1.3rem] text-[rgba(255,255,255,0.893)] font-semibold;
   }
 
   .meter {
