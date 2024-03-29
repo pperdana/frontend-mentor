@@ -93,7 +93,7 @@
   }
 
   .bubble2 {
-    @apply text-[2.8rem] font-semibold;
+    @apply text-[2.8rem] font-semibold sm:font-bold sm:text-[37px];
   }
 
   .gbleft {
