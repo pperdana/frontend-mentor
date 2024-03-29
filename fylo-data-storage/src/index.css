@@ -57,7 +57,7 @@
   }
 
   .storage {
-    @apply text-[hsl(245,60%,80%)] mb-[1rem] text-[1.2rem];
+    @apply text-[hsl(245,60%,80%)] mb-[1rem] text-[1.2rem] sm:text-center sm:text-[15px];
   }
 
   .storage .white {
