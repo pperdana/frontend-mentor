@@ -97,7 +97,7 @@
   }
 
   .gbleft {
-    @apply text-[1rem] text-[hsl(229,7%,55%)] font-semibold;
+    @apply text-[1rem] uppercase text-[hsl(229,7%,55%)] font-semibold sm:text-[14px];
   }
 
   .triangle {
