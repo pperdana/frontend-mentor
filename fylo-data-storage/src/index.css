@@ -65,7 +65,7 @@
   }
 
   .meter {
-    @apply relative;
+    @apply relative sm:h-[90px];
   }
 
   .barouter {
