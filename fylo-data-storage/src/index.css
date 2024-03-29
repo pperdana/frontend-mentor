@@ -101,6 +101,6 @@
   }
 
   .triangle {
-    @apply h-[1rem] w-[1rem] absolute right-[-.3rem] bottom-[-1.5rem] border-l-[1rem]  border-l-transparent border-r-[.4rem] border-r-transparent border-t-[2rem] border-t-white transform -rotate-12;
+    @apply h-[1rem] w-[1rem] absolute right-[-.3rem] bottom-[-1.5rem] border-l-[1rem]  border-l-transparent border-r-[.4rem] border-r-transparent border-t-[2rem] border-t-white transform -rotate-12 sm:hidden;
   }
 }
