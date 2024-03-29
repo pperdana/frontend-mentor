@@ -89,7 +89,7 @@
   }
 
   .bubble {
-    @apply absolute bottom-[7rem] right-0 flex items-center justify-center gap-x-[0.5rem] border border-white bg-white w-[12.5rem] text-[hsl(229,57%,11%)] py-[1rem] px-[1.4rem] rounded-[.7rem];
+    @apply absolute bottom-[7rem] right-0 flex items-center justify-center gap-x-[0.5rem] border border-white bg-white w-[12.5rem] text-[hsl(229,57%,11%)] py-[1rem] px-[1.4rem] rounded-[.7rem] sm:w-[175px] sm:text-center sm:relative sm:top-[15px] sm:my-0 sm:mx-auto sm:py-[12px] sm:px-0;
   }
 
   .bubble2 {
