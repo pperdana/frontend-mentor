@@ -16,7 +16,7 @@
   }
 
   .main {
-    @apply flex justify-center gap-[3rem] max-w-[830px] w-[95%] sm:flex-col sm:gap-y-[20px] sm:items-center;
+    @apply flex justify-center gap-[3rem] max-w-[830px] w-[95%] sm:flex-col sm:gap-y-[20px] sm:items-center sm:w-[88%];
   }
 
   .icons,
@@ -89,7 +89,7 @@
   }
 
   .bubble {
-    @apply absolute bottom-[7rem] right-0 flex items-center justify-center gap-x-[0.5rem] border border-white bg-white w-[12.5rem] text-[hsl(229,57%,11%)] py-[1rem] px-[1.4rem] rounded-[.7rem] sm:w-[175px] sm:text-center sm:relative sm:top-[15px] sm:my-0 sm:mx-auto sm:py-[12px] sm:px-0;
+    @apply absolute bottom-[7rem] right-0 flex items-center justify-center gap-x-[0.5rem] border border-white bg-white w-[12.5rem] text-[hsl(229,57%,11%)] py-[1rem] px-[1.4rem] rounded-[.7rem] sm:w-[175px] sm:text-center sm:relative sm:top-[12px] sm:my-0 sm:mx-auto sm:py-[4px] sm:px-0 sm:rounded-[1rem];
   }
 
   .bubble2 {
