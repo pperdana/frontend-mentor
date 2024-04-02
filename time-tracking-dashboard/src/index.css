@@ -8,6 +8,6 @@
   }
 
   body {
-    @apply text-[5rem];
+    @apply text-[5rem] font-rubik;
   }
 }

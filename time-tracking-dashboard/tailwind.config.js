@@ -8,7 +8,7 @@ export default {
       sm: "50%",
     },
     fontFamily: {
-      // poppins: ["Poppins", "sans-serif"],
+      rubik: ["Rubik", "sans-serif"],
     },
     extend: {},
     screens: {
