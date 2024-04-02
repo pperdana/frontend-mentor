@@ -4,10 +4,10 @@
 
 @layer components {
   html {
-    @apply text-sm;
+    @apply text-xl;
   }
 
   body {
-    @apply text-[5rem] font-rubik;
+    @apply text-[1.8rem] font-rubik;
   }
 }
