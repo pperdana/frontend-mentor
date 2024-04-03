@@ -8,6 +8,6 @@
   }
 
   body {
-    @apply text-[1.8rem] font-rubik;
+    @apply text-[1.8rem] font-rubik bg-[#0f1424] flex flex-col min-h-screen leading-[1.5];
   }
 }
