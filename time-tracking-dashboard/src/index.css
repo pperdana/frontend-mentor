@@ -24,4 +24,8 @@
   .study {
     @apply mt-[4rem];
   }
+
+  .card {
+    @apply my-0 p-[3rem] self-end w-full h-[20rem] cursor-pointer bg-[#1c1f4a] rounded-[1.5rem] max-w-[33rem] relative;
+  }
 }
