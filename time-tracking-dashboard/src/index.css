@@ -14,4 +14,8 @@
   main {
     @apply w-full grid grid-rows-[repeat(2,24rem)] grid-cols-[repeat(4,1fr)] content-center gap-[3rem] max-w-[110rem] my-0 mx-auto flex-1;
   }
+
+  .report-for {
+    @apply self-auto grid-rows-[repeat(2,max-content)] mb-0 w-full bg-[#1c1f4a] rounded-[1.5rem] max-w-[33rem] mx-auto mt-0 grid;
+  }
 }
