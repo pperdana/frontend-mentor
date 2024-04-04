@@ -66,6 +66,10 @@
     @apply text-[1.8rem] font-medium text-[#fff];
   }
 
+  .card__button {
+    @apply cursor-pointer bg-[#0000] border-none w-[4.4rem] h-[4.4rem] absolute top-[50%] right-0 translate-y-[-50%];
+  }
+
   .card__time-container {
     @apply flex flex-col items-center justify-between;
   }
