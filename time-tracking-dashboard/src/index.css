@@ -16,6 +16,11 @@
     @apply text-white;
   }
 
+  .card__title,
+  .card__hours {
+    @apply text-white;
+  }
+
   main {
     @apply w-full grid grid-rows-[repeat(2,24rem)] grid-cols-[repeat(4,1fr)] content-center gap-[3rem] max-w-[110rem] my-0 mx-auto flex-1;
   }
@@ -72,6 +77,10 @@
 
   .card__time-container {
     @apply flex flex-col items-center justify-between;
+  }
+
+  .card__hours {
+    @apply text-[5rem] font-light;
   }
 
   .exercise,
