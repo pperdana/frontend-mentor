@@ -62,6 +62,10 @@
     @apply mb-[1rem] relative;
   }
 
+  .card__title {
+    @apply text-[1.8rem] font-medium text-[#fff];
+  }
+
   .card__time-container {
     @apply flex flex-col items-center justify-between;
   }
