@@ -23,6 +23,10 @@
     @apply grid grid-cols-[1fr] pt-[3rem] pr-[3rem] pb-[5rem] bg-[#5847eb] rounded-[1.5rem] items-end;
   }
 
+  .report-for__nav {
+    @apply flex flex-col justify-between items-start py-[3rem ] px-[3.5rem];
+  }
+
   .card {
     @apply my-0 p-[3rem] self-end w-full h-[20rem] cursor-pointer bg-[#1c1f4a] rounded-[1.5rem] max-w-[33rem] relative;
   }
