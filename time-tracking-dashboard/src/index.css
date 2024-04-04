@@ -83,6 +83,10 @@
     @apply text-[5rem] font-light;
   }
 
+  .card__last-time {
+    @apply text-[#bdc1ff] text-[1.6rem] font-light;
+  }
+
   .exercise,
   .social,
   .self-care {
