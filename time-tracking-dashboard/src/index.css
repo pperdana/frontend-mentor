@@ -11,6 +11,11 @@
     @apply text-[1.8rem] font-rubik bg-[#0f1424] flex flex-col min-h-screen leading-[1.5];
   }
 
+  .report-for__nav-button.is-active,
+  .report-for__nav-button:hover {
+    @apply text-white;
+  }
+
   main {
     @apply w-full grid grid-rows-[repeat(2,24rem)] grid-cols-[repeat(4,1fr)] content-center gap-[3rem] max-w-[110rem] my-0 mx-auto flex-1;
   }
