@@ -36,7 +36,11 @@
   }
 
   .report-for__nav {
-    @apply flex flex-col justify-between items-start py-[3rem ] px-[3.5rem];
+    @apply flex flex-col justify-between items-start py-[3rem] px-[3.5rem];
+  }
+
+  .report-for__nav-button {
+    @apply text-[#6f76c8] cursor-pointer border-none;
   }
 
   .card {
