@@ -62,6 +62,10 @@
     @apply mb-[1rem] relative;
   }
 
+  .card__time-container {
+    @apply flex flex-col items-center justify-between;
+  }
+
   .exercise,
   .social,
   .self-care {
