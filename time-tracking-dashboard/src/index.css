@@ -19,6 +19,10 @@
     @apply self-auto grid-rows-[repeat(2,max-content)] mb-0 w-full bg-[#1c1f4a] rounded-[1.5rem] max-w-[33rem] mx-auto mt-0 grid;
   }
 
+  .report-for__header {
+    @apply grid grid-cols-[1fr] pt-[3rem] pr-[3rem] pb-[5rem] bg-[#5847eb] rounded-[1.5rem] items-end;
+  }
+
   .card {
     @apply my-0 p-[3rem] self-end w-full h-[20rem] cursor-pointer bg-[#1c1f4a] rounded-[1.5rem] max-w-[33rem] relative;
   }
