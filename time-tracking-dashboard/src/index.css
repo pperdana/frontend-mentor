@@ -10,4 +10,8 @@
   body {
     @apply text-[1.8rem] font-rubik bg-[hsl(226,43%,10%)];
   }
+
+  #root {
+    @apply w-full h-full flex flex-col justify-center items-center;
+  }
 }
