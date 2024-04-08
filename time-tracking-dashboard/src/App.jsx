@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div className="container">
+    <main className="main">
       <div className="cards">
         <div className="card profile">
           <div className="content">
@@ -96,7 +96,7 @@ const App = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
