@@ -1,141 +1,102 @@
 const App = () => {
   return (
-    <main className="dashboard">
-      <article className="report-for">
-        <header className="report-for__header">
-          <img
-            src="/image-jeremy.316cc3cc.webp"
-            alt=""
-            className="report-for__avatar"
-          />
-          <h1 className="report-for__heading">
-            Report for <span className="report-for__name">Jeremy Robson</span>
-          </h1>
-        </header>
-        <nav className="js-report-for__nav report-for__nav">
-          <button
-            id="daily"
-            className="js-report-for__nav-button report-for__nav-button is-active"
-          >
-            Daily
-          </button>
-          <button
-            id="weekly"
-            className="js-report-for__nav-button report-for__nav-button"
-          >
-            Weekly
-          </button>
-          <button
-            id="monthly"
-            className="js-report-for__nav-button report-for__nav-button"
-          >
-            Monthly
-          </button>
-        </nav>
-      </article>
-      <article id="js-work" className="card work">
-        <header className="card__header">
-          <h2 className="card__title">Work</h2>
-          <button
-            className="card__button"
-            aria-label="Settings (no function attached)"
-          ></button>
-        </header>
-        <div className="card__time-container">
-          <time className="card__hours" datetime="PT5H">
-            5hrs
-          </time>
-          <span className="card__last-time">
-            Yesterday - <time datetime="PT7H">7hrs</time>
-          </span>
+    <div className="container">
+      <div className="cards">
+        <div className="card profile">
+          <div className="content">
+            <img src="./images/image-jeremy.png" alt="" />
+            <div className="report">
+              Report for <span className="user">Jeremy Robson</span>
+            </div>
+          </div>
+          <div className="links">
+            <a href="#">Daily</a>
+            <a href="#" className="active">
+              Weekly
+            </a>
+            <a href="#">Monthly</a>
+          </div>
         </div>
-      </article>{" "}
-      <article id="js-play" className="card play">
-        <header className="card__header">
-          <h2 className="card__title">Play</h2>
-          <button
-            className="card__button"
-            aria-label="Settings (no function attached)"
-          ></button>
-        </header>
-        <div className="card__time-container">
-          <time className="card__hours" datetime="PT1H">
-            1hrs
-          </time>
-          <span className="card__last-time">
-            Yesterday - <time datetime="PT2H">2hrs</time>
-          </span>
+
+        <div className="card work">
+          <div className="content">
+            <h2>Work</h2>
+            <button className="ellipses">
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </button>
+            <span className="current">32hrs</span>
+            <span className="previous">
+              Last <span>Week</span> - <span>36hrs</span>
+            </span>
+          </div>
         </div>
-      </article>
-      <article id="js-study" className="card study">
-        <header className="card__header">
-          <h2 className="card__title">Study</h2>
-          <button
-            className="card__button"
-            aria-label="Settings (no function attached)"
-          ></button>
-        </header>
-        <div className="card__time-container">
-          <time className="card__hours" datetime="PT0H">
-            0hrs
-          </time>
-          <span className="card__last-time">
-            Yesterday - <time datetime="PT1H">1hrs</time>
-          </span>
+
+        <div className="card exercise">
+          <div className="content">
+            <h2>Exercise</h2>
+            <button className="ellipses">
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </button>
+            <span className="current">4hrs</span>
+            <span className="previous">
+              Last <span>Week</span> - <span>5hrs</span>
+            </span>
+          </div>
         </div>
-      </article>
-      <article id="js-exercise" className="card exercise">
-        <header className="card__header">
-          <h2 className="card__title">Exercise</h2>
-          <button
-            className="card__button"
-            aria-label="Settings (no function attached)"
-          ></button>
-        </header>
-        <div className="card__time-container">
-          <time className="card__hours" datetime="PT1H">
-            1hrs
-          </time>
-          <span className="card__last-time">
-            Yesterday - <time datetime="PT1H">1hrs</time>
-          </span>
+
+        <div className="card play">
+          <div className="content">
+            <h2>Play</h2>
+            <button className="ellipses">
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </button>
+            <span className="current">10hrs</span>
+            <span className="previous">
+              Last <span>Week</span> - <span>8hrs</span>
+            </span>
+          </div>
         </div>
-      </article>
-      <article id="js-social" className="card social">
-        <header className="card__header">
-          <h2 className="card__title">Social</h2>
-          <button
-            className="card__button"
-            aria-label="Settings (no function attached)"
-          ></button>
-        </header>
-        <div className="card__time-container">
-          <time className="card__hours" datetime="PT1H">
-            1hrs
-          </time>
-          <span className="card__last-time">
-            Yesterday - <time datetime="PT3H">3hrs</time>
-          </span>
+
+        <div className="card social">
+          <div className="content">
+            <h2>Social</h2>
+            <button className="ellipses">
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </button>
+            <span className="current">5hrs</span>
+            <span className="previous">
+              Last <span>Week</span> - <span>10hrs</span>
+            </span>
+          </div>
         </div>
-      </article>
-      <article id="js-self-care" className="card self-care">
-        <header className="card__header">
-          <h2 className="card__title">Self Care</h2>
-          <button
-            className="card__button"
-            aria-label="Settings (no function attached)"
-          ></button>
-        </header>
-        <div className="card__time-container">
-          <time className="card__hours" datetime="PT0H">
-            0hrs
-          </time>
-          <span className="card__last-time">
-            Yesterday - <time datetime="PT1H">1hrs</time>
-          </span>
+
+        <div className="card study">
+          <div className="content">
+            <h2>Study</h2>
+            <button className="ellipses">
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </button>
+            <span className="current">4hrs</span>
+            <span className="previous">
+              Last <span>Week</span> - <span>7hrs</span>
+            </span>
+          </div>
         </div>
-      </article>
-    </main>
+
+        <div className="card selfcare">
+          <div className="content">
+            <h2>Self Care</h2>
+            <button className="ellipses">
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </button>
+            <span className="current">2hrs</span>
+            <span className="previous">
+              Last<span>Week</span> - <span>2hrs</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
