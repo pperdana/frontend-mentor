@@ -22,6 +22,10 @@
   .cards {
     @apply grid gap-[25px];
   }
+
+  .profile {
+    @apply bg-[hsl(235,46%,20%)] z-[2] text-[hsl(236,100%,87%)];
+  }
 }
 
 .cards {
