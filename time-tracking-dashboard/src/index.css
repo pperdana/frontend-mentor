@@ -46,6 +46,10 @@
   .social {
     @apply bg-[hsl(264,64%,52%)];
   }
+
+  .study {
+    @apply bg-[hsl(348,100%,68%)];
+  }
 }
 
 .cards {
@@ -71,5 +75,9 @@
 
   .social {
     grid-area: social;
+  }
+
+  .study {
+    grid-area: study;
   }
 }
