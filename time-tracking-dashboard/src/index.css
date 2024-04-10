@@ -18,4 +18,14 @@
   .main {
     @apply min-w-[1000px] max-w-[95%];
   }
+
+  .cards {
+    @apply grid gap-[25px];
+  }
+}
+
+.cards {
+  grid-template-areas:
+    "profile work play study"
+    "profile exercise social selfcare";
 }
