@@ -50,6 +50,10 @@
   .study {
     @apply bg-[hsl(348,100%,68%)];
   }
+
+  .selfcare {
+    @apply bg-[hsl(43,84%,65%)];
+  }
 }
 
 .cards {
@@ -79,5 +83,9 @@
 
   .study {
     grid-area: study;
+  }
+
+  .selfcare {
+    grid-area: selfcare;
   }
 }
