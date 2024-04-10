@@ -30,6 +30,10 @@
   .profile {
     @apply bg-[hsl(235,46%,20%)] z-[2] text-[hsl(236,100%,87%)];
   }
+
+  .work {
+    @apply bg-[hsl(15,100%,70%)];
+  }
 }
 
 .cards {
@@ -38,5 +42,8 @@
     "profile exercise social selfcare";
   .profile {
     grid-area: profile;
+  }
+  .work {
+    grid-area: work;
   }
 }
