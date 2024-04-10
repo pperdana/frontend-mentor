@@ -42,6 +42,10 @@
   .play {
     @apply bg-[hsl(195,74%,62%)];
   }
+
+  .social {
+    @apply bg-[hsl(264,64%,52%)];
+  }
 }
 
 .cards {
@@ -63,5 +67,9 @@
 
   .play {
     grid-area: play;
+  }
+
+  .social {
+    grid-area: social;
   }
 }
