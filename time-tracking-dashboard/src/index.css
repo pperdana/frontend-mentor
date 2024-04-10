@@ -23,6 +23,10 @@
     @apply grid gap-[25px];
   }
 
+  .card {
+    @apply min-h-[230px] rounded-[2.5rem] relative h-full hidden p-[25px];
+  }
+
   .profile {
     @apply bg-[hsl(235,46%,20%)] z-[2] text-[hsl(236,100%,87%)];
   }
