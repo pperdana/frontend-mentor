@@ -43,6 +43,10 @@
     @apply z-[100] absolute bottom-0 h-[30%] w-full flex flex-col justify-center gap-[10px];
   }
 
+  .report .user {
+    @apply inline-block mt-[15px]  text-white font-light;
+  }
+
   .work {
     @apply bg-[hsl(15,100%,70%)];
   }
