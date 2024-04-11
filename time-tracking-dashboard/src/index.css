@@ -78,6 +78,10 @@
   .selfcare {
     @apply bg-[hsl(43,84%,65%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1];
   }
+
+  .card:not(.profile) .content {
+    @apply absolute top-[20%] left-0 h-[80%] w-full rounded-[15px] bg-[hsl(235,46%,20%)] z-[2] p-[25px];
+  }
 }
 
 .cards {
