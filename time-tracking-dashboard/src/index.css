@@ -51,6 +51,10 @@
     @apply text-[hsl(235,45%,61%)];
   }
 
+  .links a.active {
+    @apply text-white;
+  }
+
   .work {
     @apply bg-[hsl(15,100%,70%)];
   }
