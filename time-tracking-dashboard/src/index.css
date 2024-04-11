@@ -98,6 +98,10 @@
   .card .previous {
     @apply block text-[hsl(236,100%,87%)] font-light  mt-[6px];
   }
+
+  .card .previous span {
+    @apply ml-[3px];
+  }
 }
 
 .cards {
