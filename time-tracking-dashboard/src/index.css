@@ -31,6 +31,10 @@
     @apply bg-[hsl(235,46%,20%)] z-[2] text-[hsl(236,100%,87%)];
   }
 
+  .profile .content {
+    @apply absolute top-0 left-0 h-[70%] w-full rounded-[15px] bg-[hsl(246,80%,60%)] z-[1] p-[25px];
+  }
+
   .work {
     @apply bg-[hsl(15,100%,70%)];
   }
