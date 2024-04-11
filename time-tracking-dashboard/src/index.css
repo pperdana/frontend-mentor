@@ -35,6 +35,10 @@
     @apply absolute top-0 left-0 h-[70%] w-full rounded-[15px] bg-[hsl(246,80%,60%)] z-[1] p-[25px];
   }
 
+  .profile .links {
+    @apply z-[100] absolute bottom-0 h-[30%] w-full flex flex-col justify-center gap-[10px];
+  }
+
   .work {
     @apply bg-[hsl(15,100%,70%)];
   }
