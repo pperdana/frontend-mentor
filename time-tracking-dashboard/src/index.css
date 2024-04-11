@@ -39,12 +39,16 @@
     @apply w-[85px] h-[85px] rounded-full border-2 border-white mb-[32px];
   }
 
+  .report .user {
+    @apply inline-block mt-[15px]  text-white font-light;
+  }
+
   .profile .links {
     @apply z-[100] absolute bottom-0 h-[30%] w-full flex flex-col justify-center gap-[10px];
   }
 
-  .report .user {
-    @apply inline-block mt-[15px]  text-white font-light;
+  .links a {
+    @apply text-[hsl(235,45%,61%)];
   }
 
   .work {
