@@ -86,6 +86,10 @@
   .card:not(.profile) .content h2 {
     @apply text-white inline-block;
   }
+
+  button.ellipses {
+    @apply absolute top-[25px] right-[25px] flex justify-center items-center p-[8px];
+  }
 }
 
 .cards {
