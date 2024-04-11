@@ -90,6 +90,10 @@
   button.ellipses {
     @apply absolute top-[25px] right-[25px] flex justify-center items-center p-[8px];
   }
+
+  .card .current {
+    @apply block  text-white font-light pt-[28px] pb-[5px];
+  }
 }
 
 .cards {
