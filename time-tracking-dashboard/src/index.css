@@ -94,6 +94,10 @@
   .card .current {
     @apply block  text-white font-light pt-[28px] pb-[5px];
   }
+
+  .card .previous {
+    @apply block text-[hsl(236,100%,87%)] font-light  mt-[6px];
+  }
 }
 
 .cards {
