@@ -1,4 +1,5 @@
-const Card = () => {
+const Card = (item) => {
+  console.log(item);
   return (
     <div className="card work">
       <div className="content">
