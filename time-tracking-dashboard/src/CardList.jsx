@@ -1,6 +1,7 @@
 import Card from "./Card";
 
-const CardList = () => {
+const CardList = ({ data }) => {
+  console.log(data);
   return (
     <div className="cards">
       <Card />
