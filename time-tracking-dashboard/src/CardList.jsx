@@ -4,7 +4,6 @@ const CardList = ({ data }) => {
   // console.log(data);
   return (
     <div className="cards">
-      <p>test</p>
       {data.map((item) => {
         return <Card key={item.title} item={item} {...item} />;
       })}

@@ -24,7 +24,7 @@
   }
 
   .card {
-    @apply min-h-[230px] rounded-[2.5rem] relative h-full hidden p-[25px];
+    @apply min-h-[230px] rounded-[2.5rem] relative h-full p-[25px];
   }
 
   .profile {
