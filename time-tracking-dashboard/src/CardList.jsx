@@ -1,10 +1,13 @@
 import Card from "./Card";
 
 const CardList = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <div className="cards">
-      <Card />
+      <p>test</p>
+      {data.map((item) => {
+        return <Card key={item.title} item={item} {...item} />;
+      })}
 
       {/* 
     <div className="card profile">
