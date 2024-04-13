@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply text-[1.8rem] font-rubik bg-[hsl(226,43%,10%)];
+    @apply text-[1.8rem] font-rubik;
   }
 
   #root {
