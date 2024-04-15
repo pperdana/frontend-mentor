@@ -1,6 +1,14 @@
+import workIcon from "./assets/icon-work.svg";
+import playIcon from "./assets/icon-play.svg";
+import studyIcon from "./assets/icon-study.svg";
+import exerciseIcon from "./assets/icon-exercise.svg";
+import socialIcon from "./assets/icon-social.svg";
+import careIcon from "./assets/icon-self-care.svg";
+
 const data = [
   {
     title: "Work",
+    icon: workIcon,
     timeframes: {
       daily: {
         current: 5,
@@ -18,6 +26,7 @@ const data = [
   },
   {
     title: "Play",
+    icon: playIcon,
     timeframes: {
       daily: {
         current: 1,
@@ -35,6 +44,7 @@ const data = [
   },
   {
     title: "Study",
+    icon: studyIcon,
     timeframes: {
       daily: {
         current: 0,
@@ -52,6 +62,7 @@ const data = [
   },
   {
     title: "Exercise",
+    icon: exerciseIcon,
     timeframes: {
       daily: {
         current: 1,
@@ -69,6 +80,7 @@ const data = [
   },
   {
     title: "Social",
+    icon: socialIcon,
     timeframes: {
       daily: {
         current: 1,
@@ -86,6 +98,7 @@ const data = [
   },
   {
     title: "Self Care",
+    icon: careIcon,
     timeframes: {
       daily: {
         current: 0,
