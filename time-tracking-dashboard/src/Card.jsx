@@ -8,9 +8,9 @@ const Card = ({ item, title, timeframes }) => {
         <button className="ellipses">
           <img src="./images/icon-ellipsis.svg" alt="" />
         </button>
-        <span className="current">32hrs</span>
+        <span className="current">{`${current}hrs`}</span>
         <span className="previous">
-          Last <span>Week</span> - <span>36hrs</span>
+          Last <span>Week</span> - <span>{`${previous}hrs`}</span>
         </span>
       </div>
     </div>
