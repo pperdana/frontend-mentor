@@ -1,5 +1,6 @@
-const Card = ({ item, title }) => {
-  console.log(item);
+const Card = ({ item, title, timeframes }) => {
+  const { current, previous } = timeframes.weekly;
+  console.log(current, previous);
   return (
     <div className={`card ${title}`}>
       <div className="content">
