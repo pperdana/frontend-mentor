@@ -1,9 +1,9 @@
-const Card = (item) => {
+const Card = ({ item, title }) => {
   console.log(item);
   return (
-    <div className="card work">
+    <div className={`card ${title}`}>
       <div className="content">
-        <h2>Work</h2>
+        <h2>{title}</h2>
         <button className="ellipses">
           <img src="./images/icon-ellipsis.svg" alt="" />
         </button>
