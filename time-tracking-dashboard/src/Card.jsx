@@ -1,12 +1,12 @@
-const Card = ({ item, title, timeframes }) => {
+const Card = ({ item, title, timeframes, icon }) => {
   const { current, previous } = timeframes.weekly;
-  console.log(current, previous);
+  console.log(item);
   return (
     <div className={`card ${title}`}>
       <div className="content">
         <h2>{title}</h2>
         <button className="ellipses">
-          <img src="./images/icon-ellipsis.svg" alt="" />
+          <img src={icon} alt="icon" />
         </button>
         <span className="current">{`${current}hrs`}</span>
         <span className="previous">
