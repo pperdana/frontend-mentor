@@ -2,7 +2,6 @@ import Profile from "./Profile";
 import Card from "./Card";
 
 const CardList = ({ data }) => {
-  // console.log(data);
   return (
     <div className="cards">
       <Profile />
