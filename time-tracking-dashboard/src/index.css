@@ -12,7 +12,7 @@
   }
 
   #root {
-    @apply w-full h-full flex flex-col justify-center items-center;
+    @apply h-screen flex flex-col justify-center items-center;
   }
 
   .main {
@@ -40,7 +40,7 @@
   }
 
   .report .user {
-    @apply inline-block mt-[15px]  text-white font-light;
+    @apply inline-block mt-[15px]  text-white font-light text-[4rem];
   }
 
   .profile .links {
