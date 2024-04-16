@@ -4,7 +4,7 @@ const Profile = () => {
     <div className="card profile">
       <div className="content">
         <img src={profile} alt="jeremy image" />
-        <div className="report">
+        <div className="report text-[1.45rem] leading-[1.2]">
           Report for <span className="user">Jeremy Robson</span>
         </div>
       </div>
