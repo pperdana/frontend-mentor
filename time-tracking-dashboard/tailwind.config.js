@@ -10,7 +10,16 @@ export default {
     fontFamily: {
       rubik: ["Rubik", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      content: {
+        workIcon: 'url("/src/assets/icon-work.svg")',
+        playIcon: 'url("/src/assets/icon-play.svg")',
+        studyIcon: 'url("/src/assets/icon-study.svg")',
+        exerciseIcon: 'url("/src/assets/icon-exercise.svg")',
+        socialIcon: 'url("/src/assets/icon-social.svg")',
+        careIcon: 'url("/src/assets/icon-self-care.svg")',
+      },
+    },
     screens: {
       // Screen for Tablet
       // tall: { raw: "(min-height: 900px)" },
