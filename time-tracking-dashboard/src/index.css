@@ -56,27 +56,27 @@
   }
 
   .card.work {
-    @apply bg-[hsl(15,100%,70%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1];
+    @apply bg-[hsl(15,100%,70%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1] before:content-workIcon;
   }
 
   .card.exercise {
-    @apply bg-[hsl(145,58%,55%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1];
+    @apply bg-[hsl(145,58%,55%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1] before:content-exerciseIcon;
   }
 
   .card.play {
-    @apply bg-[hsl(195,74%,62%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1];
+    @apply bg-[hsl(195,74%,62%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1] before:content-playIcon;
   }
 
   .card.social {
-    @apply bg-[hsl(264,64%,52%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1];
+    @apply bg-[hsl(264,64%,52%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1] before:content-socialIcon;
   }
 
   .card.study {
-    @apply bg-[hsl(348,100%,68%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1];
+    @apply bg-[hsl(348,100%,68%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1] before:content-studyIcon;
   }
 
   .card.selfcare {
-    @apply bg-[hsl(43,84%,65%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1];
+    @apply bg-[hsl(43,84%,65%)] before:top-[-4%] before:right-[4%] before:scale-[75%] before:absolute before:z-[1] before:content-careIcon;
   }
 
   .card:not(.profile) .content {
