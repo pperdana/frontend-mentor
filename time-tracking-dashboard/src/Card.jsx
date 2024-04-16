@@ -2,7 +2,7 @@ const Card = ({ item, title, timeframes, icon }) => {
   const { current, previous } = timeframes.weekly;
   console.log(item);
   return (
-    <div className={`card ${title.toLowerCase()}`}>
+    <div className={`card ${title.replaceAll(" ", "").toLowerCase()}`}>
       <div className="content">
         <h2>{title}</h2>
         <button className="ellipses">
