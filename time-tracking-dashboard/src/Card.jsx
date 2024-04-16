@@ -2,9 +2,12 @@ import ellipsIcon from "./assets/icon-ellipsis.svg";
 
 const Card = ({ item, title, timeframes, icon }) => {
   const { current, previous } = timeframes.weekly;
+  const titleName = title.replaceAll(" ", "").toLowerCase();
+
   console.log(item);
+
   return (
-    <div className={`card ${title.replaceAll(" ", "").toLowerCase()}`}>
+    <div className={`card ${titleName}`}>
       <div className="content">
         <h2>{title}</h2>
         <button className="ellipses">
