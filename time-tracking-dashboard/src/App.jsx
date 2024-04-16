@@ -4,9 +4,13 @@ import data from "./data.js";
 
 const App = () => {
   return (
-    <main className="main">
-      <CardList data={data} />
-    </main>
+    <>
+      <h2>test</h2>
+      {/* <main className="main">
+      <h2>test</h2>
+      <CardList data={data} /> 
+    </main> */}
+    </>
   );
 };
 
