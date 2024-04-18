@@ -92,7 +92,7 @@
   }
 
   .card .current {
-    @apply block  text-[4rem] text-white font-light pt-[28px] pb-[5px];
+    @apply block  text-[4.4rem] text-white font-light pt-[20px] pb-[5px];
   }
 
   .card .previous {
