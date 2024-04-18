@@ -92,11 +92,11 @@
   }
 
   .card .current {
-    @apply block  text-[4.4rem] text-white font-light pt-[20px] pb-[5px];
+    @apply block  text-[4.4rem] text-white font-light pt-[20px];
   }
 
   .card .previous {
-    @apply block text-[1.4rem] text-[hsl(236,100%,87%)] font-light  mt-[6px];
+    @apply block text-[1.4rem] text-[hsl(236,100%,87%)] font-light  mt-[2px];
   }
 
   .card .previous span {
