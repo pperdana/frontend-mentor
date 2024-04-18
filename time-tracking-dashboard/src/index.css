@@ -80,7 +80,7 @@
   }
 
   .card:not(.profile) .content {
-    @apply absolute top-[20%] left-0 h-[80%] w-full rounded-[15px] bg-[hsl(235,46%,20%)] z-[2] p-[25px];
+    @apply absolute top-[20%] left-0 h-[80%] w-full rounded-[25px] bg-[hsl(235,46%,20%)] z-[2] p-[25px];
   }
 
   .card:not(.profile) .content h2 {
