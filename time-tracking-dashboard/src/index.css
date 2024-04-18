@@ -32,7 +32,7 @@
   }
 
   .profile .content {
-    @apply absolute top-0 left-0 h-[70%] w-full rounded-[15px] bg-[hsl(246,80%,60%)] z-[1] p-[25px];
+    @apply absolute top-0 left-0 h-[70%] w-full rounded-[1.8rem] bg-[hsl(246,80%,60%)] z-[1] p-[25px];
   }
 
   .profile .content img {
