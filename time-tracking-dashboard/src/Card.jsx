@@ -4,7 +4,7 @@ const Card = ({ item, title, timeframes, icon }) => {
   const { current, previous } = timeframes.weekly;
   const titleName = title.replaceAll(" ", "").toLowerCase();
 
-  console.log(item);
+  // console.log(item);
 
   return (
     <div className={`card ${titleName}`}>
