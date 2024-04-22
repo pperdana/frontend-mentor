@@ -1,9 +1,9 @@
 const App = () => {
   return (
-    <main className="prueba">
+    <main className="main">
       <div className="contenedor">
         <div className="izquierda">
-          <h2 className="title">Stay updated!</h2>
+          <h1 className="title">Stay updated!</h1>
           <p className="info">
             Join 60,000+ product managers receiving monthly updates on:
           </p>
