@@ -30,4 +30,8 @@
   .info {
     @apply text-[1.92rem] w-[90%];
   }
+
+  .list-style {
+    @apply flex gap-[1rem];
+  }
 }
