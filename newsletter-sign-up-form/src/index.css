@@ -42,4 +42,8 @@
   .contenedor-mensajes {
     @apply flex justify-between;
   }
+
+  .contenedor-form {
+    @apply flex flex-col gap-[1.6rem] mt-[1.6rem];
+  }
 }
