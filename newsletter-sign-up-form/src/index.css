@@ -26,4 +26,8 @@
   .title {
     @apply text-[6.4rem] text-[hsl(234,29%,20%)] m-0;
   }
+
+  .info {
+    @apply text-[1.92rem] w-[90%];
+  }
 }
