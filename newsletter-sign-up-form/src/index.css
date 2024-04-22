@@ -38,4 +38,8 @@
   .list-style li {
     @apply mb-[1.6rem] text-[1.92rem];
   }
+
+  .contenedor-mensajes {
+    @apply flex justify-between;
+  }
 }
