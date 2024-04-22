@@ -11,7 +11,7 @@
     @apply text-[1.6rem] font-roboto;
   }
 
-  #root {
-    @apply h-screen;
+  main {
+    @apply flex justify-center items-center h-screen;
   }
 }
