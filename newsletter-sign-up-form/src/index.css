@@ -34,4 +34,8 @@
   .list-style {
     @apply flex gap-[1rem];
   }
+
+  .list-style li {
+    @apply mb-[1.6rem] text-[1.92rem];
+  }
 }
