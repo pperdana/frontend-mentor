@@ -18,4 +18,8 @@
   .contenedor {
     @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem];
   }
+
+  .izquierda {
+    @apply p-[2rem];
+  }
 }
