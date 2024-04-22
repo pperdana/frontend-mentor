@@ -10,4 +10,8 @@
   body {
     @apply text-[1.6rem] font-roboto;
   }
+
+  #root {
+    @apply h-screen;
+  }
 }
