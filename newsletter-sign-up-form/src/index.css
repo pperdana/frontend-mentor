@@ -22,4 +22,8 @@
   .izquierda {
     @apply p-[2rem];
   }
+
+  .title {
+    @apply text-[6.4rem] text-[hsl(234,29%,20%)] m-0;
+  }
 }
