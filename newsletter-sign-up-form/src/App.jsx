@@ -1,3 +1,5 @@
+import ill from "./assets/illustration-sign-up-desktop.svg";
+
 const App = () => {
   return (
     <main className="main">
@@ -39,10 +41,7 @@ const App = () => {
           </form>
         </div>
         <div className="derecha">
-          <img
-            src="/assets/images/illustration-sign-up-desktop.svg"
-            alt="Flowers"
-          />
+          <img src={ill} alt="Flowers" />
         </div>
       </div>
     </main>
