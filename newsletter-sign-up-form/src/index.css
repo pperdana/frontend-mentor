@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply text-[1.6rem] font-roboto;
+    @apply text-[1.6rem] font-roboto bg-[hsl(234,29%,20%)];
   }
 
   main {
