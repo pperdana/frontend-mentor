@@ -56,10 +56,10 @@
   }
 
   .email {
-    @apply p-[1.5rem] border-[1px] border-[hsl(231,7%,60%)] rounded-[10px];
+    @apply p-[1.8rem] pl-[2.4rem] border-[1px] border-[hsl(231,7%,60%)] rounded-[10px];
   }
 
   .btn {
-    @apply w-full p-[1.5rem] bg-[hsl(234,29%,20%)] text-white rounded-[10px] border-none cursor-pointer;
+    @apply w-full p-[1.8rem] bg-[hsl(234,29%,20%)] text-white rounded-[10px] border-none cursor-pointer;
   }
 }
