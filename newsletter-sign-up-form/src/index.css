@@ -32,11 +32,11 @@
   }
 
   .list-style {
-    @apply flex gap-[1rem];
+    @apply flex gap-[1rem] mb-[1rem];
   }
 
   .list-style li {
-    @apply mb-[1.6rem] text-[1.92rem];
+    @apply text-[1.92rem] pl-[.8rem];
   }
 
   .contenedor-mensajes {

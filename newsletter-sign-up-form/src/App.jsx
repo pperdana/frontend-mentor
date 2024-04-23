@@ -1,4 +1,5 @@
 import ill from "./assets/illustration-sign-up-desktop.svg";
+import listIcon from "./assets/icon-list.svg";
 
 const App = () => {
   return (
@@ -11,12 +12,15 @@ const App = () => {
           </p>
           <ul className="list">
             <div className="list-style">
+              <img src={listIcon} alt="list icon" />
               <li>Product discovery and building what matters</li>
             </div>
             <div className="list-style">
+              <img src={listIcon} alt="list icon" />
               <li>Measuring to ensure updates are a success</li>
             </div>
             <div className="list-style">
+              <img src={listIcon} alt="list icon" />
               <li>And much more!</li>
             </div>
           </ul>
