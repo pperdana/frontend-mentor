@@ -20,11 +20,11 @@
   }
 
   .izquierda {
-    @apply p-[2rem];
+    @apply p-[2.8rem] w-[500px];
   }
 
   .title {
-    @apply text-[6.4rem] text-[hsl(234,29%,20%)] m-0;
+    @apply text-[6.4rem] text-[hsl(234,29%,20%)] m-0 font-bold;
   }
 
   .info {
