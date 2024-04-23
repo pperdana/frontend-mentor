@@ -24,15 +24,19 @@
   }
 
   .title {
-    @apply text-[6.4rem] text-[hsl(234,29%,20%)] m-0 font-bold;
+    @apply text-[6.4rem] text-[hsl(234,29%,20%)] m-0 font-bold mb-[15px];
   }
 
   .info {
-    @apply text-[1.92rem] w-[90%];
+    @apply text-[1.92rem] w-[90%] mb-[18px];
+  }
+
+  .list {
+    @apply mb-[30px];
   }
 
   .list-style {
-    @apply flex gap-[1rem] mb-[1rem];
+    @apply flex gap-[1rem] mb-[.6rem];
   }
 
   .list-style li {
@@ -44,7 +48,7 @@
   }
 
   .contenedor-form {
-    @apply flex flex-col gap-[1.6rem] mt-[1.6rem];
+    @apply flex flex-col gap-[2.4rem] mt-[.8rem];
   }
 
   .email {
