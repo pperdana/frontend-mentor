@@ -24,11 +24,11 @@
   }
 
   .title {
-    @apply text-[6.4rem] text-[hsl(234,29%,20%)] m-0 font-bold mb-[15px];
+    @apply text-[6.4rem] text-[hsl(234,29%,20%)] m-0 font-bold mb-[8px];
   }
 
   .info {
-    @apply text-[1.92rem] w-[90%] mb-[18px];
+    @apply text-[1.8rem] w-[90%] mb-[18px];
   }
 
   .list {
@@ -40,7 +40,7 @@
   }
 
   .list-style li {
-    @apply text-[1.92rem] pl-[.8rem];
+    @apply text-[1.8rem] pl-[.8rem];
   }
 
   .message-form {
