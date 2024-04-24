@@ -4,8 +4,8 @@ import listIcon from "./assets/icon-list.svg";
 const App = () => {
   return (
     <main className="main">
-      <div className="contenedor">
-        <div className="izquierda">
+      <div className="card">
+        <div className="text-container">
           <h1 className="title">Stay updated!</h1>
           <p className="info">
             Join 60,000+ product managers receiving monthly updates on:
@@ -44,7 +44,7 @@ const App = () => {
             </div>
           </form>
         </div>
-        <div className="derecha">
+        <div className="img-container">
           <img src={ill} alt="Flowers" />
         </div>
       </div>
