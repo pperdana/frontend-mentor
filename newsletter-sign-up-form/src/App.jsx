@@ -24,7 +24,7 @@ const App = () => {
               <li>And much more!</li>
             </div>
           </ul>
-          <form action="submit" className="formulario">
+          <form action="submit" className="form">
             <div className="message-form">
               <p>Email adress</p>
               <div>
@@ -32,7 +32,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="container-formcontainer-form">
+            <div className="container-form">
               <input
                 type="email"
                 className="email"
