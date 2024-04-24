@@ -43,7 +43,7 @@
     @apply text-[1.92rem] pl-[.8rem];
   }
 
-  .contenedor-mensajes {
+  .message-form {
     @apply flex justify-between;
   }
 

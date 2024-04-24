@@ -25,7 +25,7 @@ const App = () => {
             </div>
           </ul>
           <form action="submit" className="formulario">
-            <div className="contenedor-mensajes">
+            <div className="message-form">
               <p>Email adress</p>
               <div>
                 <p className="error"></p>
