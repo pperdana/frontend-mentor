@@ -32,7 +32,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="contenedor-form">
+            <div className="container-formcontainer-form">
               <input
                 type="email"
                 className="email"
