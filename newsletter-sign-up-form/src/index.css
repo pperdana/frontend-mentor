@@ -12,11 +12,11 @@
   }
 
   main {
-    @apply flex justify-center items-center h-screen;
+    @apply flex justify-center items-center h-screen lg:h-auto;
   }
 
   .card {
-    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem];
+    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse;
   }
 
   .text-container {
@@ -61,5 +61,9 @@
 
   .btn {
     @apply w-full p-[1.8rem] bg-[hsl(234,29%,20%)] text-white rounded-[10px] border-none cursor-pointer;
+  }
+
+  .img-container img {
+    @apply lg:w-[500px];
   }
 }
