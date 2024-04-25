@@ -4,7 +4,7 @@
 
 @layer components {
   html {
-    @apply text-xl;
+    @apply text-xl md:text-base;
   }
 
   body {
@@ -20,11 +20,11 @@
   }
 
   .text-container {
-    @apply p-[2.8rem] w-[500px];
+    @apply p-[2.8rem] w-[500px] md:w-[380px];
   }
 
   .title {
-    @apply text-[6.4rem] text-[hsl(234,29%,20%)] m-0 font-bold mb-[8px];
+    @apply text-[6.4rem] text-[hsl(234,29%,20%)] m-0 font-bold mb-[8px] md:text-[5.4rem];
   }
 
   .info {
@@ -64,6 +64,6 @@
   }
 
   .img-container img {
-    @apply lg:w-[500px];
+    @apply lg:w-[500px] md:w-[380px];
   }
 }
