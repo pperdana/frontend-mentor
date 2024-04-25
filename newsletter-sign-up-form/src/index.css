@@ -16,7 +16,7 @@
   }
 
   .card {
-    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse;
+    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse lg:my-[80px];
   }
 
   .text-container {
