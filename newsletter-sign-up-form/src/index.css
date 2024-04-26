@@ -4,7 +4,7 @@
 
 @layer components {
   html {
-    @apply text-xl md:text-base;
+    @apply text-xl md:text-base sm:text-sm;
   }
 
   body {
@@ -16,7 +16,7 @@
   }
 
   .card {
-    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse lg:my-[80px];
+    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse lg:my-[80px] sm:w-full;
   }
 
   .text-container {
