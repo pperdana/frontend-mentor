@@ -13,15 +13,21 @@ const App = () => {
           </p>
           <ul className="list">
             <div className="list-style">
-              <img src={listIcon} alt="list icon" />
+              <div className="list-icon-box">
+                <img src={listIcon} alt="list icon" />
+              </div>
               <li>Product discovery and building what matters</li>
             </div>
             <div className="list-style">
-              <img src={listIcon} alt="list icon" />
+              <div className="list-icon-box">
+                <img src={listIcon} alt="list icon" />
+              </div>
               <li>Measuring to ensure updates are a success</li>
             </div>
             <div className="list-style">
-              <img src={listIcon} alt="list icon" />
+              <div className="list-icon-box">
+                <img src={listIcon} alt="list icon" />
+              </div>
               <li>And much more!</li>
             </div>
           </ul>
