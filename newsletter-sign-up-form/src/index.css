@@ -66,4 +66,12 @@
   .img-container img {
     @apply lg:w-[500px] md:w-[380px];
   }
+
+  .ill-desktop {
+    @apply sm:hidden;
+  }
+
+  .ill-mobile {
+    @apply hidden sm:block;
+  }
 }
