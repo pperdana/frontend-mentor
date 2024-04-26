@@ -16,7 +16,7 @@
   }
 
   .card {
-    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse lg:my-[80px] sm:w-full sm:p-0 sm:rounded-none sm:my-0;
+    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse lg:my-[80px] sm:w-full sm:p-0 sm:rounded-none sm:my-0 sm:pb-[24px];
   }
 
   .text-container {
@@ -28,7 +28,7 @@
   }
 
   .info {
-    @apply text-[1.8rem] w-[90%] mb-[18px];
+    @apply text-[1.8rem] w-[90%] mb-[18px] sm:text-[2rem];
   }
 
   .list {
@@ -40,7 +40,7 @@
   }
 
   .list-style li {
-    @apply text-[1.8rem] pl-[.8rem];
+    @apply text-[1.8rem] pl-[.8rem] sm:text-[2rem];
   }
 
   .message-form {
@@ -52,7 +52,7 @@
   }
 
   .container-form {
-    @apply flex flex-col gap-[2.4rem] mt-[.8rem];
+    @apply flex flex-col gap-[2.8rem] mt-[.8rem];
   }
 
   .email {
