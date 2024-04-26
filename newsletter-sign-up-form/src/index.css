@@ -16,7 +16,7 @@
   }
 
   .card {
-    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse lg:my-[80px] sm:w-full sm:p-0 sm:rounded-none sm:my-0 sm:pb-[24px];
+    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse lg:my-[80px] sm:w-full sm:p-0 sm:rounded-none sm:my-0 sm:pb-[24px] sm:items-center;
   }
 
   .text-container {
@@ -63,6 +63,9 @@
     @apply w-full p-[1.8rem] bg-[hsl(234,29%,20%)] text-white rounded-[10px] border-none cursor-pointer;
   }
 
+  .img-container {
+    @apply sm:w-full;
+  }
   .img-container img {
     @apply lg:w-[500px] md:w-[380px] sm:w-full;
   }
