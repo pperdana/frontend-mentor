@@ -16,7 +16,7 @@
   }
 
   .card {
-    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse lg:my-[80px] sm:w-full;
+    @apply flex bg-white p-[2rem] rounded-[25px] gap-[2rem] lg:flex-col-reverse lg:my-[80px] sm:w-full sm:p-0 sm:rounded-none;
   }
 
   .text-container {
@@ -64,7 +64,7 @@
   }
 
   .img-container img {
-    @apply lg:w-[500px] md:w-[380px];
+    @apply lg:w-[500px] md:w-[380px] sm:w-full;
   }
 
   .ill-desktop {
