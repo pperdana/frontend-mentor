@@ -1,4 +1,5 @@
-import ill from "./assets/illustration-sign-up-desktop.svg";
+import illDesktop from "./assets/illustration-sign-up-desktop.svg";
+import illMobile from "./assets/illustration-sign-up-mobile.svg";
 import listIcon from "./assets/icon-list.svg";
 
 const App = () => {
@@ -45,7 +46,16 @@ const App = () => {
           </form>
         </div>
         <div className="img-container">
-          <img src={ill} alt="Flowers" />
+          <img
+            className="ill-desktop"
+            src={illDesktop}
+            alt="illustration sign-up"
+          />
+          <img
+            className="ill-mobile"
+            src={illMobile}
+            alt="illustration sign-up"
+          />
         </div>
       </div>
     </main>
