@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <>
-      <section class="section-1">
+      <section className="section-1">
         <header>
           <img src="images/logo.svg" alt="logo" />
           <nav>
@@ -12,7 +12,7 @@ const App = () => {
         </header>
 
         <img
-          class="illustration-intro"
+          className="illustration-intro"
           src="images/illustration-intro.png"
           alt="illustration-intro"
         />
@@ -23,13 +23,13 @@ const App = () => {
             Access them wherever you need, share and collaborate with friends
             family, and co-workers.
           </p>
-          <a class="cta" href="#">
+          <a className="cta" href="#">
             Get Started
           </a>
         </main>
       </section>
 
-      <section class="section-2">
+      <section className="section-2">
         <div>
           <img
             src="images/icon-access-anywhere.svg"
@@ -71,7 +71,7 @@ const App = () => {
         </div>
       </section>
 
-      <section class="section-3">
+      <section className="section-3">
         <img
           src="images/illustration-stay-productive.png"
           alt="illustration-stay-productive"
@@ -86,10 +86,10 @@ const App = () => {
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required.
           </p>
-          <a class="cta-1" href="#">
+          <a className="cta-1" href="#">
             See how Fylo works
             <svg
-              class="icon"
+              className="icon"
               width="16"
               height="16"
               xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,7 @@ const App = () => {
                 <g transform="translate(2 2)">
                   <use fill="#000" filter="url(#a)" xlink:href="#b"></use>
                   <use
-                    class="circle-hover"
+                    className="circle-hover"
                     fill="#62E0D9"
                     xlink:href="#b"
                   ></use>
@@ -139,15 +139,15 @@ const App = () => {
         </main>
       </section>
 
-      <section class="section-4">
+      <section className="section-4">
         <main>
-          <div class="testimonials">
+          <div className="testimonials">
             <p>
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.
             </p>
-            <div class="avatar-div">
+            <div className="avatar-div">
               <img src="images/profile-1.jpg" alt="profile-1" />
               <div>
                 <h4>Satish Patel</h4>
@@ -156,13 +156,13 @@ const App = () => {
             </div>
           </div>
 
-          <div class="testimonials">
+          <div className="testimonials">
             <p>
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.
             </p>
-            <div class="avatar-div">
+            <div className="avatar-div">
               <img src="images/profile-2.jpg" alt="profile-2" />
               <div>
                 <h4>Bruce McKenzie</h4>
@@ -171,13 +171,13 @@ const App = () => {
             </div>
           </div>
 
-          <div class="testimonials">
+          <div className="testimonials">
             <p>
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.
             </p>
-            <div class="avatar-div">
+            <div className="avatar-div">
               <img src="images/profile-3.jpg" alt="profile-3" />
               <div>
                 <h4>Iva Boyd</h4>
@@ -189,7 +189,7 @@ const App = () => {
       </section>
 
       <footer>
-        <div class="sign-up">
+        <div className="sign-up">
           <h5>Get early access today</h5>
           <p>
             It only takes a minute to sign up and our free starter tier is
@@ -202,25 +202,25 @@ const App = () => {
               id="emailInput"
               placeholder="email@example.com"
             />
-            <button class="cta-2" onclick="validateEmail()">
+            <button className="cta-2" onclick="validateEmail()">
               Get Started For Free
             </button>
-            <div id="errorMessage" class="error-message">
+            <div id="errorMessage" className="error-message">
               Please enter a valid email address
             </div>
           </div>
         </div>
 
-        <img class="logo" src="images/logo.svg" alt="logo" />
+        <img className="logo" src="images/logo.svg" alt="logo" />
         <main>
-          <div class="location">
+          <div className="location">
             <img src="images/icon-location.svg" alt="icon-location" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
-          <div class="address">
+          <div className="address">
             <div>
               <img src="images/icon-phone.svg" alt="icon-phone" />
               <p>+1-543-123-4567</p>
@@ -230,7 +230,7 @@ const App = () => {
               <p>example@fylo.com</p>
             </div>
           </div>
-          <div class="questions">
+          <div className="questions">
             <div>
               <a href="#">About Us</a>
               <a href="#">Jobs</a>
@@ -243,10 +243,10 @@ const App = () => {
               <a href="#">Privacy</a>
             </div>
           </div>
-          <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
+          <div className="icons">
+            <i className="fa-brands fa-facebook-f"></i>
+            <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-twitter"></i>
           </div>
         </main>
       </footer>
