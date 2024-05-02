@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <section className="section-1">
+    <section className="section-1 section-hero">
       <header>
         <img src="images/logo.svg" alt="logo" />
         <nav>
