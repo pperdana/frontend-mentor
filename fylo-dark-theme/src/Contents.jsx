@@ -1,7 +1,7 @@
 const Contents = () => {
   return (
     <div>
-      <section className="section-2">
+      <section className="section-2 section-featured">
         <div>
           <img
             src="images/icon-access-anywhere.svg"
@@ -43,7 +43,7 @@ const Contents = () => {
         </div>
       </section>
 
-      <section className="section-3">
+      <section className="section-3 section-info">
         <img
           src="images/illustration-stay-productive.png"
           alt="illustration-stay-productive"
@@ -111,7 +111,7 @@ const Contents = () => {
         </main>
       </section>
 
-      <section className="section-4">
+      <section className="section-4 section-testimonials">
         <main>
           <div className="testimonials">
             <p>
