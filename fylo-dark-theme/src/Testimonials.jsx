@@ -1,3 +1,7 @@
+import profile1Img from "./assets/profile-1.jpg";
+import profile2Img from "./assets/profile-2.jpg";
+import profile3Img from "./assets/profile-3.jpg";
+
 const Testimonials = () => {
   return (
     <section className="section-4 section-testimonials">
