@@ -1,8 +1,13 @@
+import accessIcon from "./assets/icon-access-anywhere.svg";
+import securityIcon from "./assets/icon-security.svg";
+import collaborationIcon from "./assets/icon-collaboration.svg";
+import fileIcon from "./assets/icon-any-file.svg";
+
 const Feature = () => {
   return (
     <section className="section-2 section-featured">
       <div>
-        <img src="images/icon-access-anywhere.svg" alt="icon-access-anywhere" />
+        <img src={accessIcon} alt="icon-access-anywhere" />
         <h2>Access your files, anywhere</h2>
         <p>
           The ability to use a smartphone, tablet, or computer to access your
@@ -11,7 +16,7 @@ const Feature = () => {
       </div>
 
       <div>
-        <img src="images/icon-security.svg" alt="icon-security" />
+        <img src={securityIcon} alt="icon-security" />
         <h2>Security you can trust</h2>
         <p>
           2-factor authentication and user-controlled encryption are just a
@@ -20,7 +25,7 @@ const Feature = () => {
       </div>
 
       <div>
-        <img src="images/icon-collaboration.svg" alt="icon-collaboration" />
+        <img src={collaborationIcon} alt="icon-collaboration" />
         <h2>Real-time collaboration</h2>
         <p>
           Securely share files and folders with friends, family and colleagues
@@ -29,7 +34,7 @@ const Feature = () => {
       </div>
 
       <div>
-        <img src="images/icon-any-file.svg" alt="icon-any-file" />
+        <img src={fileIcon} alt="icon-any-file" />
         <h2>Store any type of file</h2>
         <p>
           Whether you're sharing holidays photos or work documents, Fylo has you
