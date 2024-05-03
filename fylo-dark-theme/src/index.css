@@ -19,4 +19,10 @@
   .section-1 {
     @apply text-center bg-no-repeat bg-[hsl(217,28%,15%)] bg-[url('assets/bg-curvy-desktop.svg')] bg-bottom;
   }
+
+  .section-2,
+  .section-3,
+  .section-4 {
+    @apply bg-[hsl(218,28%,13%)];
+  }
 }
