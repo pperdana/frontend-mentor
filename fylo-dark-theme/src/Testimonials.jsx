@@ -13,7 +13,7 @@ const Testimonials = () => {
             collaboration machine.
           </p>
           <div className="avatar-div">
-            <img src="images/profile-1.jpg" alt="profile-1" />
+            <img src={profile1Img} alt="profile-1" />
             <div>
               <h4>Satish Patel</h4>
               <p>Founder &amp; CEO, Huddle</p>
@@ -28,7 +28,7 @@ const Testimonials = () => {
             collaboration machine.
           </p>
           <div className="avatar-div">
-            <img src="images/profile-2.jpg" alt="profile-2" />
+            <img src={profile2Img} alt="profile-2" />
             <div>
               <h4>Bruce McKenzie</h4>
               <p>Founder &amp; CEO, Huddle</p>
@@ -43,7 +43,7 @@ const Testimonials = () => {
             collaboration machine.
           </p>
           <div className="avatar-div">
-            <img src="images/profile-3.jpg" alt="profile-3" />
+            <img src={profile3Img} alt="profile-3" />
             <div>
               <h4>Iva Boyd</h4>
               <p>Founder &amp; CEO, Huddle</p>
