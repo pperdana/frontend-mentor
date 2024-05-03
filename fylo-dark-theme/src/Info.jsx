@@ -1,10 +1,9 @@
+import productiveImg from "./assets/illustration-stay-productive.png";
+
 const Info = () => {
   return (
     <section className="section-3 section-info">
-      <img
-        src="images/illustration-stay-productive.png"
-        alt="illustration-stay-productive"
-      />
+      <img src={productiveImg} alt="illustration-stay-productive" />
       <main>
         <h3>Stay productive, wherever you are</h3>
         <p>
