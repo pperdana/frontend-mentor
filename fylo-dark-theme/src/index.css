@@ -25,4 +25,8 @@
   .section-4 {
     @apply bg-[hsl(218,28%,13%)];
   }
+
+  .section-2 {
+    @apply grid text-center grid-cols-[3fr_3fr] grid-rows-[300px_300px];
+  }
 }
