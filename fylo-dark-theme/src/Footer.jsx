@@ -24,10 +24,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <img className="logo" src="images/logo.svg" alt="logo" />
+      <img className="logo" src={logo} alt="logo" />
       <main>
         <div className="location">
-          <img src="images/icon-location.svg" alt="icon-location" />
+          <img src={locationIcon} alt="icon-location" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -35,11 +35,11 @@ const Footer = () => {
         </div>
         <div className="address">
           <div>
-            <img src="images/icon-phone.svg" alt="icon-phone" />
+            <img src={phoneIcon} alt="icon-phone" />
             <p>+1-543-123-4567</p>
           </div>
           <div>
-            <img src="images/icon-email.svg" alt="icon-email" />
+            <img src={emailIcon} alt="icon-email" />
             <p>example@fylo.com</p>
           </div>
         </div>
