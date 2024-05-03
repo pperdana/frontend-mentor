@@ -1,8 +1,10 @@
+import logo from "./assets/logo.svg";
+
 const Header = () => {
   return (
     <section className="section-1 section-hero">
       <header>
-        <img src="images/logo.svg" alt="logo" />
+        <img src={logo} alt="logo" />
         <nav>
           <a href="#">Features</a>
           <a href="#">Team</a>
