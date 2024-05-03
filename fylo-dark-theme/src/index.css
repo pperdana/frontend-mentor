@@ -10,4 +10,9 @@
   body {
     @apply text-[1.6rem] font-open;
   }
+
+  section,
+  footer {
+    @apply py-[50px] px-[75px];
+  }
 }
