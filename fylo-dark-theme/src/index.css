@@ -15,4 +15,8 @@
   footer {
     @apply py-[50px] px-[75px];
   }
+
+  .section-1 {
+    @apply text-center bg-no-repeat bg-[hsl(217,28%,15%)] bg-[url('assets/bg-curvy-desktop.svg')] bg-bottom;
+  }
 }
