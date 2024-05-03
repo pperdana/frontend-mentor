@@ -1,4 +1,5 @@
 import logo from "./assets/logo.svg";
+import illustrationIntro from "./assets/illustration-intro.png";
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
 
       <img
         className="illustration-intro"
-        src="images/illustration-intro.png"
+        src={illustrationIntro}
         alt="illustration-intro"
       />
       <div>
