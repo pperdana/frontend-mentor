@@ -11,6 +11,17 @@
     @apply text-[1.6rem] font-open;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  header a,
+  .cta,
+  .cta-1 {
+    @apply font-raleway;
+  }
+
   section,
   footer {
     @apply py-[50px] px-[75px];
