@@ -24,6 +24,15 @@
     @apply flex items-center justify-between;
   }
 
+  header a,
+  p {
+    @apply text-[hsla(0,0%,100%,0.8)];
+  }
+
+  header a {
+    @apply pr-[30px];
+  }
+
   .section-1 main {
     @apply w-[40%] my-0 mx-auto;
   }
