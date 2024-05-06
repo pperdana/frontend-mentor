@@ -24,6 +24,10 @@
     @apply flex items-center justify-between;
   }
 
+  .section-1 main {
+    @apply w-[40%] my-0 mx-auto;
+  }
+
   .section-2,
   .section-3,
   .section-4 {
