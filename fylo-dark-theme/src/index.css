@@ -56,6 +56,10 @@
     @apply w-[40%] my-0 mx-auto;
   }
 
+  .section-1 main p {
+    @apply mb-[10%];
+  }
+
   .section-2,
   .section-3,
   .section-4 {
