@@ -22,6 +22,14 @@
     @apply font-raleway;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply text-[hsl(0,0%,100%)];
+  }
+
   section,
   footer {
     @apply py-[50px] px-[75px];
