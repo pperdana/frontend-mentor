@@ -60,6 +60,11 @@
     @apply mb-[10%];
   }
 
+  .cta,
+  .cta-2 {
+    @apply font-bold rounded-full text-[hsl(0,0%,100%)] bg-[linear-gradient(135deg,hsl(176,68%,64%),hsl(198,60%,50%))];
+  }
+
   .section-2,
   .section-3,
   .section-4 {
