@@ -106,4 +106,8 @@
   .testimonials {
     @apply p-[30px] mr-[5%] rounded-[5px] bg-[hsl(219,30%,18%)];
   }
+
+  .avatar-div {
+    @apply flex items-center;
+  }
 }
