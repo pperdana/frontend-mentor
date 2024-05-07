@@ -118,4 +118,8 @@
   .avatar-div div {
     @apply pl-[20px] text-[0.8em];
   }
+
+  footer {
+    @apply relative text-[0.9rem] bg-[hsl(216,53%,9%)];
+  }
 }
