@@ -94,4 +94,8 @@
   .cta-1 {
     @apply text-[hsl(176,68%,64%)] border-b-[1px] border-solid border-[hsl(176,68%,64%)];
   }
+
+  .section-4 {
+    @apply h-[85vh];
+  }
 }
