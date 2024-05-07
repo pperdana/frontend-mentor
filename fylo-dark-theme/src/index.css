@@ -102,4 +102,8 @@
   .section-4 main {
     @apply flex items-center justify-center;
   }
+
+  .testimonials {
+    @apply p-[30px] mr-[5%] rounded-[5px] bg-[hsl(219,30%,18%)];
+  }
 }
