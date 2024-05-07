@@ -96,6 +96,10 @@
   }
 
   .section-4 {
-    @apply h-[85vh];
+    @apply h-[85vh] bg-[url('assets/bg-quotes.png')] bg-no-repeat bg-[top_1rem_left_4rem];
+  }
+
+  .section-4 main {
+    @apply flex items-center justify-center;
   }
 }
