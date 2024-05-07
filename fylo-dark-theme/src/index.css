@@ -114,4 +114,8 @@
   .testimonials img {
     @apply h-[7vh] rounded-full;
   }
+
+  .avatar-div div {
+    @apply pl-[20px] text-[0.8em];
+  }
 }
