@@ -110,4 +110,8 @@
   .avatar-div {
     @apply flex items-center;
   }
+
+  .testimonials img {
+    @apply h-[7vh] rounded-full;
+  }
 }
