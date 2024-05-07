@@ -90,4 +90,8 @@
   .section-3 main {
     @apply w-[45%];
   }
+
+  .cta-1 {
+    @apply text-[hsl(176,68%,64%)] border-b-[1px] border-solid border-[hsl(176,68%,64%)];
+  }
 }
