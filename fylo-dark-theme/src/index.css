@@ -86,4 +86,8 @@
   .section-3 {
     @apply flex items-center justify-center;
   }
+
+  .section-3 main {
+    @apply w-[45%];
+  }
 }
