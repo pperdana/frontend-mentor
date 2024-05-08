@@ -134,4 +134,9 @@
   footer img {
     @apply pr-[15px];
   }
+
+  footer main,
+  footer div {
+    @apply flex items-center justify-around;
+  }
 }
