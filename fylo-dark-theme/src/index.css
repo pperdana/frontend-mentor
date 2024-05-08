@@ -168,4 +168,8 @@
   .questions div {
     @apply items-start justify-center;
   }
+
+  .questions a {
+    @apply p-[10px];
+  }
 }
