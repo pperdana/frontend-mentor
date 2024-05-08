@@ -122,4 +122,8 @@
   footer {
     @apply relative text-[0.9rem] bg-[hsl(216,53%,9%)];
   }
+
+  .sign-up {
+    @apply w-[50%] absolute top-[-35%] left-[25%] p-[30px] rounded-[5px] text-center items-center flex flex-col justify-center bg-[hsl(217,28%,15%)];
+  }
 }
