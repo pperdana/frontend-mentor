@@ -151,4 +151,8 @@
   .cta-2 {
     @apply border-none py-[8px] px-[50px];
   }
+
+  #errorMessage {
+    @apply absolute hidden text-[0.8rem] mr-[50%] mt-[75px] text-[hsl(0,100%,63%)];
+  }
 }
