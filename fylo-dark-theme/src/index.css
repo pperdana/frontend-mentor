@@ -159,4 +159,9 @@
   .location {
     @apply w-[28%];
   }
+
+  .address,
+  .questions div {
+    @apply flex-col items-start justify-center;
+  }
 }
