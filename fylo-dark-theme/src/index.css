@@ -172,4 +172,8 @@
   .questions a {
     @apply p-[10px];
   }
+
+  footer a {
+    @apply text-[hsla(0,0%,100%,0.8)];
+  }
 }
