@@ -147,4 +147,8 @@
   input {
     @apply border-none px-[100px] py-[15px] mr-[5%] rounded-full;
   }
+
+  .cta-2 {
+    @apply border-none py-[8px] px-[50px];
+  }
 }
