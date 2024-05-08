@@ -143,4 +143,8 @@
   footer div {
     @apply flex items-center justify-around;
   }
+
+  input {
+    @apply border-none px-[100px] py-[15px] mr-[5%] rounded-full;
+  }
 }
