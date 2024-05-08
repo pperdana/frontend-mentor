@@ -164,4 +164,8 @@
   .questions div {
     @apply flex-col items-start justify-center;
   }
+
+  .questions div {
+    @apply items-start justify-center;
+  }
 }
