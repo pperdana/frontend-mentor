@@ -30,6 +30,10 @@
     @apply text-[hsl(0,0%,100%)];
   }
 
+  h5 {
+    @apply text-[1.5rem];
+  }
+
   section,
   footer {
     @apply py-[50px] px-[75px];
