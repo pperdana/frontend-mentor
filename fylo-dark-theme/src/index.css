@@ -176,4 +176,8 @@
   footer a {
     @apply text-[hsla(0,0%,100%,0.8)];
   }
+
+  .questions div {
+    @apply items-start justify-center;
+  }
 }
