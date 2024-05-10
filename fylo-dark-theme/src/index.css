@@ -27,7 +27,7 @@
   h3,
   h4,
   h5 {
-    @apply text-[hsl(0,0%,100%)];
+    @apply text-[hsl(0,0%,100%)] font-bold;
   }
 
   h5 {
