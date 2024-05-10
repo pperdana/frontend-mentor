@@ -56,11 +56,11 @@
     @apply pr-[30px];
   }
 
-  .section-1 main {
+  .section-1 div {
     @apply w-[40%] my-0 mx-auto;
   }
 
-  .section-1 main p {
+  .section-1 div p {
     @apply mb-[10%];
   }
 
