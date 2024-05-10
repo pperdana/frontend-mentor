@@ -157,7 +157,7 @@
   }
 
   .location {
-    @apply w-[28.2%];
+    @apply w-[28%];
   }
 
   .address,
