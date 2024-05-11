@@ -57,11 +57,11 @@
   }
 
   .section-1 div {
-    @apply w-[50%] my-0 mx-auto flex flex-col gap-[3rem];
+    @apply w-[50%] my-0 mx-auto flex flex-col gap-[3rem] items-center;
   }
 
   .section-1 div h1 {
-    @apply text-[3.6rem];
+    @apply text-[3.6rem] mb-[.5rem];
   }
 
   .section-1 div p {
@@ -74,7 +74,7 @@
   }
 
   .cta {
-    @apply py-[15px] px-[75px];
+    @apply py-[15px] w-[50%];
   }
 
   .section-2,
