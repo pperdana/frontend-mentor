@@ -44,7 +44,7 @@
   }
 
   .section-1 .illustration-intro {
-    @apply w-[40%];
+    @apply mx-[25rem] my-[2rem];
   }
 
   header {
