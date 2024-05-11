@@ -43,6 +43,10 @@
     @apply text-center bg-no-repeat bg-[hsl(217,28%,15%)] bg-[url('assets/bg-curvy-desktop.svg')] bg-bottom flex flex-col;
   }
 
+  .section-1 .illustration-intro {
+    @apply w-[40%];
+  }
+
   header {
     @apply flex items-center justify-between;
   }
