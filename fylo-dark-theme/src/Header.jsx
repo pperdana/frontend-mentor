@@ -12,7 +12,6 @@ const Header = () => {
           <a href="#">Sign In</a>
         </nav>
       </header>
-
       <img
         className="illustration-intro"
         src={illustrationIntro}
