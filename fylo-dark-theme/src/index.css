@@ -95,6 +95,9 @@
     @apply my-0 mx-auto flex flex-col items-center px-[10rem] gap-[1rem];
   }
 
+  .section-2 div h2 {
+    @apply text-[2rem];
+  }
   .section-2 div img {
     @apply h-[7.6rem] mb-[1.8rem];
   }
