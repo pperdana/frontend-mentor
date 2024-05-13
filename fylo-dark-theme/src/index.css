@@ -92,7 +92,7 @@
   }
 
   .section-2 div {
-    @apply my-0 mx-auto flex flex-col items-center;
+    @apply my-0 mx-auto flex flex-col items-center px-[10rem] gap-[1rem];
   }
 
   .section-2 div img {
