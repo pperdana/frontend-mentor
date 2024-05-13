@@ -95,6 +95,10 @@
     @apply w-[70%] my-0 mx-auto flex flex-col items-center;
   }
 
+  .section-2 div img {
+    @apply h-[70px] w-[20%];
+  }
+
   .section-3 {
     @apply flex items-center justify-center;
   }
