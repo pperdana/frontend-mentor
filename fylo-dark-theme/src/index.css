@@ -96,7 +96,7 @@
   }
 
   .section-2 div img {
-    @apply h-[70px];
+    @apply h-[7.6rem] mb-[1.8rem];
   }
 
   .section-3 {
