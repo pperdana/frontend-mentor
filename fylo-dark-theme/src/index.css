@@ -92,7 +92,7 @@
   }
 
   .section-2 div {
-    @apply w-[70%] my-0 mx-auto;
+    @apply w-[70%] my-0 mx-auto flex flex-col items-center;
   }
 
   .section-3 {
