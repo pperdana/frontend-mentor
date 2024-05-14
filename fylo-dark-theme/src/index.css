@@ -103,7 +103,7 @@
   }
 
   .section-3 {
-    @apply flex items-center justify-center;
+    @apply flex items-center justify-center gap-[5.6rem];
   }
 
   .section-3 main {
