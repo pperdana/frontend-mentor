@@ -107,7 +107,7 @@
   }
 
   .section-3 main {
-    @apply w-[45%];
+    @apply w-[45%] flex flex-col gap-[2rem];
   }
 
   .cta-1 {
