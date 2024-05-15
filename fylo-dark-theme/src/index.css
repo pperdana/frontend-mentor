@@ -159,7 +159,7 @@
   }
 
   .sign-up {
-    @apply w-[50%] absolute top-[-35%] left-[25%] p-[30px] rounded-[5px] text-center items-center flex flex-col justify-center bg-[hsl(217,28%,15%)];
+    @apply w-[60%] absolute top-[-35%] left-[20%] p-[7.2rem] rounded-[5px] text-center items-center flex flex-col justify-center bg-[hsl(217,28%,15%)];
   }
 
   .sign-up h5 {
