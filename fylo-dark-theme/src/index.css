@@ -166,6 +166,10 @@
     @apply text-[3.2rem];
   }
 
+  .sign-up p {
+    @apply text-[1.4rem];
+  }
+
   .logo {
     @apply mt-[15%];
   }
