@@ -178,6 +178,10 @@
     @apply w-[70%] border-none px-[100px] py-[15px]  rounded-full;
   }
 
+  .sign-up div .cta-2 {
+    @apply w-[30%] px-[20px] py-[15px];
+  }
+
   .logo {
     @apply mt-[15%];
   }
