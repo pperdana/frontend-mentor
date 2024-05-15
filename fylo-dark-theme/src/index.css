@@ -170,6 +170,10 @@
     @apply text-[1.4rem];
   }
 
+  .sign-up div {
+    @apply justify-between w-full gap-[2.4rem];
+  }
+
   .logo {
     @apply mt-[15%];
   }
@@ -181,14 +185,6 @@
   footer main,
   footer div {
     @apply flex items-center justify-around;
-  }
-
-  input {
-    @apply border-none px-[100px] py-[15px] mr-[5%] rounded-full;
-  }
-
-  .cta-2 {
-    @apply border-none py-[8px] px-[50px];
   }
 
   #errorMessage {
