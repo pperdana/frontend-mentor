@@ -127,27 +127,35 @@
   }
 
   .section-4 main {
-    @apply flex items-center justify-center;
+    @apply flex items-center justify-center gap-[6.4rem];
   }
 
   .testimonials {
-    @apply p-[30px] mr-[5%] rounded-[5px] bg-[hsl(219,30%,18%)];
+    @apply p-[30px]  rounded-[5px] bg-[hsl(219,30%,18%)] shadow-[hsla(216,25%,21%,0.146)5px_5px_0px_4px];
   }
 
-  .testimonials p {
-    @apply text-[1.4rem];
+  .testimonials .testimonials-desc {
+    @apply text-[1.4rem] mb-[2.4rem];
   }
 
   .avatar-div {
     @apply flex items-center;
   }
 
-  .testimonials img {
-    @apply h-[7vh] rounded-full;
+  .testimonials .avatar-img {
+    @apply h-[3.6rem] rounded-full;
   }
 
   .avatar-div div {
-    @apply pl-[20px] text-[0.8em];
+    @apply pl-[1.2rem];
+  }
+
+  .avatar-div div h4 {
+    @apply text-[1.4rem];
+  }
+
+  .avatar-div div .position {
+    @apply text-[1.2rem];
   }
 
   footer {
