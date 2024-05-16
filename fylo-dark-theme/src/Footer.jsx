@@ -3,8 +3,8 @@ import locationIcon from "./assets/icon-location.svg";
 import phoneIcon from "./assets/icon-phone.svg";
 import emailIcon from "./assets/icon-email.svg";
 
-import { FaTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 
 const Footer = () => {
@@ -61,9 +61,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="icons">
-          <i className="fa-brands fa-facebook-f"></i>
-          <i className="fa-brands fa-instagram"></i>
-          <i className="fa-brands fa-twitter"></i>
+          <div className="fa-brands">
+            <FaFacebookF className="fa-facebook fa" />
+          </div>
+          <div className="fa-brands">
+            <FaTwitter className="fa-twitter fa" />
+          </div>
+          <div className="fa-brands">
+            <FaInstagram className="fa-instagram fa" />
+          </div>
         </div>
       </main>
     </footer>
