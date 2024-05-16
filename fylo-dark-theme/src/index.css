@@ -103,7 +103,7 @@
   }
 
   .section-3 .illustration-productive {
-    @apply w-[350px];
+    @apply lg:w-[350px];
   }
 
   .section-3 main {
