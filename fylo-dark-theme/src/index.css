@@ -187,7 +187,7 @@
   }
 
   footer img {
-    @apply pr-[15px];
+    @apply pr-[15px] mb-[2.4rem];
   }
 
   footer main,
@@ -196,7 +196,7 @@
   }
 
   footer main {
-    @apply text-[1.4rem];
+    @apply text-[1.4rem] items-start;
   }
 
   #errorMessage {
