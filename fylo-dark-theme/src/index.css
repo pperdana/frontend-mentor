@@ -32,7 +32,7 @@
 
   section,
   footer {
-    @apply py-[50px] px-[75px];
+    @apply py-[50px] px-[75px] lg:px-[20px];
   }
 
   .section-1 {
@@ -100,6 +100,10 @@
 
   .section-3 {
     @apply flex items-center justify-center gap-[5.6rem];
+  }
+
+  .section-3 .illustration-productive {
+    @apply w-[350px];
   }
 
   .section-3 main {
