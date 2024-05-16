@@ -195,6 +195,10 @@
     @apply flex items-center justify-around;
   }
 
+  footer main {
+    @apply text-[1.4rem];
+  }
+
   #errorMessage {
     @apply absolute hidden text-[0.8rem] mr-[50%] mt-[75px] text-[hsl(0,100%,63%)];
   }
