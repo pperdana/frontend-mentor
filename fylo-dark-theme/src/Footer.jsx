@@ -3,6 +3,10 @@ import locationIcon from "./assets/icon-location.svg";
 import phoneIcon from "./assets/icon-phone.svg";
 import emailIcon from "./assets/icon-email.svg";
 
+import { FaTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+
 const Footer = () => {
   return (
     <footer className="footer">
