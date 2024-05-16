@@ -207,6 +207,10 @@
     @apply w-[3.2rem] h-[3.2rem] border-[1.5px] rounded-full;
   }
 
+  .fa-brands .fa {
+    @apply w-[1.6rem] h-[1.6rem] text-white;
+  }
+
   #errorMessage {
     @apply absolute hidden text-[0.8rem] mr-[50%] mt-[75px] text-[hsl(0,100%,63%)];
   }
