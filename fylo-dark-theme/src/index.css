@@ -196,7 +196,7 @@
   }
 
   footer main {
-    @apply text-[1.4rem] items-start;
+    @apply text-[1.4rem] items-start justify-between;
   }
 
   #errorMessage {
