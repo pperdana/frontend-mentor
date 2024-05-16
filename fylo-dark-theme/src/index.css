@@ -199,6 +199,10 @@
     @apply text-[1.4rem] items-start justify-between;
   }
 
+  .icons {
+    @apply gap-[1.8rem];
+  }
+
   #errorMessage {
     @apply absolute hidden text-[0.8rem] mr-[50%] mt-[75px] text-[hsl(0,100%,63%)];
   }
