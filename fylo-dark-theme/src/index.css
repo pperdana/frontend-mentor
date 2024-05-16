@@ -186,7 +186,7 @@
     @apply mt-[15%];
   }
 
-  footer img {
+  footer .logo {
     @apply pr-[15px] mb-[2.4rem];
   }
 
@@ -197,6 +197,21 @@
 
   footer main {
     @apply text-[1.4rem] items-start justify-between;
+  }
+
+  .location {
+    @apply items-start gap-[2rem];
+  }
+
+  .location img {
+    @apply mt-[.6rem];
+  }
+
+  .address {
+    @apply gap-[1.6rem];
+  }
+  .address div p {
+    @apply ml-[1.8rem];
   }
 
   .icons {
@@ -223,13 +238,12 @@
   .questions div {
     @apply flex-col items-start justify-center;
   }
-
-  .questions div {
-    @apply items-start justify-center;
+  .questions {
+    @apply items-start gap-[4rem];
   }
 
-  .questions a {
-    @apply p-[10px];
+  .questions div {
+    @apply items-start justify-center gap-[1.2rem];
   }
 
   footer a {
