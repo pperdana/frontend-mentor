@@ -4,7 +4,11 @@ import arrowIcon from "./assets/icon-arrow.svg";
 const Info = () => {
   return (
     <section className="section-3 section-info">
-      <img src={productiveImg} alt="illustration-stay-productive" />
+      <img
+        className="illustration-productive"
+        src={productiveImg}
+        alt="illustration stay productive"
+      />
       <main>
         <h3>Stay productive, wherever you are</h3>
         <p>
