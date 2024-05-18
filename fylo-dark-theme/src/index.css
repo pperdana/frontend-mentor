@@ -88,7 +88,7 @@
   }
 
   .section-2 {
-    @apply grid text-center grid-cols-[3fr_3fr] grid-rows-[300px_300px];
+    @apply grid text-center grid-cols-[3fr_3fr] grid-rows-[300px_300px] md:grid-cols-none md:grid-rows-none md:gap-[64px];
   }
 
   .section-2 div {
