@@ -127,11 +127,11 @@
   }
 
   .section-4 {
-    @apply h-[85vh] bg-[url('assets/bg-quotes.png')] bg-no-repeat bg-[top_1rem_left_4rem];
+    @apply h-[85vh] bg-[url('assets/bg-quotes.png')] bg-no-repeat bg-[top_1rem_left_4rem] md:flex  md:items-center md:justify-center md:h-[100%] md:pb-[250px] md:bg-[top_2rem_left_calc(60%/2)];
   }
 
   .section-4 main {
-    @apply flex items-center justify-center gap-[6.4rem];
+    @apply flex items-center justify-center gap-[6.4rem] md:max-w-[320px] md:flex-col;
   }
 
   .testimonials {
