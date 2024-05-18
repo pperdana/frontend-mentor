@@ -103,7 +103,7 @@
   }
 
   .section-3 {
-    @apply flex items-center justify-center gap-[5.6rem];
+    @apply flex items-center justify-center gap-[5.6rem] md:flex-col;
   }
 
   .section-3 .illustration-productive {
@@ -111,7 +111,7 @@
   }
 
   .section-3 main {
-    @apply w-[45%] flex flex-col gap-[2rem];
+    @apply w-[45%] flex flex-col gap-[2rem] md:w-[85%];
   }
 
   .section-3 main h3 {
