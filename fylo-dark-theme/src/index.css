@@ -163,7 +163,7 @@
   }
 
   footer {
-    @apply relative text-[0.9rem] bg-[hsl(216,53%,9%)];
+    @apply relative text-[0.9rem] bg-[hsl(216,53%,9%)] md:pt-[150px];
   }
 
   .sign-up {
@@ -179,15 +179,15 @@
   }
 
   .sign-up div {
-    @apply justify-between w-full gap-[2.4rem] text-[1.4rem];
+    @apply justify-between w-full gap-[2.4rem] text-[1.4rem] md:flex-col;
   }
 
   .sign-up div input {
-    @apply w-[70%] border-none px-[3.6rem] py-[1.5rem]  rounded-full;
+    @apply w-[70%] border-none px-[3.6rem] py-[1.5rem]  rounded-full md:w-[100%];
   }
 
   .sign-up div .cta-2 {
-    @apply w-[30%] px-[2rem] py-[1.5rem];
+    @apply w-[30%] px-[2rem] py-[1.5rem] md:w-[100%];
   }
 
   .logo {
