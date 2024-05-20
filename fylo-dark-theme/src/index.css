@@ -163,7 +163,7 @@
   }
 
   footer {
-    @apply relative text-[0.9rem] bg-[hsl(216,53%,9%)] md:pt-[150px];
+    @apply relative text-[0.9rem] bg-[hsl(216,53%,9%)] md:pt-[150px] md:px-[40px];
   }
 
   .sign-up {
@@ -204,7 +204,7 @@
   }
 
   footer main {
-    @apply text-[1.4rem] items-start justify-between;
+    @apply text-[1.4rem] items-start justify-between  md:text-[12px] md:grid md:grid-cols-2 md:gap-10;
   }
 
   .location {
