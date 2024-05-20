@@ -219,7 +219,7 @@
   }
 
   .icons {
-    @apply gap-[1.8rem];
+    @apply gap-[1.8rem] sm:justify-center;
   }
 
   .fa-brands {
