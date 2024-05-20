@@ -167,7 +167,7 @@
   }
 
   .sign-up {
-    @apply w-[60%] absolute top-[-35%] left-[20%] py-[4rem] px-[7.2rem] rounded-[5px] text-center items-center flex flex-col gap-[2.4rem] justify-center bg-[hsl(217,28%,15%)] shadow-[rgba(0,0,0,0.135)8px_12px_4px] md:w-[80%] md:top-[-28%] md:left-[12%] sm:px-[3.6rem];
+    @apply w-[60%] absolute top-[-35%] left-[20%] py-[4rem] px-[7.2rem] rounded-[5px] text-center items-center flex flex-col gap-[2.4rem] justify-center bg-[hsl(217,28%,15%)] shadow-[rgba(0,0,0,0.135)8px_12px_4px] md:w-[80%] md:top-[-28%] md:left-[10%] sm:px-[3.6rem] sm:top-[-18%];
   }
 
   .sign-up h5 {
@@ -191,7 +191,7 @@
   }
 
   footer .logo {
-    @apply mt-[15%]  pr-[1.5rem] mb-[2.4rem] sm:mt-[70px] sm:mb-[40px];
+    @apply mt-[15%]  pr-[1.5rem] mb-[2.4rem] sm:mt-[70px] sm:mb-[48px];
   }
 
   footer main,
