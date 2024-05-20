@@ -239,7 +239,7 @@
   }
 
   .location {
-    @apply w-[28%];
+    @apply w-[28%] md:w-auto;
   }
 
   .address,
