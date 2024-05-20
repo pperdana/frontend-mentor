@@ -242,8 +242,9 @@
   .questions div {
     @apply flex-col items-start justify-center;
   }
+
   .questions {
-    @apply items-start gap-[4rem];
+    @apply items-start gap-[4rem] sm:justify-start sm:flex-col;
   }
 
   .questions div {
