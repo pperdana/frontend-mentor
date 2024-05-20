@@ -200,7 +200,7 @@
   }
 
   footer main {
-    @apply text-[1.4rem] items-start justify-between  md:text-[12px] md:grid md:grid-cols-2 md:gap-[5.6rem] sm:grid-cols-1 sm:gap-[2.4rem];
+    @apply text-[1.4rem] items-start justify-between  md:text-[12px] md:grid md:grid-cols-2 md:gap-[5.6rem] sm:grid-cols-1 sm:gap-[1.8rem];
   }
 
   .location {
@@ -214,6 +214,7 @@
   .address {
     @apply gap-[1.6rem];
   }
+
   .address div p {
     @apply ml-[1.8rem];
   }
@@ -244,7 +245,7 @@
   }
 
   .questions {
-    @apply items-start gap-[4rem] sm:justify-start sm:flex-col;
+    @apply items-start gap-[4rem] sm:justify-start sm:flex-col sm:my-[42px];
   }
 
   .questions div {
