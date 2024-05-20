@@ -204,7 +204,7 @@
   }
 
   footer main {
-    @apply text-[1.4rem] items-start justify-between  md:text-[12px] md:grid md:grid-cols-2 md:gap-10;
+    @apply text-[1.4rem] items-start justify-between  md:text-[12px] md:grid md:grid-cols-2 md:gap-[5.6rem];
   }
 
   .location {
