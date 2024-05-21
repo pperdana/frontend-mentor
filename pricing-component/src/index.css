@@ -15,6 +15,10 @@
     @apply w-full h-screen flex justify-center items-center bg-[hsl(240,60%,95%)];
   }
 
+  .main_content {
+    @apply w-[90vw] h-[90vh] text-center;
+  }
+
   .title {
     @apply text-[hsl(232,13%,33%)] text-[3.2rem] capitalize font-bold;
   }
