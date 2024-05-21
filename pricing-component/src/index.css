@@ -10,5 +10,8 @@
   body {
     @apply text-[1.8rem];
   }
+
+  .title {
+    @apply text-[hsl(232,13%,33%)] text-[3.2rem] capitalize font-bold;
+  }
 }
-i
