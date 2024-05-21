@@ -11,7 +11,17 @@
     @apply text-[1.8rem];
   }
 
+  #root {
+    @apply w-full h-screen flex justify-center items-center bg-[hsl(240,60%,95%)];
+  }
+
   .title {
     @apply text-[hsl(232,13%,33%)] text-[3.2rem] capitalize font-bold;
   }
+}
+
+#root {
+  background-image: url(src/assets/bg-bottom.svg), url(src/assets/bg-top.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 0vw bottom 0vh, right 0vw top 0vh;
 }
