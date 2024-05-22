@@ -26,6 +26,10 @@
   .main_content .toggle_div {
     @apply flex gap-[1rem] w-full items-center justify-center my-[3rem] mx-0 text-[hsl(233,13%,49%)] font-bold;
   }
+
+  .toggle_div .toogle_btn {
+    @apply bg-[hsl(237,63%,64%)] w-[4rem] h-[2.2rem] rounded-[3rem] flex items-center cursor-pointer relative;
+  }
 }
 
 #root {
