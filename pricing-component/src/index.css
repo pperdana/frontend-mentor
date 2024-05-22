@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply text-[1.8rem];
+    @apply text-[1.6rem];
   }
 
   #root {
@@ -21,6 +21,10 @@
 
   .title {
     @apply text-[hsl(232,13%,33%)] text-[3.2rem] capitalize font-bold;
+  }
+
+  .main_content .toggle_div {
+    @apply flex gap-[1rem] w-full items-center justify-center my-[3rem] mx-0 text-[hsl(233,13%,49%)] font-bold;
   }
 }
 
