@@ -34,6 +34,10 @@
   .toogle_btn .toggle {
     @apply w-[1.6rem] h-[1.6rem] bg-white rounded-full absolute right-[3px] transition-all duration-100 ease-in;
   }
+
+  .grid_content .content {
+    @apply mt-[2rem] w-full h-[35rem] grid grid-cols-3 rounded-[.8rem] items-center;
+  }
 }
 
 #root {
