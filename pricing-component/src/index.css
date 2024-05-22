@@ -30,6 +30,10 @@
   .toggle_div .toogle_btn {
     @apply bg-[hsl(237,63%,64%)] w-[4rem] h-[2.2rem] rounded-[3rem] flex items-center cursor-pointer relative;
   }
+
+  .toogle_btn .toggle {
+    @apply w-[1.6rem] h-[1.6rem] bg-white rounded-full absolute right-[3px] transition-all duration-100 ease-in;
+  }
 }
 
 #root {
