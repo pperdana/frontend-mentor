@@ -39,6 +39,10 @@
     @apply mt-[2rem] w-full h-[35rem] grid grid-cols-3 rounded-[.8rem] items-center;
   }
 
+  .content > div {
+    @apply text-center bg-[hsl(240,78%,98%)] p-[1.8rem] h-[35rem] shadow-[0px_0px_20px_hsl(234,14%,74%)];
+  }
+
   .content > div:nth-child(1) {
     @apply rounded-tl-[12px] rounded-bl-[12px];
   }
