@@ -38,6 +38,14 @@
   .grid_content .content {
     @apply mt-[2rem] w-full h-[35rem] grid grid-cols-3 rounded-[.8rem] items-center;
   }
+
+  .content > div:nth-child(1) {
+    @apply rounded-tl-[12px] rounded-bl-[12px];
+  }
+
+  .content > div:nth-child(3) {
+    @apply rounded-tr-[12px] rounded-br-[12px];
+  }
 }
 
 #root {
