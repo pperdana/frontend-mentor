@@ -62,6 +62,10 @@
   .first ul {
     @apply flex flex-col list-none text-[hsl(232,13%,33%)] my-[1rem] font-bold;
   }
+
+  .dollar_sign {
+    @apply text-[hsl(232,13%,33%)] text-[1.6rem] font-bold;
+  }
 }
 
 #root {
