@@ -54,6 +54,10 @@
   .first .head {
     @apply font-bold text-[hsl(232,13%,33%)];
   }
+
+  .price {
+    @apply flex items-center gap-2.5 m-4 justify-center;
+  }
 }
 
 #root {
