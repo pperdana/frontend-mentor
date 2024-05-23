@@ -74,6 +74,10 @@
   ul li {
     @apply py-[13px] border-t border-[hsl(234,14%,74%)] text-[1.4rem];
   }
+
+  ul li:last-child {
+    @apply border-b border-[hsl(234,14%,74%)];
+  }
 }
 
 #root {
