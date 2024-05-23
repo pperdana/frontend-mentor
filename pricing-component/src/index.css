@@ -58,6 +58,10 @@
   .price {
     @apply flex items-center gap-2.5 m-4 justify-center;
   }
+
+  .first ul {
+    @apply flex flex-col list-none text-[hsl(232,13%,33%)] my-[1rem] font-bold;
+  }
 }
 
 #root {
