@@ -87,6 +87,10 @@
   .btn_learn {
     @apply bg-[linear-gradient(to_right,hsl(236,72%,79%),hsl(237,63%,64%))] rounded-[8px]  border-none py-[1.3rem] px-[1.8rem] w-full cursor-pointer mt-[1.5rem] text-[hsl(240,78%,98%)] uppercase text-[1.4rem] font-bold;
   }
+
+  .content > div:nth-child(2) {
+    @apply pt-[3rem] min-h-[380px] rounded-[12px] bg-gradient-to-r from-[hsl(236,72%,79%)] to-[hsl(237,63%,64%)] text-[hsl(240,78%,98%)];
+  }
 }
 
 #root {
