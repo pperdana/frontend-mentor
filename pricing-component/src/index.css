@@ -95,6 +95,10 @@
   .content > div:nth-child(2) ul li {
     @apply text-[hsl(240,78%,98%)] py-[1.3rem] border-t border-t-[hsl(234,14%,74%)] text-[1.5rem];
   }
+
+  .content > div:nth-child(2) ul li:last-child {
+    @apply border-t border-t-[hsl(234,14%,74%)];
+  }
 }
 
 #root {
