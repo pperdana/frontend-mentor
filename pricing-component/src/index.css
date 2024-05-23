@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply text-[1.6rem];
+    @apply text-[1.6rem] font-montserrat;
   }
 
   #root {
