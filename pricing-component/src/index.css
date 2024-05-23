@@ -66,6 +66,10 @@
   .dollar_sign {
     @apply text-[hsl(232,13%,33%)] text-[1.6rem] font-bold;
   }
+
+  .first .big_price {
+    @apply text-[hsl(232,13%,33%)] text-[4.3rem] font-bold;
+  }
 }
 
 #root {
