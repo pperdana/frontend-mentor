@@ -16,7 +16,7 @@
   }
 
   .main_content {
-    @apply w-[90vw] h-[90vh] text-center;
+    @apply w-[75vw] h-[90vh] text-center;
   }
 
   .title {
@@ -40,7 +40,7 @@
   }
 
   .content > div {
-    @apply text-center bg-[hsl(240,78%,98%)] p-[1.8rem] h-[35rem] shadow-[0px_0px_20px_hsl(234,14%,74%)];
+    @apply text-center bg-[hsl(240,78%,98%)] p-[1.8rem] h-[36rem] shadow-[0px_0px_20px_hsl(234,14%,74%)];
   }
 
   .content > div:nth-child(1) {
@@ -93,7 +93,7 @@
   }
 
   .content > div:nth-child(2) {
-    @apply pt-[3rem] min-h-[380px] rounded-[12px] bg-gradient-to-r from-[hsl(236,72%,79%)] to-[hsl(237,63%,64%)] text-[hsl(240,78%,98%)];
+    @apply pt-[3rem] min-h-[38.5rem] rounded-[12px] bg-gradient-to-r from-[hsl(236,72%,79%)] to-[hsl(237,63%,64%)] text-[hsl(240,78%,98%)];
   }
 
   .content > div:nth-child(2) ul li {
