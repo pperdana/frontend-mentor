@@ -99,6 +99,10 @@
   .content > div:nth-child(2) ul li:last-child {
     @apply border-t border-t-[hsl(234,14%,74%)];
   }
+
+  .middle .btn .btn_learn {
+    @apply text-[hsl(237,63%,64%)] bg-[hsl(240,78%,98%)] bg-none;
+  }
 }
 
 #root {
