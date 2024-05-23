@@ -91,6 +91,10 @@
   .content > div:nth-child(2) {
     @apply pt-[3rem] min-h-[380px] rounded-[12px] bg-gradient-to-r from-[hsl(236,72%,79%)] to-[hsl(237,63%,64%)] text-[hsl(240,78%,98%)];
   }
+
+  .content > div:nth-child(2) ul li {
+    @apply text-[hsl(240,78%,98%)] py-[1.3rem] border-t border-t-[hsl(234,14%,74%)] text-[1.5rem];
+  }
 }
 
 #root {
