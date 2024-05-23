@@ -50,6 +50,10 @@
   .content > div:nth-child(3) {
     @apply rounded-tr-[12px] rounded-br-[12px];
   }
+
+  .first .head {
+    @apply font-bold text-[hsl(232,13%,33%)];
+  }
 }
 
 #root {
