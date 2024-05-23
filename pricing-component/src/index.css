@@ -67,6 +67,11 @@
     @apply text-[hsl(232,13%,33%)] text-[1.6rem] font-bold;
   }
 
+  .content > div:nth-child(2) .price .dollar_sign,
+  .content > div:nth-child(2) .price .big_price {
+    @apply text-[hsl(240,78%,98%)];
+  }
+
   .first .big_price {
     @apply text-[hsl(232,13%,33%)] text-[4.3rem] font-bold;
   }
