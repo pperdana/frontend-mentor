@@ -52,7 +52,7 @@
   }
 
   .first {
-    @apply lg:w-[350px];
+    @apply lg:w-[350px] lg:rounded-[12px];
   }
 
   .first .head {
