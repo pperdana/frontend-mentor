@@ -51,6 +51,10 @@
     @apply rounded-tr-[12px] rounded-br-[12px];
   }
 
+  .first {
+    @apply lg:w-[350px];
+  }
+
   .first .head {
     @apply font-bold text-[hsl(232,13%,33%)];
   }
