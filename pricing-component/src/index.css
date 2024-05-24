@@ -36,7 +36,7 @@
   }
 
   .grid_content .content {
-    @apply mt-[2rem] w-full h-[35rem] grid grid-cols-3 rounded-[.8rem] items-center;
+    @apply mt-[2rem] w-full h-[35rem] grid grid-cols-3 rounded-[.8rem] items-center lg:mt-[20px] lg:w-full lg:h-full lg:grid lg:grid-cols-1 lg:gap-[20px];
   }
 
   .content > div {
