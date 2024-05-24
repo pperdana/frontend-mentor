@@ -16,7 +16,7 @@
   }
 
   .main_content {
-    @apply w-[75vw] h-[90vh] text-center;
+    @apply w-[75vw] h-[90vh] text-center lg:w-[88vw] lg:h-full lg:my-[30px] lg:mx-0;
   }
 
   .title {
