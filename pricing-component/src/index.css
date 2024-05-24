@@ -12,7 +12,7 @@
   }
 
   #root {
-    @apply w-full h-screen flex justify-center items-center bg-[hsl(240,60%,95%)];
+    @apply w-full h-screen flex justify-center items-center bg-[hsl(240,60%,95%)] lg:h-full;
   }
 
   .main_content {
