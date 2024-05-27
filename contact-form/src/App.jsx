@@ -1,12 +1,10 @@
+import  Alert  from './Alert';
+
 const App = () => {
   return (
     <>
-      <div className="alert" style="display: none">
-        <i className="fa-regular fa-circle-check">
-          <span className="msg">Message Sent!</span>
-        </i>
-        <h4>Thanks for completing the form. We'll be in touch soon!</h4>
-      </div>
+      <Alert     />
+  
       <div id="form-container">
       <div class="form-box">
         <h1>Contact Us</h1>
