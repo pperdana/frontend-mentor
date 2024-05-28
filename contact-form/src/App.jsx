@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 import Alert from "./Alert";
-import Form from "./Form";
+import FormContainer from "./FormContainer";
 
 const App = () => {
   return (
     <Wrapper>
       <Alert />
-      <Form />
+      <FormContainer />
     </Wrapper>
   );
 };
