@@ -92,6 +92,38 @@ const Wrapper = styled.form`
     border: 1.5px solid hsl(186, 15%, 59%);
     outline: none;
   }
+  .inline {
+    display: flex;
+    gap: 10px;
+    .radio {
+      border: 1.5px solid hsl(186, 15%, 59%);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      gap: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+
+      input[type="radio"] {
+        transform: scale(1.5);
+        accent-color: var(--Green);
+      }
+    }
+  }
+
+  textarea {
+    border-radius: 5px;
+    border: 1.5px solid hsl(186, 15%, 59%);
+    margin-top: 10px;
+    outline: none;
+  }
+
+  input[type="checkbox"] {
+    transform: scale(1.4);
+    accent-color: hsl(169, 82%, 27%);
+  }
   .btn {
     margin-top: 30px;
     width: 108%;
