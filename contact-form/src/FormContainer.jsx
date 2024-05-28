@@ -1,14 +1,26 @@
+import styled from "styled-components";
+
 import Form from "./Form";
 
 const FormContainer = () => {
   return (
-    <div id="form-container">
+    <Wrapper className="form-container">
       <div className="form-box">
         <h1>Contact Us</h1>
         <Form />
       </div>
-    </div>
+    </Wrapper>
   );
 };
 
 export default FormContainer;
+
+const Wrapper = styled.section`
+  .form-box {
+    width: 90%;
+    min-width: 650px;
+    background-color: white;
+    padding: 55px;
+    border-radius: 10px;
+  }
+`;

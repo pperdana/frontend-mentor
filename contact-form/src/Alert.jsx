@@ -15,7 +15,7 @@ const Alert = () => {
 
 export default Alert;
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
   display: none;
   .fa-regular,
   .far {
