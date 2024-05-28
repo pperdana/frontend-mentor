@@ -6,19 +6,21 @@ const Form = () => {
       <div className="input-group">
         <div className="row">
           <div className="form-control name">
-            <label>First Name *</label>
+            <label htmlFor="name">First Name *</label>
             <input type="text" id="name" className="change" />
             <p id="nameError" className="error" />
           </div>
           <div className="form-control name">
-            <label className="last">Last Name *</label>
+            <label htmlFor="last_name" className="last">
+              Last Name *
+            </label>
             <input type="text" id="last_name" className="change" />
             <p id="lastnameError" className="error" />
           </div>
         </div>
 
         <div className="form-control">
-          <label>Email Address *</label>
+          <label htmlFor="email">Email Address *</label>
           <input type="text" id="email" className="change" />
           <p id="emailError" className="error" />
         </div>
@@ -43,14 +45,16 @@ const Form = () => {
         </div>
 
         <div className="form-control">
-          <label>Message *</label> <br />
+          <label htmlFor="message">Message *</label> <br />
           <textarea name="message" id="message" rows="6" cols="75"></textarea>
           <p id="Messageerror" className="error" />
         </div>
 
         <div className="form-control check">
           <input type="checkbox" id="mycheck" name="checked" />
-          <label>I consent to being contacted by the team *</label>
+          <label htmlFor="mycheck">
+            I consent to being contacted by the team *
+          </label>
         </div>
         <p id="Checkerror" className="error">
           To submit this form,please consent to being contacted
