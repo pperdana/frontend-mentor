@@ -23,7 +23,9 @@ const Wrapper = styled.section`
     padding: 55px;
     border-radius: 10px;
   }
+
   h1 {
     color: hsl(187, 24%, 22%);
+    margin-bottom: 15px;
   }
 `;
