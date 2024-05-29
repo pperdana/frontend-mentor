@@ -76,6 +76,14 @@ const Wrapper = styled.form`
     justify-content: space-between;
     gap: 1.6rem;
   }
+
+  @media screen and (max-width: 47em) {
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
   .check {
     margin-top: 25px;
     display: flex;
@@ -116,7 +124,12 @@ const Wrapper = styled.form`
       }
     }
   }
-
+  @media screen and (max-width: 47em) {
+    .inline {
+      display: flex;
+      flex-direction: column;
+    }
+  }
   textarea {
     width: 100%;
     border-radius: 5px;
