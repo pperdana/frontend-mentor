@@ -118,6 +118,7 @@ const Wrapper = styled.form`
   }
 
   textarea {
+    width: 100%;
     border-radius: 5px;
     border: 1.5px solid hsl(186, 15%, 59%);
     margin-top: 10px;
@@ -130,7 +131,7 @@ const Wrapper = styled.form`
   }
   .btn {
     margin-top: 30px;
-    width: 108%;
+    width: 100%;
     font-size: 1.9rem;
     background: hsl(169, 82%, 27%);
     color: #fff;
