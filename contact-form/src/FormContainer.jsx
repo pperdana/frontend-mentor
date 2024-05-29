@@ -19,13 +19,6 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
 
-  @media screen and (max-width: 47em) {
-    .form-box {
-      width: 70%;
-      min-width: 350px;
-    }
-  }
-
   .form-box {
     width: 90%;
     min-width: 650px;
@@ -37,5 +30,12 @@ const Wrapper = styled.section`
   h1 {
     color: hsl(187, 24%, 22%);
     margin-bottom: 15px;
+  }
+
+  @media screen and (max-width: 47em) {
+    .form-box {
+      width: 70%;
+      min-width: 350px;
+    }
   }
 `;
