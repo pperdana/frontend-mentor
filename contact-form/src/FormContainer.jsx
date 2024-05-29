@@ -24,7 +24,7 @@ const Wrapper = styled.section`
     min-width: 650px;
     background-color: white;
     padding: 55px;
-    border-radius: 10px;
+    border-radius: 15px;
   }
 
   h1 {
