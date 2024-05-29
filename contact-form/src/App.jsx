@@ -16,8 +16,12 @@ export default App;
 
 const Wrapper = styled.main`
   height: 100vh;
-  background-color: hsl(148, 38%, 91%);
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 47em) {
+    height: 100%;
+    margin-block: 36px;
+  }
 `;
