@@ -16,6 +16,9 @@ const FormContainer = () => {
 export default FormContainer;
 
 const Wrapper = styled.section`
+  display: flex;
+  justify-content: center;
+
   .form-box {
     width: 90%;
     min-width: 650px;
