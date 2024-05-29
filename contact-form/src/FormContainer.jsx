@@ -19,6 +19,13 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
 
+  @media screen and (max-width: 47em) {
+    .form-box {
+      width: 70%;
+      min-width: 350px;
+    }
+  }
+
   .form-box {
     width: 90%;
     min-width: 650px;
