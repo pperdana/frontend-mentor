@@ -69,6 +69,7 @@ body {
   font-family: "Karla", sans-serif;
   line-height: 1.5;
   background-color: hsl(148, 38%, 91%);
+  font-size: 1.6rem;
 }
 ul {
   list-style-type: none;
