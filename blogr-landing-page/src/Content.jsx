@@ -1,6 +1,8 @@
+import styled from "styled-components";
+
 const Content = () => {
   return (
-    <main>
+    <Wrapper>
       <div id="Design">
         <h2 className="heading">Designed for the future</h2>
         <div id="main-txt-img">
@@ -92,8 +94,14 @@ const Content = () => {
           </div>
         </div>
       </div>
-    </main>
+    </Wrapper>
   );
 };
 
 export default Content;
+
+const Wrapper = styled.main`
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+`;
