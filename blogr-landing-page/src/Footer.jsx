@@ -6,21 +6,21 @@ const Footer = () => {
       </div>
       <div id="Product">
         <div id="footerHeading">Product</div>
-        <div id="productlinks" class="footerlink">
-          <ul id="productlink" class="footerLinks">
-            <li class="link">
+        <div id="productlinks" className="footerlink">
+          <ul id="productlink" className="footerLinks">
+            <li className="link">
               <a href="#">Overview</a>
             </li>
-            <li class="link">
+            <li className="link">
               <a href="#">Pricing</a>
             </li>
-            <li class="link">
+            <li className="link">
               <a href="#">Marketplace</a>
             </li>
-            <li class="link">
+            <li className="link">
               <a href="#">Features</a>
             </li>
-            <li class="link">
+            <li className="link">
               <a href="#">Integrations</a>
             </li>
           </ul>
@@ -28,18 +28,18 @@ const Footer = () => {
       </div>
       <div id="Company">
         <div id="footerHeading">Company</div>
-        <div id="Companylinks" class="footerlink">
-          <ul id="Companylink" class="footerLinks">
-            <li class="link">
+        <div id="Companylinks" className="footerlink">
+          <ul id="Companylink" className="footerLinks">
+            <li className="link">
               <a href="#">About</a>
             </li>
-            <li class="link">
+            <li className="link">
               <a href="#">Team</a>
             </li>
-            <li class="link">
+            <li className="link">
               <a href="#">Blog</a>
             </li>
-            <li class="link">
+            <li className="link">
               <a href="#">Careers</a>
             </li>
           </ul>
@@ -47,15 +47,15 @@ const Footer = () => {
       </div>
       <div id="Connect">
         <div id="footerHeading">Connect</div>
-        <div id="Connectlinks" class="footerlink">
-          <ul id="Connectlink" class="footerLinks">
-            <li class="link">
+        <div id="Connectlinks" className="footerlink">
+          <ul id="Connectlink" className="footerLinks">
+            <li className="link">
               <a href="#">Contact</a>
             </li>
-            <li class="link">
+            <li className="link">
               <a href="#">Newsletter</a>
             </li>
-            <li class="link">
+            <li className="link">
               <a href="#">Linkedin</a>
             </li>
           </ul>
