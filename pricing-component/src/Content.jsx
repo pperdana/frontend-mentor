@@ -1,4 +1,4 @@
-const Content = () => {
+const Content = ({ monthly }) => {
   return (
     <div className="grid_content">
       <div className="content">
@@ -7,7 +7,7 @@ const Content = () => {
 
           <div className="price">
             <span className="dollar_sign">$</span>
-            <span className="big_price">19.99</span>
+            <span className="big_price">{monthly ? 19.99 : 199.99}</span>
           </div>
 
           <ul>
@@ -25,7 +25,7 @@ const Content = () => {
 
           <div className="price">
             <span className="dollar_sign">$</span>
-            <span className="big_price">24.99</span>
+            <span className="big_price">{monthly ? 24.99 : 249.99}</span>
           </div>
 
           <ul>
@@ -43,7 +43,7 @@ const Content = () => {
 
           <div className="price">
             <span className="dollar_sign">$</span>
-            <span className="big_price">39.99</span>
+            <span className="big_price">{monthly ? 39.99 : 399.99}</span>
           </div>
 
           <ul>
