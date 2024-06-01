@@ -1,6 +1,8 @@
+import styled from "styled-components";
+
 const Footer = () => {
   return (
-    <footer>
+    <Wrapper>
       <div id="footerlogo">
         <img src="./images/logo.svg" alt="logo" />
       </div>
@@ -61,8 +63,15 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-    </footer>
+    </Wrapper>
   );
 };
 
 export default Footer;
+
+const Wrapper = styled.footer`
+  display: flex;
+  padding: 8vh 0;
+  border-radius: 0 100px 0 0;
+  justify-content: space-evenly;
+`;
