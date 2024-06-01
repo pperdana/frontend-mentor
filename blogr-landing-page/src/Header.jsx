@@ -1,6 +1,8 @@
+import styled from "styled-components";
+
 const Header = () => {
   return (
-    <div id="header">
+    <Header id="header" className="header">
       <nav>
         <div id="logo">
           <img src="./images/logo.svg" alt="logo" />
@@ -99,7 +101,7 @@ const Header = () => {
           <button className="learn-more">Learn More</button>
         </div>
       </div>
-    </div>
+    </Header>
   );
 };
 
