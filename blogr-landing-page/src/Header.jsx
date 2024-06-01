@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Header = () => {
   return (
-    <Header id="header" className="header">
+    <Wrapper id="header" className="header">
       <nav>
         <div id="logo">
           <img src="./images/logo.svg" alt="logo" />
@@ -101,8 +101,15 @@ const Header = () => {
           <button className="learn-more">Learn More</button>
         </div>
       </div>
-    </Header>
+    </Wrapper>
   );
 };
 
 export default Header;
+
+const Wrapper = styled.header`
+  padding: 11dvh 10dvw;
+  border-radius: 0 0 0 4.5rem;
+  background-repeat: no-repeat;
+  background-position: 23% 53%;
+`;
