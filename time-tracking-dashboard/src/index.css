@@ -16,7 +16,7 @@
   }
 
   .main {
-    @apply min-w-[1000px] max-w-[95%];
+    @apply min-w-[1000px] max-w-[95%] lg:min-w-[95%] lg:max-w-[375px];
   }
 
   .cards {
