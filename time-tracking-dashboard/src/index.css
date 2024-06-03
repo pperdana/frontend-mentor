@@ -28,7 +28,7 @@
   }
 
   .profile {
-    @apply bg-[hsl(235,46%,20%)] z-[2] text-[hsl(236,100%,87%)];
+    @apply bg-[hsl(235,46%,20%)] z-[2] text-[hsl(236,100%,87%)] lg:min-h-[250px];
   }
 
   .profile .content {
@@ -53,6 +53,10 @@
 
   .links a.active {
     @apply text-white;
+  }
+
+  .card:not(.profile) {
+    @apply lg:min-h-[200px];
   }
 
   .card.work {
