@@ -1,5 +1,6 @@
 import profile from "./assets/image-jeremy.png";
-const Profile = () => {
+const Profile = ({ timeFrame, setTimeFrame }) => {
+  console.log(timeFrame);
   return (
     <div className="card profile">
       <div className="content">
@@ -9,11 +10,27 @@ const Profile = () => {
         </div>
       </div>
       <div className="links">
-        <a href="#">Daily</a>
-        <a href="#" className="active">
+        <a
+          href="#"
+          className={`${timeFrame == "daily" ? "active" : ""}`}
+          onClick={() => setTimeFrame("daily")}
+        >
+          Daily
+        </a>
+        <a
+          href="#"
+          className={`${timeFrame == "weekly" ? "active" : ""}`}
+          onClick={() => setTimeFrame("weekly")}
+        >
           Weekly
         </a>
-        <a href="#">Monthly</a>
+        <a
+          href="#"
+          className={`${timeFrame == "monthly" ? "active" : ""}`}
+          onClick={() => setTimeFrame("monthly")}
+        >
+          Monthly
+        </a>
       </div>
     </div>
   );

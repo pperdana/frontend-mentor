@@ -1,7 +1,10 @@
+import { useState } from "react";
 import ellipsIcon from "./assets/icon-ellipsis.svg";
 
-const Card = ({ item, title, timeframes, icon }) => {
-  const { current, previous } = timeframes.weekly;
+const Card = ({ item, title, timeframes, icon, activeTime }) => {
+  const [dat, setDat] = useState(timeframes.weekly);
+
+  const { current, previous } = dat;
   const titleName = title.replaceAll(" ", "").toLowerCase();
 
   // console.log(item);
