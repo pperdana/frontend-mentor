@@ -153,4 +153,40 @@ const Wrapper = styled.header`
     align-items: center;
     justify-content: space-between;
   }
+  ul {
+    display: flex;
+    column-gap: 1.8rem;
+    list-style-type: none;
+  }
+  .link,
+  #login a {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  #navLinks ul .link a {
+    display: flex;
+    align-items: center;
+  }
+  .menu {
+    top: 2.6rem;
+    left: -1rem;
+    width: 8.7rem;
+    display: none;
+    padding: 30px 20px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: var(--White);
+  }
+  #navLinks ul .link a .img {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-image: url(./images/icon-arrow-light.svg);
+  }
+  #navLinks .link a > .img {
+    transition: transform 0.5s ease;
+  }
 `;
