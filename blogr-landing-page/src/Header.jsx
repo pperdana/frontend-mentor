@@ -120,4 +120,11 @@ const Wrapper = styled.header`
     margin-bottom: 12.5dvh;
     justify-content: space-between;
   }
+
+  #hero-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4.5rem;
+    flex-direction: column;
+  }
 `;
