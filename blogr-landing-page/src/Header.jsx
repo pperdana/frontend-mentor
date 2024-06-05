@@ -142,4 +142,15 @@ const Wrapper = styled.header`
   .menuBtn {
     display: none;
   }
+
+  #navLinks {
+    position: relative;
+  }
+
+  #register {
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 `;
