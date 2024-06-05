@@ -112,4 +112,12 @@ const Wrapper = styled.header`
   border-radius: 0 0 0 4.5rem;
   background-repeat: no-repeat;
   background-position: 23% 53%;
+
+  nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12.5dvh;
+    justify-content: space-between;
+  }
 `;
