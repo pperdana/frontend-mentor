@@ -130,4 +130,11 @@ const Wrapper = styled.header`
   #logo {
     margin-right: 5vw;
   }
+
+  .links-reg {
+    display: flex !important;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
 `;
