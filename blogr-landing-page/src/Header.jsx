@@ -137,4 +137,9 @@ const Wrapper = styled.header`
     width: 100%;
     align-items: center;
   }
+
+  .mobile,
+  .menuBtn {
+    display: none;
+  }
 `;
