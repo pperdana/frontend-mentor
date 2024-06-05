@@ -127,4 +127,7 @@ const Wrapper = styled.header`
     margin-bottom: 4.5rem;
     flex-direction: column;
   }
+  #logo {
+    margin-right: 5vw;
+  }
 `;
