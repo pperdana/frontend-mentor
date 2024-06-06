@@ -205,4 +205,18 @@ const Wrapper = styled.header`
     font-family: var(--Overpass);
     font-size: max(1.6dvw, 1.1rem);
   }
+
+  .btn,
+  .learn-more:hover {
+    font-family: var(--Ubuntu);
+    color: var(--Light-red-text);
+    background-color: var(--White);
+  }
+  .learn-more {
+    margin-left: 0.7rem;
+    color: var(--White);
+    font-family: var(--Ubuntu);
+    background-color: transparent;
+    border: 1px solid var(--White);
+  }
 `;
