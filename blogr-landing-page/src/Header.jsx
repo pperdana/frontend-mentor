@@ -189,4 +189,11 @@ const Wrapper = styled.header`
   #navLinks .link a > .img {
     transition: transform 0.5s ease;
   }
-`;
+
+  h1 {
+    text-align: center;
+    color: var(--White);
+    font-size: max(4.4vw, 2rem);
+    font-family: var(--Overpass);
+  }
+A`;
