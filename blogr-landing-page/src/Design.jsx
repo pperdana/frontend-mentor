@@ -8,14 +8,14 @@ const Design = () => {
         <div id="left">
           <div id="editor">
             <h3>Introducing an extensible editor</h3>
-            <div className="para">
+            <p className="para">
               Blogr features an exceedingly intuitive interface which lets you
               focus on one thing: creating content. The editor supports
               management of multiple blogs and allows easy manipulation of
               embeds such as images, videos, and Markdown. Extensibility with
               plugins and themes provide easy ways to add functionality or
               change the looks of a blog.
-            </div>
+            </p>
           </div>
           <div id="management">
             <h3>Robust content management</h3>
@@ -82,5 +82,8 @@ const Wrapper = styled.div`
   }
   #main-txt-img #right {
     width: 50%;
+  }
+  #management .para {
+    width: 82%;
   }
 `;
