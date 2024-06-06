@@ -196,4 +196,13 @@ const Wrapper = styled.header`
     font-size: max(4.4vw, 2rem);
     font-family: var(--Overpass);
   }
-A`;
+
+  .hero-para {
+    font-weight: 300;
+    text-align: center;
+    color: var(--White);
+    margin-block: 0.5rem 2.8rem;
+    font-family: var(--Overpass);
+    font-size: max(1.6dvw, 1.1rem);
+  }
+`;
