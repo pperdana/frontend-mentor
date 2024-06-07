@@ -38,4 +38,11 @@ const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
   }
+  #left > img {
+    top: 50%;
+    left: 64%;
+    position: absolute;
+    height: max(38vw, 20rem);
+    transform: translate(-50%, -50%);
+  }
 `;
