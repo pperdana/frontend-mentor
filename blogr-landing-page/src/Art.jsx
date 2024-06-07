@@ -1,7 +1,7 @@
 import styled from "styled-components";
 const Art = () => {
   return (
-    <div id="state-of-art">
+    <Wrapper id="state-of-art">
       <div id="left">
         <img src="./images/illustration-phones.svg" alt="illustration-phones" />
       </div>
@@ -14,7 +14,7 @@ const Art = () => {
           competitive.
         </div>
       </div>
-    </div>
+    </Wrapper>
   );
 };
 
