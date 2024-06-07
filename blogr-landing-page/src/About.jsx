@@ -1,7 +1,7 @@
 import styled from "styled-components";
 const About = () => {
   return (
-    <div id="about-blogr">
+    <Wrapper id="about-blogr">
       <div id="left">
         <img
           className="laptop-desktop desktop"
@@ -35,8 +35,13 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Wrapper>
   );
 };
 
 export default About;
+
+const Wrapper = styled.div`
+  display: flex;
+  margin-block: 0 10dvh;
+`;
