@@ -19,3 +19,13 @@ const Art = () => {
 };
 
 export default Art;
+
+const Wrapper = styled.div`
+  display: flex;
+  column-gap: 7.5vw;
+  padding-block: 18dvh;
+  border-radius: 0 5.5rem;
+  background-repeat: no-repeat;
+  background-position: -44% 88%;
+  background: url(./images/bg-pattern-circles.svg), var(--blogr-bg-gradient);
+`;
