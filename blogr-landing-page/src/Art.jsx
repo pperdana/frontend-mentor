@@ -28,4 +28,14 @@ const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-position: -44% 88%;
   background: url(./images/bg-pattern-circles.svg), var(--blogr-bg-gradient);
+  #left {
+    width: 40%;
+    position: relative;
+  }
+  #right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 `;
