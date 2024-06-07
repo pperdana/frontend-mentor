@@ -7,12 +7,12 @@ const Art = () => {
       </div>
       <div id="right">
         <h3>State of the Art Infrastructure</h3>
-        <div className="para">
+        <p className="para">
           With reliability and speed in mind, worldwide data centers provide the
           backbone for ultra-fast connectivity. This ensures your site will load
           instantly, no matter where your readers are, keeping your site
           competitive.
-        </div>
+        </p>
       </div>
     </Wrapper>
   );
@@ -44,5 +44,13 @@ const Wrapper = styled.div`
     position: absolute;
     height: max(38vw, 20rem);
     transform: translate(-50%, -50%);
+  }
+  h3 {
+    font-size: min(7.5vw, 2.68rem);
+  }
+
+  .para {
+    width: 66%;
+    color: var(--Grayish-blue-footer-txt);
   }
 `;
