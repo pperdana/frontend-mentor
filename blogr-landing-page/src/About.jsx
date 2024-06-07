@@ -44,4 +44,18 @@ export default About;
 const Wrapper = styled.div`
   display: flex;
   margin-block: 0 10dvh;
+
+  #left {
+    width: 50%;
+    height: 100%;
+    margin-top: 20dvh;
+  }
+
+  #right {
+    width: 50%;
+    display: flex;
+    padding-top: 18dvh;
+    flex-direction: column;
+    justify-content: center;
+  }
 `;
