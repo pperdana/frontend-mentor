@@ -51,6 +51,16 @@ const Wrapper = styled.div`
     margin-top: 20dvh;
   }
 
+  #left img {
+    width: max(70vw, 90%);
+    transform: translateX(-20vw);
+  }
+
+  .mobile,
+  .menuBtn {
+    display: none;
+  }
+
   #right {
     width: 50%;
     display: flex;
