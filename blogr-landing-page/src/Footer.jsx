@@ -1,10 +1,11 @@
 import styled from "styled-components";
+import logo from "./assets/logo.svg";
 
 const Footer = () => {
   return (
     <Wrapper>
       <div id="footerlogo">
-        <img src="./images/logo.svg" alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
       <div id="Product">
         <div id="footerHeading">Product</div>

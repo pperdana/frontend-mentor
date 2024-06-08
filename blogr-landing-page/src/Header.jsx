@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import logo from "./assets/logo.svg";
 
 const Header = () => {
   return (
     <Wrapper id="header" className="header">
       <nav>
         <div id="logo">
-          <img src="./images/logo.svg" alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         <div className="links-reg">
           <div id="navLinks">
