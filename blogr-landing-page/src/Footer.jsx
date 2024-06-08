@@ -78,7 +78,7 @@ const Wrapper = styled.footer`
 
   #footerHeading {
     font-weight: 600;
-    color: var(--White);
+    color: var(--clr-white);
     margin-block: 2vh 6vh;
     font-family: var(--Overpass);
     font-size: max(1.3vw, 1.4rem);
