@@ -74,4 +74,12 @@ const Wrapper = styled.footer`
   padding: 8vh 0;
   border-radius: 0 100px 0 0;
   justify-content: space-evenly;
+
+  #footerHeading {
+    font-weight: 600;
+    color: var(--White);
+    margin-block: 2vh 6vh;
+    font-family: var(--Overpass);
+    font-size: max(1.3vw, 1.4rem);
+  }
 `;
