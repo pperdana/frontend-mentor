@@ -74,6 +74,7 @@ const Wrapper = styled.footer`
   padding: 8vh 0;
   border-radius: 0 100px 0 0;
   justify-content: space-evenly;
+  background-color: hsl(240, 10%, 16%);
 
   #footerHeading {
     font-weight: 600;
@@ -81,5 +82,12 @@ const Wrapper = styled.footer`
     margin-block: 2vh 6vh;
     font-family: var(--Overpass);
     font-size: max(1.3vw, 1.4rem);
+  }
+
+  .footerLinks a {
+    width: 100%;
+    font-weight: 100;
+    font-size: 1.15rem;
+    color: hsl(240, 2%, 79%);
   }
 `;
