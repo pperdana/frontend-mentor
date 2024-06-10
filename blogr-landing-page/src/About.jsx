@@ -72,7 +72,7 @@ const Wrapper = styled.div`
     font-weight: 500;
     font-size: 1.6rem;
     margin-bottom: 6vh;
-    font-family: var(--Ubuntu);
+
     color: var(--Very-dark-blue-heading);
   }
   #simple .para {
