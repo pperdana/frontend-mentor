@@ -110,7 +110,7 @@ export default Header;
 
 const Wrapper = styled.header`
   padding: 11dvh 10dvw;
-  border-radius: 0 0 0 4.5rem;
+  border-radius: 0 0 0 7.2rem;
   background-repeat: no-repeat;
 
   background: url(./src/assets/bg-pattern-intro-desktop.svg),
