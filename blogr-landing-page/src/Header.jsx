@@ -112,6 +112,13 @@ const Wrapper = styled.header`
   padding: 11dvh 10dvw;
   border-radius: 0 0 0 4.5rem;
   background-repeat: no-repeat;
+
+  background: url(./src/assets/bg-pattern-intro-desktop.svg),
+    linear-gradient(
+      to left,
+      var(--clr-gradient-light-red),
+      var(--clr-gradient-very-light-red)
+    );
   background-position: 23% 53%;
 
   nav {
