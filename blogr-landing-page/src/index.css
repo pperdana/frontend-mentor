@@ -8,6 +8,10 @@ Variables
   --text-xl: 62.5%;
   --text-base: 56.25%;
   --text-sm: 50%;
+  /* primary color */
+  --clr-primary-right-red: hsl(356, 100%, 66%);
+  --clr-primary-very-light-red: hsl(355, 100%, 74%);
+  --clr-primary-very-dark-blue: hsl(208, 49%, 24%);
   /* dark shades of primary color*/
   --clr-primary-1: hsl(22, 28%, 21%);
   --clr-primary-2: hsl(22, 28%, 29%);
@@ -68,7 +72,6 @@ html {
 body {
   font-family: "Karla", sans-serif;
   line-height: 1.5;
-  background-color: hsl(148, 38%, 91%);
   font-size: 1.6rem;
 }
 ul {
