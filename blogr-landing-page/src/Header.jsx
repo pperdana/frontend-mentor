@@ -162,11 +162,18 @@ const Wrapper = styled.header`
     align-items: center;
     justify-content: space-between;
   }
+
   ul {
     display: flex;
     column-gap: 1.8rem;
     list-style-type: none;
   }
+
+  a,
+  li a {
+    color: var(--clr-white);
+  }
+
   .link,
   #login a {
     font-size: 14px;
