@@ -226,6 +226,7 @@ const Wrapper = styled.header`
     font-weight: 700;
     padding: 10px 20px;
     border-radius: 40px;
+    cursor: pointer;
   }
 
   .btn,
@@ -235,8 +236,8 @@ const Wrapper = styled.header`
   }
   .learn-more {
     margin-left: 0.7rem;
-    color: var(--White);
+    color: var(--clr-white);
     background-color: transparent;
-    border: 1px solid var(--White);
+    border: 1px solid var(--clr-white);
   }
 `;
