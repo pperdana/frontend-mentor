@@ -215,16 +215,23 @@ const Wrapper = styled.header`
   .hero-para {
     font-weight: 300;
     text-align: center;
-    color: var(--White);
+    color: var(--clr-white);
     margin-block: 0.5rem 2.8rem;
     font-family: var(--Overpass);
     font-size: max(1.6dvw, 1.1rem);
   }
 
+  button {
+    border: none;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 40px;
+  }
+
   .btn,
   .learn-more:hover {
-    color: var(--Light-red-text);
-    background-color: var(--White);
+    color: var(--clr-gradient-light-red);
+    background-color: var(--clr-white);
   }
   .learn-more {
     margin-left: 0.7rem;
