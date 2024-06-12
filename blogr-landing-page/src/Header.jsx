@@ -112,6 +112,7 @@ const Wrapper = styled.header`
   padding: 11dvh 10dvw;
   border-radius: 0 0 0 7.2rem;
   background-repeat: no-repeat;
+  color: var(--clr-white);
 
   background: url(./src/assets/bg-pattern-intro-desktop.svg),
     linear-gradient(
@@ -200,9 +201,8 @@ const Wrapper = styled.header`
 
   h1 {
     text-align: center;
-    color: var(--White);
+    color: var(--clr-white);
     font-size: max(4.4vw, 2rem);
-    font-family: var(--Overpass);
   }
 
   .hero-para {
