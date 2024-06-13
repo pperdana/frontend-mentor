@@ -20,4 +20,8 @@ const Wrapper = styled.main`
   display: flex;
   overflow: hidden;
   flex-direction: column;
+
+  .desktop {
+    display: block;
+  }
 `;
