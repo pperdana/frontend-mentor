@@ -1,16 +1,20 @@
 import styled from "styled-components";
+
+import illLaptop from "./assets/illustration-laptop-desktop.svg";
+import illLaptopMobile from "./assets/illustration-laptop-mobile.svg";
+
 const About = () => {
   return (
     <Wrapper id="about-blogr">
       <div id="left">
         <img
           className="laptop-desktop desktop"
-          src="./images/illustration-laptop-desktop.svg"
+          src={illLaptop}
           alt="laptop-desktop"
         />
         <img
           className="laptop-mobile mobile"
-          src="./images/illustration-laptop-mobile.svg"
+          src={illLaptopMobile}
           alt="laptop-mobile"
         />
       </div>
