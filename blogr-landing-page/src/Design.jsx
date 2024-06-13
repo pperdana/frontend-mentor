@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+import illEditor from "./assets/illustration-editor-desktop.svg";
+import illEditorMobile from "./assets/illustration-editor-mobile.svg";
+
 const Design = () => {
   return (
     <Wrapper id="Design">
@@ -28,16 +31,8 @@ const Design = () => {
           </div>
         </div>
         <div id="right">
-          <img
-            className="desktop"
-            src="./images/illustration-editor-desktop.svg"
-            alt="desktop"
-          />
-          <img
-            className="mobile"
-            src="./images/illustration-editor-mobile.svg"
-            alt=""
-          />
+          <img className="desktop" src={illEditor} alt="desktop" />
+          <img className="mobile" src={illEditorMobile} alt="mobile" />
         </div>
       </div>
     </Wrapper>
@@ -85,5 +80,9 @@ const Wrapper = styled.div`
   }
   #management .para {
     width: 82%;
+  }
+
+  .mobile {
+    display: none;
   }
 `;
