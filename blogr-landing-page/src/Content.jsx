@@ -21,6 +21,11 @@ const Wrapper = styled.main`
   overflow: hidden;
   flex-direction: column;
 
+  #main-txt-img #right img {
+    width: max(66vw, 75%);
+    transform: translate(3dvw, -7.8dvw);
+  }
+
   .desktop {
     display: block;
   }
