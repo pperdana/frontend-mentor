@@ -1,9 +1,12 @@
 import styled from "styled-components";
+
+import illPhones from "./assets/illustration-phones.svg";
+
 const Art = () => {
   return (
     <Wrapper id="state-of-art">
       <div id="left">
-        <img src="./images/illustration-phones.svg" alt="illustration-phones" />
+        <img src={illPhones} alt="illustration-phones" />
       </div>
       <div id="right">
         <h3>State of the Art Infrastructure</h3>
