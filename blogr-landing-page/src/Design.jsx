@@ -64,6 +64,13 @@ const Wrapper = styled.div`
   #editor {
     margin-block: 1dvh max(5dvw, 3rem);
   }
+  .para {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: var(--clr-neutral-very-dark-grayish-blue);
+  }
+
   h3 {
     font-weight: 500;
     font-size: 2.5rem;
