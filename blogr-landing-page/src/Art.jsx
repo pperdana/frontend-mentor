@@ -30,7 +30,8 @@ const Wrapper = styled.div`
   border-radius: 0 5.5rem;
   background-repeat: no-repeat;
   background-position: -44% 88%;
-  background: url(src/assets/bg-pattern-circles.svg), var(--blogr-bg-gradient);
+  background: url(src/assets/bg-pattern-circles.svg),
+    var(--clr-blogr-bg-gradient);
 
   #left {
     width: 40%;
