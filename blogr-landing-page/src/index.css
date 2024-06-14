@@ -21,6 +21,15 @@ Variables
   /* Background gradient - Intro/CTA mobile nav */
   --clr-gradient-very-light-red: hsl(13, 100%, 72%);
   --clr-gradient-light-red: hsl(353, 100%, 62%);
+
+  --Very-dark-gray-blue-gradient: hsl(237, 17%, 21%);
+  --Very-dark-desaturated-blue-gradient: hsl(237, 23%, 32%);
+  --clr-blogr-bg-gradient: linear-gradient(
+    to right,
+    hsl(237, 17%, 21%),
+    hsl(237, 23%, 32%)
+  );
+
   /* Background gradient - body */
   --clr-gradient-very-dark-gray-blue: hsl(237, 17%, 21%);
   --clr-gradient-very-dark-desaturated-blue: hsl(237, 23%, 32%);
