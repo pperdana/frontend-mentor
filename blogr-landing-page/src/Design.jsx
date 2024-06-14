@@ -48,9 +48,8 @@ const Wrapper = styled.div`
     font-weight: 500;
     text-align: center;
     margin-block: 13vh 0;
-
     font-size: max(2.8dvw, 1.45rem);
-    color: var(--Very-dark-blue-heading);
+    color: var(--clr-primary-very-dark-blue);
   }
 
   #main-txt-img {
@@ -67,10 +66,10 @@ const Wrapper = styled.div`
   }
   h3 {
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     margin-bottom: 6vh;
 
-    color: var(--Very-dark-blue-heading);
+    color: var(--clr-primary-very-dark-blue);
   }
   #editor .para {
     width: 83.9%;
