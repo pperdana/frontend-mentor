@@ -30,7 +30,8 @@ const Wrapper = styled.div`
   border-radius: 0 5.5rem;
   background-repeat: no-repeat;
   background-position: -44% 88%;
-  background: url(./images/bg-pattern-circles.svg), var(--blogr-bg-gradient);
+  background: url(src/assets/bg-pattern-circles.svg), var(--blogr-bg-gradient);
+
   #left {
     width: 40%;
     position: relative;
@@ -49,7 +50,8 @@ const Wrapper = styled.div`
     transform: translate(-50%, -50%);
   }
   h3 {
-    font-size: min(7.5vw, 2.68rem);
+    font-size: 4.2rem;
+    color: var(--clr-neutral-white);
   }
 
   .para {
