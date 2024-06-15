@@ -80,6 +80,13 @@ const Wrapper = styled.div`
     color: var(--Very-dark-blue-heading);
   }
 
+  .para {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: var(--clr-neutral-very-dark-grayish-blue);
+  }
+
   #simple .para {
     width: 65%;
     line-height: 25px;
