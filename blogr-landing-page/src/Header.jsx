@@ -93,7 +93,9 @@ const Header = () => {
         </div>
       </nav>
       <div id="hero-section">
-        <h1>A modern publishing platform</h1>
+        <h1>
+          <span>A</span> modern publishing platform
+        </h1>
         <div className="hero-para">
           <p>Grow your audience and build your online brand</p>
         </div>
@@ -211,6 +213,12 @@ const Wrapper = styled.header`
     text-align: center;
     color: var(--clr-white);
     font-size: max(4.4vw, 2rem);
+
+    text-transform: lowercase;
+
+    span {
+      text-transform: uppercase;
+    }
   }
 
   .hero-para {
