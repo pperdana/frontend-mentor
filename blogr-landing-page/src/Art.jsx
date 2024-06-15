@@ -57,6 +57,6 @@ const Wrapper = styled.div`
 
   .para {
     width: 66%;
-    color: var(--Grayish-blue-footer-txt);
+    color: var(--clr-neutral-grayish-blue);
   }
 `;
