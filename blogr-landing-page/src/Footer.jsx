@@ -85,6 +85,12 @@ const Wrapper = styled.footer`
     font-size: 2.2rem;
   }
 
+  ul {
+    display: flex !important;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
   .footerLinks a {
     /* width: 100%; */
     font-weight: 400;
