@@ -82,13 +82,13 @@ const Wrapper = styled.footer`
     color: var(--clr-white);
     margin-block: 2vh 6vh;
     font-family: var(--Overpass);
-    font-size: max(1.3vw, 1.4rem);
+    font-size: 2.2rem;
   }
 
   .footerLinks a {
-    width: 100%;
-    font-weight: 100;
-    font-size: 1.15rem;
-    color: hsl(240, 2%, 79%);
+    /* width: 100%; */
+    font-weight: 400;
+    font-size: 1.85rem;
+    color: var(--clr-neutral-grayish-blue);
   }
 `;
