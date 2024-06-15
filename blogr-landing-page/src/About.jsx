@@ -72,18 +72,20 @@ const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
   }
+
   h3 {
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 2.55rem;
     margin-bottom: 6vh;
-
     color: var(--Very-dark-blue-heading);
   }
+
   #simple .para {
     width: 65%;
     line-height: 25px;
     margin-bottom: 10vh;
   }
+
   #powerful-tool .para {
     width: 66%;
     line-height: 25px;
