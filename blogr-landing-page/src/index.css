@@ -97,6 +97,7 @@ body {
   font-family: var(--font-overpass);
   line-height: 1.5;
   font-size: 1.6rem;
+  background-color: hsla(240, 31%, 95%, 0.587);
 }
 ul {
   list-style-type: none;
