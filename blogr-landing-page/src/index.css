@@ -115,28 +115,14 @@ h3,
 h4,
 h5 {
   letter-spacing: var(--spacing);
-  text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: var(--font-ubuntu);
 }
+
 h1 {
   font-size: 3.2rem;
 }
-
-/* 
-h2 {
-  font-size: 3.2rem;
-}
-h3 {
-  font-size: 2.4rem;
-}
-h4 {
-  font-size: 2rem;
-}
-h5 {
-  font-size: 1.4rem;
-} */
 
 label {
   font-size: 1.6rem;
