@@ -77,7 +77,6 @@ const Wrapper = styled.div`
     font-weight: 500;
     font-size: 2.55rem;
     margin-bottom: 6vh;
-    color: var(--Very-dark-blue-heading);
   }
 
   .para {
