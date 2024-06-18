@@ -118,6 +118,7 @@ h5 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: var(--font-ubuntu);
+  color: hsl(208, 49%, 24%);
 }
 
 h1 {
