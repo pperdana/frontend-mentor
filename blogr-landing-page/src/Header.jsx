@@ -203,7 +203,7 @@ const Wrapper = styled.header`
     margin-left: 10px;
     background-repeat: no-repeat;
     background-position: center right;
-    background-image: url(./images/icon-arrow-light.svg);
+    background-image: url(./src/assets/icon-arrow-light.svg);
   }
   #navLinks .link a > .img {
     transition: transform 0.5s ease;
