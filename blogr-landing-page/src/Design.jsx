@@ -73,8 +73,9 @@ const Wrapper = styled.div`
   h3 {
     font-weight: 500;
     font-size: 2.5rem;
-    margin-bottom: 6vh;
+    margin-bottom: 2.6rem;
   }
+
   #editor .para {
     width: 83.9%;
   }
