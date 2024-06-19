@@ -76,7 +76,7 @@ const Wrapper = styled.div`
   h3 {
     font-weight: 500;
     font-size: 2.55rem;
-    margin-bottom: 6vh;
+    margin-bottom: 3.2rem;
   }
 
   .para {
