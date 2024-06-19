@@ -50,13 +50,15 @@ const Wrapper = styled.div`
     height: max(38vw, 20rem);
     transform: translate(-50%, -50%);
   }
+
   h3 {
-    font-size: 4.2rem;
+    font-size: 3.6rem;
     color: var(--clr-neutral-white);
+    margin-bottom: 2.8rem;
   }
 
   .para {
-    width: 66%;
+    width: 82%;
     color: var(--clr-neutral-grayish-blue);
   }
 `;
