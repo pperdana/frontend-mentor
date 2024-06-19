@@ -92,9 +92,12 @@ const Wrapper = styled.footer`
   }
 
   .footerLinks a {
-    /* width: 100%; */
     font-weight: 400;
     font-size: 1.85rem;
     color: var(--clr-neutral-grayish-blue);
+  }
+
+  .link a:hover {
+    text-decoration: underline;
   }
 `;
