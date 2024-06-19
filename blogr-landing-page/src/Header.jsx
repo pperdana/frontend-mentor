@@ -88,7 +88,6 @@ const Header = () => {
             id="hamburgericon"
             src="./images/icon-hamburger.svg"
             alt="hamburger"
-            onclick="openMenuOnClick()"
           />
         </div>
       </nav>
@@ -213,9 +212,7 @@ const Wrapper = styled.header`
     text-align: center;
     color: var(--clr-white);
     font-size: max(4.4vw, 2rem);
-
     text-transform: lowercase;
-
     span {
       text-transform: uppercase;
     }
@@ -240,9 +237,15 @@ const Wrapper = styled.header`
 
   .btn,
   .learn-more:hover {
-    color: var(--clr-gradient-light-red);
-    background-color: var(--clr-white);
+    color: hsl(353, 100%, 62%);
+    background-color: var(--clr-neutral-white);
   }
+
+  .btn:hover {
+    color: var(--clr-neutral-white);
+    background-color: var(--clr-primary-very-light-red);
+  }
+
   .learn-more {
     margin-left: 0.7rem;
     color: var(--clr-white);
