@@ -200,9 +200,9 @@ const Wrapper = styled.header`
   }
 
   .menu {
-    top: 2.6rem;
-    left: -1rem;
-    width: 8.7rem;
+    top: 4.16rem;
+    left: -1.6rem;
+    width: 9.9rem;
     display: none;
     padding: 30px 20px;
     border-radius: 4px;
