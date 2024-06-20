@@ -210,6 +210,11 @@ const Wrapper = styled.header`
     background-color: var(--clr-white);
   }
 
+  .menu-2 {
+    left: 6rem;
+    max-height: 11rem;
+  }
+
   #navLinks ul .link a .img {
     width: 10px;
     height: 10px;
