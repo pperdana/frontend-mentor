@@ -209,6 +209,15 @@ const Wrapper = styled.header`
     position: absolute;
     background-color: var(--clr-white);
   }
+  .menu-2 {
+    left: 6.2rem;
+    max-height: 17.6rem;
+  }
+
+  .menu-3 {
+    left: 15.6rem;
+    max-height: 12.2rem;
+  }
 
   #navLinks ul .link a .img {
     width: 10px;
