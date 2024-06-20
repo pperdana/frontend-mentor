@@ -186,6 +186,7 @@ const Wrapper = styled.header`
     display: flex;
     align-items: center;
   }
+
   .menu {
     top: 2.6rem;
     left: -1rem;
@@ -194,8 +195,9 @@ const Wrapper = styled.header`
     padding: 30px 20px;
     border-radius: 4px;
     position: absolute;
-    background-color: var(--White);
+    background-color: var(--clr-white);
   }
+
   #navLinks ul .link a .img {
     width: 10px;
     height: 10px;
