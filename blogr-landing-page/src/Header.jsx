@@ -192,6 +192,13 @@ const Wrapper = styled.header`
     color: hsl(207, 13%, 34%);
   }
 
+  a,
+  a:active,
+  a:visited {
+    color: var(--clr-neutral-white);
+    text-decoration: none;
+  }
+
   .menu {
     top: 2.6rem;
     left: -1rem;
