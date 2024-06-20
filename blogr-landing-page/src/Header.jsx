@@ -201,23 +201,13 @@ const Wrapper = styled.header`
 
   .menu {
     top: 4.16rem;
-    left: -1.6rem;
-    width: 9.9rem;
+    left: -3.2rem;
+    width: 12.8rem;
     display: none;
     padding: 30px 20px;
     border-radius: 4px;
     position: absolute;
     background-color: var(--clr-white);
-  }
-
-  .menu-2 {
-    left: 6rem;
-    max-height: 11rem;
-  }
-
-  .menu-3 {
-    left: 13rem;
-    max-height: 11rem;
   }
 
   #navLinks ul .link a .img {
