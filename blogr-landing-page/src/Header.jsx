@@ -187,6 +187,11 @@ const Wrapper = styled.header`
     align-items: center;
   }
 
+  .menu .link a {
+    font-size: 15px;
+    color: hsl(207, 13%, 34%);
+  }
+
   .menu {
     top: 2.6rem;
     left: -1rem;
