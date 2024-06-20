@@ -215,6 +215,11 @@ const Wrapper = styled.header`
     max-height: 11rem;
   }
 
+  .menu-3 {
+    left: 13rem;
+    max-height: 11rem;
+  }
+
   #navLinks ul .link a .img {
     width: 10px;
     height: 10px;
