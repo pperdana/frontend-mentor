@@ -4,11 +4,11 @@ import Footer from "./Footer";
 
 const App = () => {
   return (
-    <div id="container">
-      <Header />
+    <>
+      {/* <Header /> */}
       <Content />
-      <Footer />
-    </div>
+      {/*<Footer /> */}
+    </>
   );
 };
 
