@@ -1,3 +1,4 @@
+import Cta from "./Cta";
 import Footer from "./Footer";
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           </button>
         </div>
       </nav>
+
       <section className="text-center">
         <h1 className="my-5 fw-bold">
           Build The Community Your Fans Will Love
@@ -138,13 +140,7 @@ const App = () => {
         />
       </section>
 
-      <section className="text-center my-5">
-        <h1 className="urban my-5">Ready To build Your Community</h1>
-        <button className="text-capitalize py-3 px-4 rounded-5 fw-bold buttonhero my-5">
-          Get Started
-        </button>
-      </section>
-
+      <Cta />
       <Footer />
     </>
   );
